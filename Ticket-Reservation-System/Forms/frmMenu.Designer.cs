@@ -51,8 +51,9 @@
             this.pbLogo = new System.Windows.Forms.PictureBox();
             this.lblClose = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panelChildForm = new System.Windows.Forms.Panel();
             this.panelLeft.SuspendLayout();
             this.panelSubMenu3.SuspendLayout();
             this.panelSubMenu2.SuspendLayout();
@@ -406,18 +407,6 @@
             this.panel1.Size = new System.Drawing.Size(850, 80);
             this.panel1.TabIndex = 26;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label1.Location = new System.Drawing.Point(791, -3);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(37, 30);
-            this.label1.TabIndex = 26;
-            this.label1.Text = "---";
-            // 
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(134)))), ((int)(((byte)(138)))));
@@ -430,12 +419,33 @@
             this.textBox1.TabIndex = 27;
             this.textBox1.Text = "Page Name";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label1.Location = new System.Drawing.Point(791, -3);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(37, 30);
+            this.label1.TabIndex = 26;
+            this.label1.Text = "---";
+            // 
+            // panelChildForm
+            // 
+            this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelChildForm.Location = new System.Drawing.Point(250, 80);
+            this.panelChildForm.Name = "panelChildForm";
+            this.panelChildForm.Size = new System.Drawing.Size(850, 670);
+            this.panelChildForm.TabIndex = 27;
+            // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1100, 750);
+            this.Controls.Add(this.panelChildForm);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelLeft);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -481,5 +491,6 @@
         private Panel panel1;
         private Label label1;
         private TextBox textBox1;
+        private Panel panelChildForm;
     }
 }

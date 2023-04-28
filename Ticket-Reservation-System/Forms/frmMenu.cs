@@ -74,5 +74,19 @@ namespace Ticket_Reservation_System
             hideSubMenu();
             showSubmenu(panelSubMenu3);
         }
+
+        private Form activeForm = null;
+        private void openChildForm(Form childForm)
+        {
+            if (this.activeForm != null)
+                this.activeForm.Close();
+            this.activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelChildForm.Controls.Add(childForm);
+            childForm.BringToFront();
+            childForm.Show();
+        }
     }
 }
