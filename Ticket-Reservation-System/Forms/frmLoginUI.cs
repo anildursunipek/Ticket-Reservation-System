@@ -15,7 +15,7 @@ namespace Ticket_Reservation_System
         public frmLoginUI()
         {
             InitializeComponent();
-            
+
         }
 
         Thread thread;
@@ -72,7 +72,7 @@ namespace Ticket_Reservation_System
 
         private void btnSignIn_Click(object sender, EventArgs e)
         {
-            if(txtUsername.Text == "123" && txtPassword.Text == "123")
+            if (txtUsername.Text == "123" && txtPassword.Text == "123")
             {
                 this.Close();
                 this.thread = new Thread(() => openNewForm(new frmMenu()));

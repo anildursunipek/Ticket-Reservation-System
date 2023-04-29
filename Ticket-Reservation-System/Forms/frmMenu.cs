@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Ticket_Reservation_System.Forms;
 
 namespace Ticket_Reservation_System
 {
@@ -15,7 +16,7 @@ namespace Ticket_Reservation_System
         public frmMenu()
         {
             InitializeComponent();
-            customizeDesign();
+            //customizeDesign();
         }
 
         private void lblClose_Click(object sender, EventArgs e)
@@ -23,16 +24,16 @@ namespace Ticket_Reservation_System
             Close();
         }
 
+        /*
         private void customizeDesign()
         {
             panelSubMenu1.Visible = false;
             panelSubMenu2.Visible = false;
             panelSubMenu3.Visible = false;
         }
-
         private void hideSubMenu()
         {
-            if(panelSubMenu1.Visible == true)
+            if (panelSubMenu1.Visible == true)
             {
                 panelSubMenu1.Visible = false;
             }
@@ -45,10 +46,21 @@ namespace Ticket_Reservation_System
                 panelSubMenu3.Visible = false;
             }
         }
-
         private void showSubmenu(Panel subMenu)
         {
-            if(subMenu.Visible == false)
+            if (subMenu.Visible == false)
+            {
+                subMenu.Visible = true;
+            }
+            else
+            {
+                subMenu.Visible = false;
+            }
+        }
+        */
+        private void showSubmenu(Panel subMenu)
+        {
+            if (subMenu.Visible == false)
             {
                 subMenu.Visible = true;
             }
@@ -59,20 +71,20 @@ namespace Ticket_Reservation_System
         }
         private void btnMain1_Click(object sender, EventArgs e)
         {
-            hideSubMenu();
-            showSubmenu(panelSubMenu1);
+            //hideSubMenu();
+            //showSubmenu(panelSubMenu1);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            hideSubMenu();
-            showSubmenu(panelSubMenu2);
+            //hideSubMenu();
+            //showSubmenu(panelSubMenu2);
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            hideSubMenu();
-            showSubmenu(panelSubMenu3);
+            //hideSubMenu();
+            //showSubmenu(panelSubMenu3);
         }
 
         private Form activeForm = null;
@@ -87,6 +99,11 @@ namespace Ticket_Reservation_System
             panelChildForm.Controls.Add(childForm);
             childForm.BringToFront();
             childForm.Show();
+        }
+
+        private void btnMain1Sub1_Click(object sender, EventArgs e)
+        {
+            openChildForm(new account());
         }
     }
 }
