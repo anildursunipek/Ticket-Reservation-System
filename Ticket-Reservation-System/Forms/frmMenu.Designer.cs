@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenu));
             panelSideMenu = new Panel();
             btnFirmSettings = new FontAwesome.Sharp.IconButton();
             btnAdministration = new FontAwesome.Sharp.IconButton();
@@ -40,6 +41,11 @@
             btnSideMenu = new FontAwesome.Sharp.IconButton();
             pictureLogo = new PictureBox();
             panel1 = new Panel();
+            ıconButton2 = new FontAwesome.Sharp.IconButton();
+            label2 = new Label();
+            ıconButton1 = new FontAwesome.Sharp.IconButton();
+            label1 = new Label();
+            circularPictureBox1 = new CustomControls.CircularPictureBox();
             btnMinimize = new FontAwesome.Sharp.IconButton();
             btnMaximize = new FontAwesome.Sharp.IconButton();
             btnClose = new FontAwesome.Sharp.IconButton();
@@ -48,6 +54,7 @@
             panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureLogo).BeginInit();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)circularPictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panelSideMenu
@@ -271,15 +278,95 @@
             // panel1
             // 
             panel1.BackColor = Color.WhiteSmoke;
+            panel1.Controls.Add(ıconButton2);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(ıconButton1);
+            panel1.Controls.Add(label1);
+            panel1.Controls.Add(circularPictureBox1);
             panel1.Controls.Add(btnMinimize);
             panel1.Controls.Add(btnMaximize);
             panel1.Controls.Add(btnClose);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(230, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(770, 50);
+            panel1.Size = new Size(770, 70);
             panel1.TabIndex = 26;
             panel1.MouseDown += panel1_MouseDown;
+            // 
+            // ıconButton2
+            // 
+            ıconButton2.BackColor = Color.Transparent;
+            ıconButton2.FlatAppearance.BorderSize = 0;
+            ıconButton2.FlatStyle = FlatStyle.Flat;
+            ıconButton2.ForeColor = Color.Transparent;
+            ıconButton2.IconChar = FontAwesome.Sharp.IconChar.HomeUser;
+            ıconButton2.IconColor = Color.Black;
+            ıconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            ıconButton2.IconSize = 35;
+            ıconButton2.Location = new Point(4, 16);
+            ıconButton2.Name = "ıconButton2";
+            ıconButton2.Size = new Size(47, 34);
+            ıconButton2.TabIndex = 9;
+            ıconButton2.UseVisualStyleBackColor = false;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Verdana", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = Color.Black;
+            label2.Location = new Point(46, 19);
+            label2.Name = "label2";
+            label2.Size = new Size(158, 29);
+            label2.TabIndex = 8;
+            label2.Text = "Dashboard";
+            // 
+            // ıconButton1
+            // 
+            ıconButton1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            ıconButton1.BackColor = Color.Transparent;
+            ıconButton1.FlatAppearance.BorderSize = 0;
+            ıconButton1.FlatStyle = FlatStyle.Flat;
+            ıconButton1.ForeColor = Color.Transparent;
+            ıconButton1.IconChar = FontAwesome.Sharp.IconChar.ArrowDownShortWide;
+            ıconButton1.IconColor = Color.FromArgb(98, 102, 244);
+            ıconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            ıconButton1.IconSize = 35;
+            ıconButton1.Location = new Point(701, 29);
+            ıconButton1.Name = "ıconButton1";
+            ıconButton1.Size = new Size(47, 34);
+            ıconButton1.TabIndex = 7;
+            ıconButton1.UseVisualStyleBackColor = false;
+            // 
+            // label1
+            // 
+            label1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.ForeColor = Color.Black;
+            label1.Location = new Point(473, 25);
+            label1.Name = "label1";
+            label1.Size = new Size(132, 18);
+            label1.TabIndex = 4;
+            label1.Text = "Name Surname";
+            // 
+            // circularPictureBox1
+            // 
+            circularPictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            circularPictureBox1.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
+            circularPictureBox1.BorderColor = Color.FromArgb(98, 102, 244);
+            circularPictureBox1.BorderColor2 = Color.FromArgb(98, 102, 244);
+            circularPictureBox1.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
+            circularPictureBox1.BorderSize = 2;
+            circularPictureBox1.GradientAngle = 50F;
+            circularPictureBox1.Image = (Image)resources.GetObject("circularPictureBox1.Image");
+            circularPictureBox1.Location = new Point(611, 0);
+            circularPictureBox1.Name = "circularPictureBox1";
+            circularPictureBox1.Size = new Size(66, 66);
+            circularPictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            circularPictureBox1.TabIndex = 3;
+            circularPictureBox1.TabStop = false;
             // 
             // btnMinimize
             // 
@@ -336,9 +423,9 @@
             // 
             panelChildForm.BackColor = Color.LightGray;
             panelChildForm.Dock = DockStyle.Fill;
-            panelChildForm.Location = new Point(230, 50);
+            panelChildForm.Location = new Point(230, 70);
             panelChildForm.Name = "panelChildForm";
-            panelChildForm.Size = new Size(770, 550);
+            panelChildForm.Size = new Size(770, 530);
             panelChildForm.TabIndex = 27;
             // 
             // frmMenu
@@ -351,7 +438,7 @@
             Controls.Add(panel1);
             Controls.Add(panelSideMenu);
             FormBorderStyle = FormBorderStyle.None;
-            MinimumSize = new Size(1000, 500);
+            MinimumSize = new Size(1000, 600);
             Name = "frmMenu";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "frmMenu";
@@ -359,6 +446,8 @@
             panelLogo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureLogo).EndInit();
             panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)circularPictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -379,5 +468,10 @@
         private FontAwesome.Sharp.IconButton btnMinimize;
         private FontAwesome.Sharp.IconButton btnMaximize;
         private FontAwesome.Sharp.IconButton btnClose;
+        private CustomControls.CircularPictureBox circularPictureBox1;
+        private Label label1;
+        private FontAwesome.Sharp.IconButton ıconButton1;
+        private FontAwesome.Sharp.IconButton ıconButton2;
+        private Label label2;
     }
 }
