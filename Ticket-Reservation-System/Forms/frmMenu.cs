@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -13,15 +14,25 @@ namespace Ticket_Reservation_System
 {
     public partial class frmMenu : Form
     {
+        private int borderSize = 2;
         public frmMenu()
         {
             InitializeComponent();
+            CollapseMenu();
             //customizeDesign();
+            this.Padding = new Padding(this.borderSize);
+            this.BackColor = Color.FromArgb(98, 102, 244);
         }
+        // Drag Form
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
 
-        private void lblClose_Click(object sender, EventArgs e)
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+        private void panel1_MouseDown(object sender, MouseEventArgs e)
         {
-            Close();
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
         /*
@@ -69,24 +80,6 @@ namespace Ticket_Reservation_System
                 subMenu.Visible = false;
             }
         }
-        private void btnMain1_Click(object sender, EventArgs e)
-        {
-            //hideSubMenu();
-            //showSubmenu(panelSubMenu1);
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            //hideSubMenu();
-            //showSubmenu(panelSubMenu2);
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            //hideSubMenu();
-            //showSubmenu(panelSubMenu3);
-        }
-
         private Form activeForm = null;
         private void openChildForm(Form childForm)
         {
@@ -100,10 +93,55 @@ namespace Ticket_Reservation_System
             childForm.BringToFront();
             childForm.Show();
         }
-
-        private void btnMain1Sub1_Click(object sender, EventArgs e)
+        private void btnMinimize_Click(object sender, EventArgs e)
         {
-            openChildForm(new account());
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnMaximize_Click(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Normal)
+                this.WindowState = FormWindowState.Maximized;
+            else
+                this.WindowState = FormWindowState.Normal;
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnSideMenu_Click(object sender, EventArgs e)
+        {
+            CollapseMenu();
+        }
+
+        private void CollapseMenu()
+        {
+            if (this.panelSideMenu.Width > 200) // Collapse Menu
+            {
+                this.panelSideMenu.Width = 100;
+                this.pictureLogo.Visible = false;
+                this.btnSideMenu.Dock = DockStyle.Top;
+                foreach (Button sideMenuButton in panelSideMenu.Controls.OfType<Button>())
+                {
+                    sideMenuButton.Text = "";
+                    sideMenuButton.ImageAlign = ContentAlignment.MiddleCenter;
+                    sideMenuButton.Padding = new Padding(0);
+                }
+            }
+            else // Expand Menu
+            {
+                this.panelSideMenu.Width = 230;
+                this.pictureLogo.Visible = true;
+                this.btnSideMenu.Dock = DockStyle.None;
+                foreach (Button sideMenuButton in panelSideMenu.Controls.OfType<Button>())
+                {
+                    sideMenuButton.Text = "  " + sideMenuButton.Tag.ToString();
+                    sideMenuButton.ImageAlign = ContentAlignment.MiddleLeft;
+                    sideMenuButton.Padding = new Padding(10, 0, 0, 0);
+                }
+            }
         }
     }
 }

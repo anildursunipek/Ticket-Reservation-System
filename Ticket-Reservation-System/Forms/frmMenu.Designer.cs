@@ -28,96 +28,98 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panelLeft = new Panel();
-            ıconButton8 = new FontAwesome.Sharp.IconButton();
-            ıconButton7 = new FontAwesome.Sharp.IconButton();
+            panelSideMenu = new Panel();
+            btnFirmSettings = new FontAwesome.Sharp.IconButton();
+            btnAdministration = new FontAwesome.Sharp.IconButton();
             ıconButton9 = new FontAwesome.Sharp.IconButton();
-            ıconButton5 = new FontAwesome.Sharp.IconButton();
-            ıconButton4 = new FontAwesome.Sharp.IconButton();
-            ıconButton3 = new FontAwesome.Sharp.IconButton();
-            ıconButton2 = new FontAwesome.Sharp.IconButton();
+            btnSupport = new FontAwesome.Sharp.IconButton();
+            btnFerry = new FontAwesome.Sharp.IconButton();
+            btnPlane = new FontAwesome.Sharp.IconButton();
+            btnBus = new FontAwesome.Sharp.IconButton();
             panelLogo = new Panel();
-            ıconButton1 = new FontAwesome.Sharp.IconButton();
-            pictureBox1 = new PictureBox();
+            btnSideMenu = new FontAwesome.Sharp.IconButton();
+            pictureLogo = new PictureBox();
             panel1 = new Panel();
+            btnMinimize = new FontAwesome.Sharp.IconButton();
+            btnMaximize = new FontAwesome.Sharp.IconButton();
+            btnClose = new FontAwesome.Sharp.IconButton();
             panelChildForm = new Panel();
-            ıconButton6 = new FontAwesome.Sharp.IconButton();
-            ıconButton10 = new FontAwesome.Sharp.IconButton();
-            ıconButton11 = new FontAwesome.Sharp.IconButton();
-            panelLeft.SuspendLayout();
+            panelSideMenu.SuspendLayout();
             panelLogo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureLogo).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
-            // panelLeft
+            // panelSideMenu
             // 
-            panelLeft.AutoScroll = true;
-            panelLeft.BackColor = Color.FromArgb(98, 102, 244);
-            panelLeft.Controls.Add(ıconButton8);
-            panelLeft.Controls.Add(ıconButton7);
-            panelLeft.Controls.Add(ıconButton9);
-            panelLeft.Controls.Add(ıconButton5);
-            panelLeft.Controls.Add(ıconButton4);
-            panelLeft.Controls.Add(ıconButton3);
-            panelLeft.Controls.Add(ıconButton2);
-            panelLeft.Controls.Add(panelLogo);
-            panelLeft.Dock = DockStyle.Left;
-            panelLeft.Location = new Point(0, 0);
-            panelLeft.Name = "panelLeft";
-            panelLeft.Size = new Size(220, 600);
-            panelLeft.TabIndex = 1;
+            panelSideMenu.AutoScroll = true;
+            panelSideMenu.BackColor = Color.FromArgb(98, 102, 244);
+            panelSideMenu.Controls.Add(btnFirmSettings);
+            panelSideMenu.Controls.Add(btnAdministration);
+            panelSideMenu.Controls.Add(ıconButton9);
+            panelSideMenu.Controls.Add(btnSupport);
+            panelSideMenu.Controls.Add(btnFerry);
+            panelSideMenu.Controls.Add(btnPlane);
+            panelSideMenu.Controls.Add(btnBus);
+            panelSideMenu.Controls.Add(panelLogo);
+            panelSideMenu.Dock = DockStyle.Left;
+            panelSideMenu.Location = new Point(0, 0);
+            panelSideMenu.Name = "panelSideMenu";
+            panelSideMenu.Size = new Size(230, 600);
+            panelSideMenu.TabIndex = 1;
             // 
-            // ıconButton8
+            // btnFirmSettings
             // 
-            ıconButton8.Dock = DockStyle.Top;
-            ıconButton8.FlatAppearance.BorderSize = 0;
-            ıconButton8.FlatStyle = FlatStyle.Flat;
-            ıconButton8.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ıconButton8.ForeColor = Color.White;
-            ıconButton8.IconChar = FontAwesome.Sharp.IconChar.BuildingUser;
-            ıconButton8.IconColor = Color.White;
-            ıconButton8.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            ıconButton8.IconSize = 30;
-            ıconButton8.ImageAlign = ContentAlignment.MiddleLeft;
-            ıconButton8.Location = new Point(0, 305);
-            ıconButton8.Name = "ıconButton8";
-            ıconButton8.Padding = new Padding(10, 0, 0, 0);
-            ıconButton8.Size = new Size(220, 45);
-            ıconButton8.TabIndex = 11;
-            ıconButton8.Text = "  Firm Settings";
-            ıconButton8.TextAlign = ContentAlignment.MiddleLeft;
-            ıconButton8.TextImageRelation = TextImageRelation.ImageBeforeText;
-            ıconButton8.UseVisualStyleBackColor = true;
+            btnFirmSettings.Dock = DockStyle.Top;
+            btnFirmSettings.FlatAppearance.BorderSize = 0;
+            btnFirmSettings.FlatStyle = FlatStyle.Flat;
+            btnFirmSettings.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnFirmSettings.ForeColor = Color.White;
+            btnFirmSettings.IconChar = FontAwesome.Sharp.IconChar.BuildingUser;
+            btnFirmSettings.IconColor = Color.White;
+            btnFirmSettings.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnFirmSettings.IconSize = 30;
+            btnFirmSettings.ImageAlign = ContentAlignment.MiddleLeft;
+            btnFirmSettings.Location = new Point(0, 295);
+            btnFirmSettings.Name = "btnFirmSettings";
+            btnFirmSettings.Padding = new Padding(10, 0, 0, 0);
+            btnFirmSettings.Size = new Size(230, 45);
+            btnFirmSettings.TabIndex = 11;
+            btnFirmSettings.Tag = "Firm Settings";
+            btnFirmSettings.Text = "  Firm Settings";
+            btnFirmSettings.TextAlign = ContentAlignment.MiddleLeft;
+            btnFirmSettings.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnFirmSettings.UseVisualStyleBackColor = true;
             // 
-            // ıconButton7
+            // btnAdministration
             // 
-            ıconButton7.Dock = DockStyle.Top;
-            ıconButton7.FlatAppearance.BorderSize = 0;
-            ıconButton7.FlatStyle = FlatStyle.Flat;
-            ıconButton7.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ıconButton7.ForeColor = Color.White;
-            ıconButton7.IconChar = FontAwesome.Sharp.IconChar.Screwdriver;
-            ıconButton7.IconColor = Color.White;
-            ıconButton7.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            ıconButton7.IconSize = 30;
-            ıconButton7.ImageAlign = ContentAlignment.MiddleLeft;
-            ıconButton7.Location = new Point(0, 260);
-            ıconButton7.Name = "ıconButton7";
-            ıconButton7.Padding = new Padding(10, 0, 0, 0);
-            ıconButton7.Size = new Size(220, 45);
-            ıconButton7.TabIndex = 10;
-            ıconButton7.Text = "  Administration";
-            ıconButton7.TextAlign = ContentAlignment.MiddleLeft;
-            ıconButton7.TextImageRelation = TextImageRelation.ImageBeforeText;
-            ıconButton7.UseVisualStyleBackColor = true;
+            btnAdministration.Dock = DockStyle.Top;
+            btnAdministration.FlatAppearance.BorderSize = 0;
+            btnAdministration.FlatStyle = FlatStyle.Flat;
+            btnAdministration.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnAdministration.ForeColor = Color.White;
+            btnAdministration.IconChar = FontAwesome.Sharp.IconChar.Screwdriver;
+            btnAdministration.IconColor = Color.White;
+            btnAdministration.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnAdministration.IconSize = 30;
+            btnAdministration.ImageAlign = ContentAlignment.MiddleLeft;
+            btnAdministration.Location = new Point(0, 250);
+            btnAdministration.Name = "btnAdministration";
+            btnAdministration.Padding = new Padding(10, 0, 0, 0);
+            btnAdministration.Size = new Size(230, 45);
+            btnAdministration.TabIndex = 10;
+            btnAdministration.Tag = "Administration";
+            btnAdministration.Text = "  Administration";
+            btnAdministration.TextAlign = ContentAlignment.MiddleLeft;
+            btnAdministration.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnAdministration.UseVisualStyleBackColor = true;
             // 
             // ıconButton9
             // 
             ıconButton9.Dock = DockStyle.Bottom;
             ıconButton9.FlatAppearance.BorderSize = 0;
             ıconButton9.FlatStyle = FlatStyle.Flat;
-            ıconButton9.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            ıconButton9.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
             ıconButton9.ForeColor = Color.White;
             ıconButton9.IconChar = FontAwesome.Sharp.IconChar.SignOutAlt;
             ıconButton9.IconColor = Color.White;
@@ -127,204 +129,217 @@
             ıconButton9.Location = new Point(0, 555);
             ıconButton9.Name = "ıconButton9";
             ıconButton9.Padding = new Padding(10, 0, 0, 0);
-            ıconButton9.Size = new Size(220, 45);
+            ıconButton9.Size = new Size(230, 45);
             ıconButton9.TabIndex = 8;
+            ıconButton9.Tag = "Exit";
             ıconButton9.Text = "  Exit";
             ıconButton9.TextAlign = ContentAlignment.MiddleLeft;
             ıconButton9.TextImageRelation = TextImageRelation.ImageBeforeText;
             ıconButton9.UseVisualStyleBackColor = true;
             // 
-            // ıconButton5
+            // btnSupport
             // 
-            ıconButton5.Dock = DockStyle.Top;
-            ıconButton5.FlatAppearance.BorderSize = 0;
-            ıconButton5.FlatStyle = FlatStyle.Flat;
-            ıconButton5.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ıconButton5.ForeColor = Color.White;
-            ıconButton5.IconChar = FontAwesome.Sharp.IconChar.S;
-            ıconButton5.IconColor = Color.White;
-            ıconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            ıconButton5.IconSize = 30;
-            ıconButton5.ImageAlign = ContentAlignment.MiddleLeft;
-            ıconButton5.Location = new Point(0, 215);
-            ıconButton5.Name = "ıconButton5";
-            ıconButton5.Padding = new Padding(10, 0, 0, 0);
-            ıconButton5.Size = new Size(220, 45);
-            ıconButton5.TabIndex = 4;
-            ıconButton5.Text = "  Help";
-            ıconButton5.TextAlign = ContentAlignment.MiddleLeft;
-            ıconButton5.TextImageRelation = TextImageRelation.ImageBeforeText;
-            ıconButton5.UseVisualStyleBackColor = true;
+            btnSupport.Dock = DockStyle.Top;
+            btnSupport.FlatAppearance.BorderSize = 0;
+            btnSupport.FlatStyle = FlatStyle.Flat;
+            btnSupport.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnSupport.ForeColor = Color.White;
+            btnSupport.IconChar = FontAwesome.Sharp.IconChar.S;
+            btnSupport.IconColor = Color.White;
+            btnSupport.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnSupport.IconSize = 30;
+            btnSupport.ImageAlign = ContentAlignment.MiddleLeft;
+            btnSupport.Location = new Point(0, 205);
+            btnSupport.Name = "btnSupport";
+            btnSupport.Padding = new Padding(10, 0, 0, 0);
+            btnSupport.Size = new Size(230, 45);
+            btnSupport.TabIndex = 4;
+            btnSupport.Tag = "Support";
+            btnSupport.Text = "  Support";
+            btnSupport.TextAlign = ContentAlignment.MiddleLeft;
+            btnSupport.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnSupport.UseVisualStyleBackColor = true;
             // 
-            // ıconButton4
+            // btnFerry
             // 
-            ıconButton4.Dock = DockStyle.Top;
-            ıconButton4.FlatAppearance.BorderSize = 0;
-            ıconButton4.FlatStyle = FlatStyle.Flat;
-            ıconButton4.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ıconButton4.ForeColor = Color.White;
-            ıconButton4.IconChar = FontAwesome.Sharp.IconChar.Ship;
-            ıconButton4.IconColor = Color.White;
-            ıconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            ıconButton4.IconSize = 30;
-            ıconButton4.ImageAlign = ContentAlignment.MiddleLeft;
-            ıconButton4.Location = new Point(0, 170);
-            ıconButton4.Name = "ıconButton4";
-            ıconButton4.Padding = new Padding(10, 0, 0, 0);
-            ıconButton4.Size = new Size(220, 45);
-            ıconButton4.TabIndex = 3;
-            ıconButton4.Text = "  Ferry";
-            ıconButton4.TextAlign = ContentAlignment.MiddleLeft;
-            ıconButton4.TextImageRelation = TextImageRelation.ImageBeforeText;
-            ıconButton4.UseVisualStyleBackColor = true;
+            btnFerry.Dock = DockStyle.Top;
+            btnFerry.FlatAppearance.BorderSize = 0;
+            btnFerry.FlatStyle = FlatStyle.Flat;
+            btnFerry.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnFerry.ForeColor = Color.White;
+            btnFerry.IconChar = FontAwesome.Sharp.IconChar.Ship;
+            btnFerry.IconColor = Color.White;
+            btnFerry.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnFerry.IconSize = 30;
+            btnFerry.ImageAlign = ContentAlignment.MiddleLeft;
+            btnFerry.Location = new Point(0, 160);
+            btnFerry.Name = "btnFerry";
+            btnFerry.Padding = new Padding(10, 0, 0, 0);
+            btnFerry.Size = new Size(230, 45);
+            btnFerry.TabIndex = 3;
+            btnFerry.Tag = "Ferry";
+            btnFerry.Text = "  Ferry";
+            btnFerry.TextAlign = ContentAlignment.MiddleLeft;
+            btnFerry.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnFerry.UseVisualStyleBackColor = true;
             // 
-            // ıconButton3
+            // btnPlane
             // 
-            ıconButton3.Dock = DockStyle.Top;
-            ıconButton3.FlatAppearance.BorderSize = 0;
-            ıconButton3.FlatStyle = FlatStyle.Flat;
-            ıconButton3.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ıconButton3.ForeColor = Color.White;
-            ıconButton3.IconChar = FontAwesome.Sharp.IconChar.PlaneUp;
-            ıconButton3.IconColor = Color.White;
-            ıconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            ıconButton3.IconSize = 30;
-            ıconButton3.ImageAlign = ContentAlignment.MiddleLeft;
-            ıconButton3.Location = new Point(0, 125);
-            ıconButton3.Name = "ıconButton3";
-            ıconButton3.Padding = new Padding(10, 0, 0, 0);
-            ıconButton3.Size = new Size(220, 45);
-            ıconButton3.TabIndex = 2;
-            ıconButton3.Text = "  Plane";
-            ıconButton3.TextAlign = ContentAlignment.MiddleLeft;
-            ıconButton3.TextImageRelation = TextImageRelation.ImageBeforeText;
-            ıconButton3.UseVisualStyleBackColor = true;
+            btnPlane.Dock = DockStyle.Top;
+            btnPlane.FlatAppearance.BorderSize = 0;
+            btnPlane.FlatStyle = FlatStyle.Flat;
+            btnPlane.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnPlane.ForeColor = Color.White;
+            btnPlane.IconChar = FontAwesome.Sharp.IconChar.PlaneUp;
+            btnPlane.IconColor = Color.White;
+            btnPlane.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnPlane.IconSize = 30;
+            btnPlane.ImageAlign = ContentAlignment.MiddleLeft;
+            btnPlane.Location = new Point(0, 115);
+            btnPlane.Name = "btnPlane";
+            btnPlane.Padding = new Padding(10, 0, 0, 0);
+            btnPlane.Size = new Size(230, 45);
+            btnPlane.TabIndex = 2;
+            btnPlane.Tag = "Plane";
+            btnPlane.Text = "  Plane";
+            btnPlane.TextAlign = ContentAlignment.MiddleLeft;
+            btnPlane.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnPlane.UseVisualStyleBackColor = true;
             // 
-            // ıconButton2
+            // btnBus
             // 
-            ıconButton2.Dock = DockStyle.Top;
-            ıconButton2.FlatAppearance.BorderSize = 0;
-            ıconButton2.FlatStyle = FlatStyle.Flat;
-            ıconButton2.Font = new Font("Verdana", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ıconButton2.ForeColor = Color.White;
-            ıconButton2.IconChar = FontAwesome.Sharp.IconChar.BusAlt;
-            ıconButton2.IconColor = Color.White;
-            ıconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            ıconButton2.IconSize = 30;
-            ıconButton2.ImageAlign = ContentAlignment.MiddleLeft;
-            ıconButton2.Location = new Point(0, 80);
-            ıconButton2.Name = "ıconButton2";
-            ıconButton2.Padding = new Padding(10, 0, 0, 0);
-            ıconButton2.Size = new Size(220, 45);
-            ıconButton2.TabIndex = 1;
-            ıconButton2.Text = "  Bus";
-            ıconButton2.TextAlign = ContentAlignment.MiddleLeft;
-            ıconButton2.TextImageRelation = TextImageRelation.ImageBeforeText;
-            ıconButton2.UseVisualStyleBackColor = true;
+            btnBus.Dock = DockStyle.Top;
+            btnBus.FlatAppearance.BorderSize = 0;
+            btnBus.FlatStyle = FlatStyle.Flat;
+            btnBus.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnBus.ForeColor = Color.White;
+            btnBus.IconChar = FontAwesome.Sharp.IconChar.BusAlt;
+            btnBus.IconColor = Color.White;
+            btnBus.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnBus.IconSize = 30;
+            btnBus.ImageAlign = ContentAlignment.MiddleLeft;
+            btnBus.Location = new Point(0, 70);
+            btnBus.Name = "btnBus";
+            btnBus.Padding = new Padding(10, 0, 0, 0);
+            btnBus.Size = new Size(230, 45);
+            btnBus.TabIndex = 1;
+            btnBus.Tag = "Bus";
+            btnBus.Text = "  Bus";
+            btnBus.TextAlign = ContentAlignment.MiddleLeft;
+            btnBus.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnBus.UseVisualStyleBackColor = true;
             // 
             // panelLogo
             // 
             panelLogo.BackColor = Color.FromArgb(98, 102, 244);
-            panelLogo.Controls.Add(ıconButton1);
-            panelLogo.Controls.Add(pictureBox1);
+            panelLogo.Controls.Add(btnSideMenu);
+            panelLogo.Controls.Add(pictureLogo);
             panelLogo.Dock = DockStyle.Top;
             panelLogo.Location = new Point(0, 0);
             panelLogo.Name = "panelLogo";
-            panelLogo.Size = new Size(220, 80);
+            panelLogo.Size = new Size(230, 70);
             panelLogo.TabIndex = 0;
             // 
-            // ıconButton1
+            // btnSideMenu
             // 
-            ıconButton1.CausesValidation = false;
-            ıconButton1.Cursor = Cursors.Hand;
-            ıconButton1.FlatAppearance.BorderSize = 0;
-            ıconButton1.FlatStyle = FlatStyle.Flat;
-            ıconButton1.ForeColor = Color.Transparent;
-            ıconButton1.IconChar = FontAwesome.Sharp.IconChar.Sliders;
-            ıconButton1.IconColor = Color.White;
-            ıconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            ıconButton1.IconSize = 35;
-            ıconButton1.Location = new Point(167, 25);
-            ıconButton1.Name = "ıconButton1";
-            ıconButton1.Size = new Size(43, 23);
-            ıconButton1.TabIndex = 1;
-            ıconButton1.UseVisualStyleBackColor = true;
+            btnSideMenu.CausesValidation = false;
+            btnSideMenu.Cursor = Cursors.Hand;
+            btnSideMenu.FlatAppearance.BorderSize = 0;
+            btnSideMenu.FlatStyle = FlatStyle.Flat;
+            btnSideMenu.ForeColor = Color.Transparent;
+            btnSideMenu.IconChar = FontAwesome.Sharp.IconChar.Sliders;
+            btnSideMenu.IconColor = Color.White;
+            btnSideMenu.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnSideMenu.IconSize = 35;
+            btnSideMenu.Location = new Point(187, 0);
+            btnSideMenu.Name = "btnSideMenu";
+            btnSideMenu.Size = new Size(43, 70);
+            btnSideMenu.TabIndex = 1;
+            btnSideMenu.UseVisualStyleBackColor = true;
+            btnSideMenu.Click += btnSideMenu_Click;
             // 
-            // pictureBox1
+            // pictureLogo
             // 
-            pictureBox1.Image = Properties.Resources.easy_ticket_logo;
-            pictureBox1.Location = new Point(-1, 10);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(150, 50);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
+            pictureLogo.Image = Properties.Resources.easy_ticket_logo;
+            pictureLogo.Location = new Point(14, 9);
+            pictureLogo.Name = "pictureLogo";
+            pictureLogo.Size = new Size(150, 50);
+            pictureLogo.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureLogo.TabIndex = 0;
+            pictureLogo.TabStop = false;
             // 
             // panel1
             // 
             panel1.BackColor = Color.WhiteSmoke;
-            panel1.Controls.Add(ıconButton11);
-            panel1.Controls.Add(ıconButton10);
-            panel1.Controls.Add(ıconButton6);
+            panel1.Controls.Add(btnMinimize);
+            panel1.Controls.Add(btnMaximize);
+            panel1.Controls.Add(btnClose);
             panel1.Dock = DockStyle.Top;
-            panel1.Location = new Point(220, 0);
+            panel1.Location = new Point(230, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(780, 50);
+            panel1.Size = new Size(770, 50);
             panel1.TabIndex = 26;
+            panel1.MouseDown += panel1_MouseDown;
+            // 
+            // btnMinimize
+            // 
+            btnMinimize.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnMinimize.BackColor = Color.FromArgb(10, 184, 210);
+            btnMinimize.FlatAppearance.BorderSize = 0;
+            btnMinimize.FlatStyle = FlatStyle.Flat;
+            btnMinimize.IconChar = FontAwesome.Sharp.IconChar.WindowMinimize;
+            btnMinimize.IconColor = Color.White;
+            btnMinimize.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnMinimize.IconSize = 25;
+            btnMinimize.Location = new Point(680, 0);
+            btnMinimize.Name = "btnMinimize";
+            btnMinimize.Size = new Size(30, 20);
+            btnMinimize.TabIndex = 2;
+            btnMinimize.UseVisualStyleBackColor = false;
+            btnMinimize.Click += btnMinimize_Click;
+            // 
+            // btnMaximize
+            // 
+            btnMaximize.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnMaximize.BackColor = Color.FromArgb(51, 137, 251);
+            btnMaximize.FlatAppearance.BorderSize = 0;
+            btnMaximize.FlatStyle = FlatStyle.Flat;
+            btnMaximize.IconChar = FontAwesome.Sharp.IconChar.WindowMaximize;
+            btnMaximize.IconColor = Color.White;
+            btnMaximize.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnMaximize.IconSize = 20;
+            btnMaximize.Location = new Point(710, 0);
+            btnMaximize.Name = "btnMaximize";
+            btnMaximize.Size = new Size(30, 20);
+            btnMaximize.TabIndex = 1;
+            btnMaximize.UseVisualStyleBackColor = false;
+            btnMaximize.Click += btnMaximize_Click;
+            // 
+            // btnClose
+            // 
+            btnClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnClose.BackColor = Color.FromArgb(255, 94, 132);
+            btnClose.FlatAppearance.BorderSize = 0;
+            btnClose.FlatStyle = FlatStyle.Flat;
+            btnClose.IconChar = FontAwesome.Sharp.IconChar.Xmark;
+            btnClose.IconColor = Color.White;
+            btnClose.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnClose.IconSize = 20;
+            btnClose.Location = new Point(740, 0);
+            btnClose.Name = "btnClose";
+            btnClose.Size = new Size(30, 20);
+            btnClose.TabIndex = 0;
+            btnClose.UseVisualStyleBackColor = false;
+            btnClose.Click += btnClose_Click;
             // 
             // panelChildForm
             // 
             panelChildForm.BackColor = Color.LightGray;
             panelChildForm.Dock = DockStyle.Fill;
-            panelChildForm.Location = new Point(220, 50);
+            panelChildForm.Location = new Point(230, 50);
             panelChildForm.Name = "panelChildForm";
-            panelChildForm.Size = new Size(780, 550);
+            panelChildForm.Size = new Size(770, 550);
             panelChildForm.TabIndex = 27;
-            // 
-            // ıconButton6
-            // 
-            ıconButton6.BackColor = Color.FromArgb(255, 94, 132);
-            ıconButton6.FlatAppearance.BorderSize = 0;
-            ıconButton6.FlatStyle = FlatStyle.Flat;
-            ıconButton6.IconChar = FontAwesome.Sharp.IconChar.Xmark;
-            ıconButton6.IconColor = Color.White;
-            ıconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            ıconButton6.IconSize = 20;
-            ıconButton6.Location = new Point(745, 0);
-            ıconButton6.Name = "ıconButton6";
-            ıconButton6.Size = new Size(35, 25);
-            ıconButton6.TabIndex = 0;
-            ıconButton6.UseVisualStyleBackColor = false;
-            // 
-            // ıconButton10
-            // 
-            ıconButton10.BackColor = Color.FromArgb(51, 137, 251);
-            ıconButton10.FlatAppearance.BorderSize = 0;
-            ıconButton10.FlatStyle = FlatStyle.Flat;
-            ıconButton10.IconChar = FontAwesome.Sharp.IconChar.WindowMaximize;
-            ıconButton10.IconColor = Color.White;
-            ıconButton10.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            ıconButton10.IconSize = 20;
-            ıconButton10.Location = new Point(710, 0);
-            ıconButton10.Name = "ıconButton10";
-            ıconButton10.Size = new Size(35, 25);
-            ıconButton10.TabIndex = 1;
-            ıconButton10.UseVisualStyleBackColor = false;
-            // 
-            // ıconButton11
-            // 
-            ıconButton11.BackColor = Color.FromArgb(10, 184, 210);
-            ıconButton11.FlatAppearance.BorderSize = 0;
-            ıconButton11.FlatStyle = FlatStyle.Flat;
-            ıconButton11.IconChar = FontAwesome.Sharp.IconChar.WindowMinimize;
-            ıconButton11.IconColor = Color.White;
-            ıconButton11.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            ıconButton11.IconSize = 25;
-            ıconButton11.Location = new Point(675, 0);
-            ıconButton11.Name = "ıconButton11";
-            ıconButton11.Size = new Size(35, 25);
-            ıconButton11.TabIndex = 2;
-            ıconButton11.UseVisualStyleBackColor = false;
             // 
             // frmMenu
             // 
@@ -334,35 +349,35 @@
             ClientSize = new Size(1000, 600);
             Controls.Add(panelChildForm);
             Controls.Add(panel1);
-            Controls.Add(panelLeft);
+            Controls.Add(panelSideMenu);
             FormBorderStyle = FormBorderStyle.None;
             MinimumSize = new Size(1000, 500);
             Name = "frmMenu";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "frmMenu";
-            panelLeft.ResumeLayout(false);
+            panelSideMenu.ResumeLayout(false);
             panelLogo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureLogo).EndInit();
             panel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
-        private Panel panelLeft;
+        private Panel panelSideMenu;
         private Panel panelLogo;
         private Panel panel1;
         private Panel panelChildForm;
-        private PictureBox pictureBox1;
-        private FontAwesome.Sharp.IconButton ıconButton1;
-        private FontAwesome.Sharp.IconButton ıconButton8;
-        private FontAwesome.Sharp.IconButton ıconButton7;
+        private PictureBox pictureLogo;
+        private FontAwesome.Sharp.IconButton btnSideMenu;
+        private FontAwesome.Sharp.IconButton btnFirmSettings;
+        private FontAwesome.Sharp.IconButton btnAdministration;
         private FontAwesome.Sharp.IconButton ıconButton9;
-        private FontAwesome.Sharp.IconButton ıconButton5;
-        private FontAwesome.Sharp.IconButton ıconButton4;
-        private FontAwesome.Sharp.IconButton ıconButton3;
-        private FontAwesome.Sharp.IconButton ıconButton2;
-        private FontAwesome.Sharp.IconButton ıconButton11;
-        private FontAwesome.Sharp.IconButton ıconButton10;
-        private FontAwesome.Sharp.IconButton ıconButton6;
+        private FontAwesome.Sharp.IconButton btnSupport;
+        private FontAwesome.Sharp.IconButton btnFerry;
+        private FontAwesome.Sharp.IconButton btnPlane;
+        private FontAwesome.Sharp.IconButton btnBus;
+        private FontAwesome.Sharp.IconButton btnMinimize;
+        private FontAwesome.Sharp.IconButton btnMaximize;
+        private FontAwesome.Sharp.IconButton btnClose;
     }
 }

@@ -19,12 +19,6 @@ namespace Ticket_Reservation_System
         }
 
         Thread thread;
-
-        private void lblClose_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
         private void txtUsername_Click(object sender, EventArgs e)
         {
             if (txtUsername.Text == "Username")

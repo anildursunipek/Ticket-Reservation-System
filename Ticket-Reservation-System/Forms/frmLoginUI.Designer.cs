@@ -55,18 +55,6 @@
             panelTop.Size = new Size(350, 30);
             panelTop.TabIndex = 14;
             // 
-            // lblClose
-            // 
-            lblClose.AutoSize = true;
-            lblClose.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            lblClose.ForeColor = Color.FromArgb(34, 36, 49);
-            lblClose.Location = new Point(325, 4);
-            lblClose.Name = "lblClose";
-            lblClose.Size = new Size(24, 24);
-            lblClose.TabIndex = 24;
-            lblClose.Text = "X";
-            lblClose.Click += lblClose_Click;
-            // 
             // pbLogo
             // 
             pbLogo.Image = Properties.Resources.easy_ticket_logo;
