@@ -235,6 +235,7 @@
             btnBus.TextAlign = ContentAlignment.MiddleLeft;
             btnBus.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnBus.UseVisualStyleBackColor = true;
+            btnBus.Click += btnBus_Click;
             // 
             // panelLogo
             // 
@@ -332,7 +333,7 @@
             ıconButton1.IconColor = Color.FromArgb(98, 102, 244);
             ıconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             ıconButton1.IconSize = 35;
-            ıconButton1.Location = new Point(701, 29);
+            ıconButton1.Location = new Point(558, 30);
             ıconButton1.Name = "ıconButton1";
             ıconButton1.Size = new Size(47, 34);
             ıconButton1.TabIndex = 7;
@@ -345,7 +346,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = Color.Black;
-            label1.Location = new Point(473, 25);
+            label1.Location = new Point(473, 9);
             label1.Name = "label1";
             label1.Size = new Size(132, 18);
             label1.TabIndex = 4;
@@ -361,7 +362,7 @@
             circularPictureBox1.BorderSize = 2;
             circularPictureBox1.GradientAngle = 50F;
             circularPictureBox1.Image = (Image)resources.GetObject("circularPictureBox1.Image");
-            circularPictureBox1.Location = new Point(611, 0);
+            circularPictureBox1.Location = new Point(607, 0);
             circularPictureBox1.Name = "circularPictureBox1";
             circularPictureBox1.Size = new Size(66, 66);
             circularPictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;

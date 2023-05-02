@@ -8,6 +8,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Ticket_Reservation_System.CustomControls;
 using Ticket_Reservation_System.Forms;
 
 namespace Ticket_Reservation_System
@@ -80,7 +81,7 @@ namespace Ticket_Reservation_System
                 subMenu.Visible = false;
             }
         }
-        private Form activeForm = null;
+        private Form? activeForm = null;
         private void openChildForm(Form childForm)
         {
             if (this.activeForm != null)
@@ -142,6 +143,11 @@ namespace Ticket_Reservation_System
                     sideMenuButton.Padding = new Padding(10, 0, 0, 0);
                 }
             }
+        }
+
+        private void btnBus_Click(object sender, EventArgs e)
+        {
+            openChildForm(new CustomDataGridView());
         }
     }
 }
