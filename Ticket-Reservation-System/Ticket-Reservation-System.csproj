@@ -29,6 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Forms\Administration\" />
     <Folder Include="Models\" />
   </ItemGroup>
 
