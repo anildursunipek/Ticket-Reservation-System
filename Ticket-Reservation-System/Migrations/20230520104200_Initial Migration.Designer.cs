@@ -12,8 +12,8 @@ using Ticket_Reservation_System;
 namespace Ticket_Reservation_System.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230520093058_Add Reservation Table")]
-    partial class AddReservationTable
+    [Migration("20230520104200_Initial Migration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -80,6 +80,9 @@ namespace Ticket_Reservation_System.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("TicketId")
+                        .IsUnique();
 
                     b.ToTable("Reservations");
                 });
@@ -334,6 +337,17 @@ namespace Ticket_Reservation_System.Migrations
                     b.ToTable("VehicleTypes");
                 });
 
+            modelBuilder.Entity("Ticket_Reservation_System.Models.Reservation", b =>
+                {
+                    b.HasOne("Ticket_Reservation_System.Models.Ticket", "Ticket")
+                        .WithOne("Reservation")
+                        .HasForeignKey("Ticket_Reservation_System.Models.Reservation", "TicketId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Ticket");
+                });
+
             modelBuilder.Entity("Ticket_Reservation_System.Models.Seat", b =>
                 {
                     b.HasOne("Ticket_Reservation_System.Models.SeatType", "SeatType")
@@ -437,6 +451,11 @@ namespace Ticket_Reservation_System.Migrations
             modelBuilder.Entity("Ticket_Reservation_System.Models.SeatType", b =>
                 {
                     b.Navigation("Seats");
+                });
+
+            modelBuilder.Entity("Ticket_Reservation_System.Models.Ticket", b =>
+                {
+                    b.Navigation("Reservation");
                 });
 
             modelBuilder.Entity("Ticket_Reservation_System.Models.User", b =>

@@ -39,9 +39,7 @@ namespace Ticket_Reservation_System.Models
         public int Age { get; set; }
         [Required]
         public DateTime Birthday { get; set; }
-
         public List<Ticket> Tickets { get; set; }
-        //public List<Reservation> Reservations { get; set; }
 
 
     }

@@ -16,6 +16,6 @@ namespace Ticket_Reservation_System.Models
         public int TicketPlanId { get; set; }
         public User User { get; set; }
         public int UserId { get; set; }
-        // public Reservation Reservation { get; set; }
+        public Reservation? Reservation { get; set; }
     }
 }
