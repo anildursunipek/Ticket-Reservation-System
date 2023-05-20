@@ -11,6 +11,10 @@ namespace Ticket_Reservation_System
     public class AppDbContext : DbContext
     {
         public DbSet<User> Users { get; set; }
+        public DbSet<Vehicle> Vehicles { get; set; }
+        public DbSet<VehicleBrand> VehicleBrands { get; set; }
+        public DbSet<VehicleModel> VehicleModels { get; set; }
+        public DbSet<VehicleType> VehicleTypes { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
