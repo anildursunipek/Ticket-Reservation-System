@@ -31,7 +31,7 @@ namespace Ticket_Reservation_System.Models
         public string Gender { get; set; }
         [MaxLength(40)]
         [Required]
-        public string SecurityNumber { get; set; }
+        public string IdentityNumber { get; set; }
         [MaxLength(30)]
         [Required]
         public string PhoneNumber { get; set; }
@@ -40,6 +40,8 @@ namespace Ticket_Reservation_System.Models
         [Required]
         public DateTime Birthday { get; set; }
 
+        public List<Ticket> Tickets { get; set; }
+        //public List<Reservation> Reservations { get; set; }
 
 
     }

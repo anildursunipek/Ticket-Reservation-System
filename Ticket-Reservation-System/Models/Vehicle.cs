@@ -14,5 +14,9 @@ namespace Ticket_Reservation_System.Models
 
         public VehicleModel VehicleModel { get; set; }
         public int VehicleModelId { get; set; }
+
+        public Firm Firm { get; set; }
+        public int FirmId { get; set;}
+        public List<Seat> Seats { get; set; }
     }
 }

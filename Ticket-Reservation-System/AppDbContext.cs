@@ -15,6 +15,13 @@ namespace Ticket_Reservation_System
         public DbSet<VehicleBrand> VehicleBrands { get; set; }
         public DbSet<VehicleModel> VehicleModels { get; set; }
         public DbSet<VehicleType> VehicleTypes { get; set; }
+        public DbSet<Firm> Firms { get; set; }
+        public DbSet<Reservation> Reservations { get; set; }
+        public DbSet<Seat> Seats { get; set; }
+        public DbSet<SeatType> SeatTypes { get; set; }
+        public DbSet<Ticket> Tickets { get; set; }
+        public DbSet<TicketPlan> TicketPlans { get; set; }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
