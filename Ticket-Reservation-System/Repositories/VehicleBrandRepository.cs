@@ -21,9 +21,15 @@ namespace Ticket_Reservation_System.Repositories
 
         public List<VehicleBrand> GetAllVehicleBrands()
         {
+
             using (var db = new AppDbContext())
             {
                 var vehicleBrands = db.VehicleBrands.ToList();
+                foreach(var vehicleBrand in vehicleBrands)
+                {
+                    vehicleBrand.VehicleType = new VehicleTypeRepository().GetVehicleTypeById(vehicleBrand.VehicleTypeId);
+                }
+
                 return vehicleBrands;
             }
         }
@@ -32,6 +38,7 @@ namespace Ticket_Reservation_System.Repositories
             using(var db= new AppDbContext())
             {
                 var vehicleBrand = db.VehicleBrands.FirstOrDefault(v => v.Id == id);
+                vehicleBrand.VehicleType = new VehicleTypeRepository().GetVehicleTypeById(vehicleBrand.VehicleTypeId);
                 return vehicleBrand;
             }
         }
