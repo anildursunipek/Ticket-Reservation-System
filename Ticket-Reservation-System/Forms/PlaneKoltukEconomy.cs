@@ -11,15 +11,12 @@ using System.Windows.Forms;
 
 namespace Ticket_Reservation_System.Forms
 {
-    public partial class PlaneKoltukBusiness : Form
+    public partial class PlaneKoltukEconomy : Form
     {
-        public PlaneKoltukBusiness()
+        public PlaneKoltukEconomy()
         {
             InitializeComponent();
         }
-
-
-
         private void ToggleButtonVisibility(object sender, EventArgs e)
         {
             Guna2Button button = (Guna2Button)sender;
@@ -38,18 +35,6 @@ namespace Ticket_Reservation_System.Forms
             }
 
 
-        }
-        private void guna2Button56_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2Button55_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void guna2Button57_Click(object sender, EventArgs e)
-        {
         }
     }
 }
