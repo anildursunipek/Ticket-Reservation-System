@@ -426,6 +426,7 @@
             guna2Button130 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button131 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button132 = new Guna.UI2.WinForms.Guna2Button();
+            label1 = new Label();
             SuspendLayout();
             // 
             // guna2Button1
@@ -2943,6 +2944,16 @@
             guna2Button132.Text = "guna2Button132";
             guna2Button132.Click += ToggleButtonVisibility;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 13.875F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(485, 117);
+            label1.Name = "label1";
+            label1.Size = new Size(409, 50);
+            label1.TabIndex = 298;
+            label1.Text = "Design sonra yapılcak....";
+            // 
             // PlaneKoltukEconomy
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
@@ -2951,6 +2962,7 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(1378, 989);
+            Controls.Add(label1);
             Controls.Add(guna2Button67);
             Controls.Add(guna2Button68);
             Controls.Add(guna2Button69);
@@ -3090,6 +3102,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "PlaneKoltukEconomy";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -3227,5 +3240,6 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button130;
         private Guna.UI2.WinForms.Guna2Button guna2Button131;
         private Guna.UI2.WinForms.Guna2Button guna2Button132;
+        private Label label1;
     }
 }

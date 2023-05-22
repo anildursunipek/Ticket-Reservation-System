@@ -203,6 +203,7 @@
             guna2Button55 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button56 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button57 = new Guna.UI2.WinForms.Guna2Button();
+            label1 = new Label();
             SuspendLayout();
             // 
             // guna2Button16
@@ -210,7 +211,7 @@
             guna2Button16.AutoRoundedCorners = true;
             guna2Button16.BackColor = Color.Transparent;
             guna2Button16.BorderColor = Color.Transparent;
-            guna2Button16.BorderRadius = 50;
+            guna2Button16.BorderRadius = 17;
             guna2Button16.CustomizableEdges = customizableEdges1;
             guna2Button16.DisabledState.BorderColor = Color.DarkGray;
             guna2Button16.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -232,7 +233,7 @@
             guna2Button17.AutoRoundedCorners = true;
             guna2Button17.BackColor = Color.Transparent;
             guna2Button17.BorderColor = Color.Transparent;
-            guna2Button17.BorderRadius = 50;
+            guna2Button17.BorderRadius = 17;
             guna2Button17.CustomizableEdges = customizableEdges3;
             guna2Button17.DisabledState.BorderColor = Color.DarkGray;
             guna2Button17.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -254,7 +255,7 @@
             guna2Button30.AutoRoundedCorners = true;
             guna2Button30.BackColor = Color.Transparent;
             guna2Button30.BorderColor = Color.Transparent;
-            guna2Button30.BorderRadius = 50;
+            guna2Button30.BorderRadius = 17;
             guna2Button30.CustomizableEdges = customizableEdges5;
             guna2Button30.DisabledState.BorderColor = Color.DarkGray;
             guna2Button30.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -1471,6 +1472,16 @@
             guna2Button57.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
             guna2Button57.Click += ToggleButtonVisibility;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 13.875F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(485, 88);
+            label1.Name = "label1";
+            label1.Size = new Size(409, 50);
+            label1.TabIndex = 298;
+            label1.Text = "Design sonra yapılcak....";
+            // 
             // PlaneKoltukBusiness
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
@@ -1479,6 +1490,7 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(1332, 897);
+            Controls.Add(label1);
             Controls.Add(guna2Button55);
             Controls.Add(guna2Button56);
             Controls.Add(guna2Button57);
@@ -1543,6 +1555,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "PlaneKoltukBusiness";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -1604,5 +1617,6 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button55;
         private Guna.UI2.WinForms.Guna2Button guna2Button56;
         private Guna.UI2.WinForms.Guna2Button guna2Button57;
+        private Label label1;
     }
 }
