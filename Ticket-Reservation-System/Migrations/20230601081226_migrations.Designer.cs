@@ -11,7 +11,7 @@ using Ticket_Reservation_System;
 namespace Ticket_Reservation_System.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230531132430_migrations")]
+    [Migration("20230601081226_migrations")]
     partial class migrations
     {
         /// <inheritdoc />
@@ -43,6 +43,31 @@ namespace Ticket_Reservation_System.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Firms");
+                });
+
+            modelBuilder.Entity("Ticket_Reservation_System.Models.Location", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<double>("lat")
+                        .HasColumnType("double");
+
+                    b.Property<double>("lng")
+                        .HasColumnType("double");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Locations");
                 });
 
             modelBuilder.Entity("Ticket_Reservation_System.Models.Reservation", b =>
