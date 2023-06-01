@@ -42,6 +42,31 @@ namespace Ticket_Reservation_System.Migrations
                     b.ToTable("Firms");
                 });
 
+            modelBuilder.Entity("Ticket_Reservation_System.Models.Location", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<double>("lat")
+                        .HasColumnType("double");
+
+                    b.Property<double>("lng")
+                        .HasColumnType("double");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Locations");
+                });
+
             modelBuilder.Entity("Ticket_Reservation_System.Models.Reservation", b =>
                 {
                     b.Property<int>("Id")
