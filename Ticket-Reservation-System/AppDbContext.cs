@@ -25,7 +25,8 @@ namespace Ticket_Reservation_System
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=DESKTOP-UQ3M9IO;Database=TicketReservationSystemDb;Trusted_Connection=True;Encrypt=False");
+            optionsBuilder.UseMySql(@"server=localhost;port=3306;user=root;password=123456789;Database=TicketReservationSystemDb",
+        new MySqlServerVersion(new Version(8, 0, 26)));
         }
 
     }

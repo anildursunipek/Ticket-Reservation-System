@@ -47,7 +47,6 @@ namespace Ticket_Reservation_System.Repositories
                     user.Password = userRequest.Password;
                     user.Birthday = userRequest.Birthday;
                     user.Gender = userRequest.Gender;
-                    user.IdentityNumber = userRequest.IdentityNumber;
 
                     db.Users.Update(user);
                     db.SaveChanges();

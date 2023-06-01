@@ -66,13 +66,39 @@ namespace Ticket_Reservation_System
 
         private void btnSignIn_Click(object sender, EventArgs e)
         {
-            if (txtUsername.Text == "123" && txtPassword.Text == "123")
+            using (var db = new AppDbContext())
             {
-                this.Close();
-                this.thread = new Thread(() => openNewForm(new frmMenu()));
-                this.thread.SetApartmentState(ApartmentState.STA);
-                this.thread.Start();
+                //The ".FirstOrDefault()" method will return either the first matched
+                //result or null
+                var myUser = db.Users
+                    .FirstOrDefault(u => u.UserName == txtUsername.Text
+                                 && u.Password == txtPassword.Text);
+
+                if (myUser != null)    //User was found
+                {
+                    Console.WriteLine(myUser);
+
+                    this.Close();
+                    this.thread = new Thread(() => openNewForm(new frmMenu()));
+                    this.thread.SetApartmentState(ApartmentState.STA);
+                    this.thread.Start();
+                    //Proceed with your login process...
+                }
+                else    //User was not found
+                {
+                    Console.WriteLine("kullanıcı bulunamadı");
+
+                    //Do something to let them know that their credentials were not valid
+                }
             }
+
+            //if (txtUsername.Text == "123" && txtPassword.Text == "123")
+            //{
+            //    this.Close();
+            //    this.thread = new Thread(() => openNewForm(new frmMenu()));
+            //    this.thread.SetApartmentState(ApartmentState.STA);
+            //    this.thread.Start();
+            //}
         }
     }
 }
