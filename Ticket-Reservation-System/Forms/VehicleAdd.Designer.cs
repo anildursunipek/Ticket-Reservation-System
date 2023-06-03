@@ -45,6 +45,7 @@
             this.btnDeleteVehicle = new Guna.UI2.WinForms.Guna2Button();
             this.listBoxVehicle = new System.Windows.Forms.ListBox();
             this.textBoxPlate = new System.Windows.Forms.TextBox();
+            this.btnSeat = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -113,7 +114,7 @@
             this.textBoxTotalSeat.Location = new System.Drawing.Point(24, 137);
             this.textBoxTotalSeat.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.textBoxTotalSeat.Name = "textBoxTotalSeat";
-            this.textBoxTotalSeat.Size = new System.Drawing.Size(132, 27);
+            this.textBoxTotalSeat.Size = new System.Drawing.Size(59, 27);
             this.textBoxTotalSeat.TabIndex = 5;
             // 
             // comboBoxVehicleType
@@ -205,12 +206,23 @@
             this.textBoxPlate.Size = new System.Drawing.Size(132, 23);
             this.textBoxPlate.TabIndex = 17;
             // 
+            // btnSeat
+            // 
+            this.btnSeat.Location = new System.Drawing.Point(88, 137);
+            this.btnSeat.Name = "btnSeat";
+            this.btnSeat.Size = new System.Drawing.Size(66, 27);
+            this.btnSeat.TabIndex = 18;
+            this.btnSeat.Text = "Oluştur";
+            this.btnSeat.UseVisualStyleBackColor = true;
+            this.btnSeat.Click += new System.EventHandler(this.btnSeat_Click);
+            // 
             // VehicleAdd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(770, 530);
+            this.Controls.Add(this.btnSeat);
             this.Controls.Add(this.textBoxPlate);
             this.Controls.Add(this.listBoxVehicle);
             this.Controls.Add(this.btnDeleteVehicle);
@@ -249,5 +261,6 @@
         private Guna.UI2.WinForms.Guna2Button btnDeleteVehicle;
         private ListBox listBoxVehicle;
         private TextBox textBoxPlate;
+        private Button btnSeat;
     }
 }

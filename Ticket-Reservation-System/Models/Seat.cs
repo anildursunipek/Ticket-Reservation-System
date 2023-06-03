@@ -18,8 +18,7 @@ namespace Ticket_Reservation_System.Models
 
         public Vehicle Vehicle { get; set; }
         public int VehicleId { get; set; }
-        public SeatType SeatType { get; set; }
-        public int SeatTypeId { get; set; }
+        public string SeatType { get; set; }
         public List<TicketPlan> TicketPlans { get; set; }
     }
 }

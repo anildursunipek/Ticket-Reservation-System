@@ -176,7 +176,9 @@ namespace Ticket_Reservation_System.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     SeatNumber = table.Column<int>(type: "int", nullable: false),
                     VehicleId = table.Column<int>(type: "int", nullable: false),
-                    SeatTypeId = table.Column<int>(type: "int", nullable: false)
+                    SeatType = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    SeatTypeId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -185,8 +187,7 @@ namespace Ticket_Reservation_System.Migrations
                         name: "FK_Seats_SeatTypes_SeatTypeId",
                         column: x => x.SeatTypeId,
                         principalTable: "SeatTypes",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_Seats_Vehicles_VehicleId",
                         column: x => x.VehicleId,

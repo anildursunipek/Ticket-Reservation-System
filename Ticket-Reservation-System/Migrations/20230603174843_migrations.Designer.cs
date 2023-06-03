@@ -11,7 +11,7 @@ using Ticket_Reservation_System;
 namespace Ticket_Reservation_System.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230603152131_migrations")]
+    [Migration("20230603174843_migrations")]
     partial class migrations
     {
         /// <inheritdoc />
@@ -118,7 +118,11 @@ namespace Ticket_Reservation_System.Migrations
                     b.Property<int>("SeatNumber")
                         .HasColumnType("int");
 
-                    b.Property<int>("SeatTypeId")
+                    b.Property<string>("SeatType")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<int?>("SeatTypeId")
                         .HasColumnType("int");
 
                     b.Property<int>("VehicleId")
@@ -356,19 +360,15 @@ namespace Ticket_Reservation_System.Migrations
 
             modelBuilder.Entity("Ticket_Reservation_System.Models.Seat", b =>
                 {
-                    b.HasOne("Ticket_Reservation_System.Models.SeatType", "SeatType")
+                    b.HasOne("Ticket_Reservation_System.Models.SeatType", null)
                         .WithMany("Seats")
-                        .HasForeignKey("SeatTypeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("SeatTypeId");
 
                     b.HasOne("Ticket_Reservation_System.Models.Vehicle", "Vehicle")
                         .WithMany()
                         .HasForeignKey("VehicleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("SeatType");
 
                     b.Navigation("Vehicle");
                 });
