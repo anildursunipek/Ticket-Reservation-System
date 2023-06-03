@@ -70,6 +70,10 @@ namespace Ticket_Reservation_System
             }
         }
         */
+        private void frmMenu_Load(object sender, EventArgs e)
+        {
+            rjDropdownMenu1.IsMainMenu = true;
+        }
         private void showSubmenu(Panel subMenu)
         {
             if (subMenu.Visible == false)
@@ -144,10 +148,34 @@ namespace Ticket_Reservation_System
                 }
             }
         }
+        private void btnAdministration_Click(object sender, EventArgs e)
+        {
+            rjDropdownMenu1.Show(btnAdministration, btnAdministration.Width, 0);
+        }
 
-        private void btnBus_Click(object sender, EventArgs e)
+        private void rjDropdownMenu1_Opening(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void sddasdasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             openChildForm(new VehicleAdd());
         }
+        private void btnBus_Click(object sender, EventArgs e)
+        {
+            openChildForm(new buus());
+        }
+        private void btnPlane_Click(object sender, EventArgs e)
+        {
+            openChildForm(new plane());
+        }
+
+        private void btnFerry_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Feribot());
+        }
+
+
     }
 }

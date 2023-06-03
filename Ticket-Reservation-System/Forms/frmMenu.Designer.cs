@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenu));
             panelSideMenu = new Panel();
             btnFirmSettings = new FontAwesome.Sharp.IconButton();
@@ -50,11 +51,16 @@
             btnMaximize = new FontAwesome.Sharp.IconButton();
             btnClose = new FontAwesome.Sharp.IconButton();
             panelChildForm = new Panel();
+            rjDropdownMenu1 = new CustomControls.RJDropdownMenu(components);
+            sddasdasToolStripMenuItem = new ToolStripMenuItem();
+            sdasdasdToolStripMenuItem = new ToolStripMenuItem();
+            araçListeleToolStripMenuItem = new ToolStripMenuItem();
             panelSideMenu.SuspendLayout();
             panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureLogo).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)circularPictureBox1).BeginInit();
+            rjDropdownMenu1.SuspendLayout();
             SuspendLayout();
             // 
             // panelSideMenu
@@ -120,6 +126,7 @@
             btnAdministration.TextAlign = ContentAlignment.MiddleLeft;
             btnAdministration.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnAdministration.UseVisualStyleBackColor = true;
+            btnAdministration.Click += btnAdministration_Click;
             // 
             // ıconButton9
             // 
@@ -189,6 +196,7 @@
             btnFerry.TextAlign = ContentAlignment.MiddleLeft;
             btnFerry.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnFerry.UseVisualStyleBackColor = true;
+            btnFerry.Click += btnFerry_Click;
             // 
             // btnPlane
             // 
@@ -212,6 +220,7 @@
             btnPlane.TextAlign = ContentAlignment.MiddleLeft;
             btnPlane.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnPlane.UseVisualStyleBackColor = true;
+            btnPlane.Click += btnPlane_Click;
             // 
             // btnBus
             // 
@@ -429,6 +438,39 @@
             panelChildForm.Size = new Size(770, 530);
             panelChildForm.TabIndex = 27;
             // 
+            // rjDropdownMenu1
+            // 
+            rjDropdownMenu1.BackColor = Color.FromArgb(98, 102, 244);
+            rjDropdownMenu1.BackgroundImageLayout = ImageLayout.None;
+            rjDropdownMenu1.Font = new Font("Verdana", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            rjDropdownMenu1.IsMainMenu = false;
+            rjDropdownMenu1.Items.AddRange(new ToolStripItem[] { sddasdasToolStripMenuItem, sdasdasdToolStripMenuItem, araçListeleToolStripMenuItem });
+            rjDropdownMenu1.MenuItemHeight = 25;
+            rjDropdownMenu1.MenuItemTextColor = Color.DimGray;
+            rjDropdownMenu1.Name = "rjDropdownMenu1";
+            rjDropdownMenu1.PrimaryColor = Color.MediumSlateBlue;
+            rjDropdownMenu1.Size = new Size(181, 92);
+            rjDropdownMenu1.Opening += rjDropdownMenu1_Opening;
+            // 
+            // sddasdasToolStripMenuItem
+            // 
+            sddasdasToolStripMenuItem.Name = "sddasdasToolStripMenuItem";
+            sddasdasToolStripMenuItem.Size = new Size(180, 22);
+            sddasdasToolStripMenuItem.Text = "Araç Ekle";
+            sddasdasToolStripMenuItem.Click += sddasdasToolStripMenuItem_Click;
+            // 
+            // sdasdasdToolStripMenuItem
+            // 
+            sdasdasdToolStripMenuItem.Name = "sdasdasdToolStripMenuItem";
+            sdasdasdToolStripMenuItem.Size = new Size(180, 22);
+            sdasdasdToolStripMenuItem.Text = "Model Ekle";
+            // 
+            // araçListeleToolStripMenuItem
+            // 
+            araçListeleToolStripMenuItem.Name = "araçListeleToolStripMenuItem";
+            araçListeleToolStripMenuItem.Size = new Size(180, 22);
+            araçListeleToolStripMenuItem.Text = "Araç Listele";
+            // 
             // frmMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -443,12 +485,14 @@
             Name = "frmMenu";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "frmMenu";
+            Load += frmMenu_Load;
             panelSideMenu.ResumeLayout(false);
             panelLogo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureLogo).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)circularPictureBox1).EndInit();
+            rjDropdownMenu1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -474,5 +518,9 @@
         private FontAwesome.Sharp.IconButton ıconButton1;
         private FontAwesome.Sharp.IconButton ıconButton2;
         private Label label2;
+        private CustomControls.RJDropdownMenu rjDropdownMenu1;
+        private ToolStripMenuItem sddasdasToolStripMenuItem;
+        private ToolStripMenuItem sdasdasdToolStripMenuItem;
+        private ToolStripMenuItem araçListeleToolStripMenuItem;
     }
 }
