@@ -9,8 +9,6 @@ namespace Ticket_Reservation_System.Models
 {
     public class Vehicle
     {
-        [Key]
-
         public int Id { get; set; }
         public int TotalSeat { get; set; }
         public string Plate { get; set; }

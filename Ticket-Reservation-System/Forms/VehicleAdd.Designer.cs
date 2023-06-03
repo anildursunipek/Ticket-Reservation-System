@@ -28,11 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VehicleAdd));
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -44,13 +43,8 @@
             this.comboBoxFirm = new System.Windows.Forms.ComboBox();
             this.btnSaveVehicle = new Guna.UI2.WinForms.Guna2Button();
             this.btnDeleteVehicle = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.listBoxVehicle = new System.Windows.Forms.ListBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.textBoxPlate = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -58,7 +52,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Gadugi", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.DimGray;
-            this.label1.Location = new System.Drawing.Point(30, 65);
+            this.label1.Location = new System.Drawing.Point(24, 22);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(90, 18);
@@ -70,7 +64,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Gadugi", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.DimGray;
-            this.label2.Location = new System.Drawing.Point(30, 144);
+            this.label2.Location = new System.Drawing.Point(24, 101);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(93, 18);
@@ -82,7 +76,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Gadugi", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.DimGray;
-            this.label3.Location = new System.Drawing.Point(172, 246);
+            this.label3.Location = new System.Drawing.Point(24, 237);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(73, 18);
@@ -94,7 +88,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Gadugi", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.DimGray;
-            this.label4.Location = new System.Drawing.Point(322, 246);
+            this.label4.Location = new System.Drawing.Point(24, 292);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(51, 18);
@@ -106,7 +100,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Gadugi", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.DimGray;
-            this.label5.Location = new System.Drawing.Point(28, 246);
+            this.label5.Location = new System.Drawing.Point(24, 179);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(46, 18);
@@ -116,16 +110,16 @@
             // textBoxTotalSeat
             // 
             this.textBoxTotalSeat.Font = new System.Drawing.Font("Segoe UI", 10.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBoxTotalSeat.Location = new System.Drawing.Point(30, 180);
+            this.textBoxTotalSeat.Location = new System.Drawing.Point(24, 137);
             this.textBoxTotalSeat.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.textBoxTotalSeat.Name = "textBoxTotalSeat";
-            this.textBoxTotalSeat.Size = new System.Drawing.Size(90, 27);
+            this.textBoxTotalSeat.Size = new System.Drawing.Size(132, 27);
             this.textBoxTotalSeat.TabIndex = 5;
             // 
             // comboBoxVehicleType
             // 
             this.comboBoxVehicleType.FormattingEnabled = true;
-            this.comboBoxVehicleType.Location = new System.Drawing.Point(172, 267);
+            this.comboBoxVehicleType.Location = new System.Drawing.Point(24, 258);
             this.comboBoxVehicleType.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.comboBoxVehicleType.Name = "comboBoxVehicleType";
             this.comboBoxVehicleType.Size = new System.Drawing.Size(132, 23);
@@ -135,7 +129,7 @@
             // comboBoxModel
             // 
             this.comboBoxModel.FormattingEnabled = true;
-            this.comboBoxModel.Location = new System.Drawing.Point(322, 267);
+            this.comboBoxModel.Location = new System.Drawing.Point(24, 313);
             this.comboBoxModel.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.comboBoxModel.Name = "comboBoxModel";
             this.comboBoxModel.Size = new System.Drawing.Size(132, 23);
@@ -145,7 +139,7 @@
             // comboBoxFirm
             // 
             this.comboBoxFirm.FormattingEnabled = true;
-            this.comboBoxFirm.Location = new System.Drawing.Point(28, 267);
+            this.comboBoxFirm.Location = new System.Drawing.Point(24, 200);
             this.comboBoxFirm.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.comboBoxFirm.Name = "comboBoxFirm";
             this.comboBoxFirm.Size = new System.Drawing.Size(132, 23);
@@ -156,7 +150,7 @@
             // 
             this.btnSaveVehicle.AutoRoundedCorners = true;
             this.btnSaveVehicle.BorderRadius = 17;
-            this.btnSaveVehicle.CustomizableEdges = customizableEdges5;
+            this.btnSaveVehicle.CustomizableEdges = customizableEdges1;
             this.btnSaveVehicle.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnSaveVehicle.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnSaveVehicle.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -164,10 +158,10 @@
             this.btnSaveVehicle.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(102)))), ((int)(((byte)(244)))));
             this.btnSaveVehicle.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnSaveVehicle.ForeColor = System.Drawing.Color.White;
-            this.btnSaveVehicle.Location = new System.Drawing.Point(30, 348);
+            this.btnSaveVehicle.Location = new System.Drawing.Point(24, 361);
             this.btnSaveVehicle.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.btnSaveVehicle.Name = "btnSaveVehicle";
-            this.btnSaveVehicle.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            this.btnSaveVehicle.ShadowDecoration.CustomizableEdges = customizableEdges2;
             this.btnSaveVehicle.Size = new System.Drawing.Size(130, 36);
             this.btnSaveVehicle.TabIndex = 11;
             this.btnSaveVehicle.Text = "Onayla";
@@ -177,7 +171,7 @@
             // 
             this.btnDeleteVehicle.AutoRoundedCorners = true;
             this.btnDeleteVehicle.BorderRadius = 17;
-            this.btnDeleteVehicle.CustomizableEdges = customizableEdges7;
+            this.btnDeleteVehicle.CustomizableEdges = customizableEdges3;
             this.btnDeleteVehicle.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnDeleteVehicle.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnDeleteVehicle.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -185,68 +179,40 @@
             this.btnDeleteVehicle.FillColor = System.Drawing.Color.WhiteSmoke;
             this.btnDeleteVehicle.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnDeleteVehicle.ForeColor = System.Drawing.Color.Black;
-            this.btnDeleteVehicle.Location = new System.Drawing.Point(593, 413);
+            this.btnDeleteVehicle.Location = new System.Drawing.Point(590, 484);
             this.btnDeleteVehicle.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.btnDeleteVehicle.Name = "btnDeleteVehicle";
-            this.btnDeleteVehicle.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            this.btnDeleteVehicle.ShadowDecoration.CustomizableEdges = customizableEdges4;
             this.btnDeleteVehicle.Size = new System.Drawing.Size(130, 36);
             this.btnDeleteVehicle.TabIndex = 12;
             this.btnDeleteVehicle.Text = "Sil";
             this.btnDeleteVehicle.Click += new System.EventHandler(this.btnDeleteVehicle_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(492, 6);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(162, 97);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 13;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(387, 96);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(190, 89);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 14;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(572, 96);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(162, 89);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 15;
-            this.pictureBox3.TabStop = false;
-            // 
             // listBoxVehicle
             // 
             this.listBoxVehicle.FormattingEnabled = true;
             this.listBoxVehicle.ItemHeight = 15;
-            this.listBoxVehicle.Location = new System.Drawing.Point(477, 214);
+            this.listBoxVehicle.Location = new System.Drawing.Point(212, 341);
             this.listBoxVehicle.Name = "listBoxVehicle";
-            this.listBoxVehicle.Size = new System.Drawing.Size(246, 184);
+            this.listBoxVehicle.Size = new System.Drawing.Size(508, 139);
             this.listBoxVehicle.TabIndex = 16;
             this.listBoxVehicle.SelectedIndexChanged += new System.EventHandler(this.listBoxVehicle_SelectedIndexChanged);
+            // 
+            // textBoxPlate
+            // 
+            this.textBoxPlate.Location = new System.Drawing.Point(24, 53);
+            this.textBoxPlate.Name = "textBoxPlate";
+            this.textBoxPlate.Size = new System.Drawing.Size(132, 23);
+            this.textBoxPlate.TabIndex = 17;
             // 
             // VehicleAdd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(756, 497);
+            this.ClientSize = new System.Drawing.Size(770, 530);
+            this.Controls.Add(this.textBoxPlate);
             this.Controls.Add(this.listBoxVehicle);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnDeleteVehicle);
             this.Controls.Add(this.btnSaveVehicle);
             this.Controls.Add(this.comboBoxFirm);
@@ -263,9 +229,6 @@
             this.Name = "VehicleAdd";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Vehicle";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -284,9 +247,7 @@
         private ComboBox comboBoxFirm;
         private Guna.UI2.WinForms.Guna2Button btnSaveVehicle;
         private Guna.UI2.WinForms.Guna2Button btnDeleteVehicle;
-        private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
-        private PictureBox pictureBox3;
         private ListBox listBoxVehicle;
+        private TextBox textBoxPlate;
     }
 }

@@ -36,6 +36,15 @@
             this.labelTrip = new System.Windows.Forms.Label();
             this.btnTripAdd = new System.Windows.Forms.Button();
             this.deleteLocation = new System.Windows.Forms.Button();
+            this.comboBoxFirm = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.comboBoxVehicle = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.dateTimePickerStart = new System.Windows.Forms.DateTimePicker();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btnSaveTrip = new System.Windows.Forms.Button();
+            this.textBoxDescription = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // map_form
@@ -134,11 +143,98 @@
             this.deleteLocation.UseVisualStyleBackColor = true;
             this.deleteLocation.Click += new System.EventHandler(this.deleteLocation_Click);
             // 
+            // comboBoxFirm
+            // 
+            this.comboBoxFirm.FormattingEnabled = true;
+            this.comboBoxFirm.Location = new System.Drawing.Point(860, 37);
+            this.comboBoxFirm.Name = "comboBoxFirm";
+            this.comboBoxFirm.Size = new System.Drawing.Size(179, 23);
+            this.comboBoxFirm.TabIndex = 5;
+            this.comboBoxFirm.SelectedIndexChanged += new System.EventHandler(this.comboBoxFirm_SelectedIndexChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(858, 16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(37, 15);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Firma";
+            // 
+            // comboBoxVehicle
+            // 
+            this.comboBoxVehicle.FormattingEnabled = true;
+            this.comboBoxVehicle.Location = new System.Drawing.Point(860, 95);
+            this.comboBoxVehicle.Name = "comboBoxVehicle";
+            this.comboBoxVehicle.Size = new System.Drawing.Size(179, 23);
+            this.comboBoxVehicle.TabIndex = 5;
+            this.comboBoxVehicle.SelectedIndexChanged += new System.EventHandler(this.comboBoxVehicle_SelectedIndexChanged);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(858, 74);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(31, 15);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Araç";
+            // 
+            // dateTimePickerStart
+            // 
+            this.dateTimePickerStart.Location = new System.Drawing.Point(856, 207);
+            this.dateTimePickerStart.Name = "dateTimePickerStart";
+            this.dateTimePickerStart.Size = new System.Drawing.Size(181, 23);
+            this.dateTimePickerStart.TabIndex = 7;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(858, 183);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(87, 15);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Başlangıç tarihi";
+            // 
+            // btnSaveTrip
+            // 
+            this.btnSaveTrip.Location = new System.Drawing.Point(858, 250);
+            this.btnSaveTrip.Name = "btnSaveTrip";
+            this.btnSaveTrip.Size = new System.Drawing.Size(179, 32);
+            this.btnSaveTrip.TabIndex = 8;
+            this.btnSaveTrip.Text = "Kaydet";
+            this.btnSaveTrip.UseVisualStyleBackColor = true;
+            this.btnSaveTrip.Click += new System.EventHandler(this.btnSaveTrip_Click);
+            // 
+            // textBoxDescription
+            // 
+            this.textBoxDescription.Location = new System.Drawing.Point(860, 155);
+            this.textBoxDescription.Name = "textBoxDescription";
+            this.textBoxDescription.Size = new System.Drawing.Size(177, 23);
+            this.textBoxDescription.TabIndex = 9;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(862, 137);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(56, 15);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "Açıklama";
+            // 
             // AddTrip
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1051, 448);
+            this.Controls.Add(this.textBoxDescription);
+            this.Controls.Add(this.btnSaveTrip);
+            this.Controls.Add(this.dateTimePickerStart);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.comboBoxVehicle);
+            this.Controls.Add(this.comboBoxFirm);
             this.Controls.Add(this.deleteLocation);
             this.Controls.Add(this.btnTripAdd);
             this.Controls.Add(this.labelTrip);
@@ -164,5 +260,14 @@
         private Label labelTrip;
         private Button btnTripAdd;
         private Button deleteLocation;
+        private ComboBox comboBoxFirm;
+        private Label label2;
+        private ComboBox comboBoxVehicle;
+        private Label label3;
+        private DateTimePicker dateTimePickerStart;
+        private Label label4;
+        private Button btnSaveTrip;
+        private TextBox textBoxDescription;
+        private Label label5;
     }
 }

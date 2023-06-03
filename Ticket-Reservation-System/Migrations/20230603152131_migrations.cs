@@ -197,6 +197,43 @@ namespace Ticket_Reservation_System.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
+                name: "Trips",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    Duration = table.Column<DateTime>(type: "datetime(6)", nullable: false),
+                    Description = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    StartingPointId = table.Column<int>(type: "int", nullable: false),
+                    DestinationPointId = table.Column<int>(type: "int", nullable: false),
+                    VehicleId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Trips", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Trips_Locations_DestinationPointId",
+                        column: x => x.DestinationPointId,
+                        principalTable: "Locations",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Trips_Locations_StartingPointId",
+                        column: x => x.StartingPointId,
+                        principalTable: "Locations",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Trips_Vehicles_VehicleId",
+                        column: x => x.VehicleId,
+                        principalTable: "Vehicles",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                })
+                .Annotation("MySql:CharSet", "utf8mb4");
+
+            migrationBuilder.CreateTable(
                 name: "TicketPlans",
                 columns: table => new
                 {
@@ -308,6 +345,21 @@ namespace Ticket_Reservation_System.Migrations
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Trips_DestinationPointId",
+                table: "Trips",
+                column: "DestinationPointId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Trips_StartingPointId",
+                table: "Trips",
+                column: "StartingPointId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Trips_VehicleId",
+                table: "Trips",
+                column: "VehicleId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_VehicleModels_VehicleBrandId",
                 table: "VehicleModels",
                 column: "VehicleBrandId");
@@ -327,13 +379,16 @@ namespace Ticket_Reservation_System.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Locations");
-
-            migrationBuilder.DropTable(
                 name: "Reservations");
 
             migrationBuilder.DropTable(
+                name: "Trips");
+
+            migrationBuilder.DropTable(
                 name: "Tickets");
+
+            migrationBuilder.DropTable(
+                name: "Locations");
 
             migrationBuilder.DropTable(
                 name: "TicketPlans");

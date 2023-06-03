@@ -43,6 +43,13 @@ namespace Ticket_Reservation_System.Repositories
                 return vehicle;
             }
         }
+        public List<Vehicle> GetVehiclesByFirmId(int id)
+        {
+            using (var db = new AppDbContext())
+            {
+                return GetAllVehicles().FindAll(vehicle => vehicle.FirmId == id);
+            }
+        }
 
         public void DeleteVehicle(int id)
         {

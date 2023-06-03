@@ -14,7 +14,6 @@ namespace Ticket_Reservation_System.Forms
 {
     public partial class Brand : Form
     {
-        AppDbContext db;
         VehicleBrandRepository _vehicleBrandRepository;
         VehicleBrand _vehicleBrand;
         VehicleBrand _selectedVehicleBrand;
@@ -22,7 +21,6 @@ namespace Ticket_Reservation_System.Forms
         public Brand()
         {
             InitializeComponent();
-            db = new AppDbContext();
             _vehicleBrandRepository = new VehicleBrandRepository();
             _vehicleBrand = new VehicleBrand();
             _selectedVehicleBrand = new VehicleBrand();

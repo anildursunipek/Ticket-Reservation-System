@@ -11,7 +11,7 @@ using Ticket_Reservation_System;
 namespace Ticket_Reservation_System.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230602135240_migrations")]
+    [Migration("20230603152131_migrations")]
     partial class migrations
     {
         /// <inheritdoc />
@@ -198,6 +198,39 @@ namespace Ticket_Reservation_System.Migrations
                     b.ToTable("TicketPlans");
                 });
 
+            modelBuilder.Entity("Ticket_Reservation_System.Models.Trip", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<int>("DestinationPointId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Duration")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<int>("StartingPointId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("VehicleId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DestinationPointId");
+
+                    b.HasIndex("StartingPointId");
+
+                    b.HasIndex("VehicleId");
+
+                    b.ToTable("Trips");
+                });
+
             modelBuilder.Entity("Ticket_Reservation_System.Models.User", b =>
                 {
                     b.Property<int>("Id")
@@ -370,10 +403,37 @@ namespace Ticket_Reservation_System.Migrations
                     b.Navigation("Seat");
                 });
 
+            modelBuilder.Entity("Ticket_Reservation_System.Models.Trip", b =>
+                {
+                    b.HasOne("Ticket_Reservation_System.Models.Location", "DestinationPoint")
+                        .WithMany()
+                        .HasForeignKey("DestinationPointId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Ticket_Reservation_System.Models.Location", "StartingPoint")
+                        .WithMany()
+                        .HasForeignKey("StartingPointId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Ticket_Reservation_System.Models.Vehicle", "Vehicle")
+                        .WithMany()
+                        .HasForeignKey("VehicleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("DestinationPoint");
+
+                    b.Navigation("StartingPoint");
+
+                    b.Navigation("Vehicle");
+                });
+
             modelBuilder.Entity("Ticket_Reservation_System.Models.Vehicle", b =>
                 {
                     b.HasOne("Ticket_Reservation_System.Models.Firm", "Firm")
-                        .WithMany("Vehicles")
+                        .WithMany()
                         .HasForeignKey("FirmId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -398,11 +458,6 @@ namespace Ticket_Reservation_System.Migrations
                         .IsRequired();
 
                     b.Navigation("VehicleBrand");
-                });
-
-            modelBuilder.Entity("Ticket_Reservation_System.Models.Firm", b =>
-                {
-                    b.Navigation("Vehicles");
                 });
 
             modelBuilder.Entity("Ticket_Reservation_System.Models.Seat", b =>

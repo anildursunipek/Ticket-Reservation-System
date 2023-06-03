@@ -38,15 +38,49 @@ namespace Ticket_Reservation_System.Forms
             _selectedModel = new VehicleModel();
             _selectedFirm = new Firm();
             _vehicles = new List<Vehicle>();
+            _vehicle = new Vehicle();
             _firms = new List<Firm>();
             _vehicleModels = new List<VehicleModel>();
 
             getVehicles();
             getFirms();
             fillVehicleType();
+            createButtons();
 
             comboBoxModel.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxFirm.DropDownStyle = ComboBoxStyle.DropDownList;
+        }
+
+        private void createButtons()
+        {
+            int buttonCount = 15; // Oluşturulacak buton sayısı
+
+            int buttonWidth = 30;
+            int buttonHeight = 30;
+            int spacing = 5; // Butonlar arasındaki boşluk
+
+            Panel panel = new Panel();
+            panel.Location = new System.Drawing.Point(250, 40);
+            panel.Size = new System.Drawing.Size(500, 200);
+            panel.AutoScroll = true;
+            for (int i = 0; i < buttonCount; i++)
+            {
+                Button dynamicButton = new Button();
+                dynamicButton.Text = "Dinamik Buton " + (i + 1);
+                dynamicButton.Location = new System.Drawing.Point(0, (buttonHeight + spacing) * i);
+                dynamicButton.Size = new System.Drawing.Size(buttonWidth, buttonHeight);
+                dynamicButton.Click += DynamicButton_Click;
+
+                panel.Controls.Add(dynamicButton);
+            }
+
+            Controls.Add(panel);
+        }
+
+        private void DynamicButton_Click(object sender, EventArgs e)
+        {
+            Button clickedButton = (Button)sender;
+            MessageBox.Show("Dinamik butona tıklandı: " + clickedButton.Text);
         }
 
         private void getFirms()
@@ -94,12 +128,14 @@ namespace Ticket_Reservation_System.Forms
         {
             if (formController())
             {
-                _vehicle.TotalSeat = Convert.ToInt32(textBoxTotalSeat);
-                _vehicle.Plate = textBoxTotalSeat.Text;
-                _vehicle.VehicleModel = _selectedModel;
+                _vehicle.TotalSeat = Convert.ToInt32(textBoxTotalSeat.Text);
+                _vehicle.Plate = textBoxPlate.Text;
+                //_vehicle.VehicleModel = _selectedModel;
                 _vehicle.VehicleModelId = _selectedModel.Id;
-                _vehicle.Firm = _selectedFirm;
+                //_vehicle.Firm = _selectedFirm;
                 _vehicle.FirmId = _selectedFirm.Id;
+
+                MessageBox.Show(_vehicle.FirmId.ToString());
 
                 _vehicleRepository.AddVehicle(_vehicle);
                 getVehicles();
@@ -112,7 +148,7 @@ namespace Ticket_Reservation_System.Forms
         }
         private bool formController()
         {
-            if(textBoxTotalSeat.Text != "" && textBoxTotalSeat.Text.ToString() != "" && comboBoxVehicleType.SelectedItem != null && comboBoxModel.SelectedItem != null && comboBoxFirm.SelectedItem != null)
+            if(textBoxPlate.Text != "" && textBoxTotalSeat.Text != "" && comboBoxVehicleType.SelectedItem != null && comboBoxModel.SelectedItem != null && comboBoxFirm.SelectedItem != null)
             {
                 return true;
             }
@@ -130,7 +166,7 @@ namespace Ticket_Reservation_System.Forms
             comboBoxModel.DataSource = _vehicleModels;
             comboBoxModel.DisplayMember = "Name";
         }
-
+        
         private void comboBoxModel_SelectedIndexChanged(object sender, EventArgs e)
         {
             _selectedModel = (VehicleModel) comboBoxModel.SelectedItem;

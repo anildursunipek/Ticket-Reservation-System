@@ -147,7 +147,7 @@ namespace Ticket_Reservation_System
 
         private void btnBus_Click(object sender, EventArgs e)
         {
-            openChildForm(new CustomDataGridView());
+            openChildForm(new VehicleAdd());
         }
     }
 }

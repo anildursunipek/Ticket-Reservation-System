@@ -15,6 +15,5 @@ namespace Ticket_Reservation_System.Models
         public string PhoneNumber { get; set; }
         public string Address { get; set; }
 
-        public List<Vehicle> Vehicles { get; set; }
     }
 }

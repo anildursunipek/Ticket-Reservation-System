@@ -12,6 +12,8 @@ using GMap.NET;
 using GMap.NET.MapProviders;
 using GMap.NET.WindowsForms;
 using GMap.NET.WindowsForms.Markers;
+using Ticket_Reservation_System.Repositories;
+using Ticket_Reservation_System.Models;
 
 namespace Ticket_Reservation_System.Forms
 {
@@ -23,6 +25,15 @@ namespace Ticket_Reservation_System.Forms
         Models.Location _selectedListBoxLocation;
         String _selectedType;
 
+        Trip _trip;
+
+        Vehicle _selectedVehicle;
+        Firm _selectedFirm;
+
+        TripRepository _tripRepository;
+        VehicleRepository _vehicleRepository;
+        FirmRepository _firmRepository;
+
 
         public AddTrip()
         {
@@ -31,16 +42,24 @@ namespace Ticket_Reservation_System.Forms
             _locations = new List<Models.Location>();
             _selectedLocation = new Models.Location();
             _selectedListBoxLocation = new Models.Location();
-
+            _tripRepository = new TripRepository();
+            _vehicleRepository = new VehicleRepository();
+            _firmRepository = new FirmRepository();
+            _trip = new Trip();
             comboBoxTrip.DropDownStyle = ComboBoxStyle.DropDownList;
             listBoxTrip.DisplayMember = "Name";
+
+            fillLocationType();
+            getFirms();
+
+            comboBoxFirm.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBoxVehicle.DropDownStyle = ComboBoxStyle.DropDownList;
 
         }
 
         private void gMapControl1_Load(object sender, EventArgs e)
         {
             loadMap();
-            fillLocationType();
         }
 
         private void loadMap()
@@ -237,6 +256,58 @@ namespace Ticket_Reservation_System.Forms
 
 
             getRoute();
+        }
+
+        private void btnSaveTrip_Click(object sender, EventArgs e)
+        {
+            if (formController())
+            {
+                _trip.VehicleId = _selectedVehicle.Id;
+                _trip.StartingPointId = _locations[0].Id;
+                _trip.DestinationPointId = _locations[_locations.Count-1].Id;
+                _trip.Duration =  Convert.ToDateTime(dateTimePickerStart.Text);
+                _trip.Description = textBoxDescription.Text;
+                _tripRepository.AddTrip(_trip);
+                _trip = new Trip();
+                MessageBox.Show("Kaydedildi.");
+            }
+            else
+            {
+                MessageBox.Show("Boş alanları doldurunuz.");
+            }
+        }
+
+        private bool formController()
+        {
+            if (_locations.Count > 1 && comboBoxFirm.SelectedItem != null && comboBoxVehicle.SelectedItem != null && dateTimePickerStart.Text != "")
+            {
+                return true;
+            }
+            return false;
+        }
+
+        private void comboBoxFirm_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            _selectedFirm = (Firm) comboBoxFirm.SelectedItem;
+            getVehicleByFirm();
+        }
+
+        private void comboBoxVehicle_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            _selectedVehicle = (Vehicle) comboBoxVehicle.SelectedItem;
+        }
+
+        private void getVehicleByFirm()
+        {
+            var _vehicles = _vehicleRepository.GetVehiclesByFirmId(_selectedFirm.Id);
+            comboBoxVehicle.DataSource = _vehicles;
+            comboBoxVehicle.DisplayMember = "Plate";
+        }
+        private void getFirms()
+        {
+            var _firms = _firmRepository.GetAllFirms();
+            comboBoxFirm.DataSource = _firms;
+            comboBoxFirm.DisplayMember = "Name";
         }
     }
 }
