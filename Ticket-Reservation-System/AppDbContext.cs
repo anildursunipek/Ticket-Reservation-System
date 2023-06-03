@@ -14,7 +14,6 @@ namespace Ticket_Reservation_System
         public DbSet<Vehicle> Vehicles { get; set; }
         public DbSet<VehicleBrand> VehicleBrands { get; set; }
         public DbSet<VehicleModel> VehicleModels { get; set; }
-        public DbSet<VehicleType> VehicleTypes { get; set; }
         public DbSet<Firm> Firms { get; set; }
         public DbSet<Reservation> Reservations { get; set; }
         public DbSet<Seat> Seats { get; set; }

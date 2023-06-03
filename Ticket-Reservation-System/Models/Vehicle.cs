@@ -20,6 +20,5 @@ namespace Ticket_Reservation_System.Models
 
         public Firm Firm { get; set; }
         public int FirmId { get; set;}
-        public List<Seat> Seats { get; set; }
     }
 }

@@ -98,21 +98,6 @@ namespace Ticket_Reservation_System.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "VehicleTypes",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    Name = table.Column<string>(type: "longtext", nullable: false)
-                        .Annotation("MySql:CharSet", "utf8mb4")
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_VehicleTypes", x => x.Id);
-                })
-                .Annotation("MySql:CharSet", "utf8mb4");
-
-            migrationBuilder.CreateTable(
                 name: "VehicleBrands",
                 columns: table => new
                 {
@@ -120,17 +105,12 @@ namespace Ticket_Reservation_System.Migrations
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Name = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    VehicleTypeId = table.Column<int>(type: "int", nullable: false)
+                    VehicleType = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_VehicleBrands", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_VehicleBrands_VehicleTypes_VehicleTypeId",
-                        column: x => x.VehicleTypeId,
-                        principalTable: "VehicleTypes",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
@@ -328,11 +308,6 @@ namespace Ticket_Reservation_System.Migrations
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_VehicleBrands_VehicleTypeId",
-                table: "VehicleBrands",
-                column: "VehicleTypeId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_VehicleModels_VehicleBrandId",
                 table: "VehicleModels",
                 column: "VehicleBrandId");
@@ -383,9 +358,6 @@ namespace Ticket_Reservation_System.Migrations
 
             migrationBuilder.DropTable(
                 name: "VehicleBrands");
-
-            migrationBuilder.DropTable(
-                name: "VehicleTypes");
         }
     }
 }

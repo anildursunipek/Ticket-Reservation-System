@@ -15,6 +15,5 @@ namespace Ticket_Reservation_System.Models
 
         public VehicleBrand VehicleBrand { get; set; }
         public int VehicleBrandId { get; set; }
-        public List<Vehicle> Vehicles { get; set; }
     }
 }

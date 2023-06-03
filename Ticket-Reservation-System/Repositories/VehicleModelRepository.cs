@@ -17,7 +17,8 @@ namespace Ticket_Reservation_System.Repositories
                 db.SaveChanges();
             }
         }
-        public List<VehicleModel> GetAllVehicleModels() {
+        public List<VehicleModel> GetAllVehicleModels()
+        {
             using (var db = new AppDbContext())
             {
                 var vehicleModels = db.VehicleModels.ToList();
@@ -27,6 +28,12 @@ namespace Ticket_Reservation_System.Repositories
                 }
                 return vehicleModels;
             }
+        }
+
+
+        public List<VehicleModel> getModelsByVehicleyType(string type)
+        {
+            return GetAllVehicleModels().FindAll(model => model.VehicleBrand.VehicleType == type);
         }
         public VehicleModel GetVehicleModelById(int id)
         {

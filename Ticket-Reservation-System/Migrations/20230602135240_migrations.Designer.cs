@@ -11,7 +11,7 @@ using Ticket_Reservation_System;
 namespace Ticket_Reservation_System.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230601081226_migrations")]
+    [Migration("20230602135240_migrations")]
     partial class migrations
     {
         /// <inheritdoc />
@@ -281,12 +281,11 @@ namespace Ticket_Reservation_System.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<int>("VehicleTypeId")
-                        .HasColumnType("int");
+                    b.Property<string>("VehicleType")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("VehicleTypeId");
 
                     b.ToTable("VehicleBrands");
                 });
@@ -311,21 +310,6 @@ namespace Ticket_Reservation_System.Migrations
                     b.ToTable("VehicleModels");
                 });
 
-            modelBuilder.Entity("Ticket_Reservation_System.Models.VehicleType", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("VehicleTypes");
-                });
-
             modelBuilder.Entity("Ticket_Reservation_System.Models.Reservation", b =>
                 {
                     b.HasOne("Ticket_Reservation_System.Models.Ticket", "Ticket")
@@ -346,7 +330,7 @@ namespace Ticket_Reservation_System.Migrations
                         .IsRequired();
 
                     b.HasOne("Ticket_Reservation_System.Models.Vehicle", "Vehicle")
-                        .WithMany("Seats")
+                        .WithMany()
                         .HasForeignKey("VehicleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -395,7 +379,7 @@ namespace Ticket_Reservation_System.Migrations
                         .IsRequired();
 
                     b.HasOne("Ticket_Reservation_System.Models.VehicleModel", "VehicleModel")
-                        .WithMany("Vehicles")
+                        .WithMany()
                         .HasForeignKey("VehicleModelId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -405,21 +389,10 @@ namespace Ticket_Reservation_System.Migrations
                     b.Navigation("VehicleModel");
                 });
 
-            modelBuilder.Entity("Ticket_Reservation_System.Models.VehicleBrand", b =>
-                {
-                    b.HasOne("Ticket_Reservation_System.Models.VehicleType", "VehicleType")
-                        .WithMany("VehicleBrands")
-                        .HasForeignKey("VehicleTypeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("VehicleType");
-                });
-
             modelBuilder.Entity("Ticket_Reservation_System.Models.VehicleModel", b =>
                 {
                     b.HasOne("Ticket_Reservation_System.Models.VehicleBrand", "VehicleBrand")
-                        .WithMany("VehicleModels")
+                        .WithMany()
                         .HasForeignKey("VehicleBrandId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -450,26 +423,6 @@ namespace Ticket_Reservation_System.Migrations
             modelBuilder.Entity("Ticket_Reservation_System.Models.User", b =>
                 {
                     b.Navigation("Tickets");
-                });
-
-            modelBuilder.Entity("Ticket_Reservation_System.Models.Vehicle", b =>
-                {
-                    b.Navigation("Seats");
-                });
-
-            modelBuilder.Entity("Ticket_Reservation_System.Models.VehicleBrand", b =>
-                {
-                    b.Navigation("VehicleModels");
-                });
-
-            modelBuilder.Entity("Ticket_Reservation_System.Models.VehicleModel", b =>
-                {
-                    b.Navigation("Vehicles");
-                });
-
-            modelBuilder.Entity("Ticket_Reservation_System.Models.VehicleType", b =>
-                {
-                    b.Navigation("VehicleBrands");
                 });
 #pragma warning restore 612, 618
         }
