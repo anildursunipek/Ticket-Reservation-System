@@ -7,6 +7,7 @@ using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Transactions;
 using System.Windows.Forms;
 
 namespace Ticket_Reservation_System.Forms
@@ -115,7 +116,15 @@ namespace Ticket_Reservation_System.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            frmTicketList frmTicketList = new frmTicketList("BUS");
+            this.Controls.Clear();
+            frmTicketList.TopLevel = false;
+            frmTicketList.FormBorderStyle = FormBorderStyle.None;
+            frmTicketList.Dock = DockStyle.Fill;
+            this.Controls.Add(frmTicketList);
+            frmTicketList.BringToFront();
+            frmTicketList.Show();
         }
+
     }
 }

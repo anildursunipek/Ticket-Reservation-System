@@ -33,9 +33,11 @@
             // 
             // panel1
             // 
-            panel1.Location = new Point(0, 0);
+            panel1.BackColor = Color.WhiteSmoke;
+            panel1.Location = new Point(15, 0);
+            panel1.Margin = new Padding(0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(771, 531);
+            panel1.Size = new Size(740, 530);
             panel1.TabIndex = 0;
             // 
             // frmTicketList

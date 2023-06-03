@@ -76,5 +76,17 @@ namespace Ticket_Reservation_System.Forms
             comboBox2.SelectedIndex = selectedIndex;
             comboBox2.SelectedItem = selectedValue;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmTicketList frmTicketList = new frmTicketList("PLANE");
+            this.Controls.Clear();
+            frmTicketList.TopLevel = false;
+            frmTicketList.FormBorderStyle = FormBorderStyle.None;
+            frmTicketList.Dock = DockStyle.Fill;
+            this.Controls.Add(frmTicketList);
+            frmTicketList.BringToFront();
+            frmTicketList.Show();
+        }
     }
 }

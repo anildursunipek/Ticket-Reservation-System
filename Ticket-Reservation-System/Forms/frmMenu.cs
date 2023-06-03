@@ -10,16 +10,19 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Ticket_Reservation_System.CustomControls;
 using Ticket_Reservation_System.Forms;
+using System.Threading.Tasks;
+using Ticket_Reservation_System.Models;
 
 namespace Ticket_Reservation_System
 {
     public partial class frmMenu : Form
     {
+        Thread thread;
         private int borderSize = 2;
         public frmMenu()
         {
             InitializeComponent();
-            CollapseMenu();
+            //CollapseMenu();
             //customizeDesign();
             this.Padding = new Padding(this.borderSize);
             this.BackColor = Color.FromArgb(98, 102, 244);
@@ -85,8 +88,8 @@ namespace Ticket_Reservation_System
                 subMenu.Visible = false;
             }
         }
-        private Form? activeForm = null;
-        private void openChildForm(Form childForm)
+        public Form? activeForm = null;
+        public void openChildForm(Form childForm)
         {
             if (this.activeForm != null)
                 this.activeForm.Close();
@@ -153,15 +156,7 @@ namespace Ticket_Reservation_System
             rjDropdownMenu1.Show(btnAdministration, btnAdministration.Width, 0);
         }
 
-        private void rjDropdownMenu1_Opening(object sender, CancelEventArgs e)
-        {
 
-        }
-
-        private void sddasdasToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            openChildForm(new VehicleAdd());
-        }
         private void btnBus_Click(object sender, EventArgs e)
         {
             openChildForm(new buus());
@@ -176,6 +171,45 @@ namespace Ticket_Reservation_System
             openChildForm(new Feribot());
         }
 
+        private void btnMapButton_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Map());
+        }
 
+        private void ıconButton9_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            this.thread = new Thread(() => openNewForm(new frmLoginUI()));
+            this.thread.SetApartmentState(ApartmentState.STA);
+            this.thread.Start();
+        }
+        public void openNewForm(Form frm)
+        {
+            Application.Run(frm);
+        }
+        private void vehiclePageToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openChildForm(new VehicleAdd());
+        }
+
+        private void brandPageToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Brand());
+        }
+
+        private void modelPageToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            openChildForm(new Model());
+        }
+
+        private void firmPageToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openChildForm(new AddFirm());
+        }
+
+        private void tripPageToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openChildForm(new AddTrip());
+        }
     }
 }

@@ -31,6 +31,7 @@
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenu));
             panelSideMenu = new Panel();
+            btnMapButton = new FontAwesome.Sharp.IconButton();
             btnFirmSettings = new FontAwesome.Sharp.IconButton();
             btnAdministration = new FontAwesome.Sharp.IconButton();
             ıconButton9 = new FontAwesome.Sharp.IconButton();
@@ -52,9 +53,11 @@
             btnClose = new FontAwesome.Sharp.IconButton();
             panelChildForm = new Panel();
             rjDropdownMenu1 = new CustomControls.RJDropdownMenu(components);
-            sddasdasToolStripMenuItem = new ToolStripMenuItem();
-            sdasdasdToolStripMenuItem = new ToolStripMenuItem();
-            araçListeleToolStripMenuItem = new ToolStripMenuItem();
+            vehiclePageToolStripMenuItem = new ToolStripMenuItem();
+            brandPageToolStripMenuItem = new ToolStripMenuItem();
+            modelPageToolStripMenuItem = new ToolStripMenuItem();
+            firmPageToolStripMenuItem = new ToolStripMenuItem();
+            tripPageToolStripMenuItem = new ToolStripMenuItem();
             panelSideMenu.SuspendLayout();
             panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureLogo).BeginInit();
@@ -67,6 +70,7 @@
             // 
             panelSideMenu.AutoScroll = true;
             panelSideMenu.BackColor = Color.FromArgb(98, 102, 244);
+            panelSideMenu.Controls.Add(btnMapButton);
             panelSideMenu.Controls.Add(btnFirmSettings);
             panelSideMenu.Controls.Add(btnAdministration);
             panelSideMenu.Controls.Add(ıconButton9);
@@ -80,6 +84,30 @@
             panelSideMenu.Name = "panelSideMenu";
             panelSideMenu.Size = new Size(230, 600);
             panelSideMenu.TabIndex = 1;
+            // 
+            // btnMapButton
+            // 
+            btnMapButton.Dock = DockStyle.Top;
+            btnMapButton.FlatAppearance.BorderSize = 0;
+            btnMapButton.FlatStyle = FlatStyle.Flat;
+            btnMapButton.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnMapButton.ForeColor = Color.White;
+            btnMapButton.IconChar = FontAwesome.Sharp.IconChar.Map;
+            btnMapButton.IconColor = Color.White;
+            btnMapButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnMapButton.IconSize = 30;
+            btnMapButton.ImageAlign = ContentAlignment.MiddleLeft;
+            btnMapButton.Location = new Point(0, 340);
+            btnMapButton.Name = "btnMapButton";
+            btnMapButton.Padding = new Padding(10, 0, 0, 0);
+            btnMapButton.Size = new Size(230, 45);
+            btnMapButton.TabIndex = 12;
+            btnMapButton.Tag = "Support";
+            btnMapButton.Text = "  Map";
+            btnMapButton.TextAlign = ContentAlignment.MiddleLeft;
+            btnMapButton.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnMapButton.UseVisualStyleBackColor = true;
+            btnMapButton.Click += btnMapButton_Click;
             // 
             // btnFirmSettings
             // 
@@ -150,6 +178,7 @@
             ıconButton9.TextAlign = ContentAlignment.MiddleLeft;
             ıconButton9.TextImageRelation = TextImageRelation.ImageBeforeText;
             ıconButton9.UseVisualStyleBackColor = true;
+            ıconButton9.Click += ıconButton9_Click;
             // 
             // btnSupport
             // 
@@ -441,35 +470,49 @@
             // rjDropdownMenu1
             // 
             rjDropdownMenu1.BackColor = Color.FromArgb(98, 102, 244);
-            rjDropdownMenu1.BackgroundImageLayout = ImageLayout.None;
             rjDropdownMenu1.Font = new Font("Verdana", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             rjDropdownMenu1.IsMainMenu = false;
-            rjDropdownMenu1.Items.AddRange(new ToolStripItem[] { sddasdasToolStripMenuItem, sdasdasdToolStripMenuItem, araçListeleToolStripMenuItem });
+            rjDropdownMenu1.Items.AddRange(new ToolStripItem[] { vehiclePageToolStripMenuItem, brandPageToolStripMenuItem, modelPageToolStripMenuItem, firmPageToolStripMenuItem, tripPageToolStripMenuItem });
             rjDropdownMenu1.MenuItemHeight = 25;
             rjDropdownMenu1.MenuItemTextColor = Color.DimGray;
             rjDropdownMenu1.Name = "rjDropdownMenu1";
             rjDropdownMenu1.PrimaryColor = Color.MediumSlateBlue;
-            rjDropdownMenu1.Size = new Size(181, 92);
-            rjDropdownMenu1.Opening += rjDropdownMenu1_Opening;
+            rjDropdownMenu1.Size = new Size(181, 136);
             // 
-            // sddasdasToolStripMenuItem
+            // vehiclePageToolStripMenuItem
             // 
-            sddasdasToolStripMenuItem.Name = "sddasdasToolStripMenuItem";
-            sddasdasToolStripMenuItem.Size = new Size(180, 22);
-            sddasdasToolStripMenuItem.Text = "Araç Ekle";
-            sddasdasToolStripMenuItem.Click += sddasdasToolStripMenuItem_Click;
+            vehiclePageToolStripMenuItem.Name = "vehiclePageToolStripMenuItem";
+            vehiclePageToolStripMenuItem.Size = new Size(180, 22);
+            vehiclePageToolStripMenuItem.Text = "Vehicle Page";
+            vehiclePageToolStripMenuItem.Click += vehiclePageToolStripMenuItem_Click;
             // 
-            // sdasdasdToolStripMenuItem
+            // brandPageToolStripMenuItem
             // 
-            sdasdasdToolStripMenuItem.Name = "sdasdasdToolStripMenuItem";
-            sdasdasdToolStripMenuItem.Size = new Size(180, 22);
-            sdasdasdToolStripMenuItem.Text = "Model Ekle";
+            brandPageToolStripMenuItem.Name = "brandPageToolStripMenuItem";
+            brandPageToolStripMenuItem.Size = new Size(180, 22);
+            brandPageToolStripMenuItem.Text = "Brand Page";
+            brandPageToolStripMenuItem.Click += brandPageToolStripMenuItem_Click;
             // 
-            // araçListeleToolStripMenuItem
+            // modelPageToolStripMenuItem
             // 
-            araçListeleToolStripMenuItem.Name = "araçListeleToolStripMenuItem";
-            araçListeleToolStripMenuItem.Size = new Size(180, 22);
-            araçListeleToolStripMenuItem.Text = "Araç Listele";
+            modelPageToolStripMenuItem.Name = "modelPageToolStripMenuItem";
+            modelPageToolStripMenuItem.Size = new Size(180, 22);
+            modelPageToolStripMenuItem.Text = "Model Page";
+            modelPageToolStripMenuItem.Click += modelPageToolStripMenuItem_Click_1;
+            // 
+            // firmPageToolStripMenuItem
+            // 
+            firmPageToolStripMenuItem.Name = "firmPageToolStripMenuItem";
+            firmPageToolStripMenuItem.Size = new Size(180, 22);
+            firmPageToolStripMenuItem.Text = "Firm Page";
+            firmPageToolStripMenuItem.Click += firmPageToolStripMenuItem_Click;
+            // 
+            // tripPageToolStripMenuItem
+            // 
+            tripPageToolStripMenuItem.Name = "tripPageToolStripMenuItem";
+            tripPageToolStripMenuItem.Size = new Size(180, 22);
+            tripPageToolStripMenuItem.Text = "Trip Page";
+            tripPageToolStripMenuItem.Click += tripPageToolStripMenuItem_Click;
             // 
             // frmMenu
             // 
@@ -518,9 +561,12 @@
         private FontAwesome.Sharp.IconButton ıconButton1;
         private FontAwesome.Sharp.IconButton ıconButton2;
         private Label label2;
+        private FontAwesome.Sharp.IconButton btnMapButton;
         private CustomControls.RJDropdownMenu rjDropdownMenu1;
-        private ToolStripMenuItem sddasdasToolStripMenuItem;
-        private ToolStripMenuItem sdasdasdToolStripMenuItem;
-        private ToolStripMenuItem araçListeleToolStripMenuItem;
+        private ToolStripMenuItem vehiclePageToolStripMenuItem;
+        private ToolStripMenuItem brandPageToolStripMenuItem;
+        private ToolStripMenuItem modelPageToolStripMenuItem;
+        private ToolStripMenuItem firmPageToolStripMenuItem;
+        private ToolStripMenuItem tripPageToolStripMenuItem;
     }
 }
