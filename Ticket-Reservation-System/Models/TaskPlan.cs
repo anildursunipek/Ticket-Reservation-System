@@ -7,17 +7,17 @@ using System.Threading.Tasks;
 
 namespace Ticket_Reservation_System.Models
 {
-    public class Trip
+    public class TaskPlan
     {
         [Key]
         public int Id { get; set; }
+        public int Route { get; set; }
         public double Duration { get; set; }
-        public string Description { get; set; }
         public int StartingPointId { get; set; }
         public Location StartingPoint { get; set; }
         public int DestinationPointId { get; set; }
         public Location DestinationPoint { get; set; }
-        public int VehicleId { get; set; }
-        public Vehicle Vehicle { get; set; }
+        public int TripId { get; set; }
+        public Trip Trip { get; set; }
     }
 }

@@ -76,7 +76,7 @@ namespace Ticket_Reservation_System.Forms
             List<string> strList = new List<string>();
             strList.Add("NORMAL");
             strList.Add("PREMIUM");
-            strList.Add("BİZNIZ");
+            strList.Add("BUSINESS");
             return strList;
         }
         private void createButtons()
@@ -209,6 +209,7 @@ namespace Ticket_Reservation_System.Forms
                 _vehicle = new Vehicle();
                 textBoxTotalSeat.Text = "";
                 textBoxPlate.Text = "";
+                _panel.Controls.Clear();
                 getVehicles();
                 MessageBox.Show("Kaydedildi.");
             }
@@ -221,6 +222,11 @@ namespace Ticket_Reservation_System.Forms
         {
             if(textBoxPlate.Text != "" && textBoxTotalSeat.Text != "" && comboBoxVehicleType.SelectedItem != null && comboBoxModel.SelectedItem != null && comboBoxFirm.SelectedItem != null)
             {
+                if(_dynamicSeats.Count() == 0)
+                {
+                    createButtons();
+                    return false;
+                }
                 return true;
             }
             return false;

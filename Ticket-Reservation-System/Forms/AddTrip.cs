@@ -262,14 +262,22 @@ namespace Ticket_Reservation_System.Forms
         {
             if (formController())
             {
+                List<Models.Location> locationList = listBoxTrip.Items.Cast<Models.Location>().ToList();
+
                 _trip.VehicleId = _selectedVehicle.Id;
-                _trip.StartingPointId = _locations[0].Id;
-                _trip.DestinationPointId = _locations[_locations.Count-1].Id;
-                _trip.Duration =  Convert.ToDateTime(dateTimePickerStart.Text);
+                _trip.Vehicle = _selectedVehicle;
+                _trip.StartingPoint = locationList[0];
+                _trip.StartingPointId = locationList[0].Id;
+                _trip.DestinationPoint = locationList[locationList.Count-1];
+                _trip.DestinationPointId = locationList[locationList.Count - 1].Id;
+                _trip.Duration =  Convert.ToDouble(textBoxDuration.Text);
                 _trip.Description = textBoxDescription.Text;
-                _tripRepository.AddTrip(_trip);
+
+                AddTripDetails addTripDetails = new AddTripDetails(_trip, locationList);
+                addTripDetails.Show();
+                //_tripRepository.AddTrip(_trip);
                 _trip = new Trip();
-                MessageBox.Show("Kaydedildi.");
+                //MessageBox.Show("Kaydedildi.");
             }
             else
             {
@@ -279,7 +287,7 @@ namespace Ticket_Reservation_System.Forms
 
         private bool formController()
         {
-            if (_locations.Count > 1 && comboBoxFirm.SelectedItem != null && comboBoxVehicle.SelectedItem != null && dateTimePickerStart.Text != "")
+            if (listBoxTrip.Items.Count > 1 && comboBoxFirm.SelectedItem != null && comboBoxVehicle.SelectedItem != null && textBoxDuration.Text != "")
             {
                 return true;
             }

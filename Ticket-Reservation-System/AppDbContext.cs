@@ -22,6 +22,10 @@ namespace Ticket_Reservation_System
         public DbSet<TicketPlan> TicketPlans { get; set; }
         public DbSet<Location> Locations { get; set; }
         public DbSet<Trip> Trips { get; set; }
+        public DbSet<TaskPlan> TaskPlans { get; set; }
+        public DbSet<Models.Task> Tasks { get; set; }
+        public DbSet<Process> Processes { get; set; }
+        public DbSet<Worker> Workers { get; set; }
 
 
 

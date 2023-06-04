@@ -25,6 +25,10 @@ namespace Ticket_Reservation_System.Repositories
             using (var db = new AppDbContext())
             {
                 var Seats = db.Seats.ToList();
+                foreach (var seat in Seats)
+                {
+                    seat.Vehicle = new VehicleRepository().GetVehicleById(seat.VehicleId);
+                }
 
                 return Seats;
             }
@@ -36,6 +40,10 @@ namespace Ticket_Reservation_System.Repositories
                 var Seat = db.Seats.FirstOrDefault(v => v.Id == id);
                 return Seat;
             }
+        }
+        public List<Seat> GetSeatByVehichle(int id)
+        {
+            return GetAllSeats().FindAll(seat => seat.VehicleId == id);
         }
 
         public void DeleteSeat(int id)

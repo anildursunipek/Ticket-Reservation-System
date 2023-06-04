@@ -10,12 +10,13 @@ namespace Ticket_Reservation_System.Repositories
     internal class TripRepository
     {
 
-        public void AddTrip(Trip Trip)
+        public Trip AddTrip(Trip Trip)
         {
             using (var db = new AppDbContext())
             {
-                db.Trips.Add(Trip);
+                var savedTrip = db.Trips.Add(Trip);
                 db.SaveChanges();
+                return savedTrip.Entity;
             }
         }
 

@@ -7,15 +7,14 @@ using System.Threading.Tasks;
 
 namespace Ticket_Reservation_System.Models
 {
-    public class TicketPlan
+    public class Process
     {
         [Key]
-
         public int Id { get; set; }
-        public double Price { get; set; }
-        public Seat Seat { get; set; }
-        public int SeatId { get; set; }
-        public TaskPlan TaskPlan { get; set; }
-        public int TaskPlanId { get; set; }
+        public DateTime Date { get; set; }
+        public int TripId { get; set; }
+        public Trip Trip { get; set; }
+        public int WorkerId { get; set; }
+        public Worker Worker { get; set; }
     }
 }
