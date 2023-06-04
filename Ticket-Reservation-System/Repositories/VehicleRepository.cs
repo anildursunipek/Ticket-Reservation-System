@@ -64,19 +64,5 @@ namespace Ticket_Reservation_System.Repositories
                 }
             }
         }
-        //public void UpdateVehicle(Vehicle vehicleRequest)
-        //{
-        //    using (var db = new AppDbContext())
-        //    {
-        //        var vehicle = db.VehicleBrands.FirstOrDefault(v => v.Id == vehicleRequest.Id);
-        //        if (vehicle != null)
-        //        {
-        //            vehicle.Name = vehicleRequest.Name;
-
-        //            db.Vehicles.Update(vehicle);
-        //            db.SaveChanges();
-        //        }
-        //    }
-        //}
     }
 }

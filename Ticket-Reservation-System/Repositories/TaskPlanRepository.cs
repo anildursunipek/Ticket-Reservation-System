@@ -1,14 +1,15 @@
 ﻿using Ticket_Reservation_System.Models;
+using Ticket_Reservation_System.Repositories;
 
 namespace Ticket_Reservation_System.Forms
 {
-    internal class TaskPlanRepository
+    public class TaskPlanRepository
     {
-        public TaskPlan AddTaskPlan(TaskPlan TaskPlan)
+        public TaskPlan AddTaskPlan(TaskPlan taskPlan)
         {
             using (var db = new AppDbContext())
             {
-                var savedTaskPlan = db.TaskPlans.Add(TaskPlan);
+                var savedTaskPlan = db.TaskPlans.Add(taskPlan);
                 db.SaveChanges();
                 return savedTaskPlan.Entity;
             }
@@ -19,17 +20,30 @@ namespace Ticket_Reservation_System.Forms
 
             using (var db = new AppDbContext())
             {
-                var TaskPlans = db.TaskPlans.ToList();
-
-                return TaskPlans;
+                var taskPlans = db.TaskPlans.ToList();
+                foreach (var taskPlan in taskPlans)
+                {
+                    taskPlan.StartingPoint = new LocationRepository().GetLocationById(taskPlan.StartingPointId);
+                    taskPlan.DestinationPoint = new LocationRepository().GetLocationById(taskPlan.StartingPointId);
+                    taskPlan.Trip = new TripRepository().GetTripById(taskPlan.TripId);
+                }
+                return taskPlans;
             }
+        }
+
+        public List<TaskPlan> getTaskPlanByTrip(int id)
+        {
+            return GetAllTaskPlans().FindAll(taskPlan => taskPlan.TripId == id);
         }
         public TaskPlan GetTaskPlanById(int id)
         {
             using (var db = new AppDbContext())
             {
-                var TaskPlan = db.TaskPlans.FirstOrDefault(v => v.Id == id);
-                return TaskPlan;
+                var taskPlan = db.TaskPlans.FirstOrDefault(v => v.Id == id);
+                taskPlan.StartingPoint = new LocationRepository().GetLocationById(taskPlan.StartingPointId);
+                taskPlan.DestinationPoint = new LocationRepository().GetLocationById(taskPlan.StartingPointId);
+                taskPlan.Trip = new TripRepository().GetTripById(taskPlan.TripId);
+                return taskPlan;
             }
         }
 
@@ -37,10 +51,10 @@ namespace Ticket_Reservation_System.Forms
         {
             using (var db = new AppDbContext())
             {
-                var TaskPlan = db.TaskPlans.FirstOrDefault(v => v.Id == id);
-                if (TaskPlan != null)
+                var taskPlan = db.TaskPlans.FirstOrDefault(v => v.Id == id);
+                if (taskPlan != null)
                 {
-                    db.TaskPlans.Remove(TaskPlan);
+                    db.TaskPlans.Remove(taskPlan);
                     db.SaveChanges();
                 }
             }

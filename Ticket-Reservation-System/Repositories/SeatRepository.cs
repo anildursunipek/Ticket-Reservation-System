@@ -10,11 +10,11 @@ namespace Ticket_Reservation_System.Repositories
     internal class SeatRepository
     {
 
-        public void AddSeat(Seat Seat)
+        public void AddSeat(Seat seat)
         {
             using (var db = new AppDbContext())
             {
-                db.Seats.Add(Seat);
+                db.Seats.Add(seat);
                 db.SaveChanges();
             }
         }
@@ -24,21 +24,31 @@ namespace Ticket_Reservation_System.Repositories
 
             using (var db = new AppDbContext())
             {
-                var Seats = db.Seats.ToList();
-                foreach (var seat in Seats)
+                var seats = db.Seats.ToList();
+                foreach (var seat in seats)
                 {
                     seat.Vehicle = new VehicleRepository().GetVehicleById(seat.VehicleId);
                 }
 
-                return Seats;
+                return seats;
             }
         }
         public Seat GetSeatById(int id)
         {
             using (var db = new AppDbContext())
             {
-                var Seat = db.Seats.FirstOrDefault(v => v.Id == id);
-                return Seat;
+                var seat = db.Seats.FirstOrDefault(v => v.Id == id);
+                seat.Vehicle = new VehicleRepository().GetVehicleById(seat.VehicleId);
+
+                return seat;
+            }
+        }
+        public Seat getSeatByTypeAndVehicle(int vehicleId, string type)
+        {
+            using (var db = new AppDbContext())
+            {
+                var seat = db.Seats.FirstOrDefault(v => v.SeatType == type && v.VehicleId == vehicleId);
+                return seat;
             }
         }
         public List<Seat> GetSeatByVehichle(int id)
@@ -50,10 +60,10 @@ namespace Ticket_Reservation_System.Repositories
         {
             using (var db = new AppDbContext())
             {
-                var Seat = db.Seats.FirstOrDefault(v => v.Id == id);
-                if (Seat != null)
+                var seat = db.Seats.FirstOrDefault(v => v.Id == id);
+                if (seat != null)
                 {
-                    db.Seats.Remove(Seat);
+                    db.Seats.Remove(seat);
                     db.SaveChanges();
                 }
             }

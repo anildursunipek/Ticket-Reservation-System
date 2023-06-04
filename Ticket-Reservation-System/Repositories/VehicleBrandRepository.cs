@@ -10,12 +10,13 @@ namespace Ticket_Reservation_System.Repositories
 {
     public class VehicleBrandRepository
     {
-        public void AddVehicleBrand(VehicleBrand vehicleBrand)
+        public VehicleBrand AddVehicleBrand(VehicleBrand vehicleBrand)
         {
             using(var db = new AppDbContext())
             {
-                db.VehicleBrands.Add(vehicleBrand);
+                var savedVehicleBrand = db.VehicleBrands.Add(vehicleBrand);
                 db.SaveChanges();
+                return savedVehicleBrand.Entity;
             }
         }
 

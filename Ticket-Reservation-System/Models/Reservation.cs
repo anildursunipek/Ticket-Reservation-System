@@ -12,12 +12,13 @@ namespace Ticket_Reservation_System.Models
         [Key]
 
         public int Id { get; set; }
-        public DateTime CreatedDate { get; set; }
-        public string Name { get; set; }
-        public string SurName { get; set; }
-        public string PhoneNumber { get; set; }
+        public User User { get; set; }
         public int UserId { get; set; }
         public Ticket Ticket { get; set; }
         public int TicketId { get; set; }
+        public DateTime PurchaseDate { get; set; }
+        public string Name { get; set; }
+        public string SurName { get; set; }
+        public string PhoneNumber { get; set; }
     }
 }

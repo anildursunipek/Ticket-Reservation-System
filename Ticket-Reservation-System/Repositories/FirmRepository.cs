@@ -10,11 +10,11 @@ namespace Ticket_Reservation_System.Repositories
     internal class FirmRepository
     {
 
-        public void AddFirm(Firm Firm)
+        public void AddFirm(Firm firm)
         {
             using (var db = new AppDbContext())
             {
-                db.Firms.Add(Firm);
+                db.Firms.Add(firm);
                 db.SaveChanges();
             }
         }
@@ -24,17 +24,17 @@ namespace Ticket_Reservation_System.Repositories
 
             using (var db = new AppDbContext())
             {
-                var Firms = db.Firms.ToList();
+                var firms = db.Firms.ToList();
 
-                return Firms;
+                return firms;
             }
         }
         public Firm GetFirmById(int id)
         {
             using (var db = new AppDbContext())
             {
-                var Firm = db.Firms.FirstOrDefault(v => v.Id == id);
-                return Firm;
+                var firm = db.Firms.FirstOrDefault(v => v.Id == id);
+                return firm;
             }
         }
 
@@ -42,10 +42,10 @@ namespace Ticket_Reservation_System.Repositories
         {
             using (var db = new AppDbContext())
             {
-                var Firm = db.Firms.FirstOrDefault(v => v.Id == id);
-                if (Firm != null)
+                var firm = db.Firms.FirstOrDefault(v => v.Id == id);
+                if (firm != null)
                 {
-                    db.Firms.Remove(Firm);
+                    db.Firms.Remove(firm);
                     db.SaveChanges();
                 }
             }

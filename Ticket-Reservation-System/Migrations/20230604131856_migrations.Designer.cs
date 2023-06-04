@@ -11,7 +11,7 @@ using Ticket_Reservation_System;
 namespace Ticket_Reservation_System.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230604000456_migrations")]
+    [Migration("20230604131856_migrations")]
     partial class migrations
     {
         /// <inheritdoc />
@@ -79,6 +79,10 @@ namespace Ticket_Reservation_System.Migrations
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime(6)");
 
+                    b.Property<string>("Time")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<int>("TripId")
                         .HasColumnType("int");
 
@@ -100,9 +104,6 @@ namespace Ticket_Reservation_System.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime(6)");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -110,6 +111,9 @@ namespace Ticket_Reservation_System.Migrations
                     b.Property<string>("PhoneNumber")
                         .IsRequired()
                         .HasColumnType("longtext");
+
+                    b.Property<DateTime>("PurchaseDate")
+                        .HasColumnType("datetime(6)");
 
                     b.Property<string>("SurName")
                         .IsRequired()
@@ -123,8 +127,9 @@ namespace Ticket_Reservation_System.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("TicketId")
-                        .IsUnique();
+                    b.HasIndex("TicketId");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Reservations");
                 });
@@ -146,34 +151,14 @@ namespace Ticket_Reservation_System.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<int?>("SeatTypeId")
-                        .HasColumnType("int");
-
                     b.Property<int>("VehicleId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("SeatTypeId");
-
                     b.HasIndex("VehicleId");
 
                     b.ToTable("Seats");
-                });
-
-            modelBuilder.Entity("Ticket_Reservation_System.Models.SeatType", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("SeatTypes");
                 });
 
             modelBuilder.Entity("Ticket_Reservation_System.Models.Task", b =>
@@ -235,23 +220,28 @@ namespace Ticket_Reservation_System.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(65,30)");
+                    b.Property<double>("Price")
+                        .HasColumnType("double");
 
-                    b.Property<DateTime>("PurchaseDate")
+                    b.Property<DateTime?>("PurchaseDate")
                         .HasColumnType("datetime(6)");
 
                     b.Property<string>("Status")
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<int>("TaskId")
+                        .HasColumnType("int");
+
                     b.Property<int>("TicketPlanId")
                         .HasColumnType("int");
 
-                    b.Property<int>("UserId")
+                    b.Property<int?>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("TaskId");
 
                     b.HasIndex("TicketPlanId");
 
@@ -266,8 +256,8 @@ namespace Ticket_Reservation_System.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(65,30)");
+                    b.Property<double>("Price")
+                        .HasColumnType("double");
 
                     b.Property<int>("SeatId")
                         .HasColumnType("int");
@@ -494,20 +484,24 @@ namespace Ticket_Reservation_System.Migrations
             modelBuilder.Entity("Ticket_Reservation_System.Models.Reservation", b =>
                 {
                     b.HasOne("Ticket_Reservation_System.Models.Ticket", "Ticket")
-                        .WithOne("Reservation")
-                        .HasForeignKey("Ticket_Reservation_System.Models.Reservation", "TicketId")
+                        .WithMany()
+                        .HasForeignKey("TicketId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Ticket_Reservation_System.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Ticket");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Ticket_Reservation_System.Models.Seat", b =>
                 {
-                    b.HasOne("Ticket_Reservation_System.Models.SeatType", null)
-                        .WithMany("Seats")
-                        .HasForeignKey("SeatTypeId");
-
                     b.HasOne("Ticket_Reservation_System.Models.Vehicle", "Vehicle")
                         .WithMany()
                         .HasForeignKey("VehicleId")
@@ -565,6 +559,12 @@ namespace Ticket_Reservation_System.Migrations
 
             modelBuilder.Entity("Ticket_Reservation_System.Models.Ticket", b =>
                 {
+                    b.HasOne("Ticket_Reservation_System.Models.Task", "Task")
+                        .WithMany()
+                        .HasForeignKey("TaskId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Ticket_Reservation_System.Models.TicketPlan", "TicketPlan")
                         .WithMany()
                         .HasForeignKey("TicketPlanId")
@@ -573,9 +573,9 @@ namespace Ticket_Reservation_System.Migrations
 
                     b.HasOne("Ticket_Reservation_System.Models.User", "User")
                         .WithMany("Tickets")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("Task");
 
                     b.Navigation("TicketPlan");
 
@@ -672,16 +672,6 @@ namespace Ticket_Reservation_System.Migrations
             modelBuilder.Entity("Ticket_Reservation_System.Models.Seat", b =>
                 {
                     b.Navigation("TicketPlans");
-                });
-
-            modelBuilder.Entity("Ticket_Reservation_System.Models.SeatType", b =>
-                {
-                    b.Navigation("Seats");
-                });
-
-            modelBuilder.Entity("Ticket_Reservation_System.Models.Ticket", b =>
-                {
-                    b.Navigation("Reservation");
                 });
 
             modelBuilder.Entity("Ticket_Reservation_System.Models.User", b =>

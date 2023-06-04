@@ -9,10 +9,10 @@ namespace Ticket_Reservation_System.Repositories
 {
     public class UserRepository
     {
-        public void AddUser(User newUser) {
+        public void AddUser(User user) {
             using(var db = new AppDbContext())
             {
-                db.Users.Add(newUser);
+                db.Users.Add(user);
                 db.SaveChanges();
             }
         }

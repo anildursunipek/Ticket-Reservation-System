@@ -10,11 +10,11 @@ namespace Ticket_Reservation_System.Repositories
     internal class LocationRepository
     {
 
-        public void AddLocation(Location Location)
+        public void AddLocation(Location location)
         {
             using (var db = new AppDbContext())
             {
-                db.Locations.Add(Location);
+                db.Locations.Add(location);
                 db.SaveChanges();
             }
         }
@@ -24,17 +24,17 @@ namespace Ticket_Reservation_System.Repositories
 
             using (var db = new AppDbContext())
             {
-                var Locations = db.Locations.ToList();
+                var locations = db.Locations.ToList();
 
-                return Locations;
+                return locations;
             }
         }
         public Location GetLocationById(int id)
         {
             using (var db = new AppDbContext())
             {
-                var Location = db.Locations.FirstOrDefault(v => v.Id == id);
-                return Location;
+                var location = db.Locations.FirstOrDefault(v => v.Id == id);
+                return location;
             }
         }
 
@@ -42,10 +42,10 @@ namespace Ticket_Reservation_System.Repositories
         {
             using (var db = new AppDbContext())
             {
-                var Location = db.Locations.FirstOrDefault(v => v.Id == id);
-                if (Location != null)
+                var location = db.Locations.FirstOrDefault(v => v.Id == id);
+                if (location != null)
                 {
-                    db.Locations.Remove(Location);
+                    db.Locations.Remove(location);
                     db.SaveChanges();
                 }
             }

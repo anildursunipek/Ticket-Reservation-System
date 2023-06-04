@@ -54,21 +54,6 @@ namespace Ticket_Reservation_System.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "SeatTypes",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    Name = table.Column<string>(type: "longtext", nullable: false)
-                        .Annotation("MySql:CharSet", "utf8mb4")
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_SeatTypes", x => x.Id);
-                })
-                .Annotation("MySql:CharSet", "utf8mb4");
-
-            migrationBuilder.CreateTable(
                 name: "Users",
                 columns: table => new
                 {
@@ -210,17 +195,11 @@ namespace Ticket_Reservation_System.Migrations
                     SeatNumber = table.Column<int>(type: "int", nullable: false),
                     VehicleId = table.Column<int>(type: "int", nullable: false),
                     SeatType = table.Column<string>(type: "longtext", nullable: false)
-                        .Annotation("MySql:CharSet", "utf8mb4"),
-                    SeatTypeId = table.Column<int>(type: "int", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Seats", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Seats_SeatTypes_SeatTypeId",
-                        column: x => x.SeatTypeId,
-                        principalTable: "SeatTypes",
-                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_Seats_Vehicles_VehicleId",
                         column: x => x.VehicleId,
@@ -274,6 +253,8 @@ namespace Ticket_Reservation_System.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Date = table.Column<DateTime>(type: "datetime(6)", nullable: false),
+                    Time = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
                     TripId = table.Column<int>(type: "int", nullable: false),
                     WorkerId = table.Column<int>(type: "int", nullable: false)
                 },
@@ -364,7 +345,7 @@ namespace Ticket_Reservation_System.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    Price = table.Column<decimal>(type: "decimal(65,30)", nullable: false),
+                    Price = table.Column<double>(type: "double", nullable: false),
                     SeatId = table.Column<int>(type: "int", nullable: false),
                     TaskPlanId = table.Column<int>(type: "int", nullable: false)
                 },
@@ -392,16 +373,23 @@ namespace Ticket_Reservation_System.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    Price = table.Column<decimal>(type: "decimal(65,30)", nullable: false),
-                    PurchaseDate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
+                    UserId = table.Column<int>(type: "int", nullable: true),
+                    Price = table.Column<double>(type: "double", nullable: false),
+                    PurchaseDate = table.Column<DateTime>(type: "datetime(6)", nullable: true),
                     Status = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    TicketPlanId = table.Column<int>(type: "int", nullable: false),
-                    UserId = table.Column<int>(type: "int", nullable: false)
+                    TaskId = table.Column<int>(type: "int", nullable: false),
+                    TicketPlanId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Tickets", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Tickets_Tasks_TaskId",
+                        column: x => x.TaskId,
+                        principalTable: "Tasks",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Tickets_TicketPlans_TicketPlanId",
                         column: x => x.TicketPlanId,
@@ -412,8 +400,7 @@ namespace Ticket_Reservation_System.Migrations
                         name: "FK_Tickets_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
@@ -423,15 +410,15 @@ namespace Ticket_Reservation_System.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    CreatedDate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
+                    UserId = table.Column<int>(type: "int", nullable: false),
+                    TicketId = table.Column<int>(type: "int", nullable: false),
+                    PurchaseDate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     Name = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     SurName = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     PhoneNumber = table.Column<string>(type: "longtext", nullable: false)
-                        .Annotation("MySql:CharSet", "utf8mb4"),
-                    UserId = table.Column<int>(type: "int", nullable: false),
-                    TicketId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
                 {
@@ -440,6 +427,12 @@ namespace Ticket_Reservation_System.Migrations
                         name: "FK_Reservations_Tickets_TicketId",
                         column: x => x.TicketId,
                         principalTable: "Tickets",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Reservations_Users_UserId",
+                        column: x => x.UserId,
+                        principalTable: "Users",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 })
@@ -458,13 +451,12 @@ namespace Ticket_Reservation_System.Migrations
             migrationBuilder.CreateIndex(
                 name: "IX_Reservations_TicketId",
                 table: "Reservations",
-                column: "TicketId",
-                unique: true);
+                column: "TicketId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Seats_SeatTypeId",
-                table: "Seats",
-                column: "SeatTypeId");
+                name: "IX_Reservations_UserId",
+                table: "Reservations",
+                column: "UserId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Seats_VehicleId",
@@ -505,6 +497,11 @@ namespace Ticket_Reservation_System.Migrations
                 name: "IX_TicketPlans_TaskPlanId",
                 table: "TicketPlans",
                 column: "TaskPlanId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Tickets_TaskId",
+                table: "Tickets",
+                column: "TaskId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Tickets_TicketPlanId",
@@ -559,13 +556,10 @@ namespace Ticket_Reservation_System.Migrations
                 name: "Reservations");
 
             migrationBuilder.DropTable(
-                name: "Tasks");
-
-            migrationBuilder.DropTable(
                 name: "Tickets");
 
             migrationBuilder.DropTable(
-                name: "Processes");
+                name: "Tasks");
 
             migrationBuilder.DropTable(
                 name: "TicketPlans");
@@ -574,7 +568,7 @@ namespace Ticket_Reservation_System.Migrations
                 name: "Users");
 
             migrationBuilder.DropTable(
-                name: "Workers");
+                name: "Processes");
 
             migrationBuilder.DropTable(
                 name: "Seats");
@@ -583,7 +577,7 @@ namespace Ticket_Reservation_System.Migrations
                 name: "TaskPlans");
 
             migrationBuilder.DropTable(
-                name: "SeatTypes");
+                name: "Workers");
 
             migrationBuilder.DropTable(
                 name: "Trips");

@@ -12,13 +12,14 @@ namespace Ticket_Reservation_System.Models
         [Key]
 
         public int Id { get; set; }
-        public decimal Price { get; set; }
-        public DateTime PurchaseDate { get; set; }
+        public User User { get; set; }
+        public int? UserId { get; set; }
+        public double Price { get; set; }
+        public DateTime? PurchaseDate { get; set; }
         public string Status { get; set; }
+        public Task Task { get; set; }
+        public int TaskId { get; set; }
         public TicketPlan TicketPlan { get; set; }
         public int TicketPlanId { get; set; }
-        public User User { get; set; }
-        public int UserId { get; set; }
-        public Reservation? Reservation { get; set; }
     }
 }

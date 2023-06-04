@@ -208,11 +208,7 @@ namespace Ticket_Reservation_System.Forms
 
         private List<string> fillSeatType()
         {
-            List<string> strList = new List<string>();
-            strList.Add("NORMAL");
-            strList.Add("PREMIUM");
-            strList.Add("BUSINESS");
-            return strList;
+            return new SeatTypes().getSeatTypes();
         }
         private void getSeatByVehicle()
         {

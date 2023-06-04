@@ -10,11 +10,11 @@ namespace Ticket_Reservation_System.Repositories
     internal class TripRepository
     {
 
-        public Trip AddTrip(Trip Trip)
+        public Trip AddTrip(Trip trip)
         {
             using (var db = new AppDbContext())
             {
-                var savedTrip = db.Trips.Add(Trip);
+                var savedTrip = db.Trips.Add(trip);
                 db.SaveChanges();
                 return savedTrip.Entity;
             }
@@ -36,6 +36,11 @@ namespace Ticket_Reservation_System.Repositories
 
                 return trips;
             }
+        }
+
+        public List<Trip> getTripsByVehicle(int id)
+        {
+            return GetAllTrips().FindAll(trip => trip.VehicleId == id);
         }
         public Trip GetTripById(int id)
         {
