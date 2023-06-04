@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Ticket_Reservation_System.Forms;
 using Ticket_Reservation_System.Models;
 
 namespace Ticket_Reservation_System.Repositories
@@ -20,6 +21,55 @@ namespace Ticket_Reservation_System.Repositories
             }
         }
 
+        public List<List<Models.Task>> searchByDateAndTrip(Location _startingPoint, Location _destinationPoint, string type, DateTime dateTime)
+        {
+            List<Models.Task> tasks;
+            List<List<Models.Task>> savedTasks = new List<List<Models.Task>>();
+            bool startFlag = false;
+            bool destinationFlag = false;
+            bool saveFlag = false;
+
+            using (var db = new AppDbContext())
+            {
+                var processes = db.Processes.Where(process => process.Date.Date == dateTime.Date).ToList();
+                foreach (var process in processes)
+                {
+                    tasks = new TaskRepository().GetTaskByProcess(process.Id);
+                    List<Models.Task> addTasks = new List<Models.Task>();
+                    startFlag = false;
+                    destinationFlag = false;
+                    saveFlag = false;
+
+                    foreach (var task in tasks)
+                    {
+                        if (task.TaskPlan.StartingPoint.Id == _startingPoint.Id)
+                        {
+                            startFlag = true;
+                        }
+                        if (startFlag)
+                        {
+                            addTasks.Add(task);
+                        }
+                        if (task.TaskPlan.DestinationPoint.Id == _destinationPoint.Id)
+                        {
+                            destinationFlag = true;
+                        }
+
+                        if(startFlag == true && destinationFlag == true)
+                        {
+                            saveFlag = true;
+                            break;
+                        }
+                    }
+                    if(saveFlag == true)
+                    {
+                        savedTasks.Add(addTasks);
+                    }
+                }
+
+            }
+            return savedTasks;
+        }
         public List<Process> GetAllProcesses()
         {
             using (var db = new AppDbContext())

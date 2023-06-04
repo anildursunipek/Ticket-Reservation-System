@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Media;
 using Ticket_Reservation_System.Models;
+using Ticket_Reservation_System.Repositories;
 
 namespace Ticket_Reservation_System.Forms
 {
@@ -20,6 +21,14 @@ namespace Ticket_Reservation_System.Forms
         List<Ticket> list;
         String ticketType;
         Bitmap[] logos;
+        Location _startingPoint;
+        Location _destinationPoint;
+        DateTime _dateTime;
+        List<List<Models.Task>> _tasks;
+
+        List<Models.Task> _searchTaskPlans;
+
+        ProcessRepository _processRepository;
 
         Bitmap[] busLogos = new Bitmap[]{
             Properties.Resources.anadolu,
@@ -46,23 +55,60 @@ namespace Ticket_Reservation_System.Forms
             Properties.Resources.f_stena
         };
 
-        public frmTicketList(String ticketType)
+        public frmTicketList(Location startingPoint, Location destinationPoint, string ticketType, DateTime dateTime)
         {
             InitializeComponent();
-            this.ticketType = ticketType;
+            _startingPoint = startingPoint;
+            _destinationPoint = destinationPoint;
+            MessageBox.Show(startingPoint.Name);
+            MessageBox.Show(destinationPoint.Name);
+            _dateTime = dateTime;
+            _searchTaskPlans = new List<Models.Task>();
+            _processRepository = new ProcessRepository();
+            _tasks = new List<List<Models.Task>>();
+
             if (ticketType == "PLANE")
-                this.logos = planeLogos;
+            {
+                this.ticketType = "Havalimanı";
+            this.logos = planeLogos;
+            }
             else if (ticketType == "BUS")
+            {
+                this.ticketType = "Otobüs terminali";
                 this.logos = busLogos;
+            }
             else if (ticketType == "FERRY")
-                this.logos = ferryLogos; 
+            {
+                this.ticketType = "Havalimanı";
+                this.logos = ferryLogos;
+            }
+
+            getTaskPlans();
         }
         public frmTicketList()
         {
             InitializeComponent();
+            this.logos = busLogos;
+
         }
 
-        private void frmTicketList_Load(object sender, EventArgs e)
+        public void getTaskPlans()
+        {
+            List<List<Models.Task>> tasks = _processRepository.searchByDateAndTrip(_startingPoint, _destinationPoint, ticketType, _dateTime);
+
+            foreach (List<Models.Task> task in tasks)
+            {
+
+                MessageBox.Show("Yeni geliyor");
+                MessageBox.Show("task count: " + task.Count);
+                MessageBox.Show("Başlangıç: " + task[0].TaskPlan.StartingPoint.Name);
+                MessageBox.Show("Bitiş: " + task[task.Count-1].TaskPlan.DestinationPoint.Name);
+                MessageBox.Show("type: " + task[task.Count-1].TaskPlan.StartingPoint.Type);
+                createTickers(task);
+            }
+        }
+
+        private void createTickers(List<Models.Task> tasks)
         {
             this.panel1.AutoScroll = true;
 
@@ -72,7 +118,7 @@ namespace Ticket_Reservation_System.Forms
             int topMargin = 0;
             int verticalSpacing = 15;
 
-            for (int i = 0; i < panelCount; i++)
+            for (int i = 0; i < tasks.Count; i++)
             {
                 Panel panel = new Panel();
                 panel.Margin = new Padding(10, 0, 0, 0);
@@ -100,16 +146,39 @@ namespace Ticket_Reservation_System.Forms
                 panel.Controls.Add(iconButton);
 
                 Label label = new Label();
-                label.Size = new System.Drawing.Size(100, 20);
+                label.AutoSize = true;
                 label.Location = new System.Drawing.Point(300, 25);
-                label.Text = "00:50";
+                label.Text = tasks[0].Process.Time; // dğzelcek
                 label.Font = new System.Drawing.Font("Verdana", 10);
                 panel.Controls.Add(label);
+
+                Label label4 = new Label();
+                label4.Size = new System.Drawing.Size(100, 20);
+                label4.Location = new System.Drawing.Point(350, 28);
+                var label4Text = "";
+                double durationDouble = 0;
+                foreach (var task in tasks)
+                {
+                    durationDouble += task.TaskPlan.Duration;
+                }
+                var list = durationDouble.ToString().Split(".");
+
+                if (list.Length == 1)
+                {
+                    label4Text = list[0] + "s 00dk";
+                }
+                else
+                {
+                    label4Text = list[0] + "s " + (list[1].Length == 1 ? list[1] + "0dk" : list[1]);
+                }
+                label4.Text = "( "+label4Text+" )";
+                label4.Font = new System.Drawing.Font("Verdana", 7);
+                panel.Controls.Add(label4);
 
                 Label label2 = new Label();
                 label2.Size = new System.Drawing.Size(200, 20);
                 label2.Location = new System.Drawing.Point(250, 50);
-                label2.Text = "ANKARA - BURSA";
+                label2.Text = tasks[0].TaskPlan.StartingPoint.Name+" - "+ tasks[tasks.Count-1].TaskPlan.DestinationPoint.Name;
                 label2.Font = new System.Drawing.Font("Verdana", 10);
                 panel.Controls.Add(label2);
 
@@ -117,7 +186,7 @@ namespace Ticket_Reservation_System.Forms
                 Label label3 = new Label();
                 label3.Size = new System.Drawing.Size(80, 35);
                 label3.Location = new System.Drawing.Point(500, 33);
-                label3.Text = "500 TL";
+                label3.Text = "500 TL"; //ücret eklenecek
                 label3.Font = new System.Drawing.Font("Verdana", 12);
                 panel.Controls.Add(label3);
 

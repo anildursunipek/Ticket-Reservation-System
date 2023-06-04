@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Ticket_Reservation_System.Forms;
+using Ticket_Reservation_System.Models;
 
 namespace Ticket_Reservation_System.Repositories
 {
@@ -33,6 +34,21 @@ namespace Ticket_Reservation_System.Repositories
                 return tasks;
             }
         }
+
+        public List<Models.Task> GetTaskByProcess(int id)
+        {
+            using (var db = new AppDbContext())
+            {
+                var tasks = db.Tasks.Where(task => task.ProcessId == id).ToList();
+                foreach(var task in tasks)
+                {
+                    task.TaskPlan = new TaskPlanRepository().GetTaskPlanById(task.TaskPlanId);
+                    task.Process = new ProcessRepository().GetProcessById(task.ProcessId);
+                }
+                return tasks;
+            }
+        }
+
         public Models.Task GetTaskById(int id)
         {
             using (var db = new AppDbContext())

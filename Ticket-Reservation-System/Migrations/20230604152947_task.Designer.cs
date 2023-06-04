@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Ticket_Reservation_System;
 
@@ -10,9 +11,11 @@ using Ticket_Reservation_System;
 namespace Ticket_Reservation_System.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230604152947_task")]
+    partial class task
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -82,10 +85,6 @@ namespace Ticket_Reservation_System.Migrations
 
                     b.Property<int>("TripId")
                         .HasColumnType("int");
-
-                    b.Property<string>("Type")
-                        .IsRequired()
-                        .HasColumnType("longtext");
 
                     b.Property<int>("WorkerId")
                         .HasColumnType("int");
@@ -173,6 +172,10 @@ namespace Ticket_Reservation_System.Migrations
 
                     b.Property<int>("TaskPlanId")
                         .HasColumnType("int");
+
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.HasKey("Id");
 

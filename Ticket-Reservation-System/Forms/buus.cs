@@ -9,11 +9,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Transactions;
 using System.Windows.Forms;
+using Ticket_Reservation_System.Models;
+using Ticket_Reservation_System.Repositories;
 
 namespace Ticket_Reservation_System.Forms
 {
     public partial class buus : Form
     {
+        Location _startingPoint;
+        Location _destinationPoint;
         public buus()
         {
             InitializeComponent();
@@ -23,6 +27,17 @@ namespace Ticket_Reservation_System.Forms
             OvalShape(panel2);
             OvalShape(panel3);
             OvalShape(panel4);
+
+            getLocations();
+        }
+        private void getLocations()
+        {
+            var locations = new LocationRepository().GetAllLocations();
+            var locations2 = new LocationRepository().GetAllLocations();
+            comboBoxDestinationPoint.DataSource = locations;
+            comboBoxDestinationPoint.DisplayMember = "Name";
+            comboBoxStarPoint.DataSource = locations2;
+            comboBoxStarPoint.DisplayMember = "Name";
         }
 
         private void OvalShape(Control control)
@@ -97,26 +112,29 @@ namespace Ticket_Reservation_System.Forms
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            int selectedIndex = comboBox1.SelectedIndex;
-            string selectedValue = comboBox1.SelectedItem.ToString();
+            int selectedIndex = comboBoxStarPoint.SelectedIndex;
+            string selectedValue = comboBoxStarPoint.SelectedItem.ToString();
 
-            comboBox1.SelectedIndex = comboBox2.SelectedIndex;
-            comboBox1.SelectedItem = comboBox2.SelectedItem;
+            comboBoxStarPoint.SelectedIndex = comboBoxDestinationPoint.SelectedIndex;
+            comboBoxStarPoint.SelectedItem = comboBoxDestinationPoint.SelectedItem;
 
-            comboBox2.SelectedIndex = selectedIndex;
-            comboBox2.SelectedItem = selectedValue;
+            comboBoxDestinationPoint.SelectedIndex = selectedIndex;
+            comboBoxDestinationPoint.SelectedItem = selectedValue;
 
         }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void comboBoxStarPoint_SelectedIndexChanged(object sender, EventArgs e)
         {
+            _startingPoint = (Location)comboBoxStarPoint.SelectedItem;
+        }
 
-
+        private void comboBoxDestinationPoint_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            _destinationPoint = (Location)comboBoxDestinationPoint.SelectedItem;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmTicketList frmTicketList = new frmTicketList("BUS");
+            frmTicketList frmTicketList = new frmTicketList(_startingPoint, _destinationPoint, "BUS", dateTimePicker1.Value.Date);
             this.Controls.Clear();
             frmTicketList.TopLevel = false;
             frmTicketList.FormBorderStyle = FormBorderStyle.None;
@@ -125,6 +143,5 @@ namespace Ticket_Reservation_System.Forms
             frmTicketList.BringToFront();
             frmTicketList.Show();
         }
-
     }
 }

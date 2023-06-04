@@ -78,7 +78,7 @@ namespace Ticket_Reservation_System.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmTicketList frmTicketList = new frmTicketList("FERRY");
+            frmTicketList frmTicketList = new frmTicketList();
             this.Controls.Clear();
             frmTicketList.TopLevel = false;
             frmTicketList.FormBorderStyle = FormBorderStyle.None;

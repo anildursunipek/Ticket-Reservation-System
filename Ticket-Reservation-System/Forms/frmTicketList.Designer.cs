@@ -49,7 +49,6 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "frmTicketList";
             Text = "frmTicketList";
-            Load += frmTicketList_Load;
             ResumeLayout(false);
         }
 

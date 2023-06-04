@@ -214,6 +214,7 @@ namespace Ticket_Reservation_System.Forms
                 _process.Time = textBoxTime.Text;
                 _process.WorkerId = _selectedWorker.Id;
                 _process.TripId = _selectedTrip.Id;
+                _process.Type = _selectedTrip.StartingPoint.Type;
 
                 var _savedProcess = _processRepository.AddProcess(_process);
 

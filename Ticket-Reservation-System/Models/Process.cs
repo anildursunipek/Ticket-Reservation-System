@@ -11,8 +11,9 @@ namespace Ticket_Reservation_System.Models
     {
         [Key]
         public int Id { get; set; }
-        public DateTime Date { get; set; }
+        public string Type { get; set; }
         public string Time { get; set; }
+        public DateTime Date { get; set; }
         public int TripId { get; set; }
         public Trip Trip { get; set; }
         public int WorkerId { get; set; }
