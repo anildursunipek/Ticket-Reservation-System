@@ -102,12 +102,12 @@ namespace Ticket_Reservation_System.Forms
             var i = 0;
             foreach (List<Models.Task> task in _tasks)
             {
-                createTickers(task, i);
+                createTickets(task, i);
                 i++;
             }
         }
 
-        private void createTickers(List<Models.Task> tasks,int index)
+        private void createTickets(List<Models.Task> tasks,int index)
         {
             this.panel1.AutoScroll = true;
 

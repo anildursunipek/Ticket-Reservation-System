@@ -61,6 +61,7 @@ namespace Ticket_Reservation_System
 
         public void openNewForm(Form frm)
         {
+            //ApplicationConfiguration.Initialize();
             Application.Run(frm);
         }
 
