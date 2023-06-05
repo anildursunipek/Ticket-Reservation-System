@@ -36,6 +36,9 @@ namespace Ticket_Reservation_System.Forms
         {
             var locations = new LocationRepository().GetAllLocations();
             var locations2 = new LocationRepository().GetAllLocations();
+            locations = locations.FindAll(location => location.Type == "Otobüs terminali");
+            locations2 = locations2.FindAll(location => location.Type == "Otobüs terminali");
+
             comboBoxDestinationPoint.DataSource = locations;
             comboBoxDestinationPoint.DisplayMember = "Name";
             comboBoxStarPoint.DataSource = locations2;
@@ -136,14 +139,17 @@ namespace Ticket_Reservation_System.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmTicketList frmTicketList = new frmTicketList(_startingPoint, _destinationPoint, "BUS", dateTimePicker1.Value.Date, user);
-            this.Controls.Clear();
-            frmTicketList.TopLevel = false;
-            frmTicketList.FormBorderStyle = FormBorderStyle.None;
-            frmTicketList.Dock = DockStyle.Fill;
-            this.Controls.Add(frmTicketList);
-            frmTicketList.BringToFront();
-            frmTicketList.Show();
+            if (_startingPoint != null && _destinationPoint != null)
+            {
+                frmTicketList frmTicketList = new frmTicketList(_startingPoint, _destinationPoint, "BUS", dateTimePicker1.Value.Date, user);
+                this.Controls.Clear();
+                frmTicketList.TopLevel = false;
+                frmTicketList.FormBorderStyle = FormBorderStyle.None;
+                frmTicketList.Dock = DockStyle.Fill;
+                this.Controls.Add(frmTicketList);
+                frmTicketList.BringToFront();
+                frmTicketList.Show();
+            }
         }
     }
 }

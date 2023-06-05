@@ -30,1593 +30,1787 @@
         {
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges42 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges43 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges47 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges48 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges49 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges50 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges51 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges52 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges53 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges54 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges55 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges56 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges57 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges58 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges59 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges60 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges61 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges62 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges63 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges64 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges65 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges66 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges67 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges68 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges69 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges70 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges71 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges72 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges73 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges74 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges75 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges76 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges77 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges78 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges79 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges80 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges81 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges82 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges83 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges84 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges85 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges86 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges87 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges88 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges89 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges90 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges91 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges92 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges93 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges94 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges95 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges96 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges97 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges98 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges99 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges100 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges101 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges102 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges103 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges104 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges105 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges106 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges107 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges108 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges109 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges110 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges111 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges112 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges113 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges114 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges115 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges116 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PlaneKoltukBusiness));
-            guna2Button16 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button17 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button30 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button12 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button13 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button14 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button15 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button18 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button19 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button20 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button21 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button22 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button23 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button24 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button25 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button26 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button27 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button28 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button29 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button31 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button32 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button33 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button34 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button35 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button36 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button37 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button38 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button39 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button40 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button41 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button42 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button43 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button44 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button45 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button46 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button47 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button48 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button49 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button50 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button51 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button52 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button53 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button54 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button55 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button56 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button57 = new Guna.UI2.WinForms.Guna2Button();
-            label1 = new Label();
-            SuspendLayout();
-            // 
-            // guna2Button16
-            // 
-            guna2Button16.AutoRoundedCorners = true;
-            guna2Button16.BackColor = Color.Transparent;
-            guna2Button16.BorderColor = Color.Transparent;
-            guna2Button16.BorderRadius = 17;
-            guna2Button16.CustomizableEdges = customizableEdges1;
-            guna2Button16.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button16.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button16.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button16.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button16.FillColor = Color.Transparent;
-            guna2Button16.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button16.ForeColor = Color.White;
-            guna2Button16.Location = new Point(254, 337);
-            guna2Button16.Name = "guna2Button16";
-            guna2Button16.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Button16.Size = new Size(44, 37);
-            guna2Button16.TabIndex = 20;
-            guna2Button16.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button16.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button17
-            // 
-            guna2Button17.AutoRoundedCorners = true;
-            guna2Button17.BackColor = Color.Transparent;
-            guna2Button17.BorderColor = Color.Transparent;
-            guna2Button17.BorderRadius = 17;
-            guna2Button17.CustomizableEdges = customizableEdges3;
-            guna2Button17.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button17.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button17.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button17.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button17.FillColor = Color.Transparent;
-            guna2Button17.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button17.ForeColor = Color.White;
-            guna2Button17.Location = new Point(254, 295);
-            guna2Button17.Name = "guna2Button17";
-            guna2Button17.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2Button17.Size = new Size(44, 37);
-            guna2Button17.TabIndex = 19;
-            guna2Button17.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button17.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button30
-            // 
-            guna2Button30.AutoRoundedCorners = true;
-            guna2Button30.BackColor = Color.Transparent;
-            guna2Button30.BorderColor = Color.Transparent;
-            guna2Button30.BorderRadius = 17;
-            guna2Button30.CustomizableEdges = customizableEdges5;
-            guna2Button30.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button30.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button30.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button30.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button30.FillColor = Color.Transparent;
-            guna2Button30.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button30.ForeColor = Color.White;
-            guna2Button30.Location = new Point(254, 377);
-            guna2Button30.Name = "guna2Button30";
-            guna2Button30.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            guna2Button30.Size = new Size(44, 37);
-            guna2Button30.TabIndex = 30;
-            guna2Button30.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button30.Click += ToggleButtonVisibility;
-            // 
-            // guna2Panel1
-            // 
-            guna2Panel1.AutoRoundedCorners = true;
-            guna2Panel1.BorderRadius = 121;
-            guna2Panel1.CustomizableEdges = customizableEdges7;
-            guna2Panel1.Location = new Point(4, 295);
-            guna2Panel1.Name = "guna2Panel1";
-            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            guna2Panel1.Size = new Size(244, 281);
-            guna2Panel1.TabIndex = 60;
-            guna2Panel1.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button1
-            // 
-            guna2Button1.AutoRoundedCorners = true;
-            guna2Button1.BackColor = Color.Transparent;
-            guna2Button1.BorderColor = Color.Transparent;
-            guna2Button1.BorderRadius = 17;
-            guna2Button1.CustomizableEdges = customizableEdges9;
-            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button1.FillColor = Color.Transparent;
-            guna2Button1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button1.ForeColor = Color.White;
-            guna2Button1.Location = new Point(314, 377);
-            guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            guna2Button1.Size = new Size(44, 37);
-            guna2Button1.TabIndex = 63;
-            guna2Button1.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button1.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button2
-            // 
-            guna2Button2.AutoRoundedCorners = true;
-            guna2Button2.BackColor = Color.Transparent;
-            guna2Button2.BorderColor = Color.Transparent;
-            guna2Button2.BorderRadius = 17;
-            guna2Button2.CustomizableEdges = customizableEdges11;
-            guna2Button2.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button2.FillColor = Color.Transparent;
-            guna2Button2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button2.ForeColor = Color.White;
-            guna2Button2.Location = new Point(314, 337);
-            guna2Button2.Name = "guna2Button2";
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            guna2Button2.Size = new Size(44, 37);
-            guna2Button2.TabIndex = 62;
-            guna2Button2.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button2.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button3
-            // 
-            guna2Button3.AutoRoundedCorners = true;
-            guna2Button3.BackColor = Color.Transparent;
-            guna2Button3.BorderColor = Color.Transparent;
-            guna2Button3.BorderRadius = 17;
-            guna2Button3.CustomizableEdges = customizableEdges13;
-            guna2Button3.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button3.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button3.FillColor = Color.Transparent;
-            guna2Button3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button3.ForeColor = Color.White;
-            guna2Button3.Location = new Point(314, 295);
-            guna2Button3.Name = "guna2Button3";
-            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            guna2Button3.Size = new Size(44, 37);
-            guna2Button3.TabIndex = 61;
-            guna2Button3.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button3.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button4
-            // 
-            guna2Button4.AutoRoundedCorners = true;
-            guna2Button4.BackColor = Color.Transparent;
-            guna2Button4.BorderColor = Color.Transparent;
-            guna2Button4.BorderRadius = 17;
-            guna2Button4.CustomizableEdges = customizableEdges15;
-            guna2Button4.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button4.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button4.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button4.FillColor = Color.Transparent;
-            guna2Button4.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button4.ForeColor = Color.White;
-            guna2Button4.Location = new Point(494, 378);
-            guna2Button4.Name = "guna2Button4";
-            guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            guna2Button4.Size = new Size(44, 37);
-            guna2Button4.TabIndex = 69;
-            guna2Button4.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button4.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button5
-            // 
-            guna2Button5.AutoRoundedCorners = true;
-            guna2Button5.BackColor = Color.Transparent;
-            guna2Button5.BorderColor = Color.Transparent;
-            guna2Button5.BorderRadius = 17;
-            guna2Button5.CustomizableEdges = customizableEdges17;
-            guna2Button5.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button5.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button5.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button5.FillColor = Color.Transparent;
-            guna2Button5.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button5.ForeColor = Color.White;
-            guna2Button5.Location = new Point(494, 338);
-            guna2Button5.Name = "guna2Button5";
-            guna2Button5.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            guna2Button5.Size = new Size(44, 37);
-            guna2Button5.TabIndex = 68;
-            guna2Button5.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button5.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button6
-            // 
-            guna2Button6.AutoRoundedCorners = true;
-            guna2Button6.BackColor = Color.Transparent;
-            guna2Button6.BorderColor = Color.Transparent;
-            guna2Button6.BorderRadius = 17;
-            guna2Button6.CustomizableEdges = customizableEdges19;
-            guna2Button6.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button6.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button6.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button6.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button6.FillColor = Color.Transparent;
-            guna2Button6.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button6.ForeColor = Color.White;
-            guna2Button6.Location = new Point(494, 296);
-            guna2Button6.Name = "guna2Button6";
-            guna2Button6.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            guna2Button6.Size = new Size(44, 37);
-            guna2Button6.TabIndex = 67;
-            guna2Button6.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button6.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button7
-            // 
-            guna2Button7.AutoRoundedCorners = true;
-            guna2Button7.BackColor = Color.Transparent;
-            guna2Button7.BorderColor = Color.Transparent;
-            guna2Button7.BorderRadius = 17;
-            guna2Button7.CustomizableEdges = customizableEdges21;
-            guna2Button7.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button7.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button7.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button7.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button7.FillColor = Color.Transparent;
-            guna2Button7.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button7.ForeColor = Color.White;
-            guna2Button7.Location = new Point(434, 378);
-            guna2Button7.Name = "guna2Button7";
-            guna2Button7.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            guna2Button7.Size = new Size(44, 37);
-            guna2Button7.TabIndex = 66;
-            guna2Button7.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button7.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button8
-            // 
-            guna2Button8.AutoRoundedCorners = true;
-            guna2Button8.BackColor = Color.Transparent;
-            guna2Button8.BorderColor = Color.Transparent;
-            guna2Button8.BorderRadius = 17;
-            guna2Button8.CustomizableEdges = customizableEdges23;
-            guna2Button8.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button8.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button8.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button8.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button8.FillColor = Color.Transparent;
-            guna2Button8.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button8.ForeColor = Color.White;
-            guna2Button8.Location = new Point(434, 338);
-            guna2Button8.Name = "guna2Button8";
-            guna2Button8.ShadowDecoration.CustomizableEdges = customizableEdges24;
-            guna2Button8.Size = new Size(44, 37);
-            guna2Button8.TabIndex = 65;
-            guna2Button8.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button8.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button9
-            // 
-            guna2Button9.AutoRoundedCorners = true;
-            guna2Button9.BackColor = Color.Transparent;
-            guna2Button9.BorderColor = Color.Transparent;
-            guna2Button9.BorderRadius = 17;
-            guna2Button9.CustomizableEdges = customizableEdges25;
-            guna2Button9.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button9.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button9.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button9.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button9.FillColor = Color.Transparent;
-            guna2Button9.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button9.ForeColor = Color.White;
-            guna2Button9.Location = new Point(434, 296);
-            guna2Button9.Name = "guna2Button9";
-            guna2Button9.ShadowDecoration.CustomizableEdges = customizableEdges26;
-            guna2Button9.Size = new Size(44, 37);
-            guna2Button9.TabIndex = 64;
-            guna2Button9.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button9.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button10
-            // 
-            guna2Button10.AutoRoundedCorners = true;
-            guna2Button10.BackColor = Color.Transparent;
-            guna2Button10.BorderColor = Color.Transparent;
-            guna2Button10.BorderRadius = 17;
-            guna2Button10.CustomizableEdges = customizableEdges27;
-            guna2Button10.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button10.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button10.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button10.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button10.FillColor = Color.Transparent;
-            guna2Button10.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button10.ForeColor = Color.White;
-            guna2Button10.Location = new Point(679, 378);
-            guna2Button10.Name = "guna2Button10";
-            guna2Button10.ShadowDecoration.CustomizableEdges = customizableEdges28;
-            guna2Button10.Size = new Size(44, 37);
-            guna2Button10.TabIndex = 75;
-            guna2Button10.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button10.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button11
-            // 
-            guna2Button11.AutoRoundedCorners = true;
-            guna2Button11.BackColor = Color.Transparent;
-            guna2Button11.BorderColor = Color.Transparent;
-            guna2Button11.BorderRadius = 17;
-            guna2Button11.CustomizableEdges = customizableEdges29;
-            guna2Button11.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button11.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button11.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button11.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button11.FillColor = Color.Transparent;
-            guna2Button11.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button11.ForeColor = Color.White;
-            guna2Button11.Location = new Point(679, 338);
-            guna2Button11.Name = "guna2Button11";
-            guna2Button11.ShadowDecoration.CustomizableEdges = customizableEdges30;
-            guna2Button11.Size = new Size(44, 37);
-            guna2Button11.TabIndex = 74;
-            guna2Button11.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button11.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button12
-            // 
-            guna2Button12.AutoRoundedCorners = true;
-            guna2Button12.BackColor = Color.Transparent;
-            guna2Button12.BorderColor = Color.Transparent;
-            guna2Button12.BorderRadius = 17;
-            guna2Button12.CustomizableEdges = customizableEdges31;
-            guna2Button12.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button12.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button12.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button12.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button12.FillColor = Color.Transparent;
-            guna2Button12.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button12.ForeColor = Color.White;
-            guna2Button12.Location = new Point(679, 296);
-            guna2Button12.Name = "guna2Button12";
-            guna2Button12.ShadowDecoration.CustomizableEdges = customizableEdges32;
-            guna2Button12.Size = new Size(44, 37);
-            guna2Button12.TabIndex = 73;
-            guna2Button12.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button12.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button13
-            // 
-            guna2Button13.AutoRoundedCorners = true;
-            guna2Button13.BackColor = Color.Transparent;
-            guna2Button13.BorderColor = Color.Transparent;
-            guna2Button13.BorderRadius = 17;
-            guna2Button13.CustomizableEdges = customizableEdges33;
-            guna2Button13.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button13.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button13.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button13.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button13.FillColor = Color.Transparent;
-            guna2Button13.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button13.ForeColor = Color.White;
-            guna2Button13.Location = new Point(619, 378);
-            guna2Button13.Name = "guna2Button13";
-            guna2Button13.ShadowDecoration.CustomizableEdges = customizableEdges34;
-            guna2Button13.Size = new Size(44, 37);
-            guna2Button13.TabIndex = 72;
-            guna2Button13.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button13.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button14
-            // 
-            guna2Button14.AutoRoundedCorners = true;
-            guna2Button14.BackColor = Color.Transparent;
-            guna2Button14.BorderColor = Color.Transparent;
-            guna2Button14.BorderRadius = 17;
-            guna2Button14.CustomizableEdges = customizableEdges35;
-            guna2Button14.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button14.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button14.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button14.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button14.FillColor = Color.Transparent;
-            guna2Button14.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button14.ForeColor = Color.White;
-            guna2Button14.Location = new Point(619, 338);
-            guna2Button14.Name = "guna2Button14";
-            guna2Button14.ShadowDecoration.CustomizableEdges = customizableEdges36;
-            guna2Button14.Size = new Size(44, 37);
-            guna2Button14.TabIndex = 71;
-            guna2Button14.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button14.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button15
-            // 
-            guna2Button15.AutoRoundedCorners = true;
-            guna2Button15.BackColor = Color.Transparent;
-            guna2Button15.BorderColor = Color.Transparent;
-            guna2Button15.BorderRadius = 17;
-            guna2Button15.CustomizableEdges = customizableEdges37;
-            guna2Button15.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button15.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button15.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button15.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button15.FillColor = Color.Transparent;
-            guna2Button15.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button15.ForeColor = Color.White;
-            guna2Button15.Location = new Point(619, 296);
-            guna2Button15.Name = "guna2Button15";
-            guna2Button15.ShadowDecoration.CustomizableEdges = customizableEdges38;
-            guna2Button15.Size = new Size(44, 37);
-            guna2Button15.TabIndex = 70;
-            guna2Button15.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button15.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button18
-            // 
-            guna2Button18.AutoRoundedCorners = true;
-            guna2Button18.BackColor = Color.Transparent;
-            guna2Button18.BorderColor = Color.Transparent;
-            guna2Button18.BorderRadius = 17;
-            guna2Button18.CustomizableEdges = customizableEdges39;
-            guna2Button18.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button18.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button18.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button18.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button18.FillColor = Color.Transparent;
-            guna2Button18.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button18.ForeColor = Color.White;
-            guna2Button18.Location = new Point(697, 534);
-            guna2Button18.Name = "guna2Button18";
-            guna2Button18.ShadowDecoration.CustomizableEdges = customizableEdges40;
-            guna2Button18.Size = new Size(44, 37);
-            guna2Button18.TabIndex = 81;
-            guna2Button18.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button18.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button19
-            // 
-            guna2Button19.AutoRoundedCorners = true;
-            guna2Button19.BackColor = Color.Transparent;
-            guna2Button19.BorderColor = Color.Transparent;
-            guna2Button19.BorderRadius = 17;
-            guna2Button19.CustomizableEdges = customizableEdges41;
-            guna2Button19.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button19.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button19.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button19.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button19.FillColor = Color.Transparent;
-            guna2Button19.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button19.ForeColor = Color.White;
-            guna2Button19.Location = new Point(697, 494);
-            guna2Button19.Name = "guna2Button19";
-            guna2Button19.ShadowDecoration.CustomizableEdges = customizableEdges42;
-            guna2Button19.Size = new Size(44, 37);
-            guna2Button19.TabIndex = 80;
-            guna2Button19.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button19.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button20
-            // 
-            guna2Button20.AutoRoundedCorners = true;
-            guna2Button20.BackColor = Color.Transparent;
-            guna2Button20.BorderColor = Color.Transparent;
-            guna2Button20.BorderRadius = 17;
-            guna2Button20.CustomizableEdges = customizableEdges43;
-            guna2Button20.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button20.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button20.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button20.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button20.FillColor = Color.Transparent;
-            guna2Button20.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button20.ForeColor = Color.White;
-            guna2Button20.Location = new Point(697, 452);
-            guna2Button20.Name = "guna2Button20";
-            guna2Button20.ShadowDecoration.CustomizableEdges = customizableEdges44;
-            guna2Button20.Size = new Size(44, 37);
-            guna2Button20.TabIndex = 79;
-            guna2Button20.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button20.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button21
-            // 
-            guna2Button21.AutoRoundedCorners = true;
-            guna2Button21.BackColor = Color.Transparent;
-            guna2Button21.BorderColor = Color.Transparent;
-            guna2Button21.BorderRadius = 17;
-            guna2Button21.CustomizableEdges = customizableEdges45;
-            guna2Button21.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button21.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button21.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button21.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button21.FillColor = Color.Transparent;
-            guna2Button21.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button21.ForeColor = Color.White;
-            guna2Button21.Location = new Point(637, 534);
-            guna2Button21.Name = "guna2Button21";
-            guna2Button21.ShadowDecoration.CustomizableEdges = customizableEdges46;
-            guna2Button21.Size = new Size(44, 37);
-            guna2Button21.TabIndex = 78;
-            guna2Button21.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button21.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button22
-            // 
-            guna2Button22.AutoRoundedCorners = true;
-            guna2Button22.BackColor = Color.Transparent;
-            guna2Button22.BorderColor = Color.Transparent;
-            guna2Button22.BorderRadius = 17;
-            guna2Button22.CustomizableEdges = customizableEdges47;
-            guna2Button22.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button22.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button22.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button22.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button22.FillColor = Color.Transparent;
-            guna2Button22.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button22.ForeColor = Color.White;
-            guna2Button22.Location = new Point(637, 494);
-            guna2Button22.Name = "guna2Button22";
-            guna2Button22.ShadowDecoration.CustomizableEdges = customizableEdges48;
-            guna2Button22.Size = new Size(44, 37);
-            guna2Button22.TabIndex = 77;
-            guna2Button22.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button22.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button23
-            // 
-            guna2Button23.AutoRoundedCorners = true;
-            guna2Button23.BackColor = Color.Transparent;
-            guna2Button23.BorderColor = Color.Transparent;
-            guna2Button23.BorderRadius = 17;
-            guna2Button23.CustomizableEdges = customizableEdges49;
-            guna2Button23.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button23.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button23.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button23.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button23.FillColor = Color.Transparent;
-            guna2Button23.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button23.ForeColor = Color.White;
-            guna2Button23.Location = new Point(637, 452);
-            guna2Button23.Name = "guna2Button23";
-            guna2Button23.ShadowDecoration.CustomizableEdges = customizableEdges50;
-            guna2Button23.Size = new Size(44, 37);
-            guna2Button23.TabIndex = 76;
-            guna2Button23.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button23.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button24
-            // 
-            guna2Button24.AutoRoundedCorners = true;
-            guna2Button24.BackColor = Color.Transparent;
-            guna2Button24.BorderColor = Color.Transparent;
-            guna2Button24.BorderRadius = 17;
-            guna2Button24.CustomizableEdges = customizableEdges51;
-            guna2Button24.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button24.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button24.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button24.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button24.FillColor = Color.Transparent;
-            guna2Button24.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button24.ForeColor = Color.White;
-            guna2Button24.Location = new Point(510, 534);
-            guna2Button24.Name = "guna2Button24";
-            guna2Button24.ShadowDecoration.CustomizableEdges = customizableEdges52;
-            guna2Button24.Size = new Size(44, 37);
-            guna2Button24.TabIndex = 87;
-            guna2Button24.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button24.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button25
-            // 
-            guna2Button25.AutoRoundedCorners = true;
-            guna2Button25.BackColor = Color.Transparent;
-            guna2Button25.BorderColor = Color.Transparent;
-            guna2Button25.BorderRadius = 17;
-            guna2Button25.CustomizableEdges = customizableEdges53;
-            guna2Button25.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button25.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button25.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button25.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button25.FillColor = Color.Transparent;
-            guna2Button25.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button25.ForeColor = Color.White;
-            guna2Button25.Location = new Point(510, 494);
-            guna2Button25.Name = "guna2Button25";
-            guna2Button25.ShadowDecoration.CustomizableEdges = customizableEdges54;
-            guna2Button25.Size = new Size(44, 37);
-            guna2Button25.TabIndex = 86;
-            guna2Button25.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button25.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button26
-            // 
-            guna2Button26.AutoRoundedCorners = true;
-            guna2Button26.BackColor = Color.Transparent;
-            guna2Button26.BorderColor = Color.Transparent;
-            guna2Button26.BorderRadius = 17;
-            guna2Button26.CustomizableEdges = customizableEdges55;
-            guna2Button26.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button26.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button26.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button26.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button26.FillColor = Color.Transparent;
-            guna2Button26.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button26.ForeColor = Color.White;
-            guna2Button26.Location = new Point(510, 452);
-            guna2Button26.Name = "guna2Button26";
-            guna2Button26.ShadowDecoration.CustomizableEdges = customizableEdges56;
-            guna2Button26.Size = new Size(44, 37);
-            guna2Button26.TabIndex = 85;
-            guna2Button26.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button26.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button27
-            // 
-            guna2Button27.AutoRoundedCorners = true;
-            guna2Button27.BackColor = Color.Transparent;
-            guna2Button27.BorderColor = Color.Transparent;
-            guna2Button27.BorderRadius = 17;
-            guna2Button27.CustomizableEdges = customizableEdges57;
-            guna2Button27.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button27.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button27.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button27.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button27.FillColor = Color.Transparent;
-            guna2Button27.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button27.ForeColor = Color.White;
-            guna2Button27.Location = new Point(450, 534);
-            guna2Button27.Name = "guna2Button27";
-            guna2Button27.ShadowDecoration.CustomizableEdges = customizableEdges58;
-            guna2Button27.Size = new Size(44, 37);
-            guna2Button27.TabIndex = 84;
-            guna2Button27.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button27.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button28
-            // 
-            guna2Button28.AutoRoundedCorners = true;
-            guna2Button28.BackColor = Color.Transparent;
-            guna2Button28.BorderColor = Color.Transparent;
-            guna2Button28.BorderRadius = 17;
-            guna2Button28.CustomizableEdges = customizableEdges59;
-            guna2Button28.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button28.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button28.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button28.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button28.FillColor = Color.Transparent;
-            guna2Button28.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button28.ForeColor = Color.White;
-            guna2Button28.Location = new Point(450, 494);
-            guna2Button28.Name = "guna2Button28";
-            guna2Button28.ShadowDecoration.CustomizableEdges = customizableEdges60;
-            guna2Button28.Size = new Size(44, 37);
-            guna2Button28.TabIndex = 83;
-            guna2Button28.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button28.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button29
-            // 
-            guna2Button29.AutoRoundedCorners = true;
-            guna2Button29.BackColor = Color.Transparent;
-            guna2Button29.BorderColor = Color.Transparent;
-            guna2Button29.BorderRadius = 17;
-            guna2Button29.CustomizableEdges = customizableEdges61;
-            guna2Button29.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button29.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button29.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button29.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button29.FillColor = Color.Transparent;
-            guna2Button29.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button29.ForeColor = Color.White;
-            guna2Button29.Location = new Point(450, 452);
-            guna2Button29.Name = "guna2Button29";
-            guna2Button29.ShadowDecoration.CustomizableEdges = customizableEdges62;
-            guna2Button29.Size = new Size(44, 37);
-            guna2Button29.TabIndex = 82;
-            guna2Button29.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button29.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button31
-            // 
-            guna2Button31.AutoRoundedCorners = true;
-            guna2Button31.BackColor = Color.Transparent;
-            guna2Button31.BorderColor = Color.Transparent;
-            guna2Button31.BorderRadius = 17;
-            guna2Button31.CustomizableEdges = customizableEdges63;
-            guna2Button31.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button31.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button31.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button31.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button31.FillColor = Color.Transparent;
-            guna2Button31.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button31.ForeColor = Color.White;
-            guna2Button31.Location = new Point(322, 534);
-            guna2Button31.Name = "guna2Button31";
-            guna2Button31.ShadowDecoration.CustomizableEdges = customizableEdges64;
-            guna2Button31.Size = new Size(44, 37);
-            guna2Button31.TabIndex = 93;
-            guna2Button31.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button31.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button32
-            // 
-            guna2Button32.AutoRoundedCorners = true;
-            guna2Button32.BackColor = Color.Transparent;
-            guna2Button32.BorderColor = Color.Transparent;
-            guna2Button32.BorderRadius = 17;
-            guna2Button32.CustomizableEdges = customizableEdges65;
-            guna2Button32.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button32.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button32.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button32.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button32.FillColor = Color.Transparent;
-            guna2Button32.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button32.ForeColor = Color.White;
-            guna2Button32.Location = new Point(322, 494);
-            guna2Button32.Name = "guna2Button32";
-            guna2Button32.ShadowDecoration.CustomizableEdges = customizableEdges66;
-            guna2Button32.Size = new Size(44, 37);
-            guna2Button32.TabIndex = 92;
-            guna2Button32.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button32.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button33
-            // 
-            guna2Button33.AutoRoundedCorners = true;
-            guna2Button33.BackColor = Color.Transparent;
-            guna2Button33.BorderColor = Color.Transparent;
-            guna2Button33.BorderRadius = 17;
-            guna2Button33.CustomizableEdges = customizableEdges67;
-            guna2Button33.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button33.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button33.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button33.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button33.FillColor = Color.Transparent;
-            guna2Button33.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button33.ForeColor = Color.White;
-            guna2Button33.Location = new Point(322, 452);
-            guna2Button33.Name = "guna2Button33";
-            guna2Button33.ShadowDecoration.CustomizableEdges = customizableEdges68;
-            guna2Button33.Size = new Size(44, 37);
-            guna2Button33.TabIndex = 91;
-            guna2Button33.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button33.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button34
-            // 
-            guna2Button34.AutoRoundedCorners = true;
-            guna2Button34.BackColor = Color.Transparent;
-            guna2Button34.BorderColor = Color.Transparent;
-            guna2Button34.BorderRadius = 17;
-            guna2Button34.CustomizableEdges = customizableEdges69;
-            guna2Button34.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button34.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button34.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button34.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button34.FillColor = Color.Transparent;
-            guna2Button34.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button34.ForeColor = Color.White;
-            guna2Button34.Location = new Point(262, 534);
-            guna2Button34.Name = "guna2Button34";
-            guna2Button34.ShadowDecoration.CustomizableEdges = customizableEdges70;
-            guna2Button34.Size = new Size(44, 37);
-            guna2Button34.TabIndex = 90;
-            guna2Button34.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button34.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button35
-            // 
-            guna2Button35.AutoRoundedCorners = true;
-            guna2Button35.BackColor = Color.Transparent;
-            guna2Button35.BorderColor = Color.Transparent;
-            guna2Button35.BorderRadius = 17;
-            guna2Button35.CustomizableEdges = customizableEdges71;
-            guna2Button35.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button35.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button35.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button35.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button35.FillColor = Color.Transparent;
-            guna2Button35.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button35.ForeColor = Color.White;
-            guna2Button35.Location = new Point(262, 494);
-            guna2Button35.Name = "guna2Button35";
-            guna2Button35.ShadowDecoration.CustomizableEdges = customizableEdges72;
-            guna2Button35.Size = new Size(44, 37);
-            guna2Button35.TabIndex = 89;
-            guna2Button35.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button35.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button36
-            // 
-            guna2Button36.AutoRoundedCorners = true;
-            guna2Button36.BackColor = Color.Transparent;
-            guna2Button36.BorderColor = Color.Transparent;
-            guna2Button36.BorderRadius = 17;
-            guna2Button36.CustomizableEdges = customizableEdges73;
-            guna2Button36.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button36.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button36.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button36.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button36.FillColor = Color.Transparent;
-            guna2Button36.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button36.ForeColor = Color.White;
-            guna2Button36.Location = new Point(262, 452);
-            guna2Button36.Name = "guna2Button36";
-            guna2Button36.ShadowDecoration.CustomizableEdges = customizableEdges74;
-            guna2Button36.Size = new Size(44, 37);
-            guna2Button36.TabIndex = 88;
-            guna2Button36.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button36.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button37
-            // 
-            guna2Button37.AutoRoundedCorners = true;
-            guna2Button37.BackColor = Color.Transparent;
-            guna2Button37.BorderColor = Color.Transparent;
-            guna2Button37.BorderRadius = 17;
-            guna2Button37.CustomizableEdges = customizableEdges75;
-            guna2Button37.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button37.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button37.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button37.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button37.FillColor = Color.Transparent;
-            guna2Button37.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button37.ForeColor = Color.White;
-            guna2Button37.Location = new Point(742, 381);
-            guna2Button37.Name = "guna2Button37";
-            guna2Button37.ShadowDecoration.CustomizableEdges = customizableEdges76;
-            guna2Button37.Size = new Size(44, 37);
-            guna2Button37.TabIndex = 96;
-            guna2Button37.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button37.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button38
-            // 
-            guna2Button38.AutoRoundedCorners = true;
-            guna2Button38.BackColor = Color.Transparent;
-            guna2Button38.BorderColor = Color.Transparent;
-            guna2Button38.BorderRadius = 17;
-            guna2Button38.CustomizableEdges = customizableEdges77;
-            guna2Button38.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button38.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button38.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button38.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button38.FillColor = Color.Transparent;
-            guna2Button38.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button38.ForeColor = Color.White;
-            guna2Button38.Location = new Point(742, 341);
-            guna2Button38.Name = "guna2Button38";
-            guna2Button38.ShadowDecoration.CustomizableEdges = customizableEdges78;
-            guna2Button38.Size = new Size(44, 37);
-            guna2Button38.TabIndex = 95;
-            guna2Button38.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button38.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button39
-            // 
-            guna2Button39.AutoRoundedCorners = true;
-            guna2Button39.BackColor = Color.Transparent;
-            guna2Button39.BorderColor = Color.Transparent;
-            guna2Button39.BorderRadius = 17;
-            guna2Button39.CustomizableEdges = customizableEdges79;
-            guna2Button39.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button39.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button39.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button39.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button39.FillColor = Color.Transparent;
-            guna2Button39.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button39.ForeColor = Color.White;
-            guna2Button39.Location = new Point(742, 299);
-            guna2Button39.Name = "guna2Button39";
-            guna2Button39.ShadowDecoration.CustomizableEdges = customizableEdges80;
-            guna2Button39.Size = new Size(44, 37);
-            guna2Button39.TabIndex = 94;
-            guna2Button39.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button39.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button40
-            // 
-            guna2Button40.AutoRoundedCorners = true;
-            guna2Button40.BackColor = Color.Transparent;
-            guna2Button40.BorderColor = Color.Transparent;
-            guna2Button40.BorderRadius = 17;
-            guna2Button40.CustomizableEdges = customizableEdges81;
-            guna2Button40.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button40.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button40.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button40.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button40.FillColor = Color.Transparent;
-            guna2Button40.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button40.ForeColor = Color.White;
-            guna2Button40.Location = new Point(803, 381);
-            guna2Button40.Name = "guna2Button40";
-            guna2Button40.ShadowDecoration.CustomizableEdges = customizableEdges82;
-            guna2Button40.Size = new Size(44, 37);
-            guna2Button40.TabIndex = 99;
-            guna2Button40.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button40.Click += ToggleButtonVisibility;
-            // 
-            // guna2Button41
-            // 
-            guna2Button41.AutoRoundedCorners = true;
-            guna2Button41.BackColor = Color.Transparent;
-            guna2Button41.BorderColor = Color.Transparent;
-            guna2Button41.BorderRadius = 17;
-            guna2Button41.CustomizableEdges = customizableEdges83;
-            guna2Button41.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button41.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button41.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button41.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button41.FillColor = Color.Transparent;
-            guna2Button41.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button41.ForeColor = Color.White;
-            guna2Button41.Location = new Point(803, 341);
-            guna2Button41.Name = "guna2Button41";
-            guna2Button41.ShadowDecoration.CustomizableEdges = customizableEdges84;
-            guna2Button41.Size = new Size(44, 37);
-            guna2Button41.TabIndex = 98;
-            guna2Button41.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button41.Click += ToggleButtonVisibility;
+            this.guna2Button42 = new Guna.UI2.WinForms.Guna2Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.button25 = new System.Windows.Forms.Button();
+            this.button26 = new System.Windows.Forms.Button();
+            this.button27 = new System.Windows.Forms.Button();
+            this.button28 = new System.Windows.Forms.Button();
+            this.button29 = new System.Windows.Forms.Button();
+            this.button30 = new System.Windows.Forms.Button();
+            this.button31 = new System.Windows.Forms.Button();
+            this.button32 = new System.Windows.Forms.Button();
+            this.button33 = new System.Windows.Forms.Button();
+            this.button34 = new System.Windows.Forms.Button();
+            this.button35 = new System.Windows.Forms.Button();
+            this.button36 = new System.Windows.Forms.Button();
+            this.button37 = new System.Windows.Forms.Button();
+            this.button38 = new System.Windows.Forms.Button();
+            this.button39 = new System.Windows.Forms.Button();
+            this.button40 = new System.Windows.Forms.Button();
+            this.button41 = new System.Windows.Forms.Button();
+            this.button42 = new System.Windows.Forms.Button();
+            this.button43 = new System.Windows.Forms.Button();
+            this.button44 = new System.Windows.Forms.Button();
+            this.button45 = new System.Windows.Forms.Button();
+            this.button46 = new System.Windows.Forms.Button();
+            this.button47 = new System.Windows.Forms.Button();
+            this.button48 = new System.Windows.Forms.Button();
+            this.button49 = new System.Windows.Forms.Button();
+            this.button50 = new System.Windows.Forms.Button();
+            this.button51 = new System.Windows.Forms.Button();
+            this.button52 = new System.Windows.Forms.Button();
+            this.button53 = new System.Windows.Forms.Button();
+            this.button54 = new System.Windows.Forms.Button();
+            this.button55 = new System.Windows.Forms.Button();
+            this.button56 = new System.Windows.Forms.Button();
+            this.button57 = new System.Windows.Forms.Button();
+            this.button58 = new System.Windows.Forms.Button();
+            this.button59 = new System.Windows.Forms.Button();
+            this.button60 = new System.Windows.Forms.Button();
+            this.button61 = new System.Windows.Forms.Button();
+            this.button62 = new System.Windows.Forms.Button();
+            this.button63 = new System.Windows.Forms.Button();
+            this.button64 = new System.Windows.Forms.Button();
+            this.button65 = new System.Windows.Forms.Button();
+            this.button66 = new System.Windows.Forms.Button();
+            this.button67 = new System.Windows.Forms.Button();
+            this.button68 = new System.Windows.Forms.Button();
+            this.button69 = new System.Windows.Forms.Button();
+            this.button70 = new System.Windows.Forms.Button();
+            this.button71 = new System.Windows.Forms.Button();
+            this.button72 = new System.Windows.Forms.Button();
+            this.button73 = new System.Windows.Forms.Button();
+            this.button74 = new System.Windows.Forms.Button();
+            this.button75 = new System.Windows.Forms.Button();
+            this.button76 = new System.Windows.Forms.Button();
+            this.button77 = new System.Windows.Forms.Button();
+            this.button78 = new System.Windows.Forms.Button();
+            this.button79 = new System.Windows.Forms.Button();
+            this.button80 = new System.Windows.Forms.Button();
+            this.button81 = new System.Windows.Forms.Button();
+            this.labelNormal = new System.Windows.Forms.Label();
+            this.labelBusiness = new System.Windows.Forms.Label();
+            this.labelPremium = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.button82 = new System.Windows.Forms.Button();
+            this.button83 = new System.Windows.Forms.Button();
+            this.button84 = new System.Windows.Forms.Button();
+            this.button85 = new System.Windows.Forms.Button();
+            this.button86 = new System.Windows.Forms.Button();
+            this.buttonContinue = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
             // 
             // guna2Button42
             // 
-            guna2Button42.AutoRoundedCorners = true;
-            guna2Button42.BackColor = Color.Transparent;
-            guna2Button42.BorderColor = Color.Transparent;
-            guna2Button42.BorderRadius = 17;
-            guna2Button42.CustomizableEdges = customizableEdges85;
-            guna2Button42.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button42.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button42.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button42.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button42.FillColor = Color.Transparent;
-            guna2Button42.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button42.ForeColor = Color.White;
-            guna2Button42.Location = new Point(803, 299);
-            guna2Button42.Name = "guna2Button42";
-            guna2Button42.ShadowDecoration.CustomizableEdges = customizableEdges86;
-            guna2Button42.Size = new Size(44, 37);
-            guna2Button42.TabIndex = 97;
-            guna2Button42.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button42.Click += ToggleButtonVisibility;
+            this.guna2Button42.AutoRoundedCorners = true;
+            this.guna2Button42.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button42.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button42.BorderRadius = 7;
+            this.guna2Button42.CustomizableEdges = customizableEdges1;
+            this.guna2Button42.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button42.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button42.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button42.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button42.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button42.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.guna2Button42.ForeColor = System.Drawing.Color.White;
+            this.guna2Button42.Location = new System.Drawing.Point(476, 23);
+            this.guna2Button42.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.guna2Button42.Name = "guna2Button42";
+            this.guna2Button42.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            this.guna2Button42.Size = new System.Drawing.Size(24, 17);
+            this.guna2Button42.TabIndex = 97;
+            this.guna2Button42.Text = "1";
+            this.guna2Button42.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
             // 
-            // guna2Button43
+            // button1
             // 
-            guna2Button43.AutoRoundedCorners = true;
-            guna2Button43.BackColor = Color.Transparent;
-            guna2Button43.BorderColor = Color.Transparent;
-            guna2Button43.BorderRadius = 17;
-            guna2Button43.CustomizableEdges = customizableEdges87;
-            guna2Button43.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button43.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button43.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button43.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button43.FillColor = Color.Transparent;
-            guna2Button43.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button43.ForeColor = Color.White;
-            guna2Button43.Location = new Point(759, 534);
-            guna2Button43.Name = "guna2Button43";
-            guna2Button43.ShadowDecoration.CustomizableEdges = customizableEdges88;
-            guna2Button43.Size = new Size(44, 37);
-            guna2Button43.TabIndex = 102;
-            guna2Button43.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button43.Click += ToggleButtonVisibility;
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.SystemColors.Control;
+            this.button1.Location = new System.Drawing.Point(467, 176);
+            this.button1.Margin = new System.Windows.Forms.Padding(0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(24, 24);
+            this.button1.TabIndex = 299;
+            this.button1.Text = "1";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button_Click);
             // 
-            // guna2Button44
+            // button2
             // 
-            guna2Button44.AutoRoundedCorners = true;
-            guna2Button44.BackColor = Color.Transparent;
-            guna2Button44.BorderColor = Color.Transparent;
-            guna2Button44.BorderRadius = 17;
-            guna2Button44.CustomizableEdges = customizableEdges89;
-            guna2Button44.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button44.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button44.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button44.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button44.FillColor = Color.Transparent;
-            guna2Button44.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button44.ForeColor = Color.White;
-            guna2Button44.Location = new Point(759, 494);
-            guna2Button44.Name = "guna2Button44";
-            guna2Button44.ShadowDecoration.CustomizableEdges = customizableEdges90;
-            guna2Button44.Size = new Size(44, 37);
-            guna2Button44.TabIndex = 101;
-            guna2Button44.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button44.Click += ToggleButtonVisibility;
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.SystemColors.Control;
+            this.button2.Location = new System.Drawing.Point(467, 200);
+            this.button2.Margin = new System.Windows.Forms.Padding(0);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(24, 24);
+            this.button2.TabIndex = 299;
+            this.button2.Text = "2";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button_Click);
             // 
-            // guna2Button45
+            // button3
             // 
-            guna2Button45.AutoRoundedCorners = true;
-            guna2Button45.BackColor = Color.Transparent;
-            guna2Button45.BorderColor = Color.Transparent;
-            guna2Button45.BorderRadius = 17;
-            guna2Button45.CustomizableEdges = customizableEdges91;
-            guna2Button45.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button45.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button45.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button45.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button45.FillColor = Color.Transparent;
-            guna2Button45.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button45.ForeColor = Color.White;
-            guna2Button45.Location = new Point(759, 452);
-            guna2Button45.Name = "guna2Button45";
-            guna2Button45.ShadowDecoration.CustomizableEdges = customizableEdges92;
-            guna2Button45.Size = new Size(44, 37);
-            guna2Button45.TabIndex = 100;
-            guna2Button45.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button45.Click += ToggleButtonVisibility;
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button3.ForeColor = System.Drawing.SystemColors.Control;
+            this.button3.Location = new System.Drawing.Point(467, 224);
+            this.button3.Margin = new System.Windows.Forms.Padding(0);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(24, 24);
+            this.button3.TabIndex = 299;
+            this.button3.Text = "3";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button_Click);
             // 
-            // guna2Button46
+            // button4
             // 
-            guna2Button46.AutoRoundedCorners = true;
-            guna2Button46.BackColor = Color.Transparent;
-            guna2Button46.BorderColor = Color.Transparent;
-            guna2Button46.BorderRadius = 17;
-            guna2Button46.CustomizableEdges = customizableEdges93;
-            guna2Button46.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button46.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button46.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button46.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button46.FillColor = Color.Transparent;
-            guna2Button46.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button46.ForeColor = Color.White;
-            guna2Button46.Location = new Point(574, 534);
-            guna2Button46.Name = "guna2Button46";
-            guna2Button46.ShadowDecoration.CustomizableEdges = customizableEdges94;
-            guna2Button46.Size = new Size(44, 37);
-            guna2Button46.TabIndex = 105;
-            guna2Button46.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button46.Click += ToggleButtonVisibility;
+            this.button4.BackColor = System.Drawing.Color.Transparent;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button4.ForeColor = System.Drawing.SystemColors.Control;
+            this.button4.Location = new System.Drawing.Point(432, 175);
+            this.button4.Margin = new System.Windows.Forms.Padding(0);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(24, 24);
+            this.button4.TabIndex = 299;
+            this.button4.Text = "4";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button_Click);
             // 
-            // guna2Button47
+            // button5
             // 
-            guna2Button47.AutoRoundedCorners = true;
-            guna2Button47.BackColor = Color.Transparent;
-            guna2Button47.BorderColor = Color.Transparent;
-            guna2Button47.BorderRadius = 17;
-            guna2Button47.CustomizableEdges = customizableEdges95;
-            guna2Button47.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button47.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button47.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button47.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button47.FillColor = Color.Transparent;
-            guna2Button47.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button47.ForeColor = Color.White;
-            guna2Button47.Location = new Point(574, 494);
-            guna2Button47.Name = "guna2Button47";
-            guna2Button47.ShadowDecoration.CustomizableEdges = customizableEdges96;
-            guna2Button47.Size = new Size(44, 37);
-            guna2Button47.TabIndex = 104;
-            guna2Button47.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button47.Click += ToggleButtonVisibility;
+            this.button5.BackColor = System.Drawing.Color.Transparent;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button5.ForeColor = System.Drawing.SystemColors.Control;
+            this.button5.Location = new System.Drawing.Point(432, 199);
+            this.button5.Margin = new System.Windows.Forms.Padding(0);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(24, 24);
+            this.button5.TabIndex = 299;
+            this.button5.Text = "5";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button_Click);
             // 
-            // guna2Button48
+            // button6
             // 
-            guna2Button48.AutoRoundedCorners = true;
-            guna2Button48.BackColor = Color.Transparent;
-            guna2Button48.BorderColor = Color.Transparent;
-            guna2Button48.BorderRadius = 17;
-            guna2Button48.CustomizableEdges = customizableEdges97;
-            guna2Button48.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button48.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button48.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button48.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button48.FillColor = Color.Transparent;
-            guna2Button48.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button48.ForeColor = Color.White;
-            guna2Button48.Location = new Point(574, 452);
-            guna2Button48.Name = "guna2Button48";
-            guna2Button48.ShadowDecoration.CustomizableEdges = customizableEdges98;
-            guna2Button48.Size = new Size(44, 37);
-            guna2Button48.TabIndex = 103;
-            guna2Button48.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button48.Click += ToggleButtonVisibility;
+            this.button6.BackColor = System.Drawing.Color.Transparent;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button6.ForeColor = System.Drawing.SystemColors.Control;
+            this.button6.Location = new System.Drawing.Point(432, 223);
+            this.button6.Margin = new System.Windows.Forms.Padding(0);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(24, 24);
+            this.button6.TabIndex = 299;
+            this.button6.Text = "6";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button_Click);
             // 
-            // guna2Button49
+            // button7
             // 
-            guna2Button49.AutoRoundedCorners = true;
-            guna2Button49.BackColor = Color.Transparent;
-            guna2Button49.BorderColor = Color.Transparent;
-            guna2Button49.BorderRadius = 17;
-            guna2Button49.CustomizableEdges = customizableEdges99;
-            guna2Button49.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button49.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button49.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button49.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button49.FillColor = Color.Transparent;
-            guna2Button49.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button49.ForeColor = Color.White;
-            guna2Button49.Location = new Point(555, 378);
-            guna2Button49.Name = "guna2Button49";
-            guna2Button49.ShadowDecoration.CustomizableEdges = customizableEdges100;
-            guna2Button49.Size = new Size(44, 37);
-            guna2Button49.TabIndex = 108;
-            guna2Button49.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button49.Click += ToggleButtonVisibility;
+            this.button7.BackColor = System.Drawing.Color.Transparent;
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button7.ForeColor = System.Drawing.SystemColors.Control;
+            this.button7.Location = new System.Drawing.Point(442, 264);
+            this.button7.Margin = new System.Windows.Forms.Padding(0);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(24, 24);
+            this.button7.TabIndex = 299;
+            this.button7.Text = "7";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button_Click);
             // 
-            // guna2Button50
+            // button8
             // 
-            guna2Button50.AutoRoundedCorners = true;
-            guna2Button50.BackColor = Color.Transparent;
-            guna2Button50.BorderColor = Color.Transparent;
-            guna2Button50.BorderRadius = 17;
-            guna2Button50.CustomizableEdges = customizableEdges101;
-            guna2Button50.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button50.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button50.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button50.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button50.FillColor = Color.Transparent;
-            guna2Button50.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button50.ForeColor = Color.White;
-            guna2Button50.Location = new Point(555, 338);
-            guna2Button50.Name = "guna2Button50";
-            guna2Button50.ShadowDecoration.CustomizableEdges = customizableEdges102;
-            guna2Button50.Size = new Size(44, 37);
-            guna2Button50.TabIndex = 107;
-            guna2Button50.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button50.Click += ToggleButtonVisibility;
+            this.button8.BackColor = System.Drawing.Color.Transparent;
+            this.button8.FlatAppearance.BorderSize = 0;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button8.ForeColor = System.Drawing.SystemColors.Control;
+            this.button8.Location = new System.Drawing.Point(442, 288);
+            this.button8.Margin = new System.Windows.Forms.Padding(0);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(24, 24);
+            this.button8.TabIndex = 299;
+            this.button8.Text = "8";
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button_Click);
             // 
-            // guna2Button51
+            // button9
             // 
-            guna2Button51.AutoRoundedCorners = true;
-            guna2Button51.BackColor = Color.Transparent;
-            guna2Button51.BorderColor = Color.Transparent;
-            guna2Button51.BorderRadius = 17;
-            guna2Button51.CustomizableEdges = customizableEdges103;
-            guna2Button51.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button51.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button51.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button51.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button51.FillColor = Color.Transparent;
-            guna2Button51.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button51.ForeColor = Color.White;
-            guna2Button51.Location = new Point(555, 296);
-            guna2Button51.Name = "guna2Button51";
-            guna2Button51.ShadowDecoration.CustomizableEdges = customizableEdges104;
-            guna2Button51.Size = new Size(44, 37);
-            guna2Button51.TabIndex = 106;
-            guna2Button51.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button51.Click += ToggleButtonVisibility;
+            this.button9.BackColor = System.Drawing.Color.Transparent;
+            this.button9.FlatAppearance.BorderSize = 0;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button9.ForeColor = System.Drawing.SystemColors.Control;
+            this.button9.Location = new System.Drawing.Point(442, 312);
+            this.button9.Margin = new System.Windows.Forms.Padding(0);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(24, 24);
+            this.button9.TabIndex = 299;
+            this.button9.Text = "9";
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button_Click);
             // 
-            // guna2Button52
+            // button10
             // 
-            guna2Button52.AutoRoundedCorners = true;
-            guna2Button52.BackColor = Color.Transparent;
-            guna2Button52.BorderColor = Color.Transparent;
-            guna2Button52.BorderRadius = 17;
-            guna2Button52.CustomizableEdges = customizableEdges105;
-            guna2Button52.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button52.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button52.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button52.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button52.FillColor = Color.Transparent;
-            guna2Button52.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button52.ForeColor = Color.White;
-            guna2Button52.Location = new Point(374, 379);
-            guna2Button52.Name = "guna2Button52";
-            guna2Button52.ShadowDecoration.CustomizableEdges = customizableEdges106;
-            guna2Button52.Size = new Size(44, 37);
-            guna2Button52.TabIndex = 111;
-            guna2Button52.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button52.Click += ToggleButtonVisibility;
+            this.button10.BackColor = System.Drawing.Color.Transparent;
+            this.button10.FlatAppearance.BorderSize = 0;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button10.ForeColor = System.Drawing.SystemColors.Control;
+            this.button10.Location = new System.Drawing.Point(387, 174);
+            this.button10.Margin = new System.Windows.Forms.Padding(0);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(35, 24);
+            this.button10.TabIndex = 299;
+            this.button10.Text = "10";
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button_Click);
             // 
-            // guna2Button53
+            // button11
             // 
-            guna2Button53.AutoRoundedCorners = true;
-            guna2Button53.BackColor = Color.Transparent;
-            guna2Button53.BorderColor = Color.Transparent;
-            guna2Button53.BorderRadius = 17;
-            guna2Button53.CustomizableEdges = customizableEdges107;
-            guna2Button53.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button53.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button53.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button53.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button53.FillColor = Color.Transparent;
-            guna2Button53.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button53.ForeColor = Color.White;
-            guna2Button53.Location = new Point(374, 339);
-            guna2Button53.Name = "guna2Button53";
-            guna2Button53.ShadowDecoration.CustomizableEdges = customizableEdges108;
-            guna2Button53.Size = new Size(44, 37);
-            guna2Button53.TabIndex = 110;
-            guna2Button53.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button53.Click += ToggleButtonVisibility;
+            this.button11.BackColor = System.Drawing.Color.Transparent;
+            this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button11.ForeColor = System.Drawing.SystemColors.Control;
+            this.button11.Location = new System.Drawing.Point(387, 198);
+            this.button11.Margin = new System.Windows.Forms.Padding(0);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(35, 24);
+            this.button11.TabIndex = 299;
+            this.button11.Text = "11";
+            this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button_Click);
             // 
-            // guna2Button54
+            // button12
             // 
-            guna2Button54.AutoRoundedCorners = true;
-            guna2Button54.BackColor = Color.Transparent;
-            guna2Button54.BorderColor = Color.Transparent;
-            guna2Button54.BorderRadius = 17;
-            guna2Button54.CustomizableEdges = customizableEdges109;
-            guna2Button54.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button54.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button54.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button54.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button54.FillColor = Color.Transparent;
-            guna2Button54.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button54.ForeColor = Color.White;
-            guna2Button54.Location = new Point(374, 297);
-            guna2Button54.Name = "guna2Button54";
-            guna2Button54.ShadowDecoration.CustomizableEdges = customizableEdges110;
-            guna2Button54.Size = new Size(44, 37);
-            guna2Button54.TabIndex = 109;
-            guna2Button54.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button54.Click += ToggleButtonVisibility;
+            this.button12.BackColor = System.Drawing.Color.Transparent;
+            this.button12.FlatAppearance.BorderSize = 0;
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button12.ForeColor = System.Drawing.SystemColors.Control;
+            this.button12.Location = new System.Drawing.Point(387, 222);
+            this.button12.Margin = new System.Windows.Forms.Padding(0);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(35, 24);
+            this.button12.TabIndex = 299;
+            this.button12.Text = "12";
+            this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button_Click);
             // 
-            // guna2Button55
+            // button13
             // 
-            guna2Button55.AutoRoundedCorners = true;
-            guna2Button55.BackColor = Color.Transparent;
-            guna2Button55.BorderColor = Color.Transparent;
-            guna2Button55.BorderRadius = 17;
-            guna2Button55.CustomizableEdges = customizableEdges111;
-            guna2Button55.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button55.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button55.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button55.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button55.FillColor = Color.Transparent;
-            guna2Button55.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button55.ForeColor = Color.White;
-            guna2Button55.Location = new Point(385, 535);
-            guna2Button55.Name = "guna2Button55";
-            guna2Button55.ShadowDecoration.CustomizableEdges = customizableEdges112;
-            guna2Button55.Size = new Size(44, 37);
-            guna2Button55.TabIndex = 114;
-            guna2Button55.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button55.Click += ToggleButtonVisibility;
+            this.button13.BackColor = System.Drawing.Color.Transparent;
+            this.button13.FlatAppearance.BorderSize = 0;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button13.ForeColor = System.Drawing.SystemColors.Control;
+            this.button13.Location = new System.Drawing.Point(398, 264);
+            this.button13.Margin = new System.Windows.Forms.Padding(0);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(35, 24);
+            this.button13.TabIndex = 299;
+            this.button13.Text = "13";
+            this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button_Click);
             // 
-            // guna2Button56
+            // button14
             // 
-            guna2Button56.AutoRoundedCorners = true;
-            guna2Button56.BackColor = Color.Transparent;
-            guna2Button56.BorderColor = Color.Transparent;
-            guna2Button56.BorderRadius = 17;
-            guna2Button56.CustomizableEdges = customizableEdges113;
-            guna2Button56.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button56.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button56.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button56.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button56.FillColor = Color.Transparent;
-            guna2Button56.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button56.ForeColor = Color.White;
-            guna2Button56.Location = new Point(385, 495);
-            guna2Button56.Name = "guna2Button56";
-            guna2Button56.ShadowDecoration.CustomizableEdges = customizableEdges114;
-            guna2Button56.Size = new Size(44, 37);
-            guna2Button56.TabIndex = 113;
-            guna2Button56.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button56.Click += ToggleButtonVisibility;
+            this.button14.BackColor = System.Drawing.Color.Transparent;
+            this.button14.FlatAppearance.BorderSize = 0;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button14.ForeColor = System.Drawing.SystemColors.Control;
+            this.button14.Location = new System.Drawing.Point(398, 288);
+            this.button14.Margin = new System.Windows.Forms.Padding(0);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(35, 24);
+            this.button14.TabIndex = 299;
+            this.button14.Text = "14";
+            this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.button_Click);
             // 
-            // guna2Button57
+            // button15
             // 
-            guna2Button57.AutoRoundedCorners = true;
-            guna2Button57.BackColor = Color.Transparent;
-            guna2Button57.BorderColor = Color.Transparent;
-            guna2Button57.BorderRadius = 17;
-            guna2Button57.CustomizableEdges = customizableEdges115;
-            guna2Button57.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button57.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button57.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button57.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button57.FillColor = Color.Transparent;
-            guna2Button57.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button57.ForeColor = Color.White;
-            guna2Button57.Location = new Point(385, 453);
-            guna2Button57.Name = "guna2Button57";
-            guna2Button57.ShadowDecoration.CustomizableEdges = customizableEdges116;
-            guna2Button57.Size = new Size(44, 37);
-            guna2Button57.TabIndex = 112;
-            guna2Button57.TextTransform = Guna.UI2.WinForms.Enums.TextTransform.UpperCase;
-            guna2Button57.Click += ToggleButtonVisibility;
+            this.button15.BackColor = System.Drawing.Color.Transparent;
+            this.button15.FlatAppearance.BorderSize = 0;
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button15.ForeColor = System.Drawing.SystemColors.Control;
+            this.button15.Location = new System.Drawing.Point(398, 312);
+            this.button15.Margin = new System.Windows.Forms.Padding(0);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(35, 24);
+            this.button15.TabIndex = 299;
+            this.button15.Text = "15";
+            this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.button_Click);
             // 
-            // label1
+            // button16
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 13.875F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(485, 88);
-            label1.Name = "label1";
-            label1.Size = new Size(409, 50);
-            label1.TabIndex = 298;
-            label1.Text = "Design sonra yapılcak....";
+            this.button16.BackColor = System.Drawing.Color.Transparent;
+            this.button16.FlatAppearance.BorderSize = 0;
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button16.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button16.ForeColor = System.Drawing.SystemColors.Control;
+            this.button16.Location = new System.Drawing.Point(353, 174);
+            this.button16.Margin = new System.Windows.Forms.Padding(0);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(35, 24);
+            this.button16.TabIndex = 299;
+            this.button16.Text = "16";
+            this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button17
+            // 
+            this.button17.BackColor = System.Drawing.Color.Transparent;
+            this.button17.FlatAppearance.BorderSize = 0;
+            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button17.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button17.ForeColor = System.Drawing.SystemColors.Control;
+            this.button17.Location = new System.Drawing.Point(353, 198);
+            this.button17.Margin = new System.Windows.Forms.Padding(0);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(35, 24);
+            this.button17.TabIndex = 299;
+            this.button17.Text = "17";
+            this.button17.UseVisualStyleBackColor = false;
+            this.button17.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button18
+            // 
+            this.button18.BackColor = System.Drawing.Color.Transparent;
+            this.button18.FlatAppearance.BorderSize = 0;
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button18.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button18.ForeColor = System.Drawing.SystemColors.Control;
+            this.button18.Location = new System.Drawing.Point(353, 222);
+            this.button18.Margin = new System.Windows.Forms.Padding(0);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(35, 24);
+            this.button18.TabIndex = 299;
+            this.button18.Text = "18";
+            this.button18.UseVisualStyleBackColor = false;
+            this.button18.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button19
+            // 
+            this.button19.BackColor = System.Drawing.Color.Transparent;
+            this.button19.FlatAppearance.BorderSize = 0;
+            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button19.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button19.ForeColor = System.Drawing.SystemColors.Control;
+            this.button19.Location = new System.Drawing.Point(362, 265);
+            this.button19.Margin = new System.Windows.Forms.Padding(0);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(35, 24);
+            this.button19.TabIndex = 299;
+            this.button19.Text = "19";
+            this.button19.UseVisualStyleBackColor = false;
+            this.button19.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button20
+            // 
+            this.button20.BackColor = System.Drawing.Color.Transparent;
+            this.button20.FlatAppearance.BorderSize = 0;
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button20.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button20.ForeColor = System.Drawing.SystemColors.Control;
+            this.button20.Location = new System.Drawing.Point(362, 289);
+            this.button20.Margin = new System.Windows.Forms.Padding(0);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(35, 24);
+            this.button20.TabIndex = 299;
+            this.button20.Text = "20";
+            this.button20.UseVisualStyleBackColor = false;
+            this.button20.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button21
+            // 
+            this.button21.BackColor = System.Drawing.Color.Transparent;
+            this.button21.FlatAppearance.BorderSize = 0;
+            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button21.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button21.ForeColor = System.Drawing.SystemColors.Control;
+            this.button21.Location = new System.Drawing.Point(362, 313);
+            this.button21.Margin = new System.Windows.Forms.Padding(0);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(35, 24);
+            this.button21.TabIndex = 299;
+            this.button21.Text = "21";
+            this.button21.UseVisualStyleBackColor = false;
+            this.button21.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button22
+            // 
+            this.button22.BackColor = System.Drawing.Color.Transparent;
+            this.button22.FlatAppearance.BorderSize = 0;
+            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button22.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button22.ForeColor = System.Drawing.SystemColors.Control;
+            this.button22.Location = new System.Drawing.Point(316, 173);
+            this.button22.Margin = new System.Windows.Forms.Padding(0);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(37, 24);
+            this.button22.TabIndex = 299;
+            this.button22.Text = "22";
+            this.button22.UseVisualStyleBackColor = false;
+            this.button22.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button23
+            // 
+            this.button23.BackColor = System.Drawing.Color.Transparent;
+            this.button23.FlatAppearance.BorderSize = 0;
+            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button23.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button23.ForeColor = System.Drawing.SystemColors.Control;
+            this.button23.Location = new System.Drawing.Point(316, 197);
+            this.button23.Margin = new System.Windows.Forms.Padding(0);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(37, 24);
+            this.button23.TabIndex = 299;
+            this.button23.Text = "23";
+            this.button23.UseVisualStyleBackColor = false;
+            this.button23.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button24
+            // 
+            this.button24.BackColor = System.Drawing.Color.Transparent;
+            this.button24.FlatAppearance.BorderSize = 0;
+            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button24.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button24.ForeColor = System.Drawing.SystemColors.Control;
+            this.button24.Location = new System.Drawing.Point(316, 221);
+            this.button24.Margin = new System.Windows.Forms.Padding(0);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(37, 24);
+            this.button24.TabIndex = 299;
+            this.button24.Text = "24";
+            this.button24.UseVisualStyleBackColor = false;
+            this.button24.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button25
+            // 
+            this.button25.BackColor = System.Drawing.Color.Transparent;
+            this.button25.FlatAppearance.BorderSize = 0;
+            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button25.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button25.ForeColor = System.Drawing.SystemColors.Control;
+            this.button25.Location = new System.Drawing.Point(327, 265);
+            this.button25.Margin = new System.Windows.Forms.Padding(0);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(35, 24);
+            this.button25.TabIndex = 299;
+            this.button25.Text = "25";
+            this.button25.UseVisualStyleBackColor = false;
+            this.button25.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button26
+            // 
+            this.button26.BackColor = System.Drawing.Color.Transparent;
+            this.button26.FlatAppearance.BorderSize = 0;
+            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button26.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button26.ForeColor = System.Drawing.SystemColors.Control;
+            this.button26.Location = new System.Drawing.Point(327, 289);
+            this.button26.Margin = new System.Windows.Forms.Padding(0);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(35, 24);
+            this.button26.TabIndex = 299;
+            this.button26.Text = "26";
+            this.button26.UseVisualStyleBackColor = false;
+            this.button26.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button27
+            // 
+            this.button27.BackColor = System.Drawing.Color.Transparent;
+            this.button27.FlatAppearance.BorderSize = 0;
+            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button27.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button27.ForeColor = System.Drawing.SystemColors.Control;
+            this.button27.Location = new System.Drawing.Point(327, 313);
+            this.button27.Margin = new System.Windows.Forms.Padding(0);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(35, 24);
+            this.button27.TabIndex = 299;
+            this.button27.Text = "27";
+            this.button27.UseVisualStyleBackColor = false;
+            this.button27.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button28
+            // 
+            this.button28.BackColor = System.Drawing.Color.Transparent;
+            this.button28.FlatAppearance.BorderSize = 0;
+            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button28.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button28.ForeColor = System.Drawing.SystemColors.Control;
+            this.button28.Location = new System.Drawing.Point(280, 172);
+            this.button28.Margin = new System.Windows.Forms.Padding(0);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(37, 24);
+            this.button28.TabIndex = 299;
+            this.button28.Text = "28";
+            this.button28.UseVisualStyleBackColor = false;
+            this.button28.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button29
+            // 
+            this.button29.BackColor = System.Drawing.Color.Transparent;
+            this.button29.FlatAppearance.BorderSize = 0;
+            this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button29.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button29.ForeColor = System.Drawing.SystemColors.Control;
+            this.button29.Location = new System.Drawing.Point(280, 196);
+            this.button29.Margin = new System.Windows.Forms.Padding(0);
+            this.button29.Name = "button29";
+            this.button29.Size = new System.Drawing.Size(37, 24);
+            this.button29.TabIndex = 299;
+            this.button29.Text = "29";
+            this.button29.UseVisualStyleBackColor = false;
+            this.button29.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button30
+            // 
+            this.button30.BackColor = System.Drawing.Color.Transparent;
+            this.button30.FlatAppearance.BorderSize = 0;
+            this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button30.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button30.ForeColor = System.Drawing.SystemColors.Control;
+            this.button30.Location = new System.Drawing.Point(280, 220);
+            this.button30.Margin = new System.Windows.Forms.Padding(0);
+            this.button30.Name = "button30";
+            this.button30.Size = new System.Drawing.Size(37, 24);
+            this.button30.TabIndex = 299;
+            this.button30.Text = "30";
+            this.button30.UseVisualStyleBackColor = false;
+            this.button30.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button31
+            // 
+            this.button31.BackColor = System.Drawing.Color.Transparent;
+            this.button31.FlatAppearance.BorderSize = 0;
+            this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button31.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button31.ForeColor = System.Drawing.SystemColors.Control;
+            this.button31.Location = new System.Drawing.Point(291, 264);
+            this.button31.Margin = new System.Windows.Forms.Padding(0);
+            this.button31.Name = "button31";
+            this.button31.Size = new System.Drawing.Size(37, 24);
+            this.button31.TabIndex = 299;
+            this.button31.Text = "31";
+            this.button31.UseVisualStyleBackColor = false;
+            this.button31.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button32
+            // 
+            this.button32.BackColor = System.Drawing.Color.Transparent;
+            this.button32.FlatAppearance.BorderSize = 0;
+            this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button32.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button32.ForeColor = System.Drawing.SystemColors.Control;
+            this.button32.Location = new System.Drawing.Point(291, 288);
+            this.button32.Margin = new System.Windows.Forms.Padding(0);
+            this.button32.Name = "button32";
+            this.button32.Size = new System.Drawing.Size(37, 24);
+            this.button32.TabIndex = 299;
+            this.button32.Text = "32";
+            this.button32.UseVisualStyleBackColor = false;
+            this.button32.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button33
+            // 
+            this.button33.BackColor = System.Drawing.Color.Transparent;
+            this.button33.FlatAppearance.BorderSize = 0;
+            this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button33.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button33.ForeColor = System.Drawing.SystemColors.Control;
+            this.button33.Location = new System.Drawing.Point(291, 312);
+            this.button33.Margin = new System.Windows.Forms.Padding(0);
+            this.button33.Name = "button33";
+            this.button33.Size = new System.Drawing.Size(37, 24);
+            this.button33.TabIndex = 299;
+            this.button33.Text = "33";
+            this.button33.UseVisualStyleBackColor = false;
+            this.button33.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button34
+            // 
+            this.button34.BackColor = System.Drawing.Color.Transparent;
+            this.button34.FlatAppearance.BorderSize = 0;
+            this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button34.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button34.ForeColor = System.Drawing.SystemColors.Control;
+            this.button34.Location = new System.Drawing.Point(245, 174);
+            this.button34.Margin = new System.Windows.Forms.Padding(0);
+            this.button34.Name = "button34";
+            this.button34.Size = new System.Drawing.Size(37, 24);
+            this.button34.TabIndex = 299;
+            this.button34.Text = "34";
+            this.button34.UseVisualStyleBackColor = false;
+            this.button34.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button35
+            // 
+            this.button35.BackColor = System.Drawing.Color.Transparent;
+            this.button35.FlatAppearance.BorderSize = 0;
+            this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button35.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button35.ForeColor = System.Drawing.SystemColors.Control;
+            this.button35.Location = new System.Drawing.Point(245, 198);
+            this.button35.Margin = new System.Windows.Forms.Padding(0);
+            this.button35.Name = "button35";
+            this.button35.Size = new System.Drawing.Size(37, 24);
+            this.button35.TabIndex = 299;
+            this.button35.Text = "35";
+            this.button35.UseVisualStyleBackColor = false;
+            this.button35.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button36
+            // 
+            this.button36.BackColor = System.Drawing.Color.Transparent;
+            this.button36.FlatAppearance.BorderSize = 0;
+            this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button36.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button36.ForeColor = System.Drawing.SystemColors.Control;
+            this.button36.Location = new System.Drawing.Point(245, 222);
+            this.button36.Margin = new System.Windows.Forms.Padding(0);
+            this.button36.Name = "button36";
+            this.button36.Size = new System.Drawing.Size(37, 24);
+            this.button36.TabIndex = 299;
+            this.button36.Text = "36";
+            this.button36.UseVisualStyleBackColor = false;
+            this.button36.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button37
+            // 
+            this.button37.BackColor = System.Drawing.Color.Transparent;
+            this.button37.FlatAppearance.BorderSize = 0;
+            this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button37.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button37.ForeColor = System.Drawing.SystemColors.Control;
+            this.button37.Location = new System.Drawing.Point(253, 264);
+            this.button37.Margin = new System.Windows.Forms.Padding(0);
+            this.button37.Name = "button37";
+            this.button37.Size = new System.Drawing.Size(37, 24);
+            this.button37.TabIndex = 299;
+            this.button37.Text = "37";
+            this.button37.UseVisualStyleBackColor = false;
+            this.button37.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button38
+            // 
+            this.button38.BackColor = System.Drawing.Color.Transparent;
+            this.button38.FlatAppearance.BorderSize = 0;
+            this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button38.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button38.ForeColor = System.Drawing.SystemColors.Control;
+            this.button38.Location = new System.Drawing.Point(253, 288);
+            this.button38.Margin = new System.Windows.Forms.Padding(0);
+            this.button38.Name = "button38";
+            this.button38.Size = new System.Drawing.Size(37, 24);
+            this.button38.TabIndex = 299;
+            this.button38.Text = "38";
+            this.button38.UseVisualStyleBackColor = false;
+            this.button38.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button39
+            // 
+            this.button39.BackColor = System.Drawing.Color.Transparent;
+            this.button39.FlatAppearance.BorderSize = 0;
+            this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button39.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button39.ForeColor = System.Drawing.SystemColors.Control;
+            this.button39.Location = new System.Drawing.Point(253, 312);
+            this.button39.Margin = new System.Windows.Forms.Padding(0);
+            this.button39.Name = "button39";
+            this.button39.Size = new System.Drawing.Size(37, 24);
+            this.button39.TabIndex = 299;
+            this.button39.Text = "39";
+            this.button39.UseVisualStyleBackColor = false;
+            this.button39.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button40
+            // 
+            this.button40.BackColor = System.Drawing.Color.Transparent;
+            this.button40.FlatAppearance.BorderSize = 0;
+            this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button40.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button40.ForeColor = System.Drawing.SystemColors.Control;
+            this.button40.Location = new System.Drawing.Point(211, 174);
+            this.button40.Margin = new System.Windows.Forms.Padding(0);
+            this.button40.Name = "button40";
+            this.button40.Size = new System.Drawing.Size(37, 24);
+            this.button40.TabIndex = 299;
+            this.button40.Text = "40";
+            this.button40.UseVisualStyleBackColor = false;
+            this.button40.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button41
+            // 
+            this.button41.BackColor = System.Drawing.Color.Transparent;
+            this.button41.FlatAppearance.BorderSize = 0;
+            this.button41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button41.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button41.ForeColor = System.Drawing.SystemColors.Control;
+            this.button41.Location = new System.Drawing.Point(211, 198);
+            this.button41.Margin = new System.Windows.Forms.Padding(0);
+            this.button41.Name = "button41";
+            this.button41.Size = new System.Drawing.Size(37, 24);
+            this.button41.TabIndex = 299;
+            this.button41.Text = "41";
+            this.button41.UseVisualStyleBackColor = false;
+            this.button41.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button42
+            // 
+            this.button42.BackColor = System.Drawing.Color.Transparent;
+            this.button42.FlatAppearance.BorderSize = 0;
+            this.button42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button42.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button42.ForeColor = System.Drawing.SystemColors.Control;
+            this.button42.Location = new System.Drawing.Point(211, 222);
+            this.button42.Margin = new System.Windows.Forms.Padding(0);
+            this.button42.Name = "button42";
+            this.button42.Size = new System.Drawing.Size(37, 24);
+            this.button42.TabIndex = 299;
+            this.button42.Text = "42";
+            this.button42.UseVisualStyleBackColor = false;
+            this.button42.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button43
+            // 
+            this.button43.BackColor = System.Drawing.Color.Transparent;
+            this.button43.FlatAppearance.BorderSize = 0;
+            this.button43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button43.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button43.ForeColor = System.Drawing.SystemColors.Control;
+            this.button43.Location = new System.Drawing.Point(217, 265);
+            this.button43.Margin = new System.Windows.Forms.Padding(0);
+            this.button43.Name = "button43";
+            this.button43.Size = new System.Drawing.Size(37, 24);
+            this.button43.TabIndex = 299;
+            this.button43.Text = "43";
+            this.button43.UseVisualStyleBackColor = false;
+            this.button43.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button44
+            // 
+            this.button44.BackColor = System.Drawing.Color.Transparent;
+            this.button44.FlatAppearance.BorderSize = 0;
+            this.button44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button44.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button44.ForeColor = System.Drawing.SystemColors.Control;
+            this.button44.Location = new System.Drawing.Point(217, 289);
+            this.button44.Margin = new System.Windows.Forms.Padding(0);
+            this.button44.Name = "button44";
+            this.button44.Size = new System.Drawing.Size(37, 24);
+            this.button44.TabIndex = 299;
+            this.button44.Text = "44";
+            this.button44.UseVisualStyleBackColor = false;
+            this.button44.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button45
+            // 
+            this.button45.BackColor = System.Drawing.Color.Transparent;
+            this.button45.FlatAppearance.BorderSize = 0;
+            this.button45.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button45.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button45.ForeColor = System.Drawing.SystemColors.Control;
+            this.button45.Location = new System.Drawing.Point(217, 313);
+            this.button45.Margin = new System.Windows.Forms.Padding(0);
+            this.button45.Name = "button45";
+            this.button45.Size = new System.Drawing.Size(37, 24);
+            this.button45.TabIndex = 299;
+            this.button45.Text = "45";
+            this.button45.UseVisualStyleBackColor = false;
+            this.button45.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button46
+            // 
+            this.button46.BackColor = System.Drawing.Color.Transparent;
+            this.button46.FlatAppearance.BorderSize = 0;
+            this.button46.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button46.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button46.ForeColor = System.Drawing.SystemColors.Control;
+            this.button46.Location = new System.Drawing.Point(177, 172);
+            this.button46.Margin = new System.Windows.Forms.Padding(0);
+            this.button46.Name = "button46";
+            this.button46.Size = new System.Drawing.Size(37, 24);
+            this.button46.TabIndex = 299;
+            this.button46.Text = "46";
+            this.button46.UseVisualStyleBackColor = false;
+            this.button46.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button47
+            // 
+            this.button47.BackColor = System.Drawing.Color.Transparent;
+            this.button47.FlatAppearance.BorderSize = 0;
+            this.button47.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button47.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button47.ForeColor = System.Drawing.SystemColors.Control;
+            this.button47.Location = new System.Drawing.Point(177, 196);
+            this.button47.Margin = new System.Windows.Forms.Padding(0);
+            this.button47.Name = "button47";
+            this.button47.Size = new System.Drawing.Size(37, 24);
+            this.button47.TabIndex = 299;
+            this.button47.Text = "47";
+            this.button47.UseVisualStyleBackColor = false;
+            this.button47.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button48
+            // 
+            this.button48.BackColor = System.Drawing.Color.Transparent;
+            this.button48.FlatAppearance.BorderSize = 0;
+            this.button48.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button48.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button48.ForeColor = System.Drawing.SystemColors.Control;
+            this.button48.Location = new System.Drawing.Point(177, 220);
+            this.button48.Margin = new System.Windows.Forms.Padding(0);
+            this.button48.Name = "button48";
+            this.button48.Size = new System.Drawing.Size(37, 24);
+            this.button48.TabIndex = 299;
+            this.button48.Text = "48";
+            this.button48.UseVisualStyleBackColor = false;
+            this.button48.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button49
+            // 
+            this.button49.BackColor = System.Drawing.Color.Transparent;
+            this.button49.FlatAppearance.BorderSize = 0;
+            this.button49.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button49.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button49.ForeColor = System.Drawing.SystemColors.Control;
+            this.button49.Location = new System.Drawing.Point(181, 263);
+            this.button49.Margin = new System.Windows.Forms.Padding(0);
+            this.button49.Name = "button49";
+            this.button49.Size = new System.Drawing.Size(37, 24);
+            this.button49.TabIndex = 299;
+            this.button49.Text = "49";
+            this.button49.UseVisualStyleBackColor = false;
+            this.button49.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button50
+            // 
+            this.button50.BackColor = System.Drawing.Color.Transparent;
+            this.button50.FlatAppearance.BorderSize = 0;
+            this.button50.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button50.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button50.ForeColor = System.Drawing.SystemColors.Control;
+            this.button50.Location = new System.Drawing.Point(181, 287);
+            this.button50.Margin = new System.Windows.Forms.Padding(0);
+            this.button50.Name = "button50";
+            this.button50.Size = new System.Drawing.Size(37, 24);
+            this.button50.TabIndex = 299;
+            this.button50.Text = "50";
+            this.button50.UseVisualStyleBackColor = false;
+            this.button50.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button51
+            // 
+            this.button51.BackColor = System.Drawing.Color.Transparent;
+            this.button51.FlatAppearance.BorderSize = 0;
+            this.button51.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button51.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button51.ForeColor = System.Drawing.SystemColors.Control;
+            this.button51.Location = new System.Drawing.Point(181, 311);
+            this.button51.Margin = new System.Windows.Forms.Padding(0);
+            this.button51.Name = "button51";
+            this.button51.Size = new System.Drawing.Size(37, 24);
+            this.button51.TabIndex = 299;
+            this.button51.Text = "51";
+            this.button51.UseVisualStyleBackColor = false;
+            this.button51.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button52
+            // 
+            this.button52.BackColor = System.Drawing.Color.Transparent;
+            this.button52.FlatAppearance.BorderSize = 0;
+            this.button52.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button52.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button52.ForeColor = System.Drawing.SystemColors.Control;
+            this.button52.Location = new System.Drawing.Point(142, 173);
+            this.button52.Margin = new System.Windows.Forms.Padding(0);
+            this.button52.Name = "button52";
+            this.button52.Size = new System.Drawing.Size(37, 24);
+            this.button52.TabIndex = 299;
+            this.button52.Text = "52";
+            this.button52.UseVisualStyleBackColor = false;
+            this.button52.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button53
+            // 
+            this.button53.BackColor = System.Drawing.Color.Transparent;
+            this.button53.FlatAppearance.BorderSize = 0;
+            this.button53.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button53.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button53.ForeColor = System.Drawing.SystemColors.Control;
+            this.button53.Location = new System.Drawing.Point(142, 197);
+            this.button53.Margin = new System.Windows.Forms.Padding(0);
+            this.button53.Name = "button53";
+            this.button53.Size = new System.Drawing.Size(37, 24);
+            this.button53.TabIndex = 299;
+            this.button53.Text = "53";
+            this.button53.UseVisualStyleBackColor = false;
+            this.button53.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button54
+            // 
+            this.button54.BackColor = System.Drawing.Color.Transparent;
+            this.button54.FlatAppearance.BorderSize = 0;
+            this.button54.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button54.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button54.ForeColor = System.Drawing.SystemColors.Control;
+            this.button54.Location = new System.Drawing.Point(142, 221);
+            this.button54.Margin = new System.Windows.Forms.Padding(0);
+            this.button54.Name = "button54";
+            this.button54.Size = new System.Drawing.Size(37, 24);
+            this.button54.TabIndex = 299;
+            this.button54.Text = "54";
+            this.button54.UseVisualStyleBackColor = false;
+            this.button54.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button55
+            // 
+            this.button55.BackColor = System.Drawing.Color.Transparent;
+            this.button55.FlatAppearance.BorderSize = 0;
+            this.button55.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button55.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button55.ForeColor = System.Drawing.SystemColors.Control;
+            this.button55.Location = new System.Drawing.Point(145, 264);
+            this.button55.Margin = new System.Windows.Forms.Padding(0);
+            this.button55.Name = "button55";
+            this.button55.Size = new System.Drawing.Size(37, 24);
+            this.button55.TabIndex = 299;
+            this.button55.Text = "55";
+            this.button55.UseVisualStyleBackColor = false;
+            this.button55.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button56
+            // 
+            this.button56.BackColor = System.Drawing.Color.Transparent;
+            this.button56.FlatAppearance.BorderSize = 0;
+            this.button56.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button56.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button56.ForeColor = System.Drawing.SystemColors.Control;
+            this.button56.Location = new System.Drawing.Point(145, 288);
+            this.button56.Margin = new System.Windows.Forms.Padding(0);
+            this.button56.Name = "button56";
+            this.button56.Size = new System.Drawing.Size(37, 24);
+            this.button56.TabIndex = 299;
+            this.button56.Text = "56";
+            this.button56.UseVisualStyleBackColor = false;
+            this.button56.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button57
+            // 
+            this.button57.BackColor = System.Drawing.Color.Transparent;
+            this.button57.FlatAppearance.BorderSize = 0;
+            this.button57.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button57.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button57.ForeColor = System.Drawing.SystemColors.Control;
+            this.button57.Location = new System.Drawing.Point(145, 312);
+            this.button57.Margin = new System.Windows.Forms.Padding(0);
+            this.button57.Name = "button57";
+            this.button57.Size = new System.Drawing.Size(37, 24);
+            this.button57.TabIndex = 299;
+            this.button57.Text = "57";
+            this.button57.UseVisualStyleBackColor = false;
+            this.button57.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button58
+            // 
+            this.button58.BackColor = System.Drawing.Color.Transparent;
+            this.button58.FlatAppearance.BorderSize = 0;
+            this.button58.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button58.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button58.ForeColor = System.Drawing.Color.Black;
+            this.button58.Location = new System.Drawing.Point(108, 173);
+            this.button58.Margin = new System.Windows.Forms.Padding(0);
+            this.button58.Name = "button58";
+            this.button58.Size = new System.Drawing.Size(37, 24);
+            this.button58.TabIndex = 299;
+            this.button58.Text = "58";
+            this.button58.UseVisualStyleBackColor = false;
+            this.button58.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button59
+            // 
+            this.button59.BackColor = System.Drawing.Color.Transparent;
+            this.button59.FlatAppearance.BorderSize = 0;
+            this.button59.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button59.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button59.ForeColor = System.Drawing.Color.Black;
+            this.button59.Location = new System.Drawing.Point(108, 197);
+            this.button59.Margin = new System.Windows.Forms.Padding(0);
+            this.button59.Name = "button59";
+            this.button59.Size = new System.Drawing.Size(37, 24);
+            this.button59.TabIndex = 299;
+            this.button59.Text = "59";
+            this.button59.UseVisualStyleBackColor = false;
+            this.button59.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button60
+            // 
+            this.button60.BackColor = System.Drawing.Color.Transparent;
+            this.button60.FlatAppearance.BorderSize = 0;
+            this.button60.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button60.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button60.ForeColor = System.Drawing.Color.Black;
+            this.button60.Location = new System.Drawing.Point(108, 221);
+            this.button60.Margin = new System.Windows.Forms.Padding(0);
+            this.button60.Name = "button60";
+            this.button60.Size = new System.Drawing.Size(37, 24);
+            this.button60.TabIndex = 299;
+            this.button60.Text = "60";
+            this.button60.UseVisualStyleBackColor = false;
+            this.button60.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button61
+            // 
+            this.button61.BackColor = System.Drawing.Color.Transparent;
+            this.button61.FlatAppearance.BorderSize = 0;
+            this.button61.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button61.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button61.ForeColor = System.Drawing.Color.Black;
+            this.button61.Location = new System.Drawing.Point(110, 264);
+            this.button61.Margin = new System.Windows.Forms.Padding(0);
+            this.button61.Name = "button61";
+            this.button61.Size = new System.Drawing.Size(37, 24);
+            this.button61.TabIndex = 299;
+            this.button61.Text = "61";
+            this.button61.UseVisualStyleBackColor = false;
+            this.button61.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button62
+            // 
+            this.button62.BackColor = System.Drawing.Color.Transparent;
+            this.button62.FlatAppearance.BorderSize = 0;
+            this.button62.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button62.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button62.ForeColor = System.Drawing.Color.Black;
+            this.button62.Location = new System.Drawing.Point(110, 288);
+            this.button62.Margin = new System.Windows.Forms.Padding(0);
+            this.button62.Name = "button62";
+            this.button62.Size = new System.Drawing.Size(37, 24);
+            this.button62.TabIndex = 299;
+            this.button62.Text = "62";
+            this.button62.UseVisualStyleBackColor = false;
+            this.button62.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button63
+            // 
+            this.button63.BackColor = System.Drawing.Color.Transparent;
+            this.button63.FlatAppearance.BorderSize = 0;
+            this.button63.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button63.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button63.ForeColor = System.Drawing.Color.Black;
+            this.button63.Location = new System.Drawing.Point(110, 312);
+            this.button63.Margin = new System.Windows.Forms.Padding(0);
+            this.button63.Name = "button63";
+            this.button63.Size = new System.Drawing.Size(37, 24);
+            this.button63.TabIndex = 299;
+            this.button63.Text = "63";
+            this.button63.UseVisualStyleBackColor = false;
+            this.button63.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button64
+            // 
+            this.button64.BackColor = System.Drawing.Color.Transparent;
+            this.button64.FlatAppearance.BorderSize = 0;
+            this.button64.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button64.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button64.ForeColor = System.Drawing.Color.Black;
+            this.button64.Location = new System.Drawing.Point(74, 173);
+            this.button64.Margin = new System.Windows.Forms.Padding(0);
+            this.button64.Name = "button64";
+            this.button64.Size = new System.Drawing.Size(37, 24);
+            this.button64.TabIndex = 299;
+            this.button64.Text = "64";
+            this.button64.UseVisualStyleBackColor = false;
+            this.button64.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button65
+            // 
+            this.button65.BackColor = System.Drawing.Color.Transparent;
+            this.button65.FlatAppearance.BorderSize = 0;
+            this.button65.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button65.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button65.ForeColor = System.Drawing.Color.Black;
+            this.button65.Location = new System.Drawing.Point(74, 197);
+            this.button65.Margin = new System.Windows.Forms.Padding(0);
+            this.button65.Name = "button65";
+            this.button65.Size = new System.Drawing.Size(37, 24);
+            this.button65.TabIndex = 299;
+            this.button65.Text = "65";
+            this.button65.UseVisualStyleBackColor = false;
+            this.button65.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button66
+            // 
+            this.button66.BackColor = System.Drawing.Color.Transparent;
+            this.button66.FlatAppearance.BorderSize = 0;
+            this.button66.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button66.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button66.ForeColor = System.Drawing.Color.Black;
+            this.button66.Location = new System.Drawing.Point(74, 221);
+            this.button66.Margin = new System.Windows.Forms.Padding(0);
+            this.button66.Name = "button66";
+            this.button66.Size = new System.Drawing.Size(37, 24);
+            this.button66.TabIndex = 299;
+            this.button66.Text = "66";
+            this.button66.UseVisualStyleBackColor = false;
+            this.button66.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button67
+            // 
+            this.button67.BackColor = System.Drawing.Color.Transparent;
+            this.button67.FlatAppearance.BorderSize = 0;
+            this.button67.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button67.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button67.ForeColor = System.Drawing.Color.Black;
+            this.button67.Location = new System.Drawing.Point(73, 264);
+            this.button67.Margin = new System.Windows.Forms.Padding(0);
+            this.button67.Name = "button67";
+            this.button67.Size = new System.Drawing.Size(37, 24);
+            this.button67.TabIndex = 299;
+            this.button67.Text = "67";
+            this.button67.UseVisualStyleBackColor = false;
+            this.button67.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button68
+            // 
+            this.button68.BackColor = System.Drawing.Color.Transparent;
+            this.button68.FlatAppearance.BorderSize = 0;
+            this.button68.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button68.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button68.ForeColor = System.Drawing.Color.Black;
+            this.button68.Location = new System.Drawing.Point(73, 288);
+            this.button68.Margin = new System.Windows.Forms.Padding(0);
+            this.button68.Name = "button68";
+            this.button68.Size = new System.Drawing.Size(37, 24);
+            this.button68.TabIndex = 299;
+            this.button68.Text = "68";
+            this.button68.UseVisualStyleBackColor = false;
+            this.button68.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button69
+            // 
+            this.button69.BackColor = System.Drawing.Color.Transparent;
+            this.button69.FlatAppearance.BorderSize = 0;
+            this.button69.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button69.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button69.ForeColor = System.Drawing.Color.Black;
+            this.button69.Location = new System.Drawing.Point(73, 312);
+            this.button69.Margin = new System.Windows.Forms.Padding(0);
+            this.button69.Name = "button69";
+            this.button69.Size = new System.Drawing.Size(37, 24);
+            this.button69.TabIndex = 299;
+            this.button69.Text = "69";
+            this.button69.UseVisualStyleBackColor = false;
+            this.button69.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button70
+            // 
+            this.button70.BackColor = System.Drawing.Color.Transparent;
+            this.button70.FlatAppearance.BorderSize = 0;
+            this.button70.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button70.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button70.ForeColor = System.Drawing.Color.Black;
+            this.button70.Location = new System.Drawing.Point(38, 173);
+            this.button70.Margin = new System.Windows.Forms.Padding(0);
+            this.button70.Name = "button70";
+            this.button70.Size = new System.Drawing.Size(37, 24);
+            this.button70.TabIndex = 299;
+            this.button70.Text = "70";
+            this.button70.UseVisualStyleBackColor = false;
+            this.button70.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button71
+            // 
+            this.button71.BackColor = System.Drawing.Color.Transparent;
+            this.button71.FlatAppearance.BorderSize = 0;
+            this.button71.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button71.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button71.ForeColor = System.Drawing.Color.Black;
+            this.button71.Location = new System.Drawing.Point(38, 197);
+            this.button71.Margin = new System.Windows.Forms.Padding(0);
+            this.button71.Name = "button71";
+            this.button71.Size = new System.Drawing.Size(37, 24);
+            this.button71.TabIndex = 299;
+            this.button71.Text = "71";
+            this.button71.UseVisualStyleBackColor = false;
+            this.button71.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button72
+            // 
+            this.button72.BackColor = System.Drawing.Color.Transparent;
+            this.button72.FlatAppearance.BorderSize = 0;
+            this.button72.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button72.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button72.ForeColor = System.Drawing.Color.Black;
+            this.button72.Location = new System.Drawing.Point(38, 221);
+            this.button72.Margin = new System.Windows.Forms.Padding(0);
+            this.button72.Name = "button72";
+            this.button72.Size = new System.Drawing.Size(37, 24);
+            this.button72.TabIndex = 299;
+            this.button72.Text = "72";
+            this.button72.UseVisualStyleBackColor = false;
+            this.button72.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button73
+            // 
+            this.button73.BackColor = System.Drawing.Color.Transparent;
+            this.button73.FlatAppearance.BorderSize = 0;
+            this.button73.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button73.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button73.ForeColor = System.Drawing.Color.Black;
+            this.button73.Location = new System.Drawing.Point(38, 264);
+            this.button73.Margin = new System.Windows.Forms.Padding(0);
+            this.button73.Name = "button73";
+            this.button73.Size = new System.Drawing.Size(37, 24);
+            this.button73.TabIndex = 299;
+            this.button73.Text = "73";
+            this.button73.UseVisualStyleBackColor = false;
+            this.button73.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button74
+            // 
+            this.button74.BackColor = System.Drawing.Color.Transparent;
+            this.button74.FlatAppearance.BorderSize = 0;
+            this.button74.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button74.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button74.ForeColor = System.Drawing.Color.Black;
+            this.button74.Location = new System.Drawing.Point(38, 288);
+            this.button74.Margin = new System.Windows.Forms.Padding(0);
+            this.button74.Name = "button74";
+            this.button74.Size = new System.Drawing.Size(37, 24);
+            this.button74.TabIndex = 299;
+            this.button74.Text = "74";
+            this.button74.UseVisualStyleBackColor = false;
+            this.button74.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button75
+            // 
+            this.button75.BackColor = System.Drawing.Color.Transparent;
+            this.button75.FlatAppearance.BorderSize = 0;
+            this.button75.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button75.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button75.ForeColor = System.Drawing.Color.Black;
+            this.button75.Location = new System.Drawing.Point(38, 312);
+            this.button75.Margin = new System.Windows.Forms.Padding(0);
+            this.button75.Name = "button75";
+            this.button75.Size = new System.Drawing.Size(37, 24);
+            this.button75.TabIndex = 299;
+            this.button75.Text = "75";
+            this.button75.UseVisualStyleBackColor = false;
+            this.button75.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button76
+            // 
+            this.button76.BackColor = System.Drawing.Color.Transparent;
+            this.button76.FlatAppearance.BorderSize = 0;
+            this.button76.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button76.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button76.ForeColor = System.Drawing.Color.Black;
+            this.button76.Location = new System.Drawing.Point(2, 173);
+            this.button76.Margin = new System.Windows.Forms.Padding(0);
+            this.button76.Name = "button76";
+            this.button76.Size = new System.Drawing.Size(37, 24);
+            this.button76.TabIndex = 299;
+            this.button76.Text = "76";
+            this.button76.UseVisualStyleBackColor = false;
+            this.button76.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button77
+            // 
+            this.button77.BackColor = System.Drawing.Color.Transparent;
+            this.button77.FlatAppearance.BorderSize = 0;
+            this.button77.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button77.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button77.ForeColor = System.Drawing.Color.Black;
+            this.button77.Location = new System.Drawing.Point(2, 197);
+            this.button77.Margin = new System.Windows.Forms.Padding(0);
+            this.button77.Name = "button77";
+            this.button77.Size = new System.Drawing.Size(37, 24);
+            this.button77.TabIndex = 299;
+            this.button77.Text = "77";
+            this.button77.UseVisualStyleBackColor = false;
+            this.button77.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button78
+            // 
+            this.button78.BackColor = System.Drawing.Color.Transparent;
+            this.button78.FlatAppearance.BorderSize = 0;
+            this.button78.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button78.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button78.ForeColor = System.Drawing.Color.Black;
+            this.button78.Location = new System.Drawing.Point(2, 221);
+            this.button78.Margin = new System.Windows.Forms.Padding(0);
+            this.button78.Name = "button78";
+            this.button78.Size = new System.Drawing.Size(37, 24);
+            this.button78.TabIndex = 299;
+            this.button78.Text = "78";
+            this.button78.UseVisualStyleBackColor = false;
+            this.button78.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button79
+            // 
+            this.button79.BackColor = System.Drawing.Color.Transparent;
+            this.button79.FlatAppearance.BorderSize = 0;
+            this.button79.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button79.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button79.ForeColor = System.Drawing.Color.Black;
+            this.button79.Location = new System.Drawing.Point(2, 264);
+            this.button79.Margin = new System.Windows.Forms.Padding(0);
+            this.button79.Name = "button79";
+            this.button79.Size = new System.Drawing.Size(37, 24);
+            this.button79.TabIndex = 299;
+            this.button79.Text = "79";
+            this.button79.UseVisualStyleBackColor = false;
+            this.button79.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button80
+            // 
+            this.button80.BackColor = System.Drawing.Color.Transparent;
+            this.button80.FlatAppearance.BorderSize = 0;
+            this.button80.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button80.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button80.ForeColor = System.Drawing.Color.Black;
+            this.button80.Location = new System.Drawing.Point(2, 288);
+            this.button80.Margin = new System.Windows.Forms.Padding(0);
+            this.button80.Name = "button80";
+            this.button80.Size = new System.Drawing.Size(37, 24);
+            this.button80.TabIndex = 299;
+            this.button80.Text = "80";
+            this.button80.UseVisualStyleBackColor = false;
+            this.button80.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button81
+            // 
+            this.button81.BackColor = System.Drawing.Color.Transparent;
+            this.button81.FlatAppearance.BorderSize = 0;
+            this.button81.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button81.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button81.ForeColor = System.Drawing.Color.Black;
+            this.button81.Location = new System.Drawing.Point(2, 312);
+            this.button81.Margin = new System.Windows.Forms.Padding(0);
+            this.button81.Name = "button81";
+            this.button81.Size = new System.Drawing.Size(37, 24);
+            this.button81.TabIndex = 299;
+            this.button81.Text = "81";
+            this.button81.UseVisualStyleBackColor = false;
+            this.button81.Click += new System.EventHandler(this.button_Click);
+            // 
+            // labelNormal
+            // 
+            this.labelNormal.AutoSize = true;
+            this.labelNormal.Location = new System.Drawing.Point(33, 498);
+            this.labelNormal.Name = "labelNormal";
+            this.labelNormal.Size = new System.Drawing.Size(43, 15);
+            this.labelNormal.TabIndex = 301;
+            this.labelNormal.Text = "0.00 TL";
+            // 
+            // labelBusiness
+            // 
+            this.labelBusiness.AutoSize = true;
+            this.labelBusiness.Location = new System.Drawing.Point(238, 498);
+            this.labelBusiness.Name = "labelBusiness";
+            this.labelBusiness.Size = new System.Drawing.Size(43, 15);
+            this.labelBusiness.TabIndex = 301;
+            this.labelBusiness.Text = "0.00 TL";
+            // 
+            // labelPremium
+            // 
+            this.labelPremium.AutoSize = true;
+            this.labelPremium.Location = new System.Drawing.Point(136, 498);
+            this.labelPremium.Name = "labelPremium";
+            this.labelPremium.Size = new System.Drawing.Size(43, 15);
+            this.labelPremium.TabIndex = 301;
+            this.labelPremium.Text = "0.00 TL";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(213, 434);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(95, 15);
+            this.label7.TabIndex = 309;
+            this.label7.Text = "BUSINESS Koltuk";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(315, 434);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(81, 15);
+            this.label4.TabIndex = 310;
+            this.label4.Text = "Seçilen Koltuk";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(13, 434);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(84, 15);
+            this.label5.TabIndex = 311;
+            this.label5.Text = "Normal Koltuk";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(109, 434);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(97, 15);
+            this.label6.TabIndex = 312;
+            this.label6.Text = "PREMIUM Koltuk";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(413, 434);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(32, 15);
+            this.label8.TabIndex = 313;
+            this.label8.Text = "Dolu";
+            // 
+            // button82
+            // 
+            this.button82.BackColor = System.Drawing.Color.Gold;
+            this.button82.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button82.Location = new System.Drawing.Point(240, 459);
+            this.button82.Margin = new System.Windows.Forms.Padding(2);
+            this.button82.Name = "button82";
+            this.button82.Size = new System.Drawing.Size(41, 31);
+            this.button82.TabIndex = 304;
+            this.button82.UseVisualStyleBackColor = false;
+            // 
+            // button83
+            // 
+            this.button83.BackColor = System.Drawing.Color.Yellow;
+            this.button83.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button83.Location = new System.Drawing.Point(138, 459);
+            this.button83.Margin = new System.Windows.Forms.Padding(2);
+            this.button83.Name = "button83";
+            this.button83.Size = new System.Drawing.Size(41, 31);
+            this.button83.TabIndex = 305;
+            this.button83.UseVisualStyleBackColor = false;
+            // 
+            // button84
+            // 
+            this.button84.BackColor = System.Drawing.Color.Gray;
+            this.button84.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button84.Location = new System.Drawing.Point(335, 459);
+            this.button84.Margin = new System.Windows.Forms.Padding(2);
+            this.button84.Name = "button84";
+            this.button84.Size = new System.Drawing.Size(41, 31);
+            this.button84.TabIndex = 306;
+            this.button84.UseVisualStyleBackColor = false;
+            // 
+            // button85
+            // 
+            this.button85.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button85.Location = new System.Drawing.Point(33, 459);
+            this.button85.Margin = new System.Windows.Forms.Padding(2);
+            this.button85.Name = "button85";
+            this.button85.Size = new System.Drawing.Size(41, 31);
+            this.button85.TabIndex = 307;
+            this.button85.UseVisualStyleBackColor = true;
+            // 
+            // button86
+            // 
+            this.button86.BackColor = System.Drawing.Color.Green;
+            this.button86.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button86.Location = new System.Drawing.Point(408, 459);
+            this.button86.Margin = new System.Windows.Forms.Padding(2);
+            this.button86.Name = "button86";
+            this.button86.Size = new System.Drawing.Size(41, 31);
+            this.button86.TabIndex = 308;
+            this.button86.UseVisualStyleBackColor = false;
+            // 
+            // buttonContinue
+            // 
+            this.buttonContinue.BackColor = System.Drawing.Color.DarkCyan;
+            this.buttonContinue.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonContinue.ForeColor = System.Drawing.Color.White;
+            this.buttonContinue.Location = new System.Drawing.Point(498, 448);
+            this.buttonContinue.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonContinue.Name = "buttonContinue";
+            this.buttonContinue.Size = new System.Drawing.Size(251, 42);
+            this.buttonContinue.TabIndex = 303;
+            this.buttonContinue.Text = "Onayla ve Devam Et";
+            this.buttonContinue.UseVisualStyleBackColor = false;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label9.Location = new System.Drawing.Point(0, 346);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(145, 17);
+            this.label9.TabIndex = 302;
+            this.label9.Text = "*Lütfen Koltuk Seçiniz.";
             // 
             // PlaneKoltukBusiness
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ButtonHighlight;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            BackgroundImageLayout = ImageLayout.Zoom;
-            ClientSize = new Size(1332, 897);
-            Controls.Add(label1);
-            Controls.Add(guna2Button55);
-            Controls.Add(guna2Button56);
-            Controls.Add(guna2Button57);
-            Controls.Add(guna2Button52);
-            Controls.Add(guna2Button53);
-            Controls.Add(guna2Button54);
-            Controls.Add(guna2Button49);
-            Controls.Add(guna2Button50);
-            Controls.Add(guna2Button51);
-            Controls.Add(guna2Button46);
-            Controls.Add(guna2Button47);
-            Controls.Add(guna2Button48);
-            Controls.Add(guna2Button43);
-            Controls.Add(guna2Button44);
-            Controls.Add(guna2Button45);
-            Controls.Add(guna2Button40);
-            Controls.Add(guna2Button41);
-            Controls.Add(guna2Button42);
-            Controls.Add(guna2Button37);
-            Controls.Add(guna2Button38);
-            Controls.Add(guna2Button39);
-            Controls.Add(guna2Button31);
-            Controls.Add(guna2Button32);
-            Controls.Add(guna2Button33);
-            Controls.Add(guna2Button34);
-            Controls.Add(guna2Button35);
-            Controls.Add(guna2Button36);
-            Controls.Add(guna2Button24);
-            Controls.Add(guna2Button25);
-            Controls.Add(guna2Button26);
-            Controls.Add(guna2Button27);
-            Controls.Add(guna2Button28);
-            Controls.Add(guna2Button29);
-            Controls.Add(guna2Button18);
-            Controls.Add(guna2Button19);
-            Controls.Add(guna2Button20);
-            Controls.Add(guna2Button21);
-            Controls.Add(guna2Button22);
-            Controls.Add(guna2Button23);
-            Controls.Add(guna2Button10);
-            Controls.Add(guna2Button11);
-            Controls.Add(guna2Button12);
-            Controls.Add(guna2Button13);
-            Controls.Add(guna2Button14);
-            Controls.Add(guna2Button15);
-            Controls.Add(guna2Button4);
-            Controls.Add(guna2Button5);
-            Controls.Add(guna2Button6);
-            Controls.Add(guna2Button7);
-            Controls.Add(guna2Button8);
-            Controls.Add(guna2Button9);
-            Controls.Add(guna2Button1);
-            Controls.Add(guna2Button2);
-            Controls.Add(guna2Button3);
-            Controls.Add(guna2Panel1);
-            Controls.Add(guna2Button30);
-            Controls.Add(guna2Button16);
-            Controls.Add(guna2Button17);
-            DoubleBuffered = true;
-            FormBorderStyle = FormBorderStyle.None;
-            Name = "PlaneKoltukBusiness";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "PlaneKoltukBusiness";
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(770, 530);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.button82);
+            this.Controls.Add(this.button83);
+            this.Controls.Add(this.button84);
+            this.Controls.Add(this.button85);
+            this.Controls.Add(this.button86);
+            this.Controls.Add(this.buttonContinue);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.labelPremium);
+            this.Controls.Add(this.labelBusiness);
+            this.Controls.Add(this.labelNormal);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button15);
+            this.Controls.Add(this.button14);
+            this.Controls.Add(this.button21);
+            this.Controls.Add(this.button27);
+            this.Controls.Add(this.button33);
+            this.Controls.Add(this.button39);
+            this.Controls.Add(this.button45);
+            this.Controls.Add(this.button51);
+            this.Controls.Add(this.button57);
+            this.Controls.Add(this.button63);
+            this.Controls.Add(this.button69);
+            this.Controls.Add(this.button75);
+            this.Controls.Add(this.button81);
+            this.Controls.Add(this.button78);
+            this.Controls.Add(this.button72);
+            this.Controls.Add(this.button66);
+            this.Controls.Add(this.button60);
+            this.Controls.Add(this.button54);
+            this.Controls.Add(this.button48);
+            this.Controls.Add(this.button42);
+            this.Controls.Add(this.button36);
+            this.Controls.Add(this.button30);
+            this.Controls.Add(this.button24);
+            this.Controls.Add(this.button18);
+            this.Controls.Add(this.button26);
+            this.Controls.Add(this.button56);
+            this.Controls.Add(this.button80);
+            this.Controls.Add(this.button74);
+            this.Controls.Add(this.button77);
+            this.Controls.Add(this.button68);
+            this.Controls.Add(this.button71);
+            this.Controls.Add(this.button62);
+            this.Controls.Add(this.button65);
+            this.Controls.Add(this.button50);
+            this.Controls.Add(this.button59);
+            this.Controls.Add(this.button53);
+            this.Controls.Add(this.button44);
+            this.Controls.Add(this.button47);
+            this.Controls.Add(this.button38);
+            this.Controls.Add(this.button41);
+            this.Controls.Add(this.button32);
+            this.Controls.Add(this.button35);
+            this.Controls.Add(this.button20);
+            this.Controls.Add(this.button29);
+            this.Controls.Add(this.button23);
+            this.Controls.Add(this.button12);
+            this.Controls.Add(this.button17);
+            this.Controls.Add(this.button25);
+            this.Controls.Add(this.button55);
+            this.Controls.Add(this.button79);
+            this.Controls.Add(this.button73);
+            this.Controls.Add(this.button76);
+            this.Controls.Add(this.button67);
+            this.Controls.Add(this.button70);
+            this.Controls.Add(this.button61);
+            this.Controls.Add(this.button64);
+            this.Controls.Add(this.button49);
+            this.Controls.Add(this.button58);
+            this.Controls.Add(this.button52);
+            this.Controls.Add(this.button43);
+            this.Controls.Add(this.button46);
+            this.Controls.Add(this.button37);
+            this.Controls.Add(this.button40);
+            this.Controls.Add(this.button31);
+            this.Controls.Add(this.button34);
+            this.Controls.Add(this.button19);
+            this.Controls.Add(this.button28);
+            this.Controls.Add(this.button22);
+            this.Controls.Add(this.button13);
+            this.Controls.Add(this.button16);
+            this.Controls.Add(this.button11);
+            this.Controls.Add(this.button10);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.guna2Button42);
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.Name = "PlaneKoltukBusiness";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
-        private Guna.UI2.WinForms.Guna2Button guna2Button16;
-        private Guna.UI2.WinForms.Guna2Button guna2Button17;
-        private Guna.UI2.WinForms.Guna2Button guna2Button30;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button6;
-        private Guna.UI2.WinForms.Guna2Button guna2Button7;
-        private Guna.UI2.WinForms.Guna2Button guna2Button8;
-        private Guna.UI2.WinForms.Guna2Button guna2Button9;
-        private Guna.UI2.WinForms.Guna2Button guna2Button10;
-        private Guna.UI2.WinForms.Guna2Button guna2Button11;
-        private Guna.UI2.WinForms.Guna2Button guna2Button12;
-        private Guna.UI2.WinForms.Guna2Button guna2Button13;
-        private Guna.UI2.WinForms.Guna2Button guna2Button14;
-        private Guna.UI2.WinForms.Guna2Button guna2Button15;
-        private Guna.UI2.WinForms.Guna2Button guna2Button18;
-        private Guna.UI2.WinForms.Guna2Button guna2Button19;
-        private Guna.UI2.WinForms.Guna2Button guna2Button20;
-        private Guna.UI2.WinForms.Guna2Button guna2Button21;
-        private Guna.UI2.WinForms.Guna2Button guna2Button22;
-        private Guna.UI2.WinForms.Guna2Button guna2Button23;
-        private Guna.UI2.WinForms.Guna2Button guna2Button24;
-        private Guna.UI2.WinForms.Guna2Button guna2Button25;
-        private Guna.UI2.WinForms.Guna2Button guna2Button26;
-        private Guna.UI2.WinForms.Guna2Button guna2Button27;
-        private Guna.UI2.WinForms.Guna2Button guna2Button28;
-        private Guna.UI2.WinForms.Guna2Button guna2Button29;
-        private Guna.UI2.WinForms.Guna2Button guna2Button31;
-        private Guna.UI2.WinForms.Guna2Button guna2Button32;
-        private Guna.UI2.WinForms.Guna2Button guna2Button33;
-        private Guna.UI2.WinForms.Guna2Button guna2Button34;
-        private Guna.UI2.WinForms.Guna2Button guna2Button35;
-        private Guna.UI2.WinForms.Guna2Button guna2Button36;
-        private Guna.UI2.WinForms.Guna2Button guna2Button37;
-        private Guna.UI2.WinForms.Guna2Button guna2Button38;
-        private Guna.UI2.WinForms.Guna2Button guna2Button39;
-        private Guna.UI2.WinForms.Guna2Button guna2Button40;
-        private Guna.UI2.WinForms.Guna2Button guna2Button41;
         private Guna.UI2.WinForms.Guna2Button guna2Button42;
-        private Guna.UI2.WinForms.Guna2Button guna2Button43;
-        private Guna.UI2.WinForms.Guna2Button guna2Button44;
-        private Guna.UI2.WinForms.Guna2Button guna2Button45;
-        private Guna.UI2.WinForms.Guna2Button guna2Button46;
-        private Guna.UI2.WinForms.Guna2Button guna2Button47;
-        private Guna.UI2.WinForms.Guna2Button guna2Button48;
-        private Guna.UI2.WinForms.Guna2Button guna2Button49;
-        private Guna.UI2.WinForms.Guna2Button guna2Button50;
-        private Guna.UI2.WinForms.Guna2Button guna2Button51;
-        private Guna.UI2.WinForms.Guna2Button guna2Button52;
-        private Guna.UI2.WinForms.Guna2Button guna2Button53;
-        private Guna.UI2.WinForms.Guna2Button guna2Button54;
-        private Guna.UI2.WinForms.Guna2Button guna2Button55;
-        private Guna.UI2.WinForms.Guna2Button guna2Button56;
-        private Guna.UI2.WinForms.Guna2Button guna2Button57;
-        private Label label1;
+        private Button button1;
+        private Button button2;
+        private Button button3;
+        private Button button4;
+        private Button button5;
+        private Button button6;
+        private Button button7;
+        private Button button8;
+        private Button button9;
+        private Button button10;
+        private Button button11;
+        private Button button12;
+        private Button button13;
+        private Button button14;
+        private Button button15;
+        private Button button16;
+        private Button button17;
+        private Button button18;
+        private Button button19;
+        private Button button20;
+        private Button button21;
+        private Button button22;
+        private Button button23;
+        private Button button24;
+        private Button button25;
+        private Button button26;
+        private Button button27;
+        private Button button28;
+        private Button button29;
+        private Button button30;
+        private Button button31;
+        private Button button32;
+        private Button button33;
+        private Button button34;
+        private Button button35;
+        private Button button36;
+        private Button button37;
+        private Button button38;
+        private Button button39;
+        private Button button40;
+        private Button button41;
+        private Button button42;
+        private Button button43;
+        private Button button44;
+        private Button button45;
+        private Button button46;
+        private Button button47;
+        private Button button48;
+        private Button button49;
+        private Button button50;
+        private Button button51;
+        private Button button52;
+        private Button button53;
+        private Button button54;
+        private Button button55;
+        private Button button56;
+        private Button button57;
+        private Button button58;
+        private Button button59;
+        private Button button60;
+        private Button button61;
+        private Button button62;
+        private Button button63;
+        private Button button64;
+        private Button button65;
+        private Button button66;
+        private Button button67;
+        private Button button68;
+        private Button button69;
+        private Button button70;
+        private Button button71;
+        private Button button72;
+        private Button button73;
+        private Button button74;
+        private Button button75;
+        private Button button76;
+        private Button button77;
+        private Button button78;
+        private Button button79;
+        private Button button80;
+        private Button button81;
+        private Label labelNormal;
+        private Label labelBusiness;
+        private Label labelPremium;
+        private Label label7;
+        private Label label4;
+        private Label label5;
+        private Label label6;
+        private Label label8;
+        private Button button82;
+        private Button button83;
+        private Button button84;
+        private Button button85;
+        private Button button86;
+        private Button buttonContinue;
+        private Label label9;
     }
 }

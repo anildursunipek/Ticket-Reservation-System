@@ -166,12 +166,12 @@ namespace Ticket_Reservation_System
         }
         private void btnPlane_Click(object sender, EventArgs e)
         {
-            openChildForm(new plane());
+            openChildForm(new plane(user));
         }
 
         private void btnFerry_Click(object sender, EventArgs e)
         {
-            openChildForm(new Feribot());
+            openChildForm(new Feribot(user));
         }
 
         private void btnMapButton_Click(object sender, EventArgs e)

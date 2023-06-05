@@ -135,7 +135,7 @@
             this.buttonContinue.BackColor = System.Drawing.Color.DarkCyan;
             this.buttonContinue.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonContinue.ForeColor = System.Drawing.Color.White;
-            this.buttonContinue.Location = new System.Drawing.Point(468, 371);
+            this.buttonContinue.Location = new System.Drawing.Point(495, 388);
             this.buttonContinue.Margin = new System.Windows.Forms.Padding(2);
             this.buttonContinue.Name = "buttonContinue";
             this.buttonContinue.Size = new System.Drawing.Size(251, 42);

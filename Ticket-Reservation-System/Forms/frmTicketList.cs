@@ -213,27 +213,30 @@ namespace Ticket_Reservation_System.Forms
 
                 }
                 var k = 0;
-                foreach(dynamic typesPrice in typesPrices)
+                foreach (dynamic typesPrice in typesPrices)
                 {
                     Label label3 = new Label();
                     label3.AutoSize = true;
-                    label3.Location = new System.Drawing.Point(450, 20+(k*15));
+                    label3.Location = new System.Drawing.Point(450, 20 + (k * 15));
 
 
-                    string price = "";
-
-                    var lista = typesPrice.Price.ToString().Split(".");
-
-                    if (lista.Length == 1)
+                    string price = "-";
+                    if (typesPrice.Price != null)
                     {
-                        price = lista[0] + ".00 TL";
-                    }
-                    else
-                    {
-                        price = lista[0] + "." + (lista[1].ToString().Length == 1 ? lista[1] + "0" : lista[1]) + " TL";
+
+                        var lista = typesPrice.Price.ToString().Split(".");
+
+                        if (lista.Length == 1)
+                        {
+                            price = lista[0] + ".00 TL";
+                        }
+                        else
+                        {
+                            price = lista[0] + "." + (lista[1].ToString().Length == 1 ? lista[1] + "0" : lista[1]) + " TL";
+                        }
                     }
 
-                    label3.Text = typesPrice.Type+": "+ price; //ücret eklenecek
+                    label3.Text = typesPrice.Type + ": " + price; //ücret eklenecek
                     label3.Font = new System.Drawing.Font("Verdana", 8);
                     panel.Controls.Add(label3);
                     k++;
@@ -263,15 +266,33 @@ namespace Ticket_Reservation_System.Forms
             Button clickedButton = (Button)sender;
 
             List<Models.Task> clickedTasks = _tasks[Convert.ToInt32(clickedButton.Name)];
-
-            OtobüsKoltuk busSeat = new OtobüsKoltuk(clickedTasks, _typesPrice, user);
             this.Controls.Clear();
-            busSeat.TopLevel = false;
-            busSeat.FormBorderStyle = FormBorderStyle.None;
-            busSeat.Dock = DockStyle.Fill;
-            this.Controls.Add(busSeat);
-            busSeat.BringToFront();
-            busSeat.Show();
+
+            if (ticketType == "Havalimanı")
+            {
+                PlaneKoltukBusiness busSeat = new PlaneKoltukBusiness(clickedTasks, _typesPrice, user);
+                busSeat.TopLevel = false;
+                busSeat.FormBorderStyle = FormBorderStyle.None;
+                busSeat.Dock = DockStyle.Fill;
+                this.Controls.Add(busSeat);
+                busSeat.BringToFront();
+                busSeat.Show();
+
+            }
+            else if (ticketType == "Otobüs terminali")
+            {
+                OtobüsKoltuk busSeat = new OtobüsKoltuk(clickedTasks, _typesPrice, user);
+                busSeat.TopLevel = false;
+                busSeat.FormBorderStyle = FormBorderStyle.None;
+                busSeat.Dock = DockStyle.Fill;
+                this.Controls.Add(busSeat);
+                busSeat.BringToFront();
+                busSeat.Show();
+            }
+            else
+            {
+
+            }
         }
     }
 }
