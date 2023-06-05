@@ -28,242 +28,414 @@
         /// </summary>
         private void InitializeComponent()
         {
-            pbLogo = new PictureBox();
-            pbUsername = new PictureBox();
-            txtUsername = new TextBox();
-            panelUsername = new Panel();
-            panelPassword = new Panel();
-            pbPassword = new PictureBox();
-            panelEmail = new Panel();
-            pbEmail = new PictureBox();
-            btnSignIn = new Button();
-            btnRegister = new Button();
-            panelTop = new Panel();
-            lblClose = new Label();
-            txtPassword = new TextBox();
-            txtEmail = new TextBox();
-            ((System.ComponentModel.ISupportInitialize)pbLogo).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pbUsername).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pbPassword).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pbEmail).BeginInit();
-            panelTop.SuspendLayout();
-            SuspendLayout();
+            this.pbLogo = new System.Windows.Forms.PictureBox();
+            this.pbUsername = new System.Windows.Forms.PictureBox();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.panelUsername = new System.Windows.Forms.Panel();
+            this.panelPassword = new System.Windows.Forms.Panel();
+            this.pbPassword = new System.Windows.Forms.PictureBox();
+            this.panelEmail = new System.Windows.Forms.Panel();
+            this.btnSignIn = new System.Windows.Forms.Button();
+            this.btnRegister = new System.Windows.Forms.Button();
+            this.panelTop = new System.Windows.Forms.Panel();
+            this.lblClose = new System.Windows.Forms.Label();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtUsername = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.txtSurname = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.txtPhoneNumber = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.txtAge = new System.Windows.Forms.TextBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbUsername)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbPassword)).BeginInit();
+            this.panelTop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.SuspendLayout();
             // 
             // pbLogo
             // 
-            pbLogo.Image = Properties.Resources.easy_ticket_logo;
-            pbLogo.Location = new Point(88, 37);
-            pbLogo.Name = "pbLogo";
-            pbLogo.Size = new Size(170, 146);
-            pbLogo.SizeMode = PictureBoxSizeMode.Zoom;
-            pbLogo.TabIndex = 0;
-            pbLogo.TabStop = false;
+            this.pbLogo.Image = global::Ticket_Reservation_System.Properties.Resources.easy_ticket_logo;
+            this.pbLogo.Location = new System.Drawing.Point(270, 31);
+            this.pbLogo.Name = "pbLogo";
+            this.pbLogo.Size = new System.Drawing.Size(170, 146);
+            this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbLogo.TabIndex = 0;
+            this.pbLogo.TabStop = false;
             // 
             // pbUsername
             // 
-            pbUsername.BackgroundImage = Properties.Resources.user3;
-            pbUsername.BackgroundImageLayout = ImageLayout.None;
-            pbUsername.Location = new Point(38, 177);
-            pbUsername.Name = "pbUsername";
-            pbUsername.Size = new Size(32, 32);
-            pbUsername.TabIndex = 2;
-            pbUsername.TabStop = false;
+            this.pbUsername.BackgroundImage = global::Ticket_Reservation_System.Properties.Resources.user3;
+            this.pbUsername.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pbUsername.Location = new System.Drawing.Point(38, 180);
+            this.pbUsername.Name = "pbUsername";
+            this.pbUsername.Size = new System.Drawing.Size(32, 32);
+            this.pbUsername.TabIndex = 2;
+            this.pbUsername.TabStop = false;
             // 
-            // txtUsername
+            // txtName
             // 
-            txtUsername.BackColor = Color.FromArgb(34, 36, 49);
-            txtUsername.BorderStyle = BorderStyle.None;
-            txtUsername.Cursor = Cursors.IBeam;
-            txtUsername.Font = new Font("Arial", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            txtUsername.ForeColor = Color.White;
-            txtUsername.HideSelection = false;
-            txtUsername.Location = new Point(78, 189);
-            txtUsername.Name = "txtUsername";
-            txtUsername.Size = new Size(230, 20);
-            txtUsername.TabIndex = 3;
-            txtUsername.TabStop = false;
-            txtUsername.Text = "Username";
-            txtUsername.Click += txtUsername_Click;
+            this.txtName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.txtName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtName.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtName.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtName.ForeColor = System.Drawing.Color.White;
+            this.txtName.HideSelection = false;
+            this.txtName.Location = new System.Drawing.Point(78, 192);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(230, 20);
+            this.txtName.TabIndex = 3;
+            this.txtName.TabStop = false;
+            this.txtName.Text = "Name";
             // 
             // panelUsername
             // 
-            panelUsername.BackColor = Color.White;
-            panelUsername.Location = new Point(38, 211);
-            panelUsername.Name = "panelUsername";
-            panelUsername.Size = new Size(270, 1);
-            panelUsername.TabIndex = 4;
+            this.panelUsername.BackColor = System.Drawing.Color.White;
+            this.panelUsername.Location = new System.Drawing.Point(38, 214);
+            this.panelUsername.Name = "panelUsername";
+            this.panelUsername.Size = new System.Drawing.Size(270, 1);
+            this.panelUsername.TabIndex = 4;
             // 
             // panelPassword
             // 
-            panelPassword.BackColor = Color.White;
-            panelPassword.Location = new Point(38, 268);
-            panelPassword.Name = "panelPassword";
-            panelPassword.Size = new Size(270, 1);
-            panelPassword.TabIndex = 7;
+            this.panelPassword.BackColor = System.Drawing.Color.White;
+            this.panelPassword.Location = new System.Drawing.Point(38, 268);
+            this.panelPassword.Name = "panelPassword";
+            this.panelPassword.Size = new System.Drawing.Size(270, 1);
+            this.panelPassword.TabIndex = 7;
             // 
             // pbPassword
             // 
-            pbPassword.BackgroundImage = Properties.Resources.password;
-            pbPassword.BackgroundImageLayout = ImageLayout.Zoom;
-            pbPassword.Location = new Point(35, 235);
-            pbPassword.Name = "pbPassword";
-            pbPassword.Size = new Size(32, 32);
-            pbPassword.TabIndex = 5;
-            pbPassword.TabStop = false;
+            this.pbPassword.BackgroundImage = global::Ticket_Reservation_System.Properties.Resources.password;
+            this.pbPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pbPassword.Location = new System.Drawing.Point(408, 237);
+            this.pbPassword.Name = "pbPassword";
+            this.pbPassword.Size = new System.Drawing.Size(32, 32);
+            this.pbPassword.TabIndex = 5;
+            this.pbPassword.TabStop = false;
             // 
             // panelEmail
             // 
-            panelEmail.BackColor = Color.White;
-            panelEmail.Location = new Point(38, 325);
-            panelEmail.Name = "panelEmail";
-            panelEmail.Size = new Size(270, 1);
-            panelEmail.TabIndex = 10;
-            // 
-            // pbEmail
-            // 
-            pbEmail.BackgroundImage = Properties.Resources.mail3;
-            pbEmail.BackgroundImageLayout = ImageLayout.None;
-            pbEmail.Location = new Point(38, 291);
-            pbEmail.Name = "pbEmail";
-            pbEmail.Size = new Size(32, 32);
-            pbEmail.TabIndex = 8;
-            pbEmail.TabStop = false;
+            this.panelEmail.BackColor = System.Drawing.Color.White;
+            this.panelEmail.Location = new System.Drawing.Point(38, 325);
+            this.panelEmail.Name = "panelEmail";
+            this.panelEmail.Size = new System.Drawing.Size(270, 1);
+            this.panelEmail.TabIndex = 10;
             // 
             // btnSignIn
             // 
-            btnSignIn.BackColor = Color.FromArgb(78, 184, 206);
-            btnSignIn.Cursor = Cursors.Hand;
-            btnSignIn.FlatAppearance.BorderSize = 0;
-            btnSignIn.FlatStyle = FlatStyle.Flat;
-            btnSignIn.Font = new Font("Arial", 12.75F, FontStyle.Bold, GraphicsUnit.Point);
-            btnSignIn.ForeColor = Color.FromArgb(34, 36, 49);
-            btnSignIn.Location = new Point(38, 350);
-            btnSignIn.Name = "btnSignIn";
-            btnSignIn.Size = new Size(270, 40);
-            btnSignIn.TabIndex = 11;
-            btnSignIn.Text = "Sıgn Up";
-            btnSignIn.UseVisualStyleBackColor = false;
-            btnSignIn.Click += btnSignIn_Click;
+            this.btnSignIn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
+            this.btnSignIn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSignIn.FlatAppearance.BorderSize = 0;
+            this.btnSignIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSignIn.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSignIn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.btnSignIn.Location = new System.Drawing.Point(198, 420);
+            this.btnSignIn.Name = "btnSignIn";
+            this.btnSignIn.Size = new System.Drawing.Size(270, 40);
+            this.btnSignIn.TabIndex = 11;
+            this.btnSignIn.Text = "Sıgn Up";
+            this.btnSignIn.UseVisualStyleBackColor = false;
+            this.btnSignIn.Click += new System.EventHandler(this.btnSignIn_Click_1);
             // 
             // btnRegister
             // 
-            btnRegister.BackColor = Color.FromArgb(34, 36, 49);
-            btnRegister.Cursor = Cursors.Hand;
-            btnRegister.FlatAppearance.BorderColor = Color.White;
-            btnRegister.FlatStyle = FlatStyle.Flat;
-            btnRegister.Font = new Font("Arial", 12.75F, FontStyle.Bold, GraphicsUnit.Point);
-            btnRegister.ForeColor = Color.White;
-            btnRegister.Location = new Point(38, 402);
-            btnRegister.Name = "btnRegister";
-            btnRegister.Size = new Size(270, 40);
-            btnRegister.TabIndex = 12;
-            btnRegister.Text = "I already have an account";
-            btnRegister.UseVisualStyleBackColor = false;
-            btnRegister.Click += btnRegister_Click;
+            this.btnRegister.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.btnRegister.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRegister.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegister.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnRegister.ForeColor = System.Drawing.Color.White;
+            this.btnRegister.Location = new System.Drawing.Point(198, 476);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(270, 40);
+            this.btnRegister.TabIndex = 12;
+            this.btnRegister.Text = "I already have an account";
+            this.btnRegister.UseVisualStyleBackColor = false;
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click_1);
             // 
             // panelTop
             // 
-            panelTop.BackColor = Color.FromArgb(78, 184, 206);
-            panelTop.Controls.Add(lblClose);
-            panelTop.Dock = DockStyle.Top;
-            panelTop.Location = new Point(0, 0);
-            panelTop.Name = "panelTop";
-            panelTop.Size = new Size(350, 30);
-            panelTop.TabIndex = 13;
+            this.panelTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
+            this.panelTop.Controls.Add(this.lblClose);
+            this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelTop.Location = new System.Drawing.Point(0, 0);
+            this.panelTop.Name = "panelTop";
+            this.panelTop.Size = new System.Drawing.Size(705, 30);
+            this.panelTop.TabIndex = 13;
             // 
             // lblClose
             // 
-            lblClose.AutoSize = true;
-            lblClose.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            lblClose.ForeColor = Color.FromArgb(34, 36, 49);
-            lblClose.Location = new Point(325, 4);
-            lblClose.Name = "lblClose";
-            lblClose.Size = new Size(24, 24);
-            lblClose.TabIndex = 14;
-            lblClose.Text = "X";
-            lblClose.Click += lblClose_Click;
-            // 
-            // txtPassword
-            // 
-            txtPassword.BackColor = Color.FromArgb(34, 36, 49);
-            txtPassword.BorderStyle = BorderStyle.None;
-            txtPassword.Cursor = Cursors.IBeam;
-            txtPassword.Font = new Font("Arial", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            txtPassword.ForeColor = Color.White;
-            txtPassword.HideSelection = false;
-            txtPassword.Location = new Point(78, 246);
-            txtPassword.Name = "txtPassword";
-            txtPassword.Size = new Size(230, 20);
-            txtPassword.TabIndex = 14;
-            txtPassword.TabStop = false;
-            txtPassword.Text = "Password";
-            txtPassword.Click += txtPassword_Click;
+            this.lblClose.AutoSize = true;
+            this.lblClose.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.lblClose.Location = new System.Drawing.Point(325, 4);
+            this.lblClose.Name = "lblClose";
+            this.lblClose.Size = new System.Drawing.Size(24, 24);
+            this.lblClose.TabIndex = 14;
+            this.lblClose.Text = "X";
             // 
             // txtEmail
             // 
-            txtEmail.BackColor = Color.FromArgb(34, 36, 49);
-            txtEmail.BorderStyle = BorderStyle.None;
-            txtEmail.Cursor = Cursors.IBeam;
-            txtEmail.Font = new Font("Arial", 12.75F, FontStyle.Regular, GraphicsUnit.Point);
-            txtEmail.ForeColor = Color.White;
-            txtEmail.HideSelection = false;
-            txtEmail.Location = new Point(78, 303);
-            txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(230, 20);
-            txtEmail.TabIndex = 15;
-            txtEmail.TabStop = false;
-            txtEmail.Text = "Email";
-            txtEmail.Click += txtEmail_Click;
+            this.txtEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtEmail.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtEmail.ForeColor = System.Drawing.Color.White;
+            this.txtEmail.HideSelection = false;
+            this.txtEmail.Location = new System.Drawing.Point(78, 246);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(230, 20);
+            this.txtEmail.TabIndex = 14;
+            this.txtEmail.TabStop = false;
+            this.txtEmail.Text = "Email";
+            // 
+            // txtUsername
+            // 
+            this.txtUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtUsername.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtUsername.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtUsername.ForeColor = System.Drawing.Color.White;
+            this.txtUsername.HideSelection = false;
+            this.txtUsername.Location = new System.Drawing.Point(78, 303);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(230, 20);
+            this.txtUsername.TabIndex = 15;
+            this.txtUsername.TabStop = false;
+            this.txtUsername.Text = "Username";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Ticket_Reservation_System.Properties.Resources.user3;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox1.Location = new System.Drawing.Point(408, 183);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
+            // txtSurname
+            // 
+            this.txtSurname.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.txtSurname.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSurname.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtSurname.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtSurname.ForeColor = System.Drawing.Color.White;
+            this.txtSurname.HideSelection = false;
+            this.txtSurname.Location = new System.Drawing.Point(448, 195);
+            this.txtSurname.Name = "txtSurname";
+            this.txtSurname.Size = new System.Drawing.Size(230, 20);
+            this.txtSurname.TabIndex = 3;
+            this.txtSurname.TabStop = false;
+            this.txtSurname.Text = "Surname";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Location = new System.Drawing.Point(408, 217);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(270, 1);
+            this.panel1.TabIndex = 4;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::Ticket_Reservation_System.Properties.Resources.password;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Location = new System.Drawing.Point(408, 291);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox2.TabIndex = 5;
+            this.pictureBox2.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Location = new System.Drawing.Point(408, 271);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(270, 1);
+            this.panel2.TabIndex = 7;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = global::Ticket_Reservation_System.Properties.Resources.mail3;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox3.Location = new System.Drawing.Point(38, 237);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox3.TabIndex = 8;
+            this.pictureBox3.TabStop = false;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Location = new System.Drawing.Point(408, 328);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(270, 1);
+            this.panel3.TabIndex = 10;
+            // 
+            // txtPhoneNumber
+            // 
+            this.txtPhoneNumber.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.txtPhoneNumber.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPhoneNumber.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtPhoneNumber.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtPhoneNumber.ForeColor = System.Drawing.Color.White;
+            this.txtPhoneNumber.HideSelection = false;
+            this.txtPhoneNumber.Location = new System.Drawing.Point(448, 249);
+            this.txtPhoneNumber.Name = "txtPhoneNumber";
+            this.txtPhoneNumber.Size = new System.Drawing.Size(230, 20);
+            this.txtPhoneNumber.TabIndex = 14;
+            this.txtPhoneNumber.TabStop = false;
+            this.txtPhoneNumber.Text = "Phone Number";
+            // 
+            // txtPassword
+            // 
+            this.txtPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtPassword.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtPassword.ForeColor = System.Drawing.Color.White;
+            this.txtPassword.HideSelection = false;
+            this.txtPassword.Location = new System.Drawing.Point(448, 306);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(230, 20);
+            this.txtPassword.TabIndex = 15;
+            this.txtPassword.TabStop = false;
+            this.txtPassword.Text = "Password";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = global::Ticket_Reservation_System.Properties.Resources.password;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox4.Location = new System.Drawing.Point(198, 352);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox4.TabIndex = 5;
+            this.pictureBox4.TabStop = false;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.White;
+            this.panel4.Location = new System.Drawing.Point(201, 385);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(270, 1);
+            this.panel4.TabIndex = 7;
+            // 
+            // txtAge
+            // 
+            this.txtAge.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.txtAge.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtAge.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtAge.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtAge.ForeColor = System.Drawing.Color.White;
+            this.txtAge.HideSelection = false;
+            this.txtAge.Location = new System.Drawing.Point(241, 363);
+            this.txtAge.Name = "txtAge";
+            this.txtAge.Size = new System.Drawing.Size(230, 20);
+            this.txtAge.TabIndex = 14;
+            this.txtAge.TabStop = false;
+            this.txtAge.Text = "Age";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackgroundImage = global::Ticket_Reservation_System.Properties.Resources.user3;
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox5.Location = new System.Drawing.Point(38, 291);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox5.TabIndex = 2;
+            this.pictureBox5.TabStop = false;
             // 
             // frmSignUpUI
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(34, 36, 49);
-            ClientSize = new Size(350, 460);
-            Controls.Add(txtEmail);
-            Controls.Add(txtPassword);
-            Controls.Add(panelTop);
-            Controls.Add(btnRegister);
-            Controls.Add(btnSignIn);
-            Controls.Add(panelEmail);
-            Controls.Add(pbEmail);
-            Controls.Add(panelPassword);
-            Controls.Add(pbPassword);
-            Controls.Add(panelUsername);
-            Controls.Add(txtUsername);
-            Controls.Add(pbUsername);
-            Controls.Add(pbLogo);
-            FormBorderStyle = FormBorderStyle.None;
-            Name = "frmSignUpUI";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "frmLoginUI";
-            Load += Form1_Load;
-            ((System.ComponentModel.ISupportInitialize)pbLogo).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pbUsername).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pbPassword).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pbEmail).EndInit();
-            panelTop.ResumeLayout(false);
-            panelTop.PerformLayout();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.ClientSize = new System.Drawing.Size(705, 530);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.txtUsername);
+            this.Controls.Add(this.txtPhoneNumber);
+            this.Controls.Add(this.txtAge);
+            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.panelTop);
+            this.Controls.Add(this.btnRegister);
+            this.Controls.Add(this.btnSignIn);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panelEmail);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.panelPassword);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pbPassword);
+            this.Controls.Add(this.txtSurname);
+            this.Controls.Add(this.panelUsername);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.txtName);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pbUsername);
+            this.Controls.Add(this.pbLogo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "frmSignUpUI";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "frmLoginUI";
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbUsername)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbPassword)).EndInit();
+            this.panelTop.ResumeLayout(false);
+            this.panelTop.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
 
         private PictureBox pbLogo;
         private PictureBox pbUsername;
-        private TextBox txtUsername;
+        private TextBox txtName;
         private Panel panelUsername;
         private Panel panelPassword;
         private PictureBox pbPassword;
         private Panel panelEmail;
-        private PictureBox pbEmail;
         private Button btnSignIn;
         private Button btnRegister;
         private Panel panelTop;
         private Label lblClose;
-        private TextBox txtPassword;
         private TextBox txtEmail;
+        private TextBox txtUsername;
+        private PictureBox pictureBox1;
+        private TextBox txtSurname;
+        private Panel panel1;
+        private PictureBox pictureBox2;
+        private Panel panel2;
+        private PictureBox pictureBox3;
+        private Panel panel3;
+        private TextBox txtPhoneNumber;
+        private TextBox txtPassword;
+        private PictureBox pictureBox4;
+        private Panel panel4;
+        private TextBox txtAge;
+        private PictureBox pictureBox5;
     }
 }

@@ -18,9 +18,11 @@ namespace Ticket_Reservation_System.Forms
     {
         Location _startingPoint;
         Location _destinationPoint;
-        public buus()
+        User user;
+        public buus(User user)
         {
             InitializeComponent();
+            this.user = user;
 
             // Panel'i oval hale getir
             OvalShape(panel1);
@@ -134,7 +136,7 @@ namespace Ticket_Reservation_System.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmTicketList frmTicketList = new frmTicketList(_startingPoint, _destinationPoint, "BUS", dateTimePicker1.Value.Date);
+            frmTicketList frmTicketList = new frmTicketList(_startingPoint, _destinationPoint, "BUS", dateTimePicker1.Value.Date, user);
             this.Controls.Clear();
             frmTicketList.TopLevel = false;
             frmTicketList.FormBorderStyle = FormBorderStyle.None;

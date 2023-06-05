@@ -19,13 +19,16 @@ namespace Ticket_Reservation_System
     {
         Thread thread;
         private int borderSize = 2;
-        public frmMenu()
+        User user;
+        public frmMenu(User user)
         {
             InitializeComponent();
             //CollapseMenu();
             //customizeDesign();
+            this.user = user;
             this.Padding = new Padding(this.borderSize);
             this.BackColor = Color.FromArgb(98, 102, 244);
+            labelNameSurname.Text = user.Name + " " + user.Surname;
         }
         // Drag Form
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -159,7 +162,7 @@ namespace Ticket_Reservation_System
 
         private void btnBus_Click(object sender, EventArgs e)
         {
-            openChildForm(new buus());
+            openChildForm(new buus(user));
         }
         private void btnPlane_Click(object sender, EventArgs e)
         {

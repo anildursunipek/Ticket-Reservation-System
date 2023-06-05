@@ -24,7 +24,7 @@ namespace Ticket_Reservation_System.Forms
                 foreach (var taskPlan in taskPlans)
                 {
                     taskPlan.StartingPoint = new LocationRepository().GetLocationById(taskPlan.StartingPointId);
-                    taskPlan.DestinationPoint = new LocationRepository().GetLocationById(taskPlan.StartingPointId);
+                    taskPlan.DestinationPoint = new LocationRepository().GetLocationById(taskPlan.DestinationPointId);
                     taskPlan.Trip = new TripRepository().GetTripById(taskPlan.TripId);
                 }
                 return taskPlans;
@@ -41,7 +41,7 @@ namespace Ticket_Reservation_System.Forms
             {
                 var taskPlan = db.TaskPlans.FirstOrDefault(v => v.Id == id);
                 taskPlan.StartingPoint = new LocationRepository().GetLocationById(taskPlan.StartingPointId);
-                taskPlan.DestinationPoint = new LocationRepository().GetLocationById(taskPlan.StartingPointId);
+                taskPlan.DestinationPoint = new LocationRepository().GetLocationById(taskPlan.DestinationPointId);
                 taskPlan.Trip = new TripRepository().GetTripById(taskPlan.TripId);
                 return taskPlan;
             }

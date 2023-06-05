@@ -79,7 +79,7 @@ namespace Ticket_Reservation_System
                     Console.WriteLine(myUser);
 
                     this.Close();
-                    this.thread = new Thread(() => openNewForm(new frmMenu()));
+                    this.thread = new Thread(() => openNewForm(new frmMenu(myUser)));
                     this.thread.SetApartmentState(ApartmentState.STA);
                     this.thread.Start();
                     //Proceed with your login process...

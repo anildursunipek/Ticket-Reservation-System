@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Dynamic;
 using System.Linq;
 using System.Net.Sockets;
 using System.Text;
@@ -25,10 +26,13 @@ namespace Ticket_Reservation_System.Forms
         Location _destinationPoint;
         DateTime _dateTime;
         List<List<Models.Task>> _tasks;
+        User user;
 
         List<Models.Task> _searchTaskPlans;
 
         ProcessRepository _processRepository;
+
+        List<ExpandoObject> _typesPrice;
 
         Bitmap[] busLogos = new Bitmap[]{
             Properties.Resources.anadolu,
@@ -55,17 +59,17 @@ namespace Ticket_Reservation_System.Forms
             Properties.Resources.f_stena
         };
 
-        public frmTicketList(Location startingPoint, Location destinationPoint, string ticketType, DateTime dateTime)
+        public frmTicketList(Location startingPoint, Location destinationPoint, string ticketType, DateTime dateTime, User user)
         {
             InitializeComponent();
             _startingPoint = startingPoint;
             _destinationPoint = destinationPoint;
-            MessageBox.Show(startingPoint.Name);
-            MessageBox.Show(destinationPoint.Name);
             _dateTime = dateTime;
             _searchTaskPlans = new List<Models.Task>();
             _processRepository = new ProcessRepository();
             _tasks = new List<List<Models.Task>>();
+            _typesPrice = new List<ExpandoObject>();
+            this.user = user;
 
             if (ticketType == "PLANE")
             {
@@ -94,21 +98,16 @@ namespace Ticket_Reservation_System.Forms
 
         public void getTaskPlans()
         {
-            List<List<Models.Task>> tasks = _processRepository.searchByDateAndTrip(_startingPoint, _destinationPoint, ticketType, _dateTime);
-
-            foreach (List<Models.Task> task in tasks)
+            _tasks = _processRepository.searchByDateAndTrip(_startingPoint, _destinationPoint, ticketType, _dateTime);
+            var i = 0;
+            foreach (List<Models.Task> task in _tasks)
             {
-
-                MessageBox.Show("Yeni geliyor");
-                MessageBox.Show("task count: " + task.Count);
-                MessageBox.Show("Başlangıç: " + task[0].TaskPlan.StartingPoint.Name);
-                MessageBox.Show("Bitiş: " + task[task.Count-1].TaskPlan.DestinationPoint.Name);
-                MessageBox.Show("type: " + task[task.Count-1].TaskPlan.StartingPoint.Type);
-                createTickers(task);
+                createTickers(task, i);
+                i++;
             }
         }
 
-        private void createTickers(List<Models.Task> tasks)
+        private void createTickers(List<Models.Task> tasks,int index)
         {
             this.panel1.AutoScroll = true;
 
@@ -148,7 +147,7 @@ namespace Ticket_Reservation_System.Forms
                 Label label = new Label();
                 label.AutoSize = true;
                 label.Location = new System.Drawing.Point(300, 25);
-                label.Text = tasks[0].Process.Time; // dğzelcek
+                label.Text = tasks[0].Process.Time;
                 label.Font = new System.Drawing.Font("Verdana", 10);
                 panel.Controls.Add(label);
 
@@ -182,15 +181,67 @@ namespace Ticket_Reservation_System.Forms
                 label2.Font = new System.Drawing.Font("Verdana", 10);
                 panel.Controls.Add(label2);
 
+                List<string> types = new SeatTypes().getSeatTypes();
+                List<ExpandoObject> typesPrices = new List<ExpandoObject>();
+                foreach (string type in types)
+                {
+                    dynamic typesPrice = new ExpandoObject();
+                    typesPrice.Type = type;
+                    typesPrice.Price = 0.00;
+                    typesPrices.Add(typesPrice);
+                }
 
-                Label label3 = new Label();
-                label3.Size = new System.Drawing.Size(80, 35);
-                label3.Location = new System.Drawing.Point(500, 33);
-                label3.Text = "500 TL"; //ücret eklenecek
-                label3.Font = new System.Drawing.Font("Verdana", 12);
-                panel.Controls.Add(label3);
+
+                var y = 0;
+                foreach (Models.Task task in tasks)
+                {
+                    List<ExpandoObject> priceTasks = new TicketPlanRepository().getSeatTypePrices(tasks[y].TaskPlan.Id, tasks[y].TaskPlan.Trip.VehicleId);
+
+                    foreach (dynamic priceTask in priceTasks)
+                    {
+                        foreach (dynamic typesPrice in typesPrices)
+                        {
+                            if (typesPrice.Type == priceTask.Type)
+                            {
+                                typesPrice.Price += priceTask.Price;
+                                break;
+                            }
+                        }
+                    }
+                    _typesPrice = typesPrices;
+                    y++;
+
+                }
+                var k = 0;
+                foreach(dynamic typesPrice in typesPrices)
+                {
+                    Label label3 = new Label();
+                    label3.AutoSize = true;
+                    label3.Location = new System.Drawing.Point(450, 20+(k*15));
+
+
+                    string price = "";
+
+                    var lista = typesPrice.Price.ToString().Split(".");
+
+                    if (lista.Length == 1)
+                    {
+                        price = lista[0] + ".00 TL";
+                    }
+                    else
+                    {
+                        price = lista[0] + "." + (lista[1].ToString().Length == 1 ? lista[1] + "0" : lista[1]) + " TL";
+                    }
+
+                    label3.Text = typesPrice.Type+": "+ price; //ücret eklenecek
+                    label3.Font = new System.Drawing.Font("Verdana", 8);
+                    panel.Controls.Add(label3);
+                    k++;
+                }
+
 
                 Button button = new Button();
+                button.Name = index.ToString();
                 button.Text = "Buy";
                 button.Size = new System.Drawing.Size(100, 35);
                 button.Location = new System.Drawing.Point(600, 25);
@@ -198,12 +249,29 @@ namespace Ticket_Reservation_System.Forms
                 button.ForeColor = System.Drawing.Color.WhiteSmoke;
                 button.FlatStyle = FlatStyle.Flat;
                 button.BackColor = System.Drawing.Color.FromArgb(98, 102, 244);
+                button.Click += Button_Click;
 
                 panel.Controls.Add(button);
 
                 panel1.Controls.Add(panel);
             }
 
+        }
+
+        private void Button_Click(object? sender, EventArgs e)
+        {
+            Button clickedButton = (Button)sender;
+
+            List<Models.Task> clickedTasks = _tasks[Convert.ToInt32(clickedButton.Name)];
+
+            OtobüsKoltuk busSeat = new OtobüsKoltuk(clickedTasks, _typesPrice, user);
+            this.Controls.Clear();
+            busSeat.TopLevel = false;
+            busSeat.FormBorderStyle = FormBorderStyle.None;
+            busSeat.Dock = DockStyle.Fill;
+            this.Controls.Add(busSeat);
+            busSeat.BringToFront();
+            busSeat.Show();
         }
     }
 }
