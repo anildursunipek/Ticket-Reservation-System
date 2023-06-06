@@ -214,6 +214,7 @@
             // 
             // panelSeat
             // 
+            this.panelSeat.AutoScroll = true;
             this.panelSeat.Location = new System.Drawing.Point(21, 58);
             this.panelSeat.Name = "panelSeat";
             this.panelSeat.Size = new System.Drawing.Size(330, 405);

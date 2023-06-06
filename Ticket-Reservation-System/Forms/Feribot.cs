@@ -35,8 +35,8 @@ namespace Ticket_Reservation_System.Forms
         {
             var locations = new LocationRepository().GetAllLocations();
             var locations2 = new LocationRepository().GetAllLocations();
-            locations = locations.FindAll(location => location.Type == "Otobüs terminali");
-            locations2 = locations2.FindAll(location => location.Type == "Otobüs terminali");
+            locations = locations.FindAll(location => location.Type == "İskele");
+            locations2 = locations2.FindAll(location => location.Type == "İskele");
 
             comboBoxDestinationPoint.DataSource = locations;
             comboBoxDestinationPoint.DisplayMember = "Name";
@@ -67,21 +67,6 @@ namespace Ticket_Reservation_System.Forms
             panel3.BackColor = Color.FromArgb(100, 0, 0, 0);
             panel4.BackColor = Color.FromArgb(100, 0, 0, 0);
 
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            dateTimePicker1.Value = DateTime.Now;
-            button2.BackColor = Color.Gray;
-            button3.BackColor = Color.LightGray;
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            dateTimePicker1.Value = DateTime.Now.AddDays(1);
-            button3.BackColor = Color.Gray;
-            button2.BackColor = Color.LightGray;
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)

@@ -29,2213 +29,2501 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FeribotKoltukSec));
-            pictureBox2 = new PictureBox();
-            button21 = new Button();
-            pictureBox1 = new PictureBox();
-            b17 = new Button();
-            b1 = new Button();
-            b27 = new Button();
-            b39 = new Button();
-            b51 = new Button();
-            b99 = new Button();
-            b87 = new Button();
-            b75 = new Button();
-            b63 = new Button();
-            b123 = new Button();
-            b111 = new Button();
-            b124 = new Button();
-            b112 = new Button();
-            b100 = new Button();
-            b88 = new Button();
-            b76 = new Button();
-            b64 = new Button();
-            b52 = new Button();
-            b40 = new Button();
-            b28 = new Button();
-            b18 = new Button();
-            b2 = new Button();
-            b125 = new Button();
-            b113 = new Button();
-            b101 = new Button();
-            b89 = new Button();
-            b77 = new Button();
-            b65 = new Button();
-            b53 = new Button();
-            button31 = new Button();
-            b29 = new Button();
-            b134 = new Button();
-            b122 = new Button();
-            b110 = new Button();
-            b92 = new Button();
-            b86 = new Button();
-            b68 = new Button();
-            b62 = new Button();
-            b44 = new Button();
-            b38 = new Button();
-            b133 = new Button();
-            b121 = new Button();
-            b109 = new Button();
-            b91 = new Button();
-            b85 = new Button();
-            b67 = new Button();
-            b61 = new Button();
-            b43 = new Button();
-            b37 = new Button();
-            b19 = new Button();
-            b132 = new Button();
-            b120 = new Button();
-            b108 = new Button();
-            b90 = new Button();
-            b84 = new Button();
-            b66 = new Button();
-            b60 = new Button();
-            b42 = new Button();
-            b36 = new Button();
-            b20 = new Button();
-            b10 = new Button();
-            b9 = new Button();
-            b3 = new Button();
-            b11 = new Button();
-            b12 = new Button();
-            b4 = new Button();
-            b13 = new Button();
-            b5 = new Button();
-            b32 = new Button();
-            b23 = new Button();
-            b31 = new Button();
-            b22 = new Button();
-            b30 = new Button();
-            b21 = new Button();
-            b56 = new Button();
-            b47 = new Button();
-            b55 = new Button();
-            b46 = new Button();
-            b54 = new Button();
-            b45 = new Button();
-            b80 = new Button();
-            b71 = new Button();
-            b79 = new Button();
-            b70 = new Button();
-            b78 = new Button();
-            b69 = new Button();
-            b104 = new Button();
-            b95 = new Button();
-            b103 = new Button();
-            b94 = new Button();
-            b102 = new Button();
-            b93 = new Button();
-            b128 = new Button();
-            b116 = new Button();
-            b127 = new Button();
-            b115 = new Button();
-            b126 = new Button();
-            b114 = new Button();
-            b16 = new Button();
-            b8 = new Button();
-            b15 = new Button();
-            b7 = new Button();
-            b14 = new Button();
-            b6 = new Button();
-            b35 = new Button();
-            b26 = new Button();
-            b34 = new Button();
-            b25 = new Button();
-            b33 = new Button();
-            b24 = new Button();
-            b59 = new Button();
-            b50 = new Button();
-            b58 = new Button();
-            b49 = new Button();
-            b57 = new Button();
-            b48 = new Button();
-            b83 = new Button();
-            b74 = new Button();
-            b82 = new Button();
-            b73 = new Button();
-            b81 = new Button();
-            b72 = new Button();
-            b107 = new Button();
-            b98 = new Button();
-            b106 = new Button();
-            b97 = new Button();
-            b105 = new Button();
-            b96 = new Button();
-            b131 = new Button();
-            b119 = new Button();
-            b130 = new Button();
-            b118 = new Button();
-            b129 = new Button();
-            b117 = new Button();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            SuspendLayout();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.b17 = new System.Windows.Forms.Button();
+            this.b1 = new System.Windows.Forms.Button();
+            this.b27 = new System.Windows.Forms.Button();
+            this.b39 = new System.Windows.Forms.Button();
+            this.b51 = new System.Windows.Forms.Button();
+            this.b99 = new System.Windows.Forms.Button();
+            this.b87 = new System.Windows.Forms.Button();
+            this.b75 = new System.Windows.Forms.Button();
+            this.b63 = new System.Windows.Forms.Button();
+            this.b123 = new System.Windows.Forms.Button();
+            this.b111 = new System.Windows.Forms.Button();
+            this.b124 = new System.Windows.Forms.Button();
+            this.b112 = new System.Windows.Forms.Button();
+            this.b100 = new System.Windows.Forms.Button();
+            this.b88 = new System.Windows.Forms.Button();
+            this.b76 = new System.Windows.Forms.Button();
+            this.b64 = new System.Windows.Forms.Button();
+            this.b52 = new System.Windows.Forms.Button();
+            this.b40 = new System.Windows.Forms.Button();
+            this.b28 = new System.Windows.Forms.Button();
+            this.b18 = new System.Windows.Forms.Button();
+            this.b2 = new System.Windows.Forms.Button();
+            this.b125 = new System.Windows.Forms.Button();
+            this.b113 = new System.Windows.Forms.Button();
+            this.b101 = new System.Windows.Forms.Button();
+            this.b89 = new System.Windows.Forms.Button();
+            this.b77 = new System.Windows.Forms.Button();
+            this.b65 = new System.Windows.Forms.Button();
+            this.b53 = new System.Windows.Forms.Button();
+            this.b41 = new System.Windows.Forms.Button();
+            this.b29 = new System.Windows.Forms.Button();
+            this.b134 = new System.Windows.Forms.Button();
+            this.b122 = new System.Windows.Forms.Button();
+            this.b110 = new System.Windows.Forms.Button();
+            this.b92 = new System.Windows.Forms.Button();
+            this.b86 = new System.Windows.Forms.Button();
+            this.b68 = new System.Windows.Forms.Button();
+            this.b62 = new System.Windows.Forms.Button();
+            this.b44 = new System.Windows.Forms.Button();
+            this.b38 = new System.Windows.Forms.Button();
+            this.b133 = new System.Windows.Forms.Button();
+            this.b121 = new System.Windows.Forms.Button();
+            this.b109 = new System.Windows.Forms.Button();
+            this.b91 = new System.Windows.Forms.Button();
+            this.b85 = new System.Windows.Forms.Button();
+            this.b67 = new System.Windows.Forms.Button();
+            this.b61 = new System.Windows.Forms.Button();
+            this.b43 = new System.Windows.Forms.Button();
+            this.b37 = new System.Windows.Forms.Button();
+            this.b19 = new System.Windows.Forms.Button();
+            this.b132 = new System.Windows.Forms.Button();
+            this.b120 = new System.Windows.Forms.Button();
+            this.b108 = new System.Windows.Forms.Button();
+            this.b90 = new System.Windows.Forms.Button();
+            this.b84 = new System.Windows.Forms.Button();
+            this.b66 = new System.Windows.Forms.Button();
+            this.b60 = new System.Windows.Forms.Button();
+            this.b42 = new System.Windows.Forms.Button();
+            this.b36 = new System.Windows.Forms.Button();
+            this.b20 = new System.Windows.Forms.Button();
+            this.b10 = new System.Windows.Forms.Button();
+            this.b9 = new System.Windows.Forms.Button();
+            this.b3 = new System.Windows.Forms.Button();
+            this.b11 = new System.Windows.Forms.Button();
+            this.b12 = new System.Windows.Forms.Button();
+            this.b4 = new System.Windows.Forms.Button();
+            this.b13 = new System.Windows.Forms.Button();
+            this.b5 = new System.Windows.Forms.Button();
+            this.b32 = new System.Windows.Forms.Button();
+            this.b23 = new System.Windows.Forms.Button();
+            this.b31 = new System.Windows.Forms.Button();
+            this.b22 = new System.Windows.Forms.Button();
+            this.b30 = new System.Windows.Forms.Button();
+            this.b21 = new System.Windows.Forms.Button();
+            this.b56 = new System.Windows.Forms.Button();
+            this.b47 = new System.Windows.Forms.Button();
+            this.b55 = new System.Windows.Forms.Button();
+            this.b46 = new System.Windows.Forms.Button();
+            this.b54 = new System.Windows.Forms.Button();
+            this.b45 = new System.Windows.Forms.Button();
+            this.b80 = new System.Windows.Forms.Button();
+            this.b71 = new System.Windows.Forms.Button();
+            this.b79 = new System.Windows.Forms.Button();
+            this.b70 = new System.Windows.Forms.Button();
+            this.b78 = new System.Windows.Forms.Button();
+            this.b69 = new System.Windows.Forms.Button();
+            this.b104 = new System.Windows.Forms.Button();
+            this.b95 = new System.Windows.Forms.Button();
+            this.b103 = new System.Windows.Forms.Button();
+            this.b94 = new System.Windows.Forms.Button();
+            this.b102 = new System.Windows.Forms.Button();
+            this.b93 = new System.Windows.Forms.Button();
+            this.b128 = new System.Windows.Forms.Button();
+            this.b116 = new System.Windows.Forms.Button();
+            this.b127 = new System.Windows.Forms.Button();
+            this.b115 = new System.Windows.Forms.Button();
+            this.b126 = new System.Windows.Forms.Button();
+            this.b114 = new System.Windows.Forms.Button();
+            this.b16 = new System.Windows.Forms.Button();
+            this.b8 = new System.Windows.Forms.Button();
+            this.b15 = new System.Windows.Forms.Button();
+            this.b7 = new System.Windows.Forms.Button();
+            this.b14 = new System.Windows.Forms.Button();
+            this.b6 = new System.Windows.Forms.Button();
+            this.b35 = new System.Windows.Forms.Button();
+            this.b26 = new System.Windows.Forms.Button();
+            this.b34 = new System.Windows.Forms.Button();
+            this.b25 = new System.Windows.Forms.Button();
+            this.b33 = new System.Windows.Forms.Button();
+            this.b24 = new System.Windows.Forms.Button();
+            this.b59 = new System.Windows.Forms.Button();
+            this.b50 = new System.Windows.Forms.Button();
+            this.b58 = new System.Windows.Forms.Button();
+            this.b49 = new System.Windows.Forms.Button();
+            this.b57 = new System.Windows.Forms.Button();
+            this.b48 = new System.Windows.Forms.Button();
+            this.b83 = new System.Windows.Forms.Button();
+            this.b74 = new System.Windows.Forms.Button();
+            this.b82 = new System.Windows.Forms.Button();
+            this.b73 = new System.Windows.Forms.Button();
+            this.b81 = new System.Windows.Forms.Button();
+            this.b72 = new System.Windows.Forms.Button();
+            this.b107 = new System.Windows.Forms.Button();
+            this.b98 = new System.Windows.Forms.Button();
+            this.b106 = new System.Windows.Forms.Button();
+            this.b97 = new System.Windows.Forms.Button();
+            this.b105 = new System.Windows.Forms.Button();
+            this.b96 = new System.Windows.Forms.Button();
+            this.b131 = new System.Windows.Forms.Button();
+            this.b119 = new System.Windows.Forms.Button();
+            this.b130 = new System.Windows.Forms.Button();
+            this.b118 = new System.Windows.Forms.Button();
+            this.b129 = new System.Windows.Forms.Button();
+            this.b117 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.button82 = new System.Windows.Forms.Button();
+            this.button83 = new System.Windows.Forms.Button();
+            this.button84 = new System.Windows.Forms.Button();
+            this.button85 = new System.Windows.Forms.Button();
+            this.button86 = new System.Windows.Forms.Button();
+            this.buttonContinue = new System.Windows.Forms.Button();
+            this.labelPremium = new System.Windows.Forms.Label();
+            this.labelBusiness = new System.Windows.Forms.Label();
+            this.labelNormal = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(11, 182);
-            pictureBox2.Margin = new Padding(2, 1, 2, 1);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(108, 47);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 296;
-            pictureBox2.TabStop = false;
-            // 
-            // button21
-            // 
-            button21.BackColor = Color.LightGreen;
-            button21.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button21.Location = new Point(516, 394);
-            button21.Margin = new Padding(2, 1, 2, 1);
-            button21.Name = "button21";
-            button21.Size = new Size(204, 38);
-            button21.TabIndex = 297;
-            button21.Text = "Onayla ve Devam Et";
-            button21.UseVisualStyleBackColor = false;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(11, 182);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(108, 47);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 296;
+            this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(-281, -24);
-            pictureBox1.Margin = new Padding(2, 1, 2, 1);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(1268, 469);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 149;
-            pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(-281, -24);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1268, 469);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 149;
+            this.pictureBox1.TabStop = false;
             // 
             // b17
             // 
-            b17.BackColor = Color.LightGray;
-            b17.BackgroundImageLayout = ImageLayout.None;
-            b17.FlatAppearance.BorderSize = 0;
-            b17.FlatStyle = FlatStyle.Flat;
-            b17.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b17.Location = new Point(221, 45);
-            b17.Name = "b17";
-            b17.Size = new Size(23, 19);
-            b17.TabIndex = 299;
-            b17.Text = "17";
-            b17.UseVisualStyleBackColor = false;
+            this.b17.BackColor = System.Drawing.Color.LightGray;
+            this.b17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b17.FlatAppearance.BorderSize = 0;
+            this.b17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b17.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b17.Location = new System.Drawing.Point(221, 45);
+            this.b17.Name = "b17";
+            this.b17.Size = new System.Drawing.Size(23, 19);
+            this.b17.TabIndex = 299;
+            this.b17.Text = "17";
+            this.b17.UseVisualStyleBackColor = false;
+            this.b17.Click += new System.EventHandler(this.button_Click);
             // 
             // b1
             // 
-            b1.BackColor = Color.LightGray;
-            b1.BackgroundImageLayout = ImageLayout.None;
-            b1.FlatAppearance.BorderSize = 0;
-            b1.FlatStyle = FlatStyle.Flat;
-            b1.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b1.Location = new Point(165, 45);
-            b1.Name = "b1";
-            b1.Size = new Size(23, 19);
-            b1.TabIndex = 300;
-            b1.Text = "1";
-            b1.UseVisualStyleBackColor = false;
+            this.b1.BackColor = System.Drawing.Color.LightGray;
+            this.b1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b1.FlatAppearance.BorderSize = 0;
+            this.b1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b1.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b1.Location = new System.Drawing.Point(165, 45);
+            this.b1.Name = "b1";
+            this.b1.Size = new System.Drawing.Size(23, 19);
+            this.b1.TabIndex = 300;
+            this.b1.Text = "1";
+            this.b1.UseVisualStyleBackColor = false;
+            this.b1.Click += new System.EventHandler(this.button_Click);
             // 
             // b27
             // 
-            b27.BackColor = Color.LightGray;
-            b27.BackgroundImageLayout = ImageLayout.None;
-            b27.FlatAppearance.BorderSize = 0;
-            b27.FlatStyle = FlatStyle.Flat;
-            b27.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b27.Location = new Point(255, 45);
-            b27.Name = "b27";
-            b27.Size = new Size(23, 19);
-            b27.TabIndex = 301;
-            b27.Text = "27";
-            b27.UseVisualStyleBackColor = false;
+            this.b27.BackColor = System.Drawing.Color.LightGray;
+            this.b27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b27.FlatAppearance.BorderSize = 0;
+            this.b27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b27.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b27.Location = new System.Drawing.Point(255, 45);
+            this.b27.Name = "b27";
+            this.b27.Size = new System.Drawing.Size(23, 19);
+            this.b27.TabIndex = 301;
+            this.b27.Text = "27";
+            this.b27.UseVisualStyleBackColor = false;
+            this.b27.Click += new System.EventHandler(this.button_Click);
             // 
             // b39
             // 
-            b39.BackColor = Color.LightGray;
-            b39.BackgroundImageLayout = ImageLayout.None;
-            b39.FlatAppearance.BorderSize = 0;
-            b39.FlatStyle = FlatStyle.Flat;
-            b39.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b39.Location = new Point(290, 45);
-            b39.Name = "b39";
-            b39.Size = new Size(23, 19);
-            b39.TabIndex = 302;
-            b39.Text = "39";
-            b39.UseVisualStyleBackColor = false;
+            this.b39.BackColor = System.Drawing.Color.LightGray;
+            this.b39.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b39.FlatAppearance.BorderSize = 0;
+            this.b39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b39.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b39.Location = new System.Drawing.Point(290, 45);
+            this.b39.Name = "b39";
+            this.b39.Size = new System.Drawing.Size(23, 19);
+            this.b39.TabIndex = 302;
+            this.b39.Text = "39";
+            this.b39.UseVisualStyleBackColor = false;
+            this.b39.Click += new System.EventHandler(this.button_Click);
             // 
             // b51
             // 
-            b51.BackColor = Color.LightGray;
-            b51.BackgroundImageLayout = ImageLayout.None;
-            b51.FlatAppearance.BorderSize = 0;
-            b51.FlatStyle = FlatStyle.Flat;
-            b51.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b51.Location = new Point(325, 45);
-            b51.Name = "b51";
-            b51.Size = new Size(23, 19);
-            b51.TabIndex = 303;
-            b51.Text = "51";
-            b51.UseVisualStyleBackColor = false;
+            this.b51.BackColor = System.Drawing.Color.LightGray;
+            this.b51.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b51.FlatAppearance.BorderSize = 0;
+            this.b51.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b51.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b51.Location = new System.Drawing.Point(325, 45);
+            this.b51.Name = "b51";
+            this.b51.Size = new System.Drawing.Size(23, 19);
+            this.b51.TabIndex = 303;
+            this.b51.Text = "51";
+            this.b51.UseVisualStyleBackColor = false;
+            this.b51.Click += new System.EventHandler(this.button_Click);
             // 
             // b99
             // 
-            b99.BackColor = Color.LightGray;
-            b99.BackgroundImageLayout = ImageLayout.None;
-            b99.FlatAppearance.BorderSize = 0;
-            b99.FlatStyle = FlatStyle.Flat;
-            b99.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b99.Location = new Point(464, 45);
-            b99.Name = "b99";
-            b99.Size = new Size(23, 19);
-            b99.TabIndex = 307;
-            b99.Text = "b99";
-            b99.UseVisualStyleBackColor = false;
+            this.b99.BackColor = System.Drawing.Color.LightGray;
+            this.b99.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b99.FlatAppearance.BorderSize = 0;
+            this.b99.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b99.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b99.Location = new System.Drawing.Point(464, 45);
+            this.b99.Name = "b99";
+            this.b99.Size = new System.Drawing.Size(23, 19);
+            this.b99.TabIndex = 307;
+            this.b99.Text = "b99";
+            this.b99.UseVisualStyleBackColor = false;
+            this.b99.Click += new System.EventHandler(this.button_Click);
             // 
             // b87
             // 
-            b87.BackColor = Color.LightGray;
-            b87.BackgroundImageLayout = ImageLayout.None;
-            b87.FlatAppearance.BorderSize = 0;
-            b87.FlatStyle = FlatStyle.Flat;
-            b87.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b87.Location = new Point(429, 45);
-            b87.Name = "b87";
-            b87.Size = new Size(23, 19);
-            b87.TabIndex = 306;
-            b87.Text = "87";
-            b87.UseVisualStyleBackColor = false;
+            this.b87.BackColor = System.Drawing.Color.LightGray;
+            this.b87.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b87.FlatAppearance.BorderSize = 0;
+            this.b87.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b87.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b87.Location = new System.Drawing.Point(429, 45);
+            this.b87.Name = "b87";
+            this.b87.Size = new System.Drawing.Size(23, 19);
+            this.b87.TabIndex = 306;
+            this.b87.Text = "87";
+            this.b87.UseVisualStyleBackColor = false;
+            this.b87.Click += new System.EventHandler(this.button_Click);
             // 
             // b75
             // 
-            b75.BackColor = Color.LightGray;
-            b75.BackgroundImageLayout = ImageLayout.None;
-            b75.FlatAppearance.BorderSize = 0;
-            b75.FlatStyle = FlatStyle.Flat;
-            b75.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b75.Location = new Point(394, 45);
-            b75.Name = "b75";
-            b75.Size = new Size(23, 19);
-            b75.TabIndex = 305;
-            b75.Text = "75";
-            b75.UseVisualStyleBackColor = false;
+            this.b75.BackColor = System.Drawing.Color.LightGray;
+            this.b75.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b75.FlatAppearance.BorderSize = 0;
+            this.b75.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b75.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b75.Location = new System.Drawing.Point(394, 45);
+            this.b75.Name = "b75";
+            this.b75.Size = new System.Drawing.Size(23, 19);
+            this.b75.TabIndex = 305;
+            this.b75.Text = "75";
+            this.b75.UseVisualStyleBackColor = false;
+            this.b75.Click += new System.EventHandler(this.button_Click);
             // 
             // b63
             // 
-            b63.BackColor = Color.LightGray;
-            b63.BackgroundImageLayout = ImageLayout.None;
-            b63.FlatAppearance.BorderSize = 0;
-            b63.FlatStyle = FlatStyle.Flat;
-            b63.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b63.Location = new Point(360, 45);
-            b63.Name = "b63";
-            b63.Size = new Size(23, 19);
-            b63.TabIndex = 304;
-            b63.Text = "63";
-            b63.UseVisualStyleBackColor = false;
+            this.b63.BackColor = System.Drawing.Color.LightGray;
+            this.b63.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b63.FlatAppearance.BorderSize = 0;
+            this.b63.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b63.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b63.Location = new System.Drawing.Point(360, 45);
+            this.b63.Name = "b63";
+            this.b63.Size = new System.Drawing.Size(23, 19);
+            this.b63.TabIndex = 304;
+            this.b63.Text = "63";
+            this.b63.UseVisualStyleBackColor = false;
+            this.b63.Click += new System.EventHandler(this.button_Click);
             // 
             // b123
             // 
-            b123.BackColor = Color.LightGray;
-            b123.BackgroundImageLayout = ImageLayout.None;
-            b123.FlatAppearance.BorderSize = 0;
-            b123.FlatStyle = FlatStyle.Flat;
-            b123.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b123.Location = new Point(533, 45);
-            b123.Name = "b123";
-            b123.Size = new Size(23, 19);
-            b123.TabIndex = 309;
-            b123.Text = "123";
-            b123.UseVisualStyleBackColor = false;
+            this.b123.BackColor = System.Drawing.Color.LightGray;
+            this.b123.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b123.FlatAppearance.BorderSize = 0;
+            this.b123.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b123.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b123.Location = new System.Drawing.Point(533, 45);
+            this.b123.Name = "b123";
+            this.b123.Size = new System.Drawing.Size(23, 19);
+            this.b123.TabIndex = 309;
+            this.b123.Text = "123";
+            this.b123.UseVisualStyleBackColor = false;
+            this.b123.Click += new System.EventHandler(this.button_Click);
             // 
             // b111
             // 
-            b111.BackColor = Color.LightGray;
-            b111.BackgroundImageLayout = ImageLayout.None;
-            b111.FlatAppearance.BorderSize = 0;
-            b111.FlatStyle = FlatStyle.Flat;
-            b111.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b111.Location = new Point(498, 45);
-            b111.Name = "b111";
-            b111.Size = new Size(23, 19);
-            b111.TabIndex = 308;
-            b111.Text = "111";
-            b111.UseVisualStyleBackColor = false;
+            this.b111.BackColor = System.Drawing.Color.LightGray;
+            this.b111.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b111.FlatAppearance.BorderSize = 0;
+            this.b111.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b111.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b111.Location = new System.Drawing.Point(498, 45);
+            this.b111.Name = "b111";
+            this.b111.Size = new System.Drawing.Size(23, 19);
+            this.b111.TabIndex = 308;
+            this.b111.Text = "111";
+            this.b111.UseVisualStyleBackColor = false;
+            this.b111.Click += new System.EventHandler(this.button_Click);
             // 
             // b124
             // 
-            b124.BackColor = Color.LightGray;
-            b124.BackgroundImageLayout = ImageLayout.None;
-            b124.FlatAppearance.BorderSize = 0;
-            b124.FlatStyle = FlatStyle.Flat;
-            b124.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b124.Location = new Point(533, 66);
-            b124.Name = "b124";
-            b124.Size = new Size(23, 19);
-            b124.TabIndex = 319;
-            b124.Text = "124";
-            b124.UseVisualStyleBackColor = false;
+            this.b124.BackColor = System.Drawing.Color.LightGray;
+            this.b124.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b124.FlatAppearance.BorderSize = 0;
+            this.b124.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b124.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b124.Location = new System.Drawing.Point(533, 66);
+            this.b124.Name = "b124";
+            this.b124.Size = new System.Drawing.Size(23, 19);
+            this.b124.TabIndex = 319;
+            this.b124.Text = "124";
+            this.b124.UseVisualStyleBackColor = false;
+            this.b124.Click += new System.EventHandler(this.button_Click);
             // 
             // b112
             // 
-            b112.BackColor = Color.LightGray;
-            b112.BackgroundImageLayout = ImageLayout.None;
-            b112.FlatAppearance.BorderSize = 0;
-            b112.FlatStyle = FlatStyle.Flat;
-            b112.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b112.Location = new Point(498, 66);
-            b112.Name = "b112";
-            b112.Size = new Size(23, 19);
-            b112.TabIndex = 318;
-            b112.Text = "112";
-            b112.UseVisualStyleBackColor = false;
+            this.b112.BackColor = System.Drawing.Color.LightGray;
+            this.b112.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b112.FlatAppearance.BorderSize = 0;
+            this.b112.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b112.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b112.Location = new System.Drawing.Point(498, 66);
+            this.b112.Name = "b112";
+            this.b112.Size = new System.Drawing.Size(23, 19);
+            this.b112.TabIndex = 318;
+            this.b112.Text = "112";
+            this.b112.UseVisualStyleBackColor = false;
+            this.b112.Click += new System.EventHandler(this.button_Click);
             // 
             // b100
             // 
-            b100.BackColor = Color.LightGray;
-            b100.BackgroundImageLayout = ImageLayout.None;
-            b100.FlatAppearance.BorderSize = 0;
-            b100.FlatStyle = FlatStyle.Flat;
-            b100.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b100.Location = new Point(464, 66);
-            b100.Name = "b100";
-            b100.Size = new Size(23, 19);
-            b100.TabIndex = 317;
-            b100.Text = "100";
-            b100.UseVisualStyleBackColor = false;
+            this.b100.BackColor = System.Drawing.Color.LightGray;
+            this.b100.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b100.FlatAppearance.BorderSize = 0;
+            this.b100.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b100.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b100.Location = new System.Drawing.Point(464, 66);
+            this.b100.Name = "b100";
+            this.b100.Size = new System.Drawing.Size(23, 19);
+            this.b100.TabIndex = 317;
+            this.b100.Text = "100";
+            this.b100.UseVisualStyleBackColor = false;
+            this.b100.Click += new System.EventHandler(this.button_Click);
             // 
             // b88
             // 
-            b88.BackColor = Color.LightGray;
-            b88.BackgroundImageLayout = ImageLayout.None;
-            b88.FlatAppearance.BorderSize = 0;
-            b88.FlatStyle = FlatStyle.Flat;
-            b88.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b88.Location = new Point(429, 66);
-            b88.Name = "b88";
-            b88.Size = new Size(23, 19);
-            b88.TabIndex = 316;
-            b88.Text = "88";
-            b88.UseVisualStyleBackColor = false;
+            this.b88.BackColor = System.Drawing.Color.LightGray;
+            this.b88.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b88.FlatAppearance.BorderSize = 0;
+            this.b88.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b88.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b88.Location = new System.Drawing.Point(429, 66);
+            this.b88.Name = "b88";
+            this.b88.Size = new System.Drawing.Size(23, 19);
+            this.b88.TabIndex = 316;
+            this.b88.Text = "88";
+            this.b88.UseVisualStyleBackColor = false;
+            this.b88.Click += new System.EventHandler(this.button_Click);
             // 
             // b76
             // 
-            b76.BackColor = Color.LightGray;
-            b76.BackgroundImageLayout = ImageLayout.None;
-            b76.FlatAppearance.BorderSize = 0;
-            b76.FlatStyle = FlatStyle.Flat;
-            b76.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b76.Location = new Point(394, 66);
-            b76.Name = "b76";
-            b76.Size = new Size(23, 19);
-            b76.TabIndex = 315;
-            b76.Text = "76";
-            b76.UseVisualStyleBackColor = false;
+            this.b76.BackColor = System.Drawing.Color.LightGray;
+            this.b76.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b76.FlatAppearance.BorderSize = 0;
+            this.b76.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b76.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b76.Location = new System.Drawing.Point(394, 66);
+            this.b76.Name = "b76";
+            this.b76.Size = new System.Drawing.Size(23, 19);
+            this.b76.TabIndex = 315;
+            this.b76.Text = "76";
+            this.b76.UseVisualStyleBackColor = false;
+            this.b76.Click += new System.EventHandler(this.button_Click);
             // 
             // b64
             // 
-            b64.BackColor = Color.LightGray;
-            b64.BackgroundImageLayout = ImageLayout.None;
-            b64.FlatAppearance.BorderSize = 0;
-            b64.FlatStyle = FlatStyle.Flat;
-            b64.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b64.Location = new Point(360, 66);
-            b64.Name = "b64";
-            b64.Size = new Size(23, 19);
-            b64.TabIndex = 314;
-            b64.Text = "64";
-            b64.UseVisualStyleBackColor = false;
+            this.b64.BackColor = System.Drawing.Color.LightGray;
+            this.b64.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b64.FlatAppearance.BorderSize = 0;
+            this.b64.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b64.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b64.Location = new System.Drawing.Point(360, 66);
+            this.b64.Name = "b64";
+            this.b64.Size = new System.Drawing.Size(23, 19);
+            this.b64.TabIndex = 314;
+            this.b64.Text = "64";
+            this.b64.UseVisualStyleBackColor = false;
+            this.b64.Click += new System.EventHandler(this.button_Click);
             // 
             // b52
             // 
-            b52.BackColor = Color.LightGray;
-            b52.BackgroundImageLayout = ImageLayout.None;
-            b52.FlatAppearance.BorderSize = 0;
-            b52.FlatStyle = FlatStyle.Flat;
-            b52.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b52.Location = new Point(325, 66);
-            b52.Name = "b52";
-            b52.Size = new Size(23, 19);
-            b52.TabIndex = 313;
-            b52.Text = "52";
-            b52.UseVisualStyleBackColor = false;
+            this.b52.BackColor = System.Drawing.Color.LightGray;
+            this.b52.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b52.FlatAppearance.BorderSize = 0;
+            this.b52.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b52.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b52.Location = new System.Drawing.Point(325, 66);
+            this.b52.Name = "b52";
+            this.b52.Size = new System.Drawing.Size(23, 19);
+            this.b52.TabIndex = 313;
+            this.b52.Text = "52";
+            this.b52.UseVisualStyleBackColor = false;
+            this.b52.Click += new System.EventHandler(this.button_Click);
             // 
             // b40
             // 
-            b40.BackColor = Color.LightGray;
-            b40.BackgroundImageLayout = ImageLayout.None;
-            b40.FlatAppearance.BorderSize = 0;
-            b40.FlatStyle = FlatStyle.Flat;
-            b40.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b40.Location = new Point(290, 66);
-            b40.Name = "b40";
-            b40.Size = new Size(23, 19);
-            b40.TabIndex = 312;
-            b40.Text = "40";
-            b40.UseVisualStyleBackColor = false;
+            this.b40.BackColor = System.Drawing.Color.LightGray;
+            this.b40.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b40.FlatAppearance.BorderSize = 0;
+            this.b40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b40.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b40.Location = new System.Drawing.Point(290, 66);
+            this.b40.Name = "b40";
+            this.b40.Size = new System.Drawing.Size(23, 19);
+            this.b40.TabIndex = 312;
+            this.b40.Text = "40";
+            this.b40.UseVisualStyleBackColor = false;
+            this.b40.Click += new System.EventHandler(this.button_Click);
             // 
             // b28
             // 
-            b28.BackColor = Color.LightGray;
-            b28.BackgroundImageLayout = ImageLayout.None;
-            b28.FlatAppearance.BorderSize = 0;
-            b28.FlatStyle = FlatStyle.Flat;
-            b28.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b28.Location = new Point(255, 66);
-            b28.Name = "b28";
-            b28.Size = new Size(23, 19);
-            b28.TabIndex = 311;
-            b28.Text = "28";
-            b28.UseVisualStyleBackColor = false;
+            this.b28.BackColor = System.Drawing.Color.LightGray;
+            this.b28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b28.FlatAppearance.BorderSize = 0;
+            this.b28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b28.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b28.Location = new System.Drawing.Point(255, 66);
+            this.b28.Name = "b28";
+            this.b28.Size = new System.Drawing.Size(23, 19);
+            this.b28.TabIndex = 311;
+            this.b28.Text = "28";
+            this.b28.UseVisualStyleBackColor = false;
+            this.b28.Click += new System.EventHandler(this.button_Click);
             // 
             // b18
             // 
-            b18.BackColor = Color.LightGray;
-            b18.BackgroundImageLayout = ImageLayout.None;
-            b18.FlatAppearance.BorderSize = 0;
-            b18.FlatStyle = FlatStyle.Flat;
-            b18.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b18.Location = new Point(221, 66);
-            b18.Name = "b18";
-            b18.Size = new Size(23, 19);
-            b18.TabIndex = 310;
-            b18.Text = "18";
-            b18.UseVisualStyleBackColor = false;
+            this.b18.BackColor = System.Drawing.Color.LightGray;
+            this.b18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b18.FlatAppearance.BorderSize = 0;
+            this.b18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b18.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b18.Location = new System.Drawing.Point(221, 66);
+            this.b18.Name = "b18";
+            this.b18.Size = new System.Drawing.Size(23, 19);
+            this.b18.TabIndex = 310;
+            this.b18.Text = "18";
+            this.b18.UseVisualStyleBackColor = false;
+            this.b18.Click += new System.EventHandler(this.button_Click);
             // 
             // b2
             // 
-            b2.BackColor = Color.LightGray;
-            b2.BackgroundImageLayout = ImageLayout.None;
-            b2.FlatAppearance.BorderSize = 0;
-            b2.FlatStyle = FlatStyle.Flat;
-            b2.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b2.Location = new Point(165, 67);
-            b2.Name = "b2";
-            b2.Size = new Size(23, 19);
-            b2.TabIndex = 320;
-            b2.Text = "2";
-            b2.UseVisualStyleBackColor = false;
+            this.b2.BackColor = System.Drawing.Color.LightGray;
+            this.b2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b2.FlatAppearance.BorderSize = 0;
+            this.b2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b2.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b2.Location = new System.Drawing.Point(165, 67);
+            this.b2.Name = "b2";
+            this.b2.Size = new System.Drawing.Size(23, 19);
+            this.b2.TabIndex = 320;
+            this.b2.Text = "2";
+            this.b2.UseVisualStyleBackColor = false;
+            this.b2.Click += new System.EventHandler(this.button_Click);
             // 
             // b125
             // 
-            b125.BackColor = Color.LightGray;
-            b125.BackgroundImageLayout = ImageLayout.None;
-            b125.FlatAppearance.BorderSize = 0;
-            b125.FlatStyle = FlatStyle.Flat;
-            b125.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b125.Location = new Point(533, 87);
-            b125.Name = "b125";
-            b125.Size = new Size(23, 19);
-            b125.TabIndex = 330;
-            b125.Text = "125";
-            b125.UseVisualStyleBackColor = false;
+            this.b125.BackColor = System.Drawing.Color.LightGray;
+            this.b125.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b125.FlatAppearance.BorderSize = 0;
+            this.b125.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b125.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b125.Location = new System.Drawing.Point(533, 87);
+            this.b125.Name = "b125";
+            this.b125.Size = new System.Drawing.Size(23, 19);
+            this.b125.TabIndex = 330;
+            this.b125.Text = "125";
+            this.b125.UseVisualStyleBackColor = false;
+            this.b125.Click += new System.EventHandler(this.button_Click);
             // 
             // b113
             // 
-            b113.BackColor = Color.LightGray;
-            b113.BackgroundImageLayout = ImageLayout.None;
-            b113.FlatAppearance.BorderSize = 0;
-            b113.FlatStyle = FlatStyle.Flat;
-            b113.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b113.Location = new Point(498, 87);
-            b113.Name = "b113";
-            b113.Size = new Size(23, 19);
-            b113.TabIndex = 329;
-            b113.Text = "113";
-            b113.UseVisualStyleBackColor = false;
+            this.b113.BackColor = System.Drawing.Color.LightGray;
+            this.b113.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b113.FlatAppearance.BorderSize = 0;
+            this.b113.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b113.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b113.Location = new System.Drawing.Point(498, 87);
+            this.b113.Name = "b113";
+            this.b113.Size = new System.Drawing.Size(23, 19);
+            this.b113.TabIndex = 329;
+            this.b113.Text = "113";
+            this.b113.UseVisualStyleBackColor = false;
+            this.b113.Click += new System.EventHandler(this.button_Click);
             // 
             // b101
             // 
-            b101.BackColor = Color.LightGray;
-            b101.BackgroundImageLayout = ImageLayout.None;
-            b101.FlatAppearance.BorderSize = 0;
-            b101.FlatStyle = FlatStyle.Flat;
-            b101.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b101.Location = new Point(464, 87);
-            b101.Name = "b101";
-            b101.Size = new Size(23, 19);
-            b101.TabIndex = 328;
-            b101.Text = "101";
-            b101.UseVisualStyleBackColor = false;
+            this.b101.BackColor = System.Drawing.Color.LightGray;
+            this.b101.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b101.FlatAppearance.BorderSize = 0;
+            this.b101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b101.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b101.Location = new System.Drawing.Point(464, 87);
+            this.b101.Name = "b101";
+            this.b101.Size = new System.Drawing.Size(23, 19);
+            this.b101.TabIndex = 328;
+            this.b101.Text = "101";
+            this.b101.UseVisualStyleBackColor = false;
+            this.b101.Click += new System.EventHandler(this.button_Click);
             // 
             // b89
             // 
-            b89.BackColor = Color.LightGray;
-            b89.BackgroundImageLayout = ImageLayout.None;
-            b89.FlatAppearance.BorderSize = 0;
-            b89.FlatStyle = FlatStyle.Flat;
-            b89.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b89.Location = new Point(429, 87);
-            b89.Name = "b89";
-            b89.Size = new Size(23, 19);
-            b89.TabIndex = 327;
-            b89.Text = "89";
-            b89.UseVisualStyleBackColor = false;
+            this.b89.BackColor = System.Drawing.Color.LightGray;
+            this.b89.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b89.FlatAppearance.BorderSize = 0;
+            this.b89.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b89.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b89.Location = new System.Drawing.Point(429, 87);
+            this.b89.Name = "b89";
+            this.b89.Size = new System.Drawing.Size(23, 19);
+            this.b89.TabIndex = 327;
+            this.b89.Text = "89";
+            this.b89.UseVisualStyleBackColor = false;
+            this.b89.Click += new System.EventHandler(this.button_Click);
             // 
             // b77
             // 
-            b77.BackColor = Color.LightGray;
-            b77.BackgroundImageLayout = ImageLayout.None;
-            b77.FlatAppearance.BorderSize = 0;
-            b77.FlatStyle = FlatStyle.Flat;
-            b77.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b77.Location = new Point(394, 87);
-            b77.Name = "b77";
-            b77.Size = new Size(23, 19);
-            b77.TabIndex = 326;
-            b77.Text = "77";
-            b77.UseVisualStyleBackColor = false;
+            this.b77.BackColor = System.Drawing.Color.LightGray;
+            this.b77.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b77.FlatAppearance.BorderSize = 0;
+            this.b77.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b77.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b77.Location = new System.Drawing.Point(394, 87);
+            this.b77.Name = "b77";
+            this.b77.Size = new System.Drawing.Size(23, 19);
+            this.b77.TabIndex = 326;
+            this.b77.Text = "77";
+            this.b77.UseVisualStyleBackColor = false;
+            this.b77.Click += new System.EventHandler(this.button_Click);
             // 
             // b65
             // 
-            b65.BackColor = Color.LightGray;
-            b65.BackgroundImageLayout = ImageLayout.None;
-            b65.FlatAppearance.BorderSize = 0;
-            b65.FlatStyle = FlatStyle.Flat;
-            b65.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b65.Location = new Point(360, 87);
-            b65.Name = "b65";
-            b65.Size = new Size(23, 19);
-            b65.TabIndex = 325;
-            b65.Text = "65";
-            b65.UseVisualStyleBackColor = false;
+            this.b65.BackColor = System.Drawing.Color.LightGray;
+            this.b65.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b65.FlatAppearance.BorderSize = 0;
+            this.b65.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b65.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b65.Location = new System.Drawing.Point(360, 87);
+            this.b65.Name = "b65";
+            this.b65.Size = new System.Drawing.Size(23, 19);
+            this.b65.TabIndex = 325;
+            this.b65.Text = "65";
+            this.b65.UseVisualStyleBackColor = false;
+            this.b65.Click += new System.EventHandler(this.button_Click);
             // 
             // b53
             // 
-            b53.BackColor = Color.LightGray;
-            b53.BackgroundImageLayout = ImageLayout.None;
-            b53.FlatAppearance.BorderSize = 0;
-            b53.FlatStyle = FlatStyle.Flat;
-            b53.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b53.Location = new Point(325, 87);
-            b53.Name = "b53";
-            b53.Size = new Size(23, 19);
-            b53.TabIndex = 324;
-            b53.Text = "53";
-            b53.UseVisualStyleBackColor = false;
+            this.b53.BackColor = System.Drawing.Color.LightGray;
+            this.b53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b53.FlatAppearance.BorderSize = 0;
+            this.b53.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b53.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b53.Location = new System.Drawing.Point(325, 87);
+            this.b53.Name = "b53";
+            this.b53.Size = new System.Drawing.Size(23, 19);
+            this.b53.TabIndex = 324;
+            this.b53.Text = "53";
+            this.b53.UseVisualStyleBackColor = false;
+            this.b53.Click += new System.EventHandler(this.button_Click);
             // 
-            // button31
+            // b41
             // 
-            button31.BackColor = Color.LightGray;
-            button31.BackgroundImageLayout = ImageLayout.None;
-            button31.FlatAppearance.BorderSize = 0;
-            button31.FlatStyle = FlatStyle.Flat;
-            button31.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            button31.Location = new Point(290, 87);
-            button31.Name = "button31";
-            button31.Size = new Size(23, 19);
-            button31.TabIndex = 323;
-            button31.Text = "41";
-            button31.UseVisualStyleBackColor = false;
+            this.b41.BackColor = System.Drawing.Color.LightGray;
+            this.b41.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b41.FlatAppearance.BorderSize = 0;
+            this.b41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b41.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b41.Location = new System.Drawing.Point(290, 87);
+            this.b41.Name = "b41";
+            this.b41.Size = new System.Drawing.Size(23, 19);
+            this.b41.TabIndex = 323;
+            this.b41.Text = "41";
+            this.b41.UseVisualStyleBackColor = false;
+            this.b41.Click += new System.EventHandler(this.button_Click);
             // 
             // b29
             // 
-            b29.BackColor = Color.LightGray;
-            b29.BackgroundImageLayout = ImageLayout.None;
-            b29.FlatAppearance.BorderSize = 0;
-            b29.FlatStyle = FlatStyle.Flat;
-            b29.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b29.Location = new Point(255, 87);
-            b29.Name = "b29";
-            b29.Size = new Size(23, 19);
-            b29.TabIndex = 322;
-            b29.Text = "29";
-            b29.UseVisualStyleBackColor = false;
+            this.b29.BackColor = System.Drawing.Color.LightGray;
+            this.b29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b29.FlatAppearance.BorderSize = 0;
+            this.b29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b29.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b29.Location = new System.Drawing.Point(255, 87);
+            this.b29.Name = "b29";
+            this.b29.Size = new System.Drawing.Size(23, 19);
+            this.b29.TabIndex = 322;
+            this.b29.Text = "29";
+            this.b29.UseVisualStyleBackColor = false;
+            this.b29.Click += new System.EventHandler(this.button_Click);
             // 
             // b134
             // 
-            b134.BackColor = Color.LightGray;
-            b134.BackgroundImageLayout = ImageLayout.None;
-            b134.FlatAppearance.BorderSize = 0;
-            b134.FlatStyle = FlatStyle.Flat;
-            b134.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b134.Location = new Point(533, 347);
-            b134.Name = "b134";
-            b134.Size = new Size(23, 19);
-            b134.TabIndex = 359;
-            b134.Text = "134";
-            b134.UseVisualStyleBackColor = false;
+            this.b134.BackColor = System.Drawing.Color.LightGray;
+            this.b134.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b134.FlatAppearance.BorderSize = 0;
+            this.b134.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b134.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b134.Location = new System.Drawing.Point(533, 347);
+            this.b134.Name = "b134";
+            this.b134.Size = new System.Drawing.Size(23, 19);
+            this.b134.TabIndex = 359;
+            this.b134.Text = "134";
+            this.b134.UseVisualStyleBackColor = false;
+            this.b134.Click += new System.EventHandler(this.button_Click);
             // 
             // b122
             // 
-            b122.BackColor = Color.LightGray;
-            b122.BackgroundImageLayout = ImageLayout.None;
-            b122.FlatAppearance.BorderSize = 0;
-            b122.FlatStyle = FlatStyle.Flat;
-            b122.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b122.Location = new Point(498, 347);
-            b122.Name = "b122";
-            b122.Size = new Size(23, 19);
-            b122.TabIndex = 358;
-            b122.Text = "122";
-            b122.UseVisualStyleBackColor = false;
+            this.b122.BackColor = System.Drawing.Color.LightGray;
+            this.b122.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b122.FlatAppearance.BorderSize = 0;
+            this.b122.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b122.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b122.Location = new System.Drawing.Point(498, 347);
+            this.b122.Name = "b122";
+            this.b122.Size = new System.Drawing.Size(23, 19);
+            this.b122.TabIndex = 358;
+            this.b122.Text = "122";
+            this.b122.UseVisualStyleBackColor = false;
+            this.b122.Click += new System.EventHandler(this.button_Click);
             // 
             // b110
             // 
-            b110.BackColor = Color.LightGray;
-            b110.BackgroundImageLayout = ImageLayout.None;
-            b110.FlatAppearance.BorderSize = 0;
-            b110.FlatStyle = FlatStyle.Flat;
-            b110.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b110.Location = new Point(464, 347);
-            b110.Name = "b110";
-            b110.Size = new Size(23, 19);
-            b110.TabIndex = 357;
-            b110.Text = "110";
-            b110.UseVisualStyleBackColor = false;
+            this.b110.BackColor = System.Drawing.Color.LightGray;
+            this.b110.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b110.FlatAppearance.BorderSize = 0;
+            this.b110.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b110.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b110.Location = new System.Drawing.Point(464, 347);
+            this.b110.Name = "b110";
+            this.b110.Size = new System.Drawing.Size(23, 19);
+            this.b110.TabIndex = 357;
+            this.b110.Text = "110";
+            this.b110.UseVisualStyleBackColor = false;
+            this.b110.Click += new System.EventHandler(this.button_Click);
             // 
             // b92
             // 
-            b92.BackColor = Color.LightGray;
-            b92.BackgroundImageLayout = ImageLayout.None;
-            b92.FlatAppearance.BorderSize = 0;
-            b92.FlatStyle = FlatStyle.Flat;
-            b92.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b92.Location = new Point(429, 347);
-            b92.Name = "b92";
-            b92.Size = new Size(23, 19);
-            b92.TabIndex = 356;
-            b92.Text = "92";
-            b92.UseVisualStyleBackColor = false;
+            this.b92.BackColor = System.Drawing.Color.LightGray;
+            this.b92.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b92.FlatAppearance.BorderSize = 0;
+            this.b92.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b92.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b92.Location = new System.Drawing.Point(429, 347);
+            this.b92.Name = "b92";
+            this.b92.Size = new System.Drawing.Size(23, 19);
+            this.b92.TabIndex = 356;
+            this.b92.Text = "92";
+            this.b92.UseVisualStyleBackColor = false;
+            this.b92.Click += new System.EventHandler(this.button_Click);
             // 
             // b86
             // 
-            b86.BackColor = Color.LightGray;
-            b86.BackgroundImageLayout = ImageLayout.None;
-            b86.FlatAppearance.BorderSize = 0;
-            b86.FlatStyle = FlatStyle.Flat;
-            b86.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b86.Location = new Point(394, 347);
-            b86.Name = "b86";
-            b86.Size = new Size(23, 19);
-            b86.TabIndex = 355;
-            b86.Text = "86";
-            b86.UseVisualStyleBackColor = false;
+            this.b86.BackColor = System.Drawing.Color.LightGray;
+            this.b86.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b86.FlatAppearance.BorderSize = 0;
+            this.b86.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b86.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b86.Location = new System.Drawing.Point(394, 347);
+            this.b86.Name = "b86";
+            this.b86.Size = new System.Drawing.Size(23, 19);
+            this.b86.TabIndex = 355;
+            this.b86.Text = "86";
+            this.b86.UseVisualStyleBackColor = false;
+            this.b86.Click += new System.EventHandler(this.button_Click);
             // 
             // b68
             // 
-            b68.BackColor = Color.LightGray;
-            b68.BackgroundImageLayout = ImageLayout.None;
-            b68.FlatAppearance.BorderSize = 0;
-            b68.FlatStyle = FlatStyle.Flat;
-            b68.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b68.Location = new Point(360, 347);
-            b68.Name = "b68";
-            b68.Size = new Size(23, 19);
-            b68.TabIndex = 354;
-            b68.Text = "68";
-            b68.UseVisualStyleBackColor = false;
+            this.b68.BackColor = System.Drawing.Color.LightGray;
+            this.b68.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b68.FlatAppearance.BorderSize = 0;
+            this.b68.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b68.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b68.Location = new System.Drawing.Point(360, 347);
+            this.b68.Name = "b68";
+            this.b68.Size = new System.Drawing.Size(23, 19);
+            this.b68.TabIndex = 354;
+            this.b68.Text = "68";
+            this.b68.UseVisualStyleBackColor = false;
+            this.b68.Click += new System.EventHandler(this.button_Click);
             // 
             // b62
             // 
-            b62.BackColor = Color.LightGray;
-            b62.BackgroundImageLayout = ImageLayout.None;
-            b62.FlatAppearance.BorderSize = 0;
-            b62.FlatStyle = FlatStyle.Flat;
-            b62.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b62.Location = new Point(325, 347);
-            b62.Name = "b62";
-            b62.Size = new Size(23, 19);
-            b62.TabIndex = 353;
-            b62.Text = "62";
-            b62.UseVisualStyleBackColor = false;
+            this.b62.BackColor = System.Drawing.Color.LightGray;
+            this.b62.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b62.FlatAppearance.BorderSize = 0;
+            this.b62.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b62.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b62.Location = new System.Drawing.Point(325, 347);
+            this.b62.Name = "b62";
+            this.b62.Size = new System.Drawing.Size(23, 19);
+            this.b62.TabIndex = 353;
+            this.b62.Text = "62";
+            this.b62.UseVisualStyleBackColor = false;
+            this.b62.Click += new System.EventHandler(this.button_Click);
             // 
             // b44
             // 
-            b44.BackColor = Color.LightGray;
-            b44.BackgroundImageLayout = ImageLayout.None;
-            b44.FlatAppearance.BorderSize = 0;
-            b44.FlatStyle = FlatStyle.Flat;
-            b44.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b44.Location = new Point(290, 347);
-            b44.Name = "b44";
-            b44.Size = new Size(23, 19);
-            b44.TabIndex = 352;
-            b44.Text = "44";
-            b44.UseVisualStyleBackColor = false;
+            this.b44.BackColor = System.Drawing.Color.LightGray;
+            this.b44.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b44.FlatAppearance.BorderSize = 0;
+            this.b44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b44.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b44.Location = new System.Drawing.Point(290, 347);
+            this.b44.Name = "b44";
+            this.b44.Size = new System.Drawing.Size(23, 19);
+            this.b44.TabIndex = 352;
+            this.b44.Text = "44";
+            this.b44.UseVisualStyleBackColor = false;
+            this.b44.Click += new System.EventHandler(this.button_Click);
             // 
             // b38
             // 
-            b38.BackColor = Color.LightGray;
-            b38.BackgroundImageLayout = ImageLayout.None;
-            b38.FlatAppearance.BorderSize = 0;
-            b38.FlatStyle = FlatStyle.Flat;
-            b38.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b38.Location = new Point(255, 347);
-            b38.Name = "b38";
-            b38.Size = new Size(23, 19);
-            b38.TabIndex = 351;
-            b38.Text = "38";
-            b38.UseVisualStyleBackColor = false;
+            this.b38.BackColor = System.Drawing.Color.LightGray;
+            this.b38.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b38.FlatAppearance.BorderSize = 0;
+            this.b38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b38.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b38.Location = new System.Drawing.Point(255, 347);
+            this.b38.Name = "b38";
+            this.b38.Size = new System.Drawing.Size(23, 19);
+            this.b38.TabIndex = 351;
+            this.b38.Text = "38";
+            this.b38.UseVisualStyleBackColor = false;
+            this.b38.Click += new System.EventHandler(this.button_Click);
             // 
             // b133
             // 
-            b133.BackColor = Color.LightGray;
-            b133.BackgroundImageLayout = ImageLayout.None;
-            b133.FlatAppearance.BorderSize = 0;
-            b133.FlatStyle = FlatStyle.Flat;
-            b133.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b133.Location = new Point(533, 326);
-            b133.Name = "b133";
-            b133.Size = new Size(23, 19);
-            b133.TabIndex = 350;
-            b133.Text = "133";
-            b133.UseVisualStyleBackColor = false;
+            this.b133.BackColor = System.Drawing.Color.LightGray;
+            this.b133.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b133.FlatAppearance.BorderSize = 0;
+            this.b133.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b133.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b133.Location = new System.Drawing.Point(533, 326);
+            this.b133.Name = "b133";
+            this.b133.Size = new System.Drawing.Size(23, 19);
+            this.b133.TabIndex = 350;
+            this.b133.Text = "133";
+            this.b133.UseVisualStyleBackColor = false;
+            this.b133.Click += new System.EventHandler(this.button_Click);
             // 
             // b121
             // 
-            b121.BackColor = Color.LightGray;
-            b121.BackgroundImageLayout = ImageLayout.None;
-            b121.FlatAppearance.BorderSize = 0;
-            b121.FlatStyle = FlatStyle.Flat;
-            b121.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b121.Location = new Point(498, 326);
-            b121.Name = "b121";
-            b121.Size = new Size(23, 19);
-            b121.TabIndex = 349;
-            b121.Text = "121";
-            b121.UseVisualStyleBackColor = false;
+            this.b121.BackColor = System.Drawing.Color.LightGray;
+            this.b121.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b121.FlatAppearance.BorderSize = 0;
+            this.b121.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b121.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b121.Location = new System.Drawing.Point(498, 326);
+            this.b121.Name = "b121";
+            this.b121.Size = new System.Drawing.Size(23, 19);
+            this.b121.TabIndex = 349;
+            this.b121.Text = "121";
+            this.b121.UseVisualStyleBackColor = false;
+            this.b121.Click += new System.EventHandler(this.button_Click);
             // 
             // b109
             // 
-            b109.BackColor = Color.LightGray;
-            b109.BackgroundImageLayout = ImageLayout.None;
-            b109.FlatAppearance.BorderSize = 0;
-            b109.FlatStyle = FlatStyle.Flat;
-            b109.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b109.Location = new Point(464, 326);
-            b109.Name = "b109";
-            b109.Size = new Size(23, 19);
-            b109.TabIndex = 348;
-            b109.Text = "109";
-            b109.UseVisualStyleBackColor = false;
+            this.b109.BackColor = System.Drawing.Color.LightGray;
+            this.b109.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b109.FlatAppearance.BorderSize = 0;
+            this.b109.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b109.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b109.Location = new System.Drawing.Point(464, 326);
+            this.b109.Name = "b109";
+            this.b109.Size = new System.Drawing.Size(23, 19);
+            this.b109.TabIndex = 348;
+            this.b109.Text = "109";
+            this.b109.UseVisualStyleBackColor = false;
+            this.b109.Click += new System.EventHandler(this.button_Click);
             // 
             // b91
             // 
-            b91.BackColor = Color.LightGray;
-            b91.BackgroundImageLayout = ImageLayout.None;
-            b91.FlatAppearance.BorderSize = 0;
-            b91.FlatStyle = FlatStyle.Flat;
-            b91.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b91.Location = new Point(429, 326);
-            b91.Name = "b91";
-            b91.Size = new Size(23, 19);
-            b91.TabIndex = 347;
-            b91.Text = "91";
-            b91.UseVisualStyleBackColor = false;
+            this.b91.BackColor = System.Drawing.Color.LightGray;
+            this.b91.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b91.FlatAppearance.BorderSize = 0;
+            this.b91.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b91.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b91.Location = new System.Drawing.Point(429, 326);
+            this.b91.Name = "b91";
+            this.b91.Size = new System.Drawing.Size(23, 19);
+            this.b91.TabIndex = 347;
+            this.b91.Text = "91";
+            this.b91.UseVisualStyleBackColor = false;
+            this.b91.Click += new System.EventHandler(this.button_Click);
             // 
             // b85
             // 
-            b85.BackColor = Color.LightGray;
-            b85.BackgroundImageLayout = ImageLayout.None;
-            b85.FlatAppearance.BorderSize = 0;
-            b85.FlatStyle = FlatStyle.Flat;
-            b85.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b85.Location = new Point(394, 326);
-            b85.Name = "b85";
-            b85.Size = new Size(23, 19);
-            b85.TabIndex = 346;
-            b85.Text = "85";
-            b85.UseVisualStyleBackColor = false;
+            this.b85.BackColor = System.Drawing.Color.LightGray;
+            this.b85.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b85.FlatAppearance.BorderSize = 0;
+            this.b85.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b85.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b85.Location = new System.Drawing.Point(394, 326);
+            this.b85.Name = "b85";
+            this.b85.Size = new System.Drawing.Size(23, 19);
+            this.b85.TabIndex = 346;
+            this.b85.Text = "85";
+            this.b85.UseVisualStyleBackColor = false;
+            this.b85.Click += new System.EventHandler(this.button_Click);
             // 
             // b67
             // 
-            b67.BackColor = Color.LightGray;
-            b67.BackgroundImageLayout = ImageLayout.None;
-            b67.FlatAppearance.BorderSize = 0;
-            b67.FlatStyle = FlatStyle.Flat;
-            b67.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b67.Location = new Point(360, 326);
-            b67.Name = "b67";
-            b67.Size = new Size(23, 19);
-            b67.TabIndex = 345;
-            b67.Text = "67";
-            b67.UseVisualStyleBackColor = false;
+            this.b67.BackColor = System.Drawing.Color.LightGray;
+            this.b67.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b67.FlatAppearance.BorderSize = 0;
+            this.b67.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b67.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b67.Location = new System.Drawing.Point(360, 326);
+            this.b67.Name = "b67";
+            this.b67.Size = new System.Drawing.Size(23, 19);
+            this.b67.TabIndex = 345;
+            this.b67.Text = "67";
+            this.b67.UseVisualStyleBackColor = false;
+            this.b67.Click += new System.EventHandler(this.button_Click);
             // 
             // b61
             // 
-            b61.BackColor = Color.LightGray;
-            b61.BackgroundImageLayout = ImageLayout.None;
-            b61.FlatAppearance.BorderSize = 0;
-            b61.FlatStyle = FlatStyle.Flat;
-            b61.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b61.Location = new Point(325, 326);
-            b61.Name = "b61";
-            b61.Size = new Size(23, 19);
-            b61.TabIndex = 344;
-            b61.Text = "61";
-            b61.UseVisualStyleBackColor = false;
+            this.b61.BackColor = System.Drawing.Color.LightGray;
+            this.b61.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b61.FlatAppearance.BorderSize = 0;
+            this.b61.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b61.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b61.Location = new System.Drawing.Point(325, 326);
+            this.b61.Name = "b61";
+            this.b61.Size = new System.Drawing.Size(23, 19);
+            this.b61.TabIndex = 344;
+            this.b61.Text = "61";
+            this.b61.UseVisualStyleBackColor = false;
+            this.b61.Click += new System.EventHandler(this.button_Click);
             // 
             // b43
             // 
-            b43.BackColor = Color.LightGray;
-            b43.BackgroundImageLayout = ImageLayout.None;
-            b43.FlatAppearance.BorderSize = 0;
-            b43.FlatStyle = FlatStyle.Flat;
-            b43.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b43.Location = new Point(290, 326);
-            b43.Name = "b43";
-            b43.Size = new Size(23, 19);
-            b43.TabIndex = 343;
-            b43.Text = "43";
-            b43.UseVisualStyleBackColor = false;
+            this.b43.BackColor = System.Drawing.Color.LightGray;
+            this.b43.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b43.FlatAppearance.BorderSize = 0;
+            this.b43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b43.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b43.Location = new System.Drawing.Point(290, 326);
+            this.b43.Name = "b43";
+            this.b43.Size = new System.Drawing.Size(23, 19);
+            this.b43.TabIndex = 343;
+            this.b43.Text = "43";
+            this.b43.UseVisualStyleBackColor = false;
+            this.b43.Click += new System.EventHandler(this.button_Click);
             // 
             // b37
             // 
-            b37.BackColor = Color.LightGray;
-            b37.BackgroundImageLayout = ImageLayout.None;
-            b37.FlatAppearance.BorderSize = 0;
-            b37.FlatStyle = FlatStyle.Flat;
-            b37.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b37.Location = new Point(255, 326);
-            b37.Name = "b37";
-            b37.Size = new Size(23, 19);
-            b37.TabIndex = 342;
-            b37.Text = "37";
-            b37.UseVisualStyleBackColor = false;
+            this.b37.BackColor = System.Drawing.Color.LightGray;
+            this.b37.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b37.FlatAppearance.BorderSize = 0;
+            this.b37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b37.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b37.Location = new System.Drawing.Point(255, 326);
+            this.b37.Name = "b37";
+            this.b37.Size = new System.Drawing.Size(23, 19);
+            this.b37.TabIndex = 342;
+            this.b37.Text = "37";
+            this.b37.UseVisualStyleBackColor = false;
+            this.b37.Click += new System.EventHandler(this.button_Click);
             // 
             // b19
             // 
-            b19.BackColor = Color.LightGray;
-            b19.BackgroundImageLayout = ImageLayout.None;
-            b19.FlatAppearance.BorderSize = 0;
-            b19.FlatStyle = FlatStyle.Flat;
-            b19.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b19.Location = new Point(221, 326);
-            b19.Name = "b19";
-            b19.Size = new Size(23, 19);
-            b19.TabIndex = 341;
-            b19.Text = "19";
-            b19.UseVisualStyleBackColor = false;
+            this.b19.BackColor = System.Drawing.Color.LightGray;
+            this.b19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b19.FlatAppearance.BorderSize = 0;
+            this.b19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b19.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b19.Location = new System.Drawing.Point(221, 326);
+            this.b19.Name = "b19";
+            this.b19.Size = new System.Drawing.Size(23, 19);
+            this.b19.TabIndex = 341;
+            this.b19.Text = "19";
+            this.b19.UseVisualStyleBackColor = false;
+            this.b19.Click += new System.EventHandler(this.button_Click);
             // 
             // b132
             // 
-            b132.BackColor = Color.LightGray;
-            b132.BackgroundImageLayout = ImageLayout.None;
-            b132.FlatAppearance.BorderSize = 0;
-            b132.FlatStyle = FlatStyle.Flat;
-            b132.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b132.Location = new Point(533, 305);
-            b132.Name = "b132";
-            b132.Size = new Size(23, 19);
-            b132.TabIndex = 340;
-            b132.Text = "132";
-            b132.UseVisualStyleBackColor = false;
+            this.b132.BackColor = System.Drawing.Color.LightGray;
+            this.b132.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b132.FlatAppearance.BorderSize = 0;
+            this.b132.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b132.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b132.Location = new System.Drawing.Point(533, 305);
+            this.b132.Name = "b132";
+            this.b132.Size = new System.Drawing.Size(23, 19);
+            this.b132.TabIndex = 340;
+            this.b132.Text = "132";
+            this.b132.UseVisualStyleBackColor = false;
+            this.b132.Click += new System.EventHandler(this.button_Click);
             // 
             // b120
             // 
-            b120.BackColor = Color.LightGray;
-            b120.BackgroundImageLayout = ImageLayout.None;
-            b120.FlatAppearance.BorderSize = 0;
-            b120.FlatStyle = FlatStyle.Flat;
-            b120.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b120.Location = new Point(498, 305);
-            b120.Name = "b120";
-            b120.Size = new Size(23, 19);
-            b120.TabIndex = 339;
-            b120.Text = "120";
-            b120.UseVisualStyleBackColor = false;
+            this.b120.BackColor = System.Drawing.Color.LightGray;
+            this.b120.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b120.FlatAppearance.BorderSize = 0;
+            this.b120.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b120.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b120.Location = new System.Drawing.Point(498, 305);
+            this.b120.Name = "b120";
+            this.b120.Size = new System.Drawing.Size(23, 19);
+            this.b120.TabIndex = 339;
+            this.b120.Text = "120";
+            this.b120.UseVisualStyleBackColor = false;
+            this.b120.Click += new System.EventHandler(this.button_Click);
             // 
             // b108
             // 
-            b108.BackColor = Color.LightGray;
-            b108.BackgroundImageLayout = ImageLayout.None;
-            b108.FlatAppearance.BorderSize = 0;
-            b108.FlatStyle = FlatStyle.Flat;
-            b108.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b108.Location = new Point(464, 305);
-            b108.Name = "b108";
-            b108.Size = new Size(23, 19);
-            b108.TabIndex = 338;
-            b108.Text = "108";
-            b108.UseVisualStyleBackColor = false;
+            this.b108.BackColor = System.Drawing.Color.LightGray;
+            this.b108.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b108.FlatAppearance.BorderSize = 0;
+            this.b108.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b108.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b108.Location = new System.Drawing.Point(464, 305);
+            this.b108.Name = "b108";
+            this.b108.Size = new System.Drawing.Size(23, 19);
+            this.b108.TabIndex = 338;
+            this.b108.Text = "108";
+            this.b108.UseVisualStyleBackColor = false;
+            this.b108.Click += new System.EventHandler(this.button_Click);
             // 
             // b90
             // 
-            b90.BackColor = Color.LightGray;
-            b90.BackgroundImageLayout = ImageLayout.None;
-            b90.FlatAppearance.BorderSize = 0;
-            b90.FlatStyle = FlatStyle.Flat;
-            b90.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b90.Location = new Point(429, 305);
-            b90.Name = "b90";
-            b90.Size = new Size(23, 19);
-            b90.TabIndex = 337;
-            b90.Text = "90";
-            b90.UseVisualStyleBackColor = false;
+            this.b90.BackColor = System.Drawing.Color.LightGray;
+            this.b90.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b90.FlatAppearance.BorderSize = 0;
+            this.b90.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b90.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b90.Location = new System.Drawing.Point(429, 305);
+            this.b90.Name = "b90";
+            this.b90.Size = new System.Drawing.Size(23, 19);
+            this.b90.TabIndex = 337;
+            this.b90.Text = "90";
+            this.b90.UseVisualStyleBackColor = false;
+            this.b90.Click += new System.EventHandler(this.button_Click);
             // 
             // b84
             // 
-            b84.BackColor = Color.LightGray;
-            b84.BackgroundImageLayout = ImageLayout.None;
-            b84.FlatAppearance.BorderSize = 0;
-            b84.FlatStyle = FlatStyle.Flat;
-            b84.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b84.Location = new Point(394, 305);
-            b84.Name = "b84";
-            b84.Size = new Size(23, 19);
-            b84.TabIndex = 336;
-            b84.Text = "84";
-            b84.UseVisualStyleBackColor = false;
+            this.b84.BackColor = System.Drawing.Color.LightGray;
+            this.b84.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b84.FlatAppearance.BorderSize = 0;
+            this.b84.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b84.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b84.Location = new System.Drawing.Point(394, 305);
+            this.b84.Name = "b84";
+            this.b84.Size = new System.Drawing.Size(23, 19);
+            this.b84.TabIndex = 336;
+            this.b84.Text = "84";
+            this.b84.UseVisualStyleBackColor = false;
+            this.b84.Click += new System.EventHandler(this.button_Click);
             // 
             // b66
             // 
-            b66.BackColor = Color.LightGray;
-            b66.BackgroundImageLayout = ImageLayout.None;
-            b66.FlatAppearance.BorderSize = 0;
-            b66.FlatStyle = FlatStyle.Flat;
-            b66.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b66.Location = new Point(360, 305);
-            b66.Name = "b66";
-            b66.Size = new Size(23, 19);
-            b66.TabIndex = 335;
-            b66.Text = "66";
-            b66.UseVisualStyleBackColor = false;
+            this.b66.BackColor = System.Drawing.Color.LightGray;
+            this.b66.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b66.FlatAppearance.BorderSize = 0;
+            this.b66.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b66.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b66.Location = new System.Drawing.Point(360, 305);
+            this.b66.Name = "b66";
+            this.b66.Size = new System.Drawing.Size(23, 19);
+            this.b66.TabIndex = 335;
+            this.b66.Text = "66";
+            this.b66.UseVisualStyleBackColor = false;
+            this.b66.Click += new System.EventHandler(this.button_Click);
             // 
             // b60
             // 
-            b60.BackColor = Color.LightGray;
-            b60.BackgroundImageLayout = ImageLayout.None;
-            b60.FlatAppearance.BorderSize = 0;
-            b60.FlatStyle = FlatStyle.Flat;
-            b60.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b60.Location = new Point(325, 305);
-            b60.Name = "b60";
-            b60.Size = new Size(23, 19);
-            b60.TabIndex = 334;
-            b60.Text = "60";
-            b60.UseVisualStyleBackColor = false;
+            this.b60.BackColor = System.Drawing.Color.LightGray;
+            this.b60.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b60.FlatAppearance.BorderSize = 0;
+            this.b60.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b60.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b60.Location = new System.Drawing.Point(325, 305);
+            this.b60.Name = "b60";
+            this.b60.Size = new System.Drawing.Size(23, 19);
+            this.b60.TabIndex = 334;
+            this.b60.Text = "60";
+            this.b60.UseVisualStyleBackColor = false;
+            this.b60.Click += new System.EventHandler(this.button_Click);
             // 
             // b42
             // 
-            b42.BackColor = Color.LightGray;
-            b42.BackgroundImageLayout = ImageLayout.None;
-            b42.FlatAppearance.BorderSize = 0;
-            b42.FlatStyle = FlatStyle.Flat;
-            b42.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b42.Location = new Point(290, 305);
-            b42.Name = "b42";
-            b42.Size = new Size(23, 19);
-            b42.TabIndex = 333;
-            b42.Text = "42";
-            b42.UseVisualStyleBackColor = false;
+            this.b42.BackColor = System.Drawing.Color.LightGray;
+            this.b42.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b42.FlatAppearance.BorderSize = 0;
+            this.b42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b42.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b42.Location = new System.Drawing.Point(290, 305);
+            this.b42.Name = "b42";
+            this.b42.Size = new System.Drawing.Size(23, 19);
+            this.b42.TabIndex = 333;
+            this.b42.Text = "42";
+            this.b42.UseVisualStyleBackColor = false;
+            this.b42.Click += new System.EventHandler(this.button_Click);
             // 
             // b36
             // 
-            b36.BackColor = Color.LightGray;
-            b36.BackgroundImageLayout = ImageLayout.None;
-            b36.FlatAppearance.BorderSize = 0;
-            b36.FlatStyle = FlatStyle.Flat;
-            b36.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b36.Location = new Point(255, 305);
-            b36.Name = "b36";
-            b36.Size = new Size(23, 19);
-            b36.TabIndex = 332;
-            b36.Text = "36";
-            b36.UseVisualStyleBackColor = false;
+            this.b36.BackColor = System.Drawing.Color.LightGray;
+            this.b36.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b36.FlatAppearance.BorderSize = 0;
+            this.b36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b36.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b36.Location = new System.Drawing.Point(255, 305);
+            this.b36.Name = "b36";
+            this.b36.Size = new System.Drawing.Size(23, 19);
+            this.b36.TabIndex = 332;
+            this.b36.Text = "36";
+            this.b36.UseVisualStyleBackColor = false;
+            this.b36.Click += new System.EventHandler(this.button_Click);
             // 
             // b20
             // 
-            b20.BackColor = Color.LightGray;
-            b20.BackgroundImageLayout = ImageLayout.None;
-            b20.FlatAppearance.BorderSize = 0;
-            b20.FlatStyle = FlatStyle.Flat;
-            b20.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b20.Location = new Point(221, 347);
-            b20.Name = "b20";
-            b20.Size = new Size(23, 19);
-            b20.TabIndex = 360;
-            b20.Text = "20";
-            b20.UseVisualStyleBackColor = false;
+            this.b20.BackColor = System.Drawing.Color.LightGray;
+            this.b20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b20.FlatAppearance.BorderSize = 0;
+            this.b20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b20.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b20.Location = new System.Drawing.Point(221, 347);
+            this.b20.Name = "b20";
+            this.b20.Size = new System.Drawing.Size(23, 19);
+            this.b20.TabIndex = 360;
+            this.b20.Text = "20";
+            this.b20.UseVisualStyleBackColor = false;
+            this.b20.Click += new System.EventHandler(this.button_Click);
             // 
             // b10
             // 
-            b10.BackColor = Color.LightGray;
-            b10.BackgroundImageLayout = ImageLayout.None;
-            b10.FlatAppearance.BorderSize = 0;
-            b10.FlatStyle = FlatStyle.Flat;
-            b10.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b10.Location = new Point(165, 347);
-            b10.Name = "b10";
-            b10.Size = new Size(23, 19);
-            b10.TabIndex = 361;
-            b10.Text = "10";
-            b10.UseVisualStyleBackColor = false;
+            this.b10.BackColor = System.Drawing.Color.LightGray;
+            this.b10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b10.FlatAppearance.BorderSize = 0;
+            this.b10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b10.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b10.Location = new System.Drawing.Point(165, 347);
+            this.b10.Name = "b10";
+            this.b10.Size = new System.Drawing.Size(23, 19);
+            this.b10.TabIndex = 361;
+            this.b10.Text = "10";
+            this.b10.UseVisualStyleBackColor = false;
+            this.b10.Click += new System.EventHandler(this.button_Click);
             // 
             // b9
             // 
-            b9.BackColor = Color.LightGray;
-            b9.BackgroundImageLayout = ImageLayout.None;
-            b9.FlatAppearance.BorderSize = 0;
-            b9.FlatStyle = FlatStyle.Flat;
-            b9.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b9.Location = new Point(165, 325);
-            b9.Name = "b9";
-            b9.Size = new Size(23, 19);
-            b9.TabIndex = 362;
-            b9.Text = "9";
-            b9.UseVisualStyleBackColor = false;
+            this.b9.BackColor = System.Drawing.Color.LightGray;
+            this.b9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b9.FlatAppearance.BorderSize = 0;
+            this.b9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b9.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b9.Location = new System.Drawing.Point(165, 325);
+            this.b9.Name = "b9";
+            this.b9.Size = new System.Drawing.Size(23, 19);
+            this.b9.TabIndex = 362;
+            this.b9.Text = "9";
+            this.b9.UseVisualStyleBackColor = false;
+            this.b9.Click += new System.EventHandler(this.button_Click);
             // 
             // b3
             // 
-            b3.BackColor = Color.LightGray;
-            b3.BackgroundImageLayout = ImageLayout.None;
-            b3.FlatAppearance.BorderSize = 0;
-            b3.FlatStyle = FlatStyle.Flat;
-            b3.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b3.Location = new Point(165, 128);
-            b3.Name = "b3";
-            b3.Size = new Size(23, 19);
-            b3.TabIndex = 363;
-            b3.Text = "3";
-            b3.UseVisualStyleBackColor = false;
+            this.b3.BackColor = System.Drawing.Color.LightGray;
+            this.b3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b3.FlatAppearance.BorderSize = 0;
+            this.b3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b3.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b3.Location = new System.Drawing.Point(165, 128);
+            this.b3.Name = "b3";
+            this.b3.Size = new System.Drawing.Size(23, 19);
+            this.b3.TabIndex = 363;
+            this.b3.Text = "3";
+            this.b3.UseVisualStyleBackColor = false;
+            this.b3.Click += new System.EventHandler(this.button_Click);
             // 
             // b11
             // 
-            b11.BackColor = Color.LightGray;
-            b11.BackgroundImageLayout = ImageLayout.None;
-            b11.FlatAppearance.BorderSize = 0;
-            b11.FlatStyle = FlatStyle.Flat;
-            b11.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b11.Location = new Point(191, 128);
-            b11.Name = "b11";
-            b11.Size = new Size(23, 19);
-            b11.TabIndex = 364;
-            b11.Text = "11";
-            b11.UseVisualStyleBackColor = false;
+            this.b11.BackColor = System.Drawing.Color.LightGray;
+            this.b11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b11.FlatAppearance.BorderSize = 0;
+            this.b11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b11.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b11.Location = new System.Drawing.Point(191, 128);
+            this.b11.Name = "b11";
+            this.b11.Size = new System.Drawing.Size(23, 19);
+            this.b11.TabIndex = 364;
+            this.b11.Text = "11";
+            this.b11.UseVisualStyleBackColor = false;
+            this.b11.Click += new System.EventHandler(this.button_Click);
             // 
             // b12
             // 
-            b12.BackColor = Color.LightGray;
-            b12.BackgroundImageLayout = ImageLayout.None;
-            b12.FlatAppearance.BorderSize = 0;
-            b12.FlatStyle = FlatStyle.Flat;
-            b12.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b12.Location = new Point(191, 149);
-            b12.Name = "b12";
-            b12.Size = new Size(23, 19);
-            b12.TabIndex = 366;
-            b12.Text = "12";
-            b12.UseVisualStyleBackColor = false;
+            this.b12.BackColor = System.Drawing.Color.LightGray;
+            this.b12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b12.FlatAppearance.BorderSize = 0;
+            this.b12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b12.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b12.Location = new System.Drawing.Point(191, 149);
+            this.b12.Name = "b12";
+            this.b12.Size = new System.Drawing.Size(23, 19);
+            this.b12.TabIndex = 366;
+            this.b12.Text = "12";
+            this.b12.UseVisualStyleBackColor = false;
+            this.b12.Click += new System.EventHandler(this.button_Click);
             // 
             // b4
             // 
-            b4.BackColor = Color.LightGray;
-            b4.BackgroundImageLayout = ImageLayout.None;
-            b4.FlatAppearance.BorderSize = 0;
-            b4.FlatStyle = FlatStyle.Flat;
-            b4.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b4.Location = new Point(165, 149);
-            b4.Name = "b4";
-            b4.Size = new Size(23, 19);
-            b4.TabIndex = 365;
-            b4.Text = "4";
-            b4.UseVisualStyleBackColor = false;
+            this.b4.BackColor = System.Drawing.Color.LightGray;
+            this.b4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b4.FlatAppearance.BorderSize = 0;
+            this.b4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b4.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b4.Location = new System.Drawing.Point(165, 149);
+            this.b4.Name = "b4";
+            this.b4.Size = new System.Drawing.Size(23, 19);
+            this.b4.TabIndex = 365;
+            this.b4.Text = "4";
+            this.b4.UseVisualStyleBackColor = false;
+            this.b4.Click += new System.EventHandler(this.button_Click);
             // 
             // b13
             // 
-            b13.BackColor = Color.LightGray;
-            b13.BackgroundImageLayout = ImageLayout.None;
-            b13.FlatAppearance.BorderSize = 0;
-            b13.FlatStyle = FlatStyle.Flat;
-            b13.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b13.Location = new Point(191, 169);
-            b13.Name = "b13";
-            b13.Size = new Size(23, 19);
-            b13.TabIndex = 368;
-            b13.Text = "13";
-            b13.UseVisualStyleBackColor = false;
+            this.b13.BackColor = System.Drawing.Color.LightGray;
+            this.b13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b13.FlatAppearance.BorderSize = 0;
+            this.b13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b13.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b13.Location = new System.Drawing.Point(191, 169);
+            this.b13.Name = "b13";
+            this.b13.Size = new System.Drawing.Size(23, 19);
+            this.b13.TabIndex = 368;
+            this.b13.Text = "13";
+            this.b13.UseVisualStyleBackColor = false;
+            this.b13.Click += new System.EventHandler(this.button_Click);
             // 
             // b5
             // 
-            b5.BackColor = Color.LightGray;
-            b5.BackgroundImageLayout = ImageLayout.None;
-            b5.FlatAppearance.BorderSize = 0;
-            b5.FlatStyle = FlatStyle.Flat;
-            b5.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b5.Location = new Point(165, 169);
-            b5.Name = "b5";
-            b5.Size = new Size(23, 19);
-            b5.TabIndex = 367;
-            b5.Text = "5";
-            b5.UseVisualStyleBackColor = false;
+            this.b5.BackColor = System.Drawing.Color.LightGray;
+            this.b5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b5.FlatAppearance.BorderSize = 0;
+            this.b5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b5.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b5.Location = new System.Drawing.Point(165, 169);
+            this.b5.Name = "b5";
+            this.b5.Size = new System.Drawing.Size(23, 19);
+            this.b5.TabIndex = 367;
+            this.b5.Text = "5";
+            this.b5.UseVisualStyleBackColor = false;
+            this.b5.Click += new System.EventHandler(this.button_Click);
             // 
             // b32
             // 
-            b32.BackColor = Color.LightGray;
-            b32.BackgroundImageLayout = ImageLayout.None;
-            b32.FlatAppearance.BorderSize = 0;
-            b32.FlatStyle = FlatStyle.Flat;
-            b32.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b32.Location = new Point(259, 169);
-            b32.Name = "b32";
-            b32.Size = new Size(23, 19);
-            b32.TabIndex = 374;
-            b32.Text = "32";
-            b32.UseVisualStyleBackColor = false;
+            this.b32.BackColor = System.Drawing.Color.LightGray;
+            this.b32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b32.FlatAppearance.BorderSize = 0;
+            this.b32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b32.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b32.Location = new System.Drawing.Point(259, 169);
+            this.b32.Name = "b32";
+            this.b32.Size = new System.Drawing.Size(23, 19);
+            this.b32.TabIndex = 374;
+            this.b32.Text = "32";
+            this.b32.UseVisualStyleBackColor = false;
+            this.b32.Click += new System.EventHandler(this.button_Click);
             // 
             // b23
             // 
-            b23.BackColor = Color.LightGray;
-            b23.BackgroundImageLayout = ImageLayout.None;
-            b23.FlatAppearance.BorderSize = 0;
-            b23.FlatStyle = FlatStyle.Flat;
-            b23.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b23.Location = new Point(233, 169);
-            b23.Name = "b23";
-            b23.Size = new Size(23, 19);
-            b23.TabIndex = 373;
-            b23.Text = "23";
-            b23.UseVisualStyleBackColor = false;
+            this.b23.BackColor = System.Drawing.Color.LightGray;
+            this.b23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b23.FlatAppearance.BorderSize = 0;
+            this.b23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b23.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b23.Location = new System.Drawing.Point(233, 169);
+            this.b23.Name = "b23";
+            this.b23.Size = new System.Drawing.Size(23, 19);
+            this.b23.TabIndex = 373;
+            this.b23.Text = "23";
+            this.b23.UseVisualStyleBackColor = false;
+            this.b23.Click += new System.EventHandler(this.button_Click);
             // 
             // b31
             // 
-            b31.BackColor = Color.LightGray;
-            b31.BackgroundImageLayout = ImageLayout.None;
-            b31.FlatAppearance.BorderSize = 0;
-            b31.FlatStyle = FlatStyle.Flat;
-            b31.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b31.Location = new Point(259, 149);
-            b31.Name = "b31";
-            b31.Size = new Size(23, 19);
-            b31.TabIndex = 372;
-            b31.Text = "31";
-            b31.UseVisualStyleBackColor = false;
+            this.b31.BackColor = System.Drawing.Color.LightGray;
+            this.b31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b31.FlatAppearance.BorderSize = 0;
+            this.b31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b31.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b31.Location = new System.Drawing.Point(259, 149);
+            this.b31.Name = "b31";
+            this.b31.Size = new System.Drawing.Size(23, 19);
+            this.b31.TabIndex = 372;
+            this.b31.Text = "31";
+            this.b31.UseVisualStyleBackColor = false;
+            this.b31.Click += new System.EventHandler(this.button_Click);
             // 
             // b22
             // 
-            b22.BackColor = Color.LightGray;
-            b22.BackgroundImageLayout = ImageLayout.None;
-            b22.FlatAppearance.BorderSize = 0;
-            b22.FlatStyle = FlatStyle.Flat;
-            b22.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b22.Location = new Point(233, 149);
-            b22.Name = "b22";
-            b22.Size = new Size(23, 19);
-            b22.TabIndex = 371;
-            b22.Text = "22";
-            b22.UseVisualStyleBackColor = false;
+            this.b22.BackColor = System.Drawing.Color.LightGray;
+            this.b22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b22.FlatAppearance.BorderSize = 0;
+            this.b22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b22.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b22.Location = new System.Drawing.Point(233, 149);
+            this.b22.Name = "b22";
+            this.b22.Size = new System.Drawing.Size(23, 19);
+            this.b22.TabIndex = 371;
+            this.b22.Text = "22";
+            this.b22.UseVisualStyleBackColor = false;
+            this.b22.Click += new System.EventHandler(this.button_Click);
             // 
             // b30
             // 
-            b30.BackColor = Color.LightGray;
-            b30.BackgroundImageLayout = ImageLayout.None;
-            b30.FlatAppearance.BorderSize = 0;
-            b30.FlatStyle = FlatStyle.Flat;
-            b30.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b30.Location = new Point(259, 128);
-            b30.Name = "b30";
-            b30.Size = new Size(23, 19);
-            b30.TabIndex = 370;
-            b30.Text = "30";
-            b30.UseVisualStyleBackColor = false;
+            this.b30.BackColor = System.Drawing.Color.LightGray;
+            this.b30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b30.FlatAppearance.BorderSize = 0;
+            this.b30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b30.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b30.Location = new System.Drawing.Point(259, 128);
+            this.b30.Name = "b30";
+            this.b30.Size = new System.Drawing.Size(23, 19);
+            this.b30.TabIndex = 370;
+            this.b30.Text = "30";
+            this.b30.UseVisualStyleBackColor = false;
+            this.b30.Click += new System.EventHandler(this.button_Click);
             // 
             // b21
             // 
-            b21.BackColor = Color.LightGray;
-            b21.BackgroundImageLayout = ImageLayout.None;
-            b21.FlatAppearance.BorderSize = 0;
-            b21.FlatStyle = FlatStyle.Flat;
-            b21.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b21.Location = new Point(233, 128);
-            b21.Name = "b21";
-            b21.Size = new Size(23, 19);
-            b21.TabIndex = 369;
-            b21.Text = "21";
-            b21.UseVisualStyleBackColor = false;
+            this.b21.BackColor = System.Drawing.Color.LightGray;
+            this.b21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b21.FlatAppearance.BorderSize = 0;
+            this.b21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b21.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b21.Location = new System.Drawing.Point(233, 128);
+            this.b21.Name = "b21";
+            this.b21.Size = new System.Drawing.Size(23, 19);
+            this.b21.TabIndex = 369;
+            this.b21.Text = "21";
+            this.b21.UseVisualStyleBackColor = false;
+            this.b21.Click += new System.EventHandler(this.button_Click);
             // 
             // b56
             // 
-            b56.BackColor = Color.LightGray;
-            b56.BackgroundImageLayout = ImageLayout.None;
-            b56.FlatAppearance.BorderSize = 0;
-            b56.FlatStyle = FlatStyle.Flat;
-            b56.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b56.Location = new Point(327, 169);
-            b56.Name = "b56";
-            b56.Size = new Size(23, 19);
-            b56.TabIndex = 380;
-            b56.Text = "56";
-            b56.UseVisualStyleBackColor = false;
+            this.b56.BackColor = System.Drawing.Color.LightGray;
+            this.b56.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b56.FlatAppearance.BorderSize = 0;
+            this.b56.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b56.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b56.Location = new System.Drawing.Point(327, 169);
+            this.b56.Name = "b56";
+            this.b56.Size = new System.Drawing.Size(23, 19);
+            this.b56.TabIndex = 380;
+            this.b56.Text = "56";
+            this.b56.UseVisualStyleBackColor = false;
+            this.b56.Click += new System.EventHandler(this.button_Click);
             // 
             // b47
             // 
-            b47.BackColor = Color.LightGray;
-            b47.BackgroundImageLayout = ImageLayout.None;
-            b47.FlatAppearance.BorderSize = 0;
-            b47.FlatStyle = FlatStyle.Flat;
-            b47.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b47.Location = new Point(301, 169);
-            b47.Name = "b47";
-            b47.Size = new Size(23, 19);
-            b47.TabIndex = 379;
-            b47.Text = "47";
-            b47.UseVisualStyleBackColor = false;
+            this.b47.BackColor = System.Drawing.Color.LightGray;
+            this.b47.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b47.FlatAppearance.BorderSize = 0;
+            this.b47.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b47.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b47.Location = new System.Drawing.Point(301, 169);
+            this.b47.Name = "b47";
+            this.b47.Size = new System.Drawing.Size(23, 19);
+            this.b47.TabIndex = 379;
+            this.b47.Text = "47";
+            this.b47.UseVisualStyleBackColor = false;
+            this.b47.Click += new System.EventHandler(this.button_Click);
             // 
             // b55
             // 
-            b55.BackColor = Color.LightGray;
-            b55.BackgroundImageLayout = ImageLayout.None;
-            b55.FlatAppearance.BorderSize = 0;
-            b55.FlatStyle = FlatStyle.Flat;
-            b55.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b55.Location = new Point(327, 149);
-            b55.Name = "b55";
-            b55.Size = new Size(23, 19);
-            b55.TabIndex = 378;
-            b55.Text = "55";
-            b55.UseVisualStyleBackColor = false;
+            this.b55.BackColor = System.Drawing.Color.LightGray;
+            this.b55.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b55.FlatAppearance.BorderSize = 0;
+            this.b55.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b55.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b55.Location = new System.Drawing.Point(327, 149);
+            this.b55.Name = "b55";
+            this.b55.Size = new System.Drawing.Size(23, 19);
+            this.b55.TabIndex = 378;
+            this.b55.Text = "55";
+            this.b55.UseVisualStyleBackColor = false;
+            this.b55.Click += new System.EventHandler(this.button_Click);
             // 
             // b46
             // 
-            b46.BackColor = Color.LightGray;
-            b46.BackgroundImageLayout = ImageLayout.None;
-            b46.FlatAppearance.BorderSize = 0;
-            b46.FlatStyle = FlatStyle.Flat;
-            b46.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b46.Location = new Point(301, 149);
-            b46.Name = "b46";
-            b46.Size = new Size(23, 19);
-            b46.TabIndex = 377;
-            b46.Text = "46";
-            b46.UseVisualStyleBackColor = false;
+            this.b46.BackColor = System.Drawing.Color.LightGray;
+            this.b46.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b46.FlatAppearance.BorderSize = 0;
+            this.b46.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b46.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b46.Location = new System.Drawing.Point(301, 149);
+            this.b46.Name = "b46";
+            this.b46.Size = new System.Drawing.Size(23, 19);
+            this.b46.TabIndex = 377;
+            this.b46.Text = "46";
+            this.b46.UseVisualStyleBackColor = false;
+            this.b46.Click += new System.EventHandler(this.button_Click);
             // 
             // b54
             // 
-            b54.BackColor = Color.LightGray;
-            b54.BackgroundImageLayout = ImageLayout.None;
-            b54.FlatAppearance.BorderSize = 0;
-            b54.FlatStyle = FlatStyle.Flat;
-            b54.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b54.Location = new Point(327, 128);
-            b54.Name = "b54";
-            b54.Size = new Size(23, 19);
-            b54.TabIndex = 376;
-            b54.Text = "54";
-            b54.UseVisualStyleBackColor = false;
+            this.b54.BackColor = System.Drawing.Color.LightGray;
+            this.b54.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b54.FlatAppearance.BorderSize = 0;
+            this.b54.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b54.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b54.Location = new System.Drawing.Point(327, 128);
+            this.b54.Name = "b54";
+            this.b54.Size = new System.Drawing.Size(23, 19);
+            this.b54.TabIndex = 376;
+            this.b54.Text = "54";
+            this.b54.UseVisualStyleBackColor = false;
+            this.b54.Click += new System.EventHandler(this.button_Click);
             // 
             // b45
             // 
-            b45.BackColor = Color.LightGray;
-            b45.BackgroundImageLayout = ImageLayout.None;
-            b45.FlatAppearance.BorderSize = 0;
-            b45.FlatStyle = FlatStyle.Flat;
-            b45.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b45.Location = new Point(301, 128);
-            b45.Name = "b45";
-            b45.Size = new Size(23, 19);
-            b45.TabIndex = 375;
-            b45.Text = "45";
-            b45.UseVisualStyleBackColor = false;
+            this.b45.BackColor = System.Drawing.Color.LightGray;
+            this.b45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b45.FlatAppearance.BorderSize = 0;
+            this.b45.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b45.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b45.Location = new System.Drawing.Point(301, 128);
+            this.b45.Name = "b45";
+            this.b45.Size = new System.Drawing.Size(23, 19);
+            this.b45.TabIndex = 375;
+            this.b45.Text = "45";
+            this.b45.UseVisualStyleBackColor = false;
+            this.b45.Click += new System.EventHandler(this.button_Click);
             // 
             // b80
             // 
-            b80.BackColor = Color.LightGray;
-            b80.BackgroundImageLayout = ImageLayout.None;
-            b80.FlatAppearance.BorderSize = 0;
-            b80.FlatStyle = FlatStyle.Flat;
-            b80.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b80.Location = new Point(395, 169);
-            b80.Name = "b80";
-            b80.Size = new Size(23, 19);
-            b80.TabIndex = 386;
-            b80.Text = "80";
-            b80.UseVisualStyleBackColor = false;
+            this.b80.BackColor = System.Drawing.Color.LightGray;
+            this.b80.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b80.FlatAppearance.BorderSize = 0;
+            this.b80.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b80.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b80.Location = new System.Drawing.Point(395, 169);
+            this.b80.Name = "b80";
+            this.b80.Size = new System.Drawing.Size(23, 19);
+            this.b80.TabIndex = 386;
+            this.b80.Text = "80";
+            this.b80.UseVisualStyleBackColor = false;
+            this.b80.Click += new System.EventHandler(this.button_Click);
             // 
             // b71
             // 
-            b71.BackColor = Color.LightGray;
-            b71.BackgroundImageLayout = ImageLayout.None;
-            b71.FlatAppearance.BorderSize = 0;
-            b71.FlatStyle = FlatStyle.Flat;
-            b71.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b71.Location = new Point(369, 169);
-            b71.Name = "b71";
-            b71.Size = new Size(23, 19);
-            b71.TabIndex = 385;
-            b71.Text = "71";
-            b71.UseVisualStyleBackColor = false;
+            this.b71.BackColor = System.Drawing.Color.LightGray;
+            this.b71.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b71.FlatAppearance.BorderSize = 0;
+            this.b71.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b71.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b71.Location = new System.Drawing.Point(369, 169);
+            this.b71.Name = "b71";
+            this.b71.Size = new System.Drawing.Size(23, 19);
+            this.b71.TabIndex = 385;
+            this.b71.Text = "71";
+            this.b71.UseVisualStyleBackColor = false;
+            this.b71.Click += new System.EventHandler(this.button_Click);
             // 
             // b79
             // 
-            b79.BackColor = Color.LightGray;
-            b79.BackgroundImageLayout = ImageLayout.None;
-            b79.FlatAppearance.BorderSize = 0;
-            b79.FlatStyle = FlatStyle.Flat;
-            b79.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b79.Location = new Point(395, 149);
-            b79.Name = "b79";
-            b79.Size = new Size(23, 19);
-            b79.TabIndex = 384;
-            b79.Text = "79";
-            b79.UseVisualStyleBackColor = false;
+            this.b79.BackColor = System.Drawing.Color.LightGray;
+            this.b79.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b79.FlatAppearance.BorderSize = 0;
+            this.b79.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b79.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b79.Location = new System.Drawing.Point(395, 149);
+            this.b79.Name = "b79";
+            this.b79.Size = new System.Drawing.Size(23, 19);
+            this.b79.TabIndex = 384;
+            this.b79.Text = "79";
+            this.b79.UseVisualStyleBackColor = false;
+            this.b79.Click += new System.EventHandler(this.button_Click);
             // 
             // b70
             // 
-            b70.BackColor = Color.LightGray;
-            b70.BackgroundImageLayout = ImageLayout.None;
-            b70.FlatAppearance.BorderSize = 0;
-            b70.FlatStyle = FlatStyle.Flat;
-            b70.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b70.Location = new Point(369, 149);
-            b70.Name = "b70";
-            b70.Size = new Size(23, 19);
-            b70.TabIndex = 383;
-            b70.Text = "70";
-            b70.UseVisualStyleBackColor = false;
+            this.b70.BackColor = System.Drawing.Color.LightGray;
+            this.b70.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b70.FlatAppearance.BorderSize = 0;
+            this.b70.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b70.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b70.Location = new System.Drawing.Point(369, 149);
+            this.b70.Name = "b70";
+            this.b70.Size = new System.Drawing.Size(23, 19);
+            this.b70.TabIndex = 383;
+            this.b70.Text = "70";
+            this.b70.UseVisualStyleBackColor = false;
+            this.b70.Click += new System.EventHandler(this.button_Click);
             // 
             // b78
             // 
-            b78.BackColor = Color.LightGray;
-            b78.BackgroundImageLayout = ImageLayout.None;
-            b78.FlatAppearance.BorderSize = 0;
-            b78.FlatStyle = FlatStyle.Flat;
-            b78.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b78.Location = new Point(395, 128);
-            b78.Name = "b78";
-            b78.Size = new Size(23, 19);
-            b78.TabIndex = 382;
-            b78.Text = "78";
-            b78.UseVisualStyleBackColor = false;
+            this.b78.BackColor = System.Drawing.Color.LightGray;
+            this.b78.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b78.FlatAppearance.BorderSize = 0;
+            this.b78.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b78.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b78.Location = new System.Drawing.Point(395, 128);
+            this.b78.Name = "b78";
+            this.b78.Size = new System.Drawing.Size(23, 19);
+            this.b78.TabIndex = 382;
+            this.b78.Text = "78";
+            this.b78.UseVisualStyleBackColor = false;
+            this.b78.Click += new System.EventHandler(this.button_Click);
             // 
             // b69
             // 
-            b69.BackColor = Color.LightGray;
-            b69.BackgroundImageLayout = ImageLayout.None;
-            b69.FlatAppearance.BorderSize = 0;
-            b69.FlatStyle = FlatStyle.Flat;
-            b69.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b69.Location = new Point(369, 128);
-            b69.Name = "b69";
-            b69.Size = new Size(23, 19);
-            b69.TabIndex = 381;
-            b69.Text = "69";
-            b69.UseVisualStyleBackColor = false;
+            this.b69.BackColor = System.Drawing.Color.LightGray;
+            this.b69.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b69.FlatAppearance.BorderSize = 0;
+            this.b69.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b69.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b69.Location = new System.Drawing.Point(369, 128);
+            this.b69.Name = "b69";
+            this.b69.Size = new System.Drawing.Size(23, 19);
+            this.b69.TabIndex = 381;
+            this.b69.Text = "69";
+            this.b69.UseVisualStyleBackColor = false;
+            this.b69.Click += new System.EventHandler(this.button_Click);
             // 
             // b104
             // 
-            b104.BackColor = Color.LightGray;
-            b104.BackgroundImageLayout = ImageLayout.None;
-            b104.FlatAppearance.BorderSize = 0;
-            b104.FlatStyle = FlatStyle.Flat;
-            b104.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b104.Location = new Point(462, 169);
-            b104.Name = "b104";
-            b104.Size = new Size(23, 19);
-            b104.TabIndex = 392;
-            b104.Text = "104";
-            b104.UseVisualStyleBackColor = false;
+            this.b104.BackColor = System.Drawing.Color.LightGray;
+            this.b104.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b104.FlatAppearance.BorderSize = 0;
+            this.b104.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b104.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b104.Location = new System.Drawing.Point(462, 169);
+            this.b104.Name = "b104";
+            this.b104.Size = new System.Drawing.Size(23, 19);
+            this.b104.TabIndex = 392;
+            this.b104.Text = "104";
+            this.b104.UseVisualStyleBackColor = false;
+            this.b104.Click += new System.EventHandler(this.button_Click);
             // 
             // b95
             // 
-            b95.BackColor = Color.LightGray;
-            b95.BackgroundImageLayout = ImageLayout.None;
-            b95.FlatAppearance.BorderSize = 0;
-            b95.FlatStyle = FlatStyle.Flat;
-            b95.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b95.Location = new Point(436, 169);
-            b95.Name = "b95";
-            b95.Size = new Size(23, 19);
-            b95.TabIndex = 391;
-            b95.Text = "95";
-            b95.UseVisualStyleBackColor = false;
+            this.b95.BackColor = System.Drawing.Color.LightGray;
+            this.b95.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b95.FlatAppearance.BorderSize = 0;
+            this.b95.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b95.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b95.Location = new System.Drawing.Point(436, 169);
+            this.b95.Name = "b95";
+            this.b95.Size = new System.Drawing.Size(23, 19);
+            this.b95.TabIndex = 391;
+            this.b95.Text = "95";
+            this.b95.UseVisualStyleBackColor = false;
+            this.b95.Click += new System.EventHandler(this.button_Click);
             // 
             // b103
             // 
-            b103.BackColor = Color.LightGray;
-            b103.BackgroundImageLayout = ImageLayout.None;
-            b103.FlatAppearance.BorderSize = 0;
-            b103.FlatStyle = FlatStyle.Flat;
-            b103.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b103.Location = new Point(462, 149);
-            b103.Name = "b103";
-            b103.Size = new Size(23, 19);
-            b103.TabIndex = 390;
-            b103.Text = "103";
-            b103.UseVisualStyleBackColor = false;
+            this.b103.BackColor = System.Drawing.Color.LightGray;
+            this.b103.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b103.FlatAppearance.BorderSize = 0;
+            this.b103.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b103.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b103.Location = new System.Drawing.Point(462, 149);
+            this.b103.Name = "b103";
+            this.b103.Size = new System.Drawing.Size(23, 19);
+            this.b103.TabIndex = 390;
+            this.b103.Text = "103";
+            this.b103.UseVisualStyleBackColor = false;
+            this.b103.Click += new System.EventHandler(this.button_Click);
             // 
             // b94
             // 
-            b94.BackColor = Color.LightGray;
-            b94.BackgroundImageLayout = ImageLayout.None;
-            b94.FlatAppearance.BorderSize = 0;
-            b94.FlatStyle = FlatStyle.Flat;
-            b94.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b94.Location = new Point(436, 149);
-            b94.Name = "b94";
-            b94.Size = new Size(23, 19);
-            b94.TabIndex = 389;
-            b94.Text = "94";
-            b94.UseVisualStyleBackColor = false;
+            this.b94.BackColor = System.Drawing.Color.LightGray;
+            this.b94.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b94.FlatAppearance.BorderSize = 0;
+            this.b94.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b94.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b94.Location = new System.Drawing.Point(436, 149);
+            this.b94.Name = "b94";
+            this.b94.Size = new System.Drawing.Size(23, 19);
+            this.b94.TabIndex = 389;
+            this.b94.Text = "94";
+            this.b94.UseVisualStyleBackColor = false;
+            this.b94.Click += new System.EventHandler(this.button_Click);
             // 
             // b102
             // 
-            b102.BackColor = Color.LightGray;
-            b102.BackgroundImageLayout = ImageLayout.None;
-            b102.FlatAppearance.BorderSize = 0;
-            b102.FlatStyle = FlatStyle.Flat;
-            b102.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b102.Location = new Point(462, 128);
-            b102.Name = "b102";
-            b102.Size = new Size(23, 19);
-            b102.TabIndex = 388;
-            b102.Text = "102";
-            b102.UseVisualStyleBackColor = false;
+            this.b102.BackColor = System.Drawing.Color.LightGray;
+            this.b102.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b102.FlatAppearance.BorderSize = 0;
+            this.b102.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b102.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b102.Location = new System.Drawing.Point(462, 128);
+            this.b102.Name = "b102";
+            this.b102.Size = new System.Drawing.Size(23, 19);
+            this.b102.TabIndex = 388;
+            this.b102.Text = "102";
+            this.b102.UseVisualStyleBackColor = false;
+            this.b102.Click += new System.EventHandler(this.button_Click);
             // 
             // b93
             // 
-            b93.BackColor = Color.LightGray;
-            b93.BackgroundImageLayout = ImageLayout.None;
-            b93.FlatAppearance.BorderSize = 0;
-            b93.FlatStyle = FlatStyle.Flat;
-            b93.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b93.Location = new Point(436, 128);
-            b93.Name = "b93";
-            b93.Size = new Size(23, 19);
-            b93.TabIndex = 387;
-            b93.Text = "93";
-            b93.UseVisualStyleBackColor = false;
+            this.b93.BackColor = System.Drawing.Color.LightGray;
+            this.b93.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b93.FlatAppearance.BorderSize = 0;
+            this.b93.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b93.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b93.Location = new System.Drawing.Point(436, 128);
+            this.b93.Name = "b93";
+            this.b93.Size = new System.Drawing.Size(23, 19);
+            this.b93.TabIndex = 387;
+            this.b93.Text = "93";
+            this.b93.UseVisualStyleBackColor = false;
+            this.b93.Click += new System.EventHandler(this.button_Click);
             // 
             // b128
             // 
-            b128.BackColor = Color.LightGray;
-            b128.BackgroundImageLayout = ImageLayout.None;
-            b128.FlatAppearance.BorderSize = 0;
-            b128.FlatStyle = FlatStyle.Flat;
-            b128.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b128.Location = new Point(526, 169);
-            b128.Name = "b128";
-            b128.Size = new Size(23, 19);
-            b128.TabIndex = 398;
-            b128.Text = "128";
-            b128.UseVisualStyleBackColor = false;
+            this.b128.BackColor = System.Drawing.Color.LightGray;
+            this.b128.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b128.FlatAppearance.BorderSize = 0;
+            this.b128.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b128.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b128.Location = new System.Drawing.Point(526, 169);
+            this.b128.Name = "b128";
+            this.b128.Size = new System.Drawing.Size(23, 19);
+            this.b128.TabIndex = 398;
+            this.b128.Text = "128";
+            this.b128.UseVisualStyleBackColor = false;
+            this.b128.Click += new System.EventHandler(this.button_Click);
             // 
             // b116
             // 
-            b116.BackColor = Color.LightGray;
-            b116.BackgroundImageLayout = ImageLayout.None;
-            b116.FlatAppearance.BorderSize = 0;
-            b116.FlatStyle = FlatStyle.Flat;
-            b116.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b116.Location = new Point(500, 169);
-            b116.Name = "b116";
-            b116.Size = new Size(23, 19);
-            b116.TabIndex = 397;
-            b116.Text = "116";
-            b116.UseVisualStyleBackColor = false;
+            this.b116.BackColor = System.Drawing.Color.LightGray;
+            this.b116.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b116.FlatAppearance.BorderSize = 0;
+            this.b116.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b116.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b116.Location = new System.Drawing.Point(500, 169);
+            this.b116.Name = "b116";
+            this.b116.Size = new System.Drawing.Size(23, 19);
+            this.b116.TabIndex = 397;
+            this.b116.Text = "116";
+            this.b116.UseVisualStyleBackColor = false;
+            this.b116.Click += new System.EventHandler(this.button_Click);
             // 
             // b127
             // 
-            b127.BackColor = Color.LightGray;
-            b127.BackgroundImageLayout = ImageLayout.None;
-            b127.FlatAppearance.BorderSize = 0;
-            b127.FlatStyle = FlatStyle.Flat;
-            b127.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b127.Location = new Point(526, 149);
-            b127.Name = "b127";
-            b127.Size = new Size(23, 19);
-            b127.TabIndex = 396;
-            b127.Text = "127";
-            b127.UseVisualStyleBackColor = false;
+            this.b127.BackColor = System.Drawing.Color.LightGray;
+            this.b127.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b127.FlatAppearance.BorderSize = 0;
+            this.b127.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b127.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b127.Location = new System.Drawing.Point(526, 149);
+            this.b127.Name = "b127";
+            this.b127.Size = new System.Drawing.Size(23, 19);
+            this.b127.TabIndex = 396;
+            this.b127.Text = "127";
+            this.b127.UseVisualStyleBackColor = false;
+            this.b127.Click += new System.EventHandler(this.button_Click);
             // 
             // b115
             // 
-            b115.BackColor = Color.LightGray;
-            b115.BackgroundImageLayout = ImageLayout.None;
-            b115.FlatAppearance.BorderSize = 0;
-            b115.FlatStyle = FlatStyle.Flat;
-            b115.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b115.Location = new Point(500, 149);
-            b115.Name = "b115";
-            b115.Size = new Size(23, 19);
-            b115.TabIndex = 395;
-            b115.Text = "115";
-            b115.UseVisualStyleBackColor = false;
+            this.b115.BackColor = System.Drawing.Color.LightGray;
+            this.b115.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b115.FlatAppearance.BorderSize = 0;
+            this.b115.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b115.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b115.Location = new System.Drawing.Point(500, 149);
+            this.b115.Name = "b115";
+            this.b115.Size = new System.Drawing.Size(23, 19);
+            this.b115.TabIndex = 395;
+            this.b115.Text = "115";
+            this.b115.UseVisualStyleBackColor = false;
+            this.b115.Click += new System.EventHandler(this.button_Click);
             // 
             // b126
             // 
-            b126.BackColor = Color.LightGray;
-            b126.BackgroundImageLayout = ImageLayout.None;
-            b126.FlatAppearance.BorderSize = 0;
-            b126.FlatStyle = FlatStyle.Flat;
-            b126.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b126.Location = new Point(526, 128);
-            b126.Name = "b126";
-            b126.Size = new Size(23, 19);
-            b126.TabIndex = 394;
-            b126.Text = "126";
-            b126.UseVisualStyleBackColor = false;
+            this.b126.BackColor = System.Drawing.Color.LightGray;
+            this.b126.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b126.FlatAppearance.BorderSize = 0;
+            this.b126.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b126.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b126.Location = new System.Drawing.Point(526, 128);
+            this.b126.Name = "b126";
+            this.b126.Size = new System.Drawing.Size(23, 19);
+            this.b126.TabIndex = 394;
+            this.b126.Text = "126";
+            this.b126.UseVisualStyleBackColor = false;
+            this.b126.Click += new System.EventHandler(this.button_Click);
             // 
             // b114
             // 
-            b114.BackColor = Color.LightGray;
-            b114.BackgroundImageLayout = ImageLayout.None;
-            b114.FlatAppearance.BorderSize = 0;
-            b114.FlatStyle = FlatStyle.Flat;
-            b114.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b114.Location = new Point(500, 128);
-            b114.Name = "b114";
-            b114.Size = new Size(23, 19);
-            b114.TabIndex = 393;
-            b114.Text = "114";
-            b114.UseVisualStyleBackColor = false;
+            this.b114.BackColor = System.Drawing.Color.LightGray;
+            this.b114.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b114.FlatAppearance.BorderSize = 0;
+            this.b114.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b114.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b114.Location = new System.Drawing.Point(500, 128);
+            this.b114.Name = "b114";
+            this.b114.Size = new System.Drawing.Size(23, 19);
+            this.b114.TabIndex = 393;
+            this.b114.Text = "114";
+            this.b114.UseVisualStyleBackColor = false;
+            this.b114.Click += new System.EventHandler(this.button_Click);
             // 
             // b16
             // 
-            b16.BackColor = Color.LightGray;
-            b16.BackgroundImageLayout = ImageLayout.None;
-            b16.FlatAppearance.BorderSize = 0;
-            b16.FlatStyle = FlatStyle.Flat;
-            b16.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b16.Location = new Point(191, 264);
-            b16.Name = "b16";
-            b16.Size = new Size(23, 19);
-            b16.TabIndex = 404;
-            b16.Text = "16";
-            b16.UseVisualStyleBackColor = false;
+            this.b16.BackColor = System.Drawing.Color.LightGray;
+            this.b16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b16.FlatAppearance.BorderSize = 0;
+            this.b16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b16.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b16.Location = new System.Drawing.Point(191, 264);
+            this.b16.Name = "b16";
+            this.b16.Size = new System.Drawing.Size(23, 19);
+            this.b16.TabIndex = 404;
+            this.b16.Text = "16";
+            this.b16.UseVisualStyleBackColor = false;
+            this.b16.Click += new System.EventHandler(this.button_Click);
             // 
             // b8
             // 
-            b8.BackColor = Color.LightGray;
-            b8.BackgroundImageLayout = ImageLayout.None;
-            b8.FlatAppearance.BorderSize = 0;
-            b8.FlatStyle = FlatStyle.Flat;
-            b8.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b8.Location = new Point(165, 264);
-            b8.Name = "b8";
-            b8.Size = new Size(23, 19);
-            b8.TabIndex = 403;
-            b8.Text = "8";
-            b8.UseVisualStyleBackColor = false;
+            this.b8.BackColor = System.Drawing.Color.LightGray;
+            this.b8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b8.FlatAppearance.BorderSize = 0;
+            this.b8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b8.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b8.Location = new System.Drawing.Point(165, 264);
+            this.b8.Name = "b8";
+            this.b8.Size = new System.Drawing.Size(23, 19);
+            this.b8.TabIndex = 403;
+            this.b8.Text = "8";
+            this.b8.UseVisualStyleBackColor = false;
+            this.b8.Click += new System.EventHandler(this.button_Click);
             // 
             // b15
             // 
-            b15.BackColor = Color.LightGray;
-            b15.BackgroundImageLayout = ImageLayout.None;
-            b15.FlatAppearance.BorderSize = 0;
-            b15.FlatStyle = FlatStyle.Flat;
-            b15.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b15.Location = new Point(191, 244);
-            b15.Name = "b15";
-            b15.Size = new Size(23, 19);
-            b15.TabIndex = 402;
-            b15.Text = "15";
-            b15.UseVisualStyleBackColor = false;
+            this.b15.BackColor = System.Drawing.Color.LightGray;
+            this.b15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b15.FlatAppearance.BorderSize = 0;
+            this.b15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b15.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b15.Location = new System.Drawing.Point(191, 244);
+            this.b15.Name = "b15";
+            this.b15.Size = new System.Drawing.Size(23, 19);
+            this.b15.TabIndex = 402;
+            this.b15.Text = "15";
+            this.b15.UseVisualStyleBackColor = false;
+            this.b15.Click += new System.EventHandler(this.button_Click);
             // 
             // b7
             // 
-            b7.BackColor = Color.LightGray;
-            b7.BackgroundImageLayout = ImageLayout.None;
-            b7.FlatAppearance.BorderSize = 0;
-            b7.FlatStyle = FlatStyle.Flat;
-            b7.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b7.Location = new Point(165, 244);
-            b7.Name = "b7";
-            b7.Size = new Size(23, 19);
-            b7.TabIndex = 401;
-            b7.Text = "7";
-            b7.UseVisualStyleBackColor = false;
+            this.b7.BackColor = System.Drawing.Color.LightGray;
+            this.b7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b7.FlatAppearance.BorderSize = 0;
+            this.b7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b7.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b7.Location = new System.Drawing.Point(165, 244);
+            this.b7.Name = "b7";
+            this.b7.Size = new System.Drawing.Size(23, 19);
+            this.b7.TabIndex = 401;
+            this.b7.Text = "7";
+            this.b7.UseVisualStyleBackColor = false;
+            this.b7.Click += new System.EventHandler(this.button_Click);
             // 
             // b14
             // 
-            b14.BackColor = Color.LightGray;
-            b14.BackgroundImageLayout = ImageLayout.None;
-            b14.FlatAppearance.BorderSize = 0;
-            b14.FlatStyle = FlatStyle.Flat;
-            b14.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b14.Location = new Point(191, 223);
-            b14.Name = "b14";
-            b14.Size = new Size(23, 19);
-            b14.TabIndex = 400;
-            b14.Text = "14";
-            b14.UseVisualStyleBackColor = false;
+            this.b14.BackColor = System.Drawing.Color.LightGray;
+            this.b14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b14.FlatAppearance.BorderSize = 0;
+            this.b14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b14.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b14.Location = new System.Drawing.Point(191, 223);
+            this.b14.Name = "b14";
+            this.b14.Size = new System.Drawing.Size(23, 19);
+            this.b14.TabIndex = 400;
+            this.b14.Text = "14";
+            this.b14.UseVisualStyleBackColor = false;
+            this.b14.Click += new System.EventHandler(this.button_Click);
             // 
             // b6
             // 
-            b6.BackColor = Color.LightGray;
-            b6.BackgroundImageLayout = ImageLayout.None;
-            b6.FlatAppearance.BorderSize = 0;
-            b6.FlatStyle = FlatStyle.Flat;
-            b6.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b6.Location = new Point(165, 223);
-            b6.Name = "b6";
-            b6.Size = new Size(23, 19);
-            b6.TabIndex = 399;
-            b6.Text = "6";
-            b6.UseVisualStyleBackColor = false;
+            this.b6.BackColor = System.Drawing.Color.LightGray;
+            this.b6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b6.FlatAppearance.BorderSize = 0;
+            this.b6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b6.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b6.Location = new System.Drawing.Point(165, 223);
+            this.b6.Name = "b6";
+            this.b6.Size = new System.Drawing.Size(23, 19);
+            this.b6.TabIndex = 399;
+            this.b6.Text = "6";
+            this.b6.UseVisualStyleBackColor = false;
+            this.b6.Click += new System.EventHandler(this.button_Click);
             // 
             // b35
             // 
-            b35.BackColor = Color.LightGray;
-            b35.BackgroundImageLayout = ImageLayout.None;
-            b35.FlatAppearance.BorderSize = 0;
-            b35.FlatStyle = FlatStyle.Flat;
-            b35.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b35.Location = new Point(259, 264);
-            b35.Name = "b35";
-            b35.Size = new Size(23, 19);
-            b35.TabIndex = 410;
-            b35.Text = "35";
-            b35.UseVisualStyleBackColor = false;
+            this.b35.BackColor = System.Drawing.Color.LightGray;
+            this.b35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b35.FlatAppearance.BorderSize = 0;
+            this.b35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b35.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b35.Location = new System.Drawing.Point(259, 264);
+            this.b35.Name = "b35";
+            this.b35.Size = new System.Drawing.Size(23, 19);
+            this.b35.TabIndex = 410;
+            this.b35.Text = "35";
+            this.b35.UseVisualStyleBackColor = false;
+            this.b35.Click += new System.EventHandler(this.button_Click);
             // 
             // b26
             // 
-            b26.BackColor = Color.LightGray;
-            b26.BackgroundImageLayout = ImageLayout.None;
-            b26.FlatAppearance.BorderSize = 0;
-            b26.FlatStyle = FlatStyle.Flat;
-            b26.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b26.Location = new Point(233, 264);
-            b26.Name = "b26";
-            b26.Size = new Size(23, 19);
-            b26.TabIndex = 409;
-            b26.Text = "26";
-            b26.UseVisualStyleBackColor = false;
+            this.b26.BackColor = System.Drawing.Color.LightGray;
+            this.b26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b26.FlatAppearance.BorderSize = 0;
+            this.b26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b26.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b26.Location = new System.Drawing.Point(233, 264);
+            this.b26.Name = "b26";
+            this.b26.Size = new System.Drawing.Size(23, 19);
+            this.b26.TabIndex = 409;
+            this.b26.Text = "26";
+            this.b26.UseVisualStyleBackColor = false;
+            this.b26.Click += new System.EventHandler(this.button_Click);
             // 
             // b34
             // 
-            b34.BackColor = Color.LightGray;
-            b34.BackgroundImageLayout = ImageLayout.None;
-            b34.FlatAppearance.BorderSize = 0;
-            b34.FlatStyle = FlatStyle.Flat;
-            b34.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b34.Location = new Point(259, 244);
-            b34.Name = "b34";
-            b34.Size = new Size(23, 19);
-            b34.TabIndex = 408;
-            b34.Text = "34";
-            b34.UseVisualStyleBackColor = false;
+            this.b34.BackColor = System.Drawing.Color.LightGray;
+            this.b34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b34.FlatAppearance.BorderSize = 0;
+            this.b34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b34.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b34.Location = new System.Drawing.Point(259, 244);
+            this.b34.Name = "b34";
+            this.b34.Size = new System.Drawing.Size(23, 19);
+            this.b34.TabIndex = 408;
+            this.b34.Text = "34";
+            this.b34.UseVisualStyleBackColor = false;
+            this.b34.Click += new System.EventHandler(this.button_Click);
             // 
             // b25
             // 
-            b25.BackColor = Color.LightGray;
-            b25.BackgroundImageLayout = ImageLayout.None;
-            b25.FlatAppearance.BorderSize = 0;
-            b25.FlatStyle = FlatStyle.Flat;
-            b25.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b25.Location = new Point(233, 244);
-            b25.Name = "b25";
-            b25.Size = new Size(23, 19);
-            b25.TabIndex = 407;
-            b25.Text = "25";
-            b25.UseVisualStyleBackColor = false;
+            this.b25.BackColor = System.Drawing.Color.LightGray;
+            this.b25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b25.FlatAppearance.BorderSize = 0;
+            this.b25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b25.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b25.Location = new System.Drawing.Point(233, 244);
+            this.b25.Name = "b25";
+            this.b25.Size = new System.Drawing.Size(23, 19);
+            this.b25.TabIndex = 407;
+            this.b25.Text = "25";
+            this.b25.UseVisualStyleBackColor = false;
+            this.b25.Click += new System.EventHandler(this.button_Click);
             // 
             // b33
             // 
-            b33.BackColor = Color.LightGray;
-            b33.BackgroundImageLayout = ImageLayout.None;
-            b33.FlatAppearance.BorderSize = 0;
-            b33.FlatStyle = FlatStyle.Flat;
-            b33.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b33.Location = new Point(259, 223);
-            b33.Name = "b33";
-            b33.Size = new Size(23, 19);
-            b33.TabIndex = 406;
-            b33.Text = "33";
-            b33.UseVisualStyleBackColor = false;
+            this.b33.BackColor = System.Drawing.Color.LightGray;
+            this.b33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b33.FlatAppearance.BorderSize = 0;
+            this.b33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b33.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b33.Location = new System.Drawing.Point(259, 223);
+            this.b33.Name = "b33";
+            this.b33.Size = new System.Drawing.Size(23, 19);
+            this.b33.TabIndex = 406;
+            this.b33.Text = "33";
+            this.b33.UseVisualStyleBackColor = false;
+            this.b33.Click += new System.EventHandler(this.button_Click);
             // 
             // b24
             // 
-            b24.BackColor = Color.LightGray;
-            b24.BackgroundImageLayout = ImageLayout.None;
-            b24.FlatAppearance.BorderSize = 0;
-            b24.FlatStyle = FlatStyle.Flat;
-            b24.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b24.Location = new Point(233, 223);
-            b24.Name = "b24";
-            b24.Size = new Size(23, 19);
-            b24.TabIndex = 405;
-            b24.Text = "24";
-            b24.UseVisualStyleBackColor = false;
+            this.b24.BackColor = System.Drawing.Color.LightGray;
+            this.b24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b24.FlatAppearance.BorderSize = 0;
+            this.b24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b24.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b24.Location = new System.Drawing.Point(233, 223);
+            this.b24.Name = "b24";
+            this.b24.Size = new System.Drawing.Size(23, 19);
+            this.b24.TabIndex = 405;
+            this.b24.Text = "24";
+            this.b24.UseVisualStyleBackColor = false;
+            this.b24.Click += new System.EventHandler(this.button_Click);
             // 
             // b59
             // 
-            b59.BackColor = Color.LightGray;
-            b59.BackgroundImageLayout = ImageLayout.None;
-            b59.FlatAppearance.BorderSize = 0;
-            b59.FlatStyle = FlatStyle.Flat;
-            b59.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b59.Location = new Point(327, 264);
-            b59.Name = "b59";
-            b59.Size = new Size(23, 19);
-            b59.TabIndex = 416;
-            b59.Text = "59";
-            b59.UseVisualStyleBackColor = false;
+            this.b59.BackColor = System.Drawing.Color.LightGray;
+            this.b59.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b59.FlatAppearance.BorderSize = 0;
+            this.b59.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b59.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b59.Location = new System.Drawing.Point(327, 264);
+            this.b59.Name = "b59";
+            this.b59.Size = new System.Drawing.Size(23, 19);
+            this.b59.TabIndex = 416;
+            this.b59.Text = "59";
+            this.b59.UseVisualStyleBackColor = false;
+            this.b59.Click += new System.EventHandler(this.button_Click);
             // 
             // b50
             // 
-            b50.BackColor = Color.LightGray;
-            b50.BackgroundImageLayout = ImageLayout.None;
-            b50.FlatAppearance.BorderSize = 0;
-            b50.FlatStyle = FlatStyle.Flat;
-            b50.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b50.Location = new Point(301, 264);
-            b50.Name = "b50";
-            b50.Size = new Size(23, 19);
-            b50.TabIndex = 415;
-            b50.Text = "50";
-            b50.UseVisualStyleBackColor = false;
+            this.b50.BackColor = System.Drawing.Color.LightGray;
+            this.b50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b50.FlatAppearance.BorderSize = 0;
+            this.b50.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b50.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b50.Location = new System.Drawing.Point(301, 264);
+            this.b50.Name = "b50";
+            this.b50.Size = new System.Drawing.Size(23, 19);
+            this.b50.TabIndex = 415;
+            this.b50.Text = "50";
+            this.b50.UseVisualStyleBackColor = false;
+            this.b50.Click += new System.EventHandler(this.button_Click);
             // 
             // b58
             // 
-            b58.BackColor = Color.LightGray;
-            b58.BackgroundImageLayout = ImageLayout.None;
-            b58.FlatAppearance.BorderSize = 0;
-            b58.FlatStyle = FlatStyle.Flat;
-            b58.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b58.Location = new Point(327, 244);
-            b58.Name = "b58";
-            b58.Size = new Size(23, 19);
-            b58.TabIndex = 414;
-            b58.Text = "58";
-            b58.UseVisualStyleBackColor = false;
+            this.b58.BackColor = System.Drawing.Color.LightGray;
+            this.b58.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b58.FlatAppearance.BorderSize = 0;
+            this.b58.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b58.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b58.Location = new System.Drawing.Point(327, 244);
+            this.b58.Name = "b58";
+            this.b58.Size = new System.Drawing.Size(23, 19);
+            this.b58.TabIndex = 414;
+            this.b58.Text = "58";
+            this.b58.UseVisualStyleBackColor = false;
+            this.b58.Click += new System.EventHandler(this.button_Click);
             // 
             // b49
             // 
-            b49.BackColor = Color.LightGray;
-            b49.BackgroundImageLayout = ImageLayout.None;
-            b49.FlatAppearance.BorderSize = 0;
-            b49.FlatStyle = FlatStyle.Flat;
-            b49.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b49.Location = new Point(301, 244);
-            b49.Name = "b49";
-            b49.Size = new Size(23, 19);
-            b49.TabIndex = 413;
-            b49.Text = "49";
-            b49.UseVisualStyleBackColor = false;
+            this.b49.BackColor = System.Drawing.Color.LightGray;
+            this.b49.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b49.FlatAppearance.BorderSize = 0;
+            this.b49.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b49.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b49.Location = new System.Drawing.Point(301, 244);
+            this.b49.Name = "b49";
+            this.b49.Size = new System.Drawing.Size(23, 19);
+            this.b49.TabIndex = 413;
+            this.b49.Text = "49";
+            this.b49.UseVisualStyleBackColor = false;
+            this.b49.Click += new System.EventHandler(this.button_Click);
             // 
             // b57
             // 
-            b57.BackColor = Color.LightGray;
-            b57.BackgroundImageLayout = ImageLayout.None;
-            b57.FlatAppearance.BorderSize = 0;
-            b57.FlatStyle = FlatStyle.Flat;
-            b57.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b57.Location = new Point(327, 223);
-            b57.Name = "b57";
-            b57.Size = new Size(23, 19);
-            b57.TabIndex = 412;
-            b57.Text = "57";
-            b57.UseVisualStyleBackColor = false;
+            this.b57.BackColor = System.Drawing.Color.LightGray;
+            this.b57.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b57.FlatAppearance.BorderSize = 0;
+            this.b57.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b57.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b57.Location = new System.Drawing.Point(327, 223);
+            this.b57.Name = "b57";
+            this.b57.Size = new System.Drawing.Size(23, 19);
+            this.b57.TabIndex = 412;
+            this.b57.Text = "57";
+            this.b57.UseVisualStyleBackColor = false;
+            this.b57.Click += new System.EventHandler(this.button_Click);
             // 
             // b48
             // 
-            b48.BackColor = Color.LightGray;
-            b48.BackgroundImageLayout = ImageLayout.None;
-            b48.FlatAppearance.BorderSize = 0;
-            b48.FlatStyle = FlatStyle.Flat;
-            b48.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b48.Location = new Point(301, 223);
-            b48.Name = "b48";
-            b48.Size = new Size(23, 19);
-            b48.TabIndex = 411;
-            b48.Text = "48";
-            b48.UseVisualStyleBackColor = false;
+            this.b48.BackColor = System.Drawing.Color.LightGray;
+            this.b48.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b48.FlatAppearance.BorderSize = 0;
+            this.b48.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b48.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b48.Location = new System.Drawing.Point(301, 223);
+            this.b48.Name = "b48";
+            this.b48.Size = new System.Drawing.Size(23, 19);
+            this.b48.TabIndex = 411;
+            this.b48.Text = "48";
+            this.b48.UseVisualStyleBackColor = false;
+            this.b48.Click += new System.EventHandler(this.button_Click);
             // 
             // b83
             // 
-            b83.BackColor = Color.LightGray;
-            b83.BackgroundImageLayout = ImageLayout.None;
-            b83.FlatAppearance.BorderSize = 0;
-            b83.FlatStyle = FlatStyle.Flat;
-            b83.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b83.Location = new Point(395, 264);
-            b83.Name = "b83";
-            b83.Size = new Size(23, 19);
-            b83.TabIndex = 422;
-            b83.Text = "83";
-            b83.UseVisualStyleBackColor = false;
+            this.b83.BackColor = System.Drawing.Color.LightGray;
+            this.b83.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b83.FlatAppearance.BorderSize = 0;
+            this.b83.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b83.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b83.Location = new System.Drawing.Point(395, 264);
+            this.b83.Name = "b83";
+            this.b83.Size = new System.Drawing.Size(23, 19);
+            this.b83.TabIndex = 422;
+            this.b83.Text = "83";
+            this.b83.UseVisualStyleBackColor = false;
+            this.b83.Click += new System.EventHandler(this.button_Click);
             // 
             // b74
             // 
-            b74.BackColor = Color.LightGray;
-            b74.BackgroundImageLayout = ImageLayout.None;
-            b74.FlatAppearance.BorderSize = 0;
-            b74.FlatStyle = FlatStyle.Flat;
-            b74.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b74.Location = new Point(369, 264);
-            b74.Name = "b74";
-            b74.Size = new Size(23, 19);
-            b74.TabIndex = 421;
-            b74.Text = "74";
-            b74.UseVisualStyleBackColor = false;
+            this.b74.BackColor = System.Drawing.Color.LightGray;
+            this.b74.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b74.FlatAppearance.BorderSize = 0;
+            this.b74.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b74.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b74.Location = new System.Drawing.Point(369, 264);
+            this.b74.Name = "b74";
+            this.b74.Size = new System.Drawing.Size(23, 19);
+            this.b74.TabIndex = 421;
+            this.b74.Text = "74";
+            this.b74.UseVisualStyleBackColor = false;
+            this.b74.Click += new System.EventHandler(this.button_Click);
             // 
             // b82
             // 
-            b82.BackColor = Color.LightGray;
-            b82.BackgroundImageLayout = ImageLayout.None;
-            b82.FlatAppearance.BorderSize = 0;
-            b82.FlatStyle = FlatStyle.Flat;
-            b82.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b82.Location = new Point(395, 244);
-            b82.Name = "b82";
-            b82.Size = new Size(23, 19);
-            b82.TabIndex = 420;
-            b82.Text = "82";
-            b82.UseVisualStyleBackColor = false;
+            this.b82.BackColor = System.Drawing.Color.LightGray;
+            this.b82.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b82.FlatAppearance.BorderSize = 0;
+            this.b82.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b82.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b82.Location = new System.Drawing.Point(395, 244);
+            this.b82.Name = "b82";
+            this.b82.Size = new System.Drawing.Size(23, 19);
+            this.b82.TabIndex = 420;
+            this.b82.Text = "82";
+            this.b82.UseVisualStyleBackColor = false;
+            this.b82.Click += new System.EventHandler(this.button_Click);
             // 
             // b73
             // 
-            b73.BackColor = Color.LightGray;
-            b73.BackgroundImageLayout = ImageLayout.None;
-            b73.FlatAppearance.BorderSize = 0;
-            b73.FlatStyle = FlatStyle.Flat;
-            b73.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b73.Location = new Point(369, 244);
-            b73.Name = "b73";
-            b73.Size = new Size(23, 19);
-            b73.TabIndex = 419;
-            b73.Text = "73";
-            b73.UseVisualStyleBackColor = false;
+            this.b73.BackColor = System.Drawing.Color.LightGray;
+            this.b73.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b73.FlatAppearance.BorderSize = 0;
+            this.b73.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b73.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b73.Location = new System.Drawing.Point(369, 244);
+            this.b73.Name = "b73";
+            this.b73.Size = new System.Drawing.Size(23, 19);
+            this.b73.TabIndex = 419;
+            this.b73.Text = "73";
+            this.b73.UseVisualStyleBackColor = false;
+            this.b73.Click += new System.EventHandler(this.button_Click);
             // 
             // b81
             // 
-            b81.BackColor = Color.LightGray;
-            b81.BackgroundImageLayout = ImageLayout.None;
-            b81.FlatAppearance.BorderSize = 0;
-            b81.FlatStyle = FlatStyle.Flat;
-            b81.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b81.Location = new Point(395, 223);
-            b81.Name = "b81";
-            b81.Size = new Size(23, 19);
-            b81.TabIndex = 418;
-            b81.Text = "81";
-            b81.UseVisualStyleBackColor = false;
+            this.b81.BackColor = System.Drawing.Color.LightGray;
+            this.b81.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b81.FlatAppearance.BorderSize = 0;
+            this.b81.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b81.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b81.Location = new System.Drawing.Point(395, 223);
+            this.b81.Name = "b81";
+            this.b81.Size = new System.Drawing.Size(23, 19);
+            this.b81.TabIndex = 418;
+            this.b81.Text = "81";
+            this.b81.UseVisualStyleBackColor = false;
+            this.b81.Click += new System.EventHandler(this.button_Click);
             // 
             // b72
             // 
-            b72.BackColor = Color.LightGray;
-            b72.BackgroundImageLayout = ImageLayout.None;
-            b72.FlatAppearance.BorderSize = 0;
-            b72.FlatStyle = FlatStyle.Flat;
-            b72.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b72.Location = new Point(369, 223);
-            b72.Name = "b72";
-            b72.Size = new Size(23, 19);
-            b72.TabIndex = 417;
-            b72.Text = "72";
-            b72.UseVisualStyleBackColor = false;
+            this.b72.BackColor = System.Drawing.Color.LightGray;
+            this.b72.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b72.FlatAppearance.BorderSize = 0;
+            this.b72.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b72.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b72.Location = new System.Drawing.Point(369, 223);
+            this.b72.Name = "b72";
+            this.b72.Size = new System.Drawing.Size(23, 19);
+            this.b72.TabIndex = 417;
+            this.b72.Text = "72";
+            this.b72.UseVisualStyleBackColor = false;
+            this.b72.Click += new System.EventHandler(this.button_Click);
             // 
             // b107
             // 
-            b107.BackColor = Color.LightGray;
-            b107.BackgroundImageLayout = ImageLayout.None;
-            b107.FlatAppearance.BorderSize = 0;
-            b107.FlatStyle = FlatStyle.Flat;
-            b107.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b107.Location = new Point(462, 264);
-            b107.Name = "b107";
-            b107.Size = new Size(23, 19);
-            b107.TabIndex = 428;
-            b107.Text = "107";
-            b107.UseVisualStyleBackColor = false;
+            this.b107.BackColor = System.Drawing.Color.LightGray;
+            this.b107.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b107.FlatAppearance.BorderSize = 0;
+            this.b107.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b107.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b107.Location = new System.Drawing.Point(462, 264);
+            this.b107.Name = "b107";
+            this.b107.Size = new System.Drawing.Size(23, 19);
+            this.b107.TabIndex = 428;
+            this.b107.Text = "107";
+            this.b107.UseVisualStyleBackColor = false;
+            this.b107.Click += new System.EventHandler(this.button_Click);
             // 
             // b98
             // 
-            b98.BackColor = Color.LightGray;
-            b98.BackgroundImageLayout = ImageLayout.None;
-            b98.FlatAppearance.BorderSize = 0;
-            b98.FlatStyle = FlatStyle.Flat;
-            b98.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b98.Location = new Point(436, 264);
-            b98.Name = "b98";
-            b98.Size = new Size(23, 19);
-            b98.TabIndex = 427;
-            b98.Text = "98";
-            b98.UseVisualStyleBackColor = false;
+            this.b98.BackColor = System.Drawing.Color.LightGray;
+            this.b98.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b98.FlatAppearance.BorderSize = 0;
+            this.b98.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b98.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b98.Location = new System.Drawing.Point(436, 264);
+            this.b98.Name = "b98";
+            this.b98.Size = new System.Drawing.Size(23, 19);
+            this.b98.TabIndex = 427;
+            this.b98.Text = "98";
+            this.b98.UseVisualStyleBackColor = false;
+            this.b98.Click += new System.EventHandler(this.button_Click);
             // 
             // b106
             // 
-            b106.BackColor = Color.LightGray;
-            b106.BackgroundImageLayout = ImageLayout.None;
-            b106.FlatAppearance.BorderSize = 0;
-            b106.FlatStyle = FlatStyle.Flat;
-            b106.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b106.Location = new Point(462, 244);
-            b106.Name = "b106";
-            b106.Size = new Size(23, 19);
-            b106.TabIndex = 426;
-            b106.Text = "106";
-            b106.UseVisualStyleBackColor = false;
+            this.b106.BackColor = System.Drawing.Color.LightGray;
+            this.b106.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b106.FlatAppearance.BorderSize = 0;
+            this.b106.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b106.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b106.Location = new System.Drawing.Point(462, 244);
+            this.b106.Name = "b106";
+            this.b106.Size = new System.Drawing.Size(23, 19);
+            this.b106.TabIndex = 426;
+            this.b106.Text = "106";
+            this.b106.UseVisualStyleBackColor = false;
+            this.b106.Click += new System.EventHandler(this.button_Click);
             // 
             // b97
             // 
-            b97.BackColor = Color.LightGray;
-            b97.BackgroundImageLayout = ImageLayout.None;
-            b97.FlatAppearance.BorderSize = 0;
-            b97.FlatStyle = FlatStyle.Flat;
-            b97.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b97.Location = new Point(436, 244);
-            b97.Name = "b97";
-            b97.Size = new Size(23, 19);
-            b97.TabIndex = 425;
-            b97.Text = "97";
-            b97.UseVisualStyleBackColor = false;
+            this.b97.BackColor = System.Drawing.Color.LightGray;
+            this.b97.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b97.FlatAppearance.BorderSize = 0;
+            this.b97.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b97.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b97.Location = new System.Drawing.Point(436, 244);
+            this.b97.Name = "b97";
+            this.b97.Size = new System.Drawing.Size(23, 19);
+            this.b97.TabIndex = 425;
+            this.b97.Text = "97";
+            this.b97.UseVisualStyleBackColor = false;
+            this.b97.Click += new System.EventHandler(this.button_Click);
             // 
             // b105
             // 
-            b105.BackColor = Color.LightGray;
-            b105.BackgroundImageLayout = ImageLayout.None;
-            b105.FlatAppearance.BorderSize = 0;
-            b105.FlatStyle = FlatStyle.Flat;
-            b105.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b105.Location = new Point(462, 223);
-            b105.Name = "b105";
-            b105.Size = new Size(23, 19);
-            b105.TabIndex = 424;
-            b105.Text = "105";
-            b105.UseVisualStyleBackColor = false;
+            this.b105.BackColor = System.Drawing.Color.LightGray;
+            this.b105.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b105.FlatAppearance.BorderSize = 0;
+            this.b105.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b105.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b105.Location = new System.Drawing.Point(462, 223);
+            this.b105.Name = "b105";
+            this.b105.Size = new System.Drawing.Size(23, 19);
+            this.b105.TabIndex = 424;
+            this.b105.Text = "105";
+            this.b105.UseVisualStyleBackColor = false;
+            this.b105.Click += new System.EventHandler(this.button_Click);
             // 
             // b96
             // 
-            b96.BackColor = Color.LightGray;
-            b96.BackgroundImageLayout = ImageLayout.None;
-            b96.FlatAppearance.BorderSize = 0;
-            b96.FlatStyle = FlatStyle.Flat;
-            b96.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b96.Location = new Point(436, 223);
-            b96.Name = "b96";
-            b96.Size = new Size(23, 19);
-            b96.TabIndex = 423;
-            b96.Text = "96";
-            b96.UseVisualStyleBackColor = false;
+            this.b96.BackColor = System.Drawing.Color.LightGray;
+            this.b96.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b96.FlatAppearance.BorderSize = 0;
+            this.b96.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b96.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b96.Location = new System.Drawing.Point(436, 223);
+            this.b96.Name = "b96";
+            this.b96.Size = new System.Drawing.Size(23, 19);
+            this.b96.TabIndex = 423;
+            this.b96.Text = "96";
+            this.b96.UseVisualStyleBackColor = false;
+            this.b96.Click += new System.EventHandler(this.button_Click);
             // 
             // b131
             // 
-            b131.BackColor = Color.LightGray;
-            b131.BackgroundImageLayout = ImageLayout.None;
-            b131.FlatAppearance.BorderSize = 0;
-            b131.FlatStyle = FlatStyle.Flat;
-            b131.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b131.Location = new Point(527, 264);
-            b131.Name = "b131";
-            b131.Size = new Size(23, 19);
-            b131.TabIndex = 434;
-            b131.Text = "131";
-            b131.UseVisualStyleBackColor = false;
+            this.b131.BackColor = System.Drawing.Color.LightGray;
+            this.b131.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b131.FlatAppearance.BorderSize = 0;
+            this.b131.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b131.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b131.Location = new System.Drawing.Point(527, 264);
+            this.b131.Name = "b131";
+            this.b131.Size = new System.Drawing.Size(23, 19);
+            this.b131.TabIndex = 434;
+            this.b131.Text = "131";
+            this.b131.UseVisualStyleBackColor = false;
+            this.b131.Click += new System.EventHandler(this.button_Click);
             // 
             // b119
             // 
-            b119.BackColor = Color.LightGray;
-            b119.BackgroundImageLayout = ImageLayout.None;
-            b119.FlatAppearance.BorderSize = 0;
-            b119.FlatStyle = FlatStyle.Flat;
-            b119.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b119.Location = new Point(501, 264);
-            b119.Name = "b119";
-            b119.Size = new Size(23, 19);
-            b119.TabIndex = 433;
-            b119.Text = "119";
-            b119.UseVisualStyleBackColor = false;
+            this.b119.BackColor = System.Drawing.Color.LightGray;
+            this.b119.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b119.FlatAppearance.BorderSize = 0;
+            this.b119.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b119.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b119.Location = new System.Drawing.Point(501, 264);
+            this.b119.Name = "b119";
+            this.b119.Size = new System.Drawing.Size(23, 19);
+            this.b119.TabIndex = 433;
+            this.b119.Text = "119";
+            this.b119.UseVisualStyleBackColor = false;
+            this.b119.Click += new System.EventHandler(this.button_Click);
             // 
             // b130
             // 
-            b130.BackColor = Color.LightGray;
-            b130.BackgroundImageLayout = ImageLayout.None;
-            b130.FlatAppearance.BorderSize = 0;
-            b130.FlatStyle = FlatStyle.Flat;
-            b130.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b130.Location = new Point(527, 244);
-            b130.Name = "b130";
-            b130.Size = new Size(23, 19);
-            b130.TabIndex = 432;
-            b130.Text = "130";
-            b130.UseVisualStyleBackColor = false;
+            this.b130.BackColor = System.Drawing.Color.LightGray;
+            this.b130.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b130.FlatAppearance.BorderSize = 0;
+            this.b130.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b130.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b130.Location = new System.Drawing.Point(527, 244);
+            this.b130.Name = "b130";
+            this.b130.Size = new System.Drawing.Size(23, 19);
+            this.b130.TabIndex = 432;
+            this.b130.Text = "130";
+            this.b130.UseVisualStyleBackColor = false;
+            this.b130.Click += new System.EventHandler(this.button_Click);
             // 
             // b118
             // 
-            b118.BackColor = Color.LightGray;
-            b118.BackgroundImageLayout = ImageLayout.None;
-            b118.FlatAppearance.BorderSize = 0;
-            b118.FlatStyle = FlatStyle.Flat;
-            b118.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b118.Location = new Point(501, 244);
-            b118.Name = "b118";
-            b118.Size = new Size(23, 19);
-            b118.TabIndex = 431;
-            b118.Text = "118";
-            b118.UseVisualStyleBackColor = false;
+            this.b118.BackColor = System.Drawing.Color.LightGray;
+            this.b118.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b118.FlatAppearance.BorderSize = 0;
+            this.b118.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b118.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b118.Location = new System.Drawing.Point(501, 244);
+            this.b118.Name = "b118";
+            this.b118.Size = new System.Drawing.Size(23, 19);
+            this.b118.TabIndex = 431;
+            this.b118.Text = "118";
+            this.b118.UseVisualStyleBackColor = false;
+            this.b118.Click += new System.EventHandler(this.button_Click);
             // 
             // b129
             // 
-            b129.BackColor = Color.LightGray;
-            b129.BackgroundImageLayout = ImageLayout.None;
-            b129.FlatAppearance.BorderSize = 0;
-            b129.FlatStyle = FlatStyle.Flat;
-            b129.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b129.Location = new Point(527, 223);
-            b129.Name = "b129";
-            b129.Size = new Size(23, 19);
-            b129.TabIndex = 430;
-            b129.Text = "129";
-            b129.UseVisualStyleBackColor = false;
+            this.b129.BackColor = System.Drawing.Color.LightGray;
+            this.b129.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b129.FlatAppearance.BorderSize = 0;
+            this.b129.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b129.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b129.Location = new System.Drawing.Point(527, 223);
+            this.b129.Name = "b129";
+            this.b129.Size = new System.Drawing.Size(23, 19);
+            this.b129.TabIndex = 430;
+            this.b129.Text = "129";
+            this.b129.UseVisualStyleBackColor = false;
+            this.b129.Click += new System.EventHandler(this.button_Click);
             // 
             // b117
             // 
-            b117.BackColor = Color.LightGray;
-            b117.BackgroundImageLayout = ImageLayout.None;
-            b117.FlatAppearance.BorderSize = 0;
-            b117.FlatStyle = FlatStyle.Flat;
-            b117.Font = new Font("Segoe UI", 4.5F, FontStyle.Regular, GraphicsUnit.Point);
-            b117.Location = new Point(501, 223);
-            b117.Name = "b117";
-            b117.Size = new Size(23, 19);
-            b117.TabIndex = 429;
-            b117.Text = "117";
-            b117.UseVisualStyleBackColor = false;
+            this.b117.BackColor = System.Drawing.Color.LightGray;
+            this.b117.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.b117.FlatAppearance.BorderSize = 0;
+            this.b117.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.b117.Font = new System.Drawing.Font("Segoe UI", 4.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.b117.Location = new System.Drawing.Point(501, 223);
+            this.b117.Name = "b117";
+            this.b117.Size = new System.Drawing.Size(23, 19);
+            this.b117.TabIndex = 429;
+            this.b117.Text = "117";
+            this.b117.UseVisualStyleBackColor = false;
+            this.b117.Click += new System.EventHandler(this.button_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(213, 448);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(95, 15);
+            this.label7.TabIndex = 444;
+            this.label7.Text = "BUSINESS Koltuk";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(315, 448);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(81, 15);
+            this.label4.TabIndex = 445;
+            this.label4.Text = "Seçilen Koltuk";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(13, 448);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(84, 15);
+            this.label5.TabIndex = 446;
+            this.label5.Text = "Normal Koltuk";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(109, 448);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(97, 15);
+            this.label6.TabIndex = 447;
+            this.label6.Text = "PREMIUM Koltuk";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(413, 448);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(32, 15);
+            this.label8.TabIndex = 448;
+            this.label8.Text = "Dolu";
+            // 
+            // button82
+            // 
+            this.button82.BackColor = System.Drawing.Color.Gold;
+            this.button82.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button82.Location = new System.Drawing.Point(240, 473);
+            this.button82.Margin = new System.Windows.Forms.Padding(2);
+            this.button82.Name = "button82";
+            this.button82.Size = new System.Drawing.Size(41, 31);
+            this.button82.TabIndex = 439;
+            this.button82.UseVisualStyleBackColor = false;
+            // 
+            // button83
+            // 
+            this.button83.BackColor = System.Drawing.Color.Yellow;
+            this.button83.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button83.Location = new System.Drawing.Point(138, 473);
+            this.button83.Margin = new System.Windows.Forms.Padding(2);
+            this.button83.Name = "button83";
+            this.button83.Size = new System.Drawing.Size(41, 31);
+            this.button83.TabIndex = 440;
+            this.button83.UseVisualStyleBackColor = false;
+            // 
+            // button84
+            // 
+            this.button84.BackColor = System.Drawing.Color.Gray;
+            this.button84.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button84.Location = new System.Drawing.Point(335, 473);
+            this.button84.Margin = new System.Windows.Forms.Padding(2);
+            this.button84.Name = "button84";
+            this.button84.Size = new System.Drawing.Size(41, 31);
+            this.button84.TabIndex = 441;
+            this.button84.UseVisualStyleBackColor = false;
+            // 
+            // button85
+            // 
+            this.button85.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button85.Location = new System.Drawing.Point(33, 473);
+            this.button85.Margin = new System.Windows.Forms.Padding(2);
+            this.button85.Name = "button85";
+            this.button85.Size = new System.Drawing.Size(41, 31);
+            this.button85.TabIndex = 442;
+            this.button85.UseVisualStyleBackColor = true;
+            // 
+            // button86
+            // 
+            this.button86.BackColor = System.Drawing.Color.Green;
+            this.button86.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button86.Location = new System.Drawing.Point(408, 473);
+            this.button86.Margin = new System.Windows.Forms.Padding(2);
+            this.button86.Name = "button86";
+            this.button86.Size = new System.Drawing.Size(41, 31);
+            this.button86.TabIndex = 443;
+            this.button86.UseVisualStyleBackColor = false;
+            // 
+            // buttonContinue
+            // 
+            this.buttonContinue.BackColor = System.Drawing.Color.DarkCyan;
+            this.buttonContinue.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonContinue.ForeColor = System.Drawing.Color.White;
+            this.buttonContinue.Location = new System.Drawing.Point(498, 462);
+            this.buttonContinue.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonContinue.Name = "buttonContinue";
+            this.buttonContinue.Size = new System.Drawing.Size(251, 42);
+            this.buttonContinue.TabIndex = 438;
+            this.buttonContinue.Text = "Onayla ve Devam Et";
+            this.buttonContinue.UseVisualStyleBackColor = false;
+            this.buttonContinue.Click += new System.EventHandler(this.buttonContinue_Click);
+            // 
+            // labelPremium
+            // 
+            this.labelPremium.AutoSize = true;
+            this.labelPremium.Location = new System.Drawing.Point(136, 512);
+            this.labelPremium.Name = "labelPremium";
+            this.labelPremium.Size = new System.Drawing.Size(43, 15);
+            this.labelPremium.TabIndex = 435;
+            this.labelPremium.Text = "0.00 TL";
+            // 
+            // labelBusiness
+            // 
+            this.labelBusiness.AutoSize = true;
+            this.labelBusiness.Location = new System.Drawing.Point(238, 512);
+            this.labelBusiness.Name = "labelBusiness";
+            this.labelBusiness.Size = new System.Drawing.Size(43, 15);
+            this.labelBusiness.TabIndex = 436;
+            this.labelBusiness.Text = "0.00 TL";
+            // 
+            // labelNormal
+            // 
+            this.labelNormal.AutoSize = true;
+            this.labelNormal.Location = new System.Drawing.Point(33, 512);
+            this.labelNormal.Name = "labelNormal";
+            this.labelNormal.Size = new System.Drawing.Size(43, 15);
+            this.labelNormal.TabIndex = 437;
+            this.labelNormal.Text = "0.00 TL";
             // 
             // FeribotKoltukSec
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.White;
-            ClientSize = new Size(731, 454);
-            Controls.Add(b131);
-            Controls.Add(b119);
-            Controls.Add(b130);
-            Controls.Add(b118);
-            Controls.Add(b129);
-            Controls.Add(b117);
-            Controls.Add(b107);
-            Controls.Add(b98);
-            Controls.Add(b106);
-            Controls.Add(b97);
-            Controls.Add(b105);
-            Controls.Add(b96);
-            Controls.Add(b83);
-            Controls.Add(b74);
-            Controls.Add(b82);
-            Controls.Add(b73);
-            Controls.Add(b81);
-            Controls.Add(b72);
-            Controls.Add(b59);
-            Controls.Add(b50);
-            Controls.Add(b58);
-            Controls.Add(b49);
-            Controls.Add(b57);
-            Controls.Add(b48);
-            Controls.Add(b35);
-            Controls.Add(b26);
-            Controls.Add(b34);
-            Controls.Add(b25);
-            Controls.Add(b33);
-            Controls.Add(b24);
-            Controls.Add(b16);
-            Controls.Add(b8);
-            Controls.Add(b15);
-            Controls.Add(b7);
-            Controls.Add(b14);
-            Controls.Add(b6);
-            Controls.Add(b128);
-            Controls.Add(b116);
-            Controls.Add(b127);
-            Controls.Add(b115);
-            Controls.Add(b126);
-            Controls.Add(b114);
-            Controls.Add(b104);
-            Controls.Add(b95);
-            Controls.Add(b103);
-            Controls.Add(b94);
-            Controls.Add(b102);
-            Controls.Add(b93);
-            Controls.Add(b80);
-            Controls.Add(b71);
-            Controls.Add(b79);
-            Controls.Add(b70);
-            Controls.Add(b78);
-            Controls.Add(b69);
-            Controls.Add(b56);
-            Controls.Add(b47);
-            Controls.Add(b55);
-            Controls.Add(b46);
-            Controls.Add(b54);
-            Controls.Add(b45);
-            Controls.Add(b32);
-            Controls.Add(b23);
-            Controls.Add(b31);
-            Controls.Add(b22);
-            Controls.Add(b30);
-            Controls.Add(b21);
-            Controls.Add(b13);
-            Controls.Add(b5);
-            Controls.Add(b12);
-            Controls.Add(b4);
-            Controls.Add(b11);
-            Controls.Add(b3);
-            Controls.Add(b9);
-            Controls.Add(b10);
-            Controls.Add(b20);
-            Controls.Add(b134);
-            Controls.Add(b122);
-            Controls.Add(b110);
-            Controls.Add(b92);
-            Controls.Add(b86);
-            Controls.Add(b68);
-            Controls.Add(b62);
-            Controls.Add(b44);
-            Controls.Add(b38);
-            Controls.Add(b133);
-            Controls.Add(b121);
-            Controls.Add(b109);
-            Controls.Add(b91);
-            Controls.Add(b85);
-            Controls.Add(b67);
-            Controls.Add(b61);
-            Controls.Add(b43);
-            Controls.Add(b37);
-            Controls.Add(b19);
-            Controls.Add(b132);
-            Controls.Add(b120);
-            Controls.Add(b108);
-            Controls.Add(b90);
-            Controls.Add(b84);
-            Controls.Add(b66);
-            Controls.Add(b60);
-            Controls.Add(b42);
-            Controls.Add(b36);
-            Controls.Add(b125);
-            Controls.Add(b113);
-            Controls.Add(b101);
-            Controls.Add(b89);
-            Controls.Add(b77);
-            Controls.Add(b65);
-            Controls.Add(b53);
-            Controls.Add(button31);
-            Controls.Add(b29);
-            Controls.Add(b2);
-            Controls.Add(b124);
-            Controls.Add(b112);
-            Controls.Add(b100);
-            Controls.Add(b88);
-            Controls.Add(b76);
-            Controls.Add(b64);
-            Controls.Add(b52);
-            Controls.Add(b40);
-            Controls.Add(b28);
-            Controls.Add(b18);
-            Controls.Add(b123);
-            Controls.Add(b111);
-            Controls.Add(b99);
-            Controls.Add(b87);
-            Controls.Add(b75);
-            Controls.Add(b63);
-            Controls.Add(b51);
-            Controls.Add(b39);
-            Controls.Add(b27);
-            Controls.Add(b1);
-            Controls.Add(b17);
-            Controls.Add(button21);
-            Controls.Add(pictureBox2);
-            Controls.Add(pictureBox1);
-            FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(2, 1, 2, 1);
-            Name = "FeribotKoltukSec";
-            Text = "FeribotKoltukSec";
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(770, 530);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.button82);
+            this.Controls.Add(this.button83);
+            this.Controls.Add(this.button84);
+            this.Controls.Add(this.button85);
+            this.Controls.Add(this.button86);
+            this.Controls.Add(this.buttonContinue);
+            this.Controls.Add(this.labelPremium);
+            this.Controls.Add(this.labelBusiness);
+            this.Controls.Add(this.labelNormal);
+            this.Controls.Add(this.b131);
+            this.Controls.Add(this.b119);
+            this.Controls.Add(this.b130);
+            this.Controls.Add(this.b118);
+            this.Controls.Add(this.b129);
+            this.Controls.Add(this.b117);
+            this.Controls.Add(this.b107);
+            this.Controls.Add(this.b98);
+            this.Controls.Add(this.b106);
+            this.Controls.Add(this.b97);
+            this.Controls.Add(this.b105);
+            this.Controls.Add(this.b96);
+            this.Controls.Add(this.b83);
+            this.Controls.Add(this.b74);
+            this.Controls.Add(this.b82);
+            this.Controls.Add(this.b73);
+            this.Controls.Add(this.b81);
+            this.Controls.Add(this.b72);
+            this.Controls.Add(this.b59);
+            this.Controls.Add(this.b50);
+            this.Controls.Add(this.b58);
+            this.Controls.Add(this.b49);
+            this.Controls.Add(this.b57);
+            this.Controls.Add(this.b48);
+            this.Controls.Add(this.b35);
+            this.Controls.Add(this.b26);
+            this.Controls.Add(this.b34);
+            this.Controls.Add(this.b25);
+            this.Controls.Add(this.b33);
+            this.Controls.Add(this.b24);
+            this.Controls.Add(this.b16);
+            this.Controls.Add(this.b8);
+            this.Controls.Add(this.b15);
+            this.Controls.Add(this.b7);
+            this.Controls.Add(this.b14);
+            this.Controls.Add(this.b6);
+            this.Controls.Add(this.b128);
+            this.Controls.Add(this.b116);
+            this.Controls.Add(this.b127);
+            this.Controls.Add(this.b115);
+            this.Controls.Add(this.b126);
+            this.Controls.Add(this.b114);
+            this.Controls.Add(this.b104);
+            this.Controls.Add(this.b95);
+            this.Controls.Add(this.b103);
+            this.Controls.Add(this.b94);
+            this.Controls.Add(this.b102);
+            this.Controls.Add(this.b93);
+            this.Controls.Add(this.b80);
+            this.Controls.Add(this.b71);
+            this.Controls.Add(this.b79);
+            this.Controls.Add(this.b70);
+            this.Controls.Add(this.b78);
+            this.Controls.Add(this.b69);
+            this.Controls.Add(this.b56);
+            this.Controls.Add(this.b47);
+            this.Controls.Add(this.b55);
+            this.Controls.Add(this.b46);
+            this.Controls.Add(this.b54);
+            this.Controls.Add(this.b45);
+            this.Controls.Add(this.b32);
+            this.Controls.Add(this.b23);
+            this.Controls.Add(this.b31);
+            this.Controls.Add(this.b22);
+            this.Controls.Add(this.b30);
+            this.Controls.Add(this.b21);
+            this.Controls.Add(this.b13);
+            this.Controls.Add(this.b5);
+            this.Controls.Add(this.b12);
+            this.Controls.Add(this.b4);
+            this.Controls.Add(this.b11);
+            this.Controls.Add(this.b3);
+            this.Controls.Add(this.b9);
+            this.Controls.Add(this.b10);
+            this.Controls.Add(this.b20);
+            this.Controls.Add(this.b134);
+            this.Controls.Add(this.b122);
+            this.Controls.Add(this.b110);
+            this.Controls.Add(this.b92);
+            this.Controls.Add(this.b86);
+            this.Controls.Add(this.b68);
+            this.Controls.Add(this.b62);
+            this.Controls.Add(this.b44);
+            this.Controls.Add(this.b38);
+            this.Controls.Add(this.b133);
+            this.Controls.Add(this.b121);
+            this.Controls.Add(this.b109);
+            this.Controls.Add(this.b91);
+            this.Controls.Add(this.b85);
+            this.Controls.Add(this.b67);
+            this.Controls.Add(this.b61);
+            this.Controls.Add(this.b43);
+            this.Controls.Add(this.b37);
+            this.Controls.Add(this.b19);
+            this.Controls.Add(this.b132);
+            this.Controls.Add(this.b120);
+            this.Controls.Add(this.b108);
+            this.Controls.Add(this.b90);
+            this.Controls.Add(this.b84);
+            this.Controls.Add(this.b66);
+            this.Controls.Add(this.b60);
+            this.Controls.Add(this.b42);
+            this.Controls.Add(this.b36);
+            this.Controls.Add(this.b125);
+            this.Controls.Add(this.b113);
+            this.Controls.Add(this.b101);
+            this.Controls.Add(this.b89);
+            this.Controls.Add(this.b77);
+            this.Controls.Add(this.b65);
+            this.Controls.Add(this.b53);
+            this.Controls.Add(this.b41);
+            this.Controls.Add(this.b29);
+            this.Controls.Add(this.b2);
+            this.Controls.Add(this.b124);
+            this.Controls.Add(this.b112);
+            this.Controls.Add(this.b100);
+            this.Controls.Add(this.b88);
+            this.Controls.Add(this.b76);
+            this.Controls.Add(this.b64);
+            this.Controls.Add(this.b52);
+            this.Controls.Add(this.b40);
+            this.Controls.Add(this.b28);
+            this.Controls.Add(this.b18);
+            this.Controls.Add(this.b123);
+            this.Controls.Add(this.b111);
+            this.Controls.Add(this.b99);
+            this.Controls.Add(this.b87);
+            this.Controls.Add(this.b75);
+            this.Controls.Add(this.b63);
+            this.Controls.Add(this.b51);
+            this.Controls.Add(this.b39);
+            this.Controls.Add(this.b27);
+            this.Controls.Add(this.b1);
+            this.Controls.Add(this.b17);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
+            this.Name = "FeribotKoltukSec";
+            this.Text = "FeribotKoltukSec";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
         private PictureBox pictureBox2;
-        private Button button21;
         private PictureBox pictureBox1;
         private Button b17;
         private Button b1;
@@ -2266,7 +2554,7 @@
         private Button b77;
         private Button b65;
         private Button b53;
-        private Button button31;
+        private Button b41;
         private Button b29;
         private Button b134;
         private Button b122;
@@ -2371,5 +2659,19 @@
         private Button b118;
         private Button b129;
         private Button b117;
+        private Label label7;
+        private Label label4;
+        private Label label5;
+        private Label label6;
+        private Label label8;
+        private Button button82;
+        private Button button83;
+        private Button button84;
+        private Button button85;
+        private Button button86;
+        private Button buttonContinue;
+        private Label labelPremium;
+        private Label labelBusiness;
+        private Label labelNormal;
     }
 }

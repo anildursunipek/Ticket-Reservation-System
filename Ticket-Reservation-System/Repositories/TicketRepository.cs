@@ -64,6 +64,19 @@ namespace Ticket_Reservation_System.Repositories
                 return tickets;
             }
         }
+        public List<Ticket> getTicketsByUser(int id)
+        {
+            using (var db = new AppDbContext())
+            {
+                List<Ticket> tickets = db.Tickets.Where(v => v.UserId == id).ToList();
+                foreach (var ticket in tickets)
+                {
+                    ticket.Task = new TaskRepository().GetTaskById(ticket.TaskId);
+                    ticket.TicketPlan = new TicketPlanRepository().GetTicketPlanById(ticket.TicketPlanId);
+                }
+                return tickets;
+            }
+        }
         public List<Ticket> getTicketsByTaskAndStatus(int id, string status)
         {
             using (var db = new AppDbContext())

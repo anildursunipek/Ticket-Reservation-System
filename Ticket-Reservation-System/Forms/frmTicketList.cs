@@ -83,7 +83,7 @@ namespace Ticket_Reservation_System.Forms
             }
             else if (ticketType == "FERRY")
             {
-                this.ticketType = "Havalimanı";
+                this.ticketType = "İskele";
                 this.logos = ferryLogos;
             }
 
@@ -154,14 +154,13 @@ namespace Ticket_Reservation_System.Forms
                 Label label4 = new Label();
                 label4.Size = new System.Drawing.Size(100, 20);
                 label4.Location = new System.Drawing.Point(350, 28);
-                var label4Text = "";
                 double durationDouble = 0;
                 foreach (var task in tasks)
                 {
                     durationDouble += task.TaskPlan.Duration;
                 }
                 var list = durationDouble.ToString().Split(".");
-
+                var label4Text = "";
                 if (list.Length == 1)
                 {
                     label4Text = list[0] + "s 00dk";
@@ -291,7 +290,13 @@ namespace Ticket_Reservation_System.Forms
             }
             else
             {
-
+                FeribotKoltukSec busSeat = new FeribotKoltukSec(clickedTasks, _typesPrice, user);
+                busSeat.TopLevel = false;
+                busSeat.FormBorderStyle = FormBorderStyle.None;
+                busSeat.Dock = DockStyle.Fill;
+                this.Controls.Add(busSeat);
+                busSeat.BringToFront();
+                busSeat.Show();
             }
         }
     }

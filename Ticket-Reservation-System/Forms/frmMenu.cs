@@ -214,5 +214,20 @@ namespace Ticket_Reservation_System
         {
             openChildForm(new AddTrip());
         }
+
+        private void workerPageToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openChildForm(new AddWorker());
+        }
+
+        private void processPageToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openChildForm(new AddProcess());
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            openChildForm(new frmTicketHistory(user));
+        }
     }
 }

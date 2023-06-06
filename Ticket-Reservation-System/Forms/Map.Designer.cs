@@ -64,14 +64,14 @@
             this.map_form.ScaleMode = GMap.NET.WindowsForms.ScaleModes.Integer;
             this.map_form.SelectedAreaFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(65)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
             this.map_form.ShowTileGridLines = false;
-            this.map_form.Size = new System.Drawing.Size(564, 426);
+            this.map_form.Size = new System.Drawing.Size(548, 467);
             this.map_form.TabIndex = 0;
             this.map_form.Zoom = 0D;
             this.map_form.MouseClick += new System.Windows.Forms.MouseEventHandler(this.map_form_MouseClick);
             // 
             // deleteLocation
             // 
-            this.deleteLocation.Location = new System.Drawing.Point(600, 421);
+            this.deleteLocation.Location = new System.Drawing.Point(575, 424);
             this.deleteLocation.Name = "deleteLocation";
             this.deleteLocation.Size = new System.Drawing.Size(167, 28);
             this.deleteLocation.TabIndex = 1;
@@ -82,7 +82,7 @@
             // 
             // txtLng
             // 
-            this.txtLng.Location = new System.Drawing.Point(689, 166);
+            this.txtLng.Location = new System.Drawing.Point(664, 169);
             this.txtLng.Name = "txtLng";
             this.txtLng.ReadOnly = true;
             this.txtLng.Size = new System.Drawing.Size(79, 23);
@@ -91,7 +91,7 @@
             // txtLat
             // 
             this.txtLat.HideSelection = false;
-            this.txtLat.Location = new System.Drawing.Point(601, 166);
+            this.txtLat.Location = new System.Drawing.Point(576, 169);
             this.txtLat.Name = "txtLat";
             this.txtLat.ReadOnly = true;
             this.txtLat.Size = new System.Drawing.Size(80, 23);
@@ -99,7 +99,7 @@
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(601, 51);
+            this.txtName.Location = new System.Drawing.Point(576, 54);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(167, 23);
             this.txtName.TabIndex = 2;
@@ -107,7 +107,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(601, 24);
+            this.label1.Location = new System.Drawing.Point(576, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(22, 15);
             this.label1.TabIndex = 3;
@@ -116,7 +116,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(600, 148);
+            this.label2.Location = new System.Drawing.Point(575, 151);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(23, 15);
             this.label2.TabIndex = 3;
@@ -125,7 +125,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(689, 148);
+            this.label3.Location = new System.Drawing.Point(664, 151);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(27, 15);
             this.label3.TabIndex = 3;
@@ -134,7 +134,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(601, 95);
+            this.label4.Location = new System.Drawing.Point(576, 98);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(31, 15);
             this.label4.TabIndex = 3;
@@ -143,7 +143,7 @@
             // cmbxType
             // 
             this.cmbxType.FormattingEnabled = true;
-            this.cmbxType.Location = new System.Drawing.Point(601, 113);
+            this.cmbxType.Location = new System.Drawing.Point(576, 116);
             this.cmbxType.Name = "cmbxType";
             this.cmbxType.Size = new System.Drawing.Size(167, 23);
             this.cmbxType.TabIndex = 4;
@@ -152,7 +152,7 @@
             // 
             this.listBoxLocation.FormattingEnabled = true;
             this.listBoxLocation.ItemHeight = 15;
-            this.listBoxLocation.Location = new System.Drawing.Point(601, 246);
+            this.listBoxLocation.Location = new System.Drawing.Point(576, 249);
             this.listBoxLocation.Name = "listBoxLocation";
             this.listBoxLocation.Size = new System.Drawing.Size(167, 169);
             this.listBoxLocation.TabIndex = 5;
@@ -160,7 +160,7 @@
             // 
             // save
             // 
-            this.save.Location = new System.Drawing.Point(600, 199);
+            this.save.Location = new System.Drawing.Point(575, 202);
             this.save.Name = "save";
             this.save.Size = new System.Drawing.Size(167, 28);
             this.save.TabIndex = 1;
@@ -172,7 +172,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(754, 491);
             this.Controls.Add(this.listBoxLocation);
             this.Controls.Add(this.cmbxType);
             this.Controls.Add(this.label4);

@@ -243,6 +243,9 @@ namespace Ticket_Reservation_System.Forms
                     _ticketPlanRepository.AddTicketPlan(ticketPlan);
                 }
             }
+            MessageBox.Show("Kaydedildi.");
+            Form activeForm = Form.ActiveForm;
+            activeForm.Close();
         }
     }
 }

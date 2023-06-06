@@ -66,9 +66,9 @@ namespace Ticket_Reservation_System.Forms
         private List<string> fillComboBoxForDepartment()
         {
             List<string> strList = new List<string>();
-            strList.Add("Department 1");
-            strList.Add("Department 2");
-            strList.Add("Department 3");
+            strList.Add("Bölüm 1");
+            strList.Add("Bölüm 2");
+            strList.Add("Bölüm 3");
             return strList;
         }
         private List<string> fillComboBoxForSeatType()

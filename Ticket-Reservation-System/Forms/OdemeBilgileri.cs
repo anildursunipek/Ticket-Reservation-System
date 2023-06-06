@@ -161,7 +161,7 @@ namespace Ticket_Reservation_System.Forms
 
                     ticket.PurchaseDate = nowInUtc;
                     ticket.Status = "SOLD";
-                    ticket.UserId = 1;
+                    ticket.UserId = user.Id;
                     _ticketRepository.UpdateTicket(ticket);
                 }
                 MessageBox.Show("Satın alma işlemi başarılı.");

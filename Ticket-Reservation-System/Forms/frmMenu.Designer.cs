@@ -28,450 +28,500 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenu));
-            panelSideMenu = new Panel();
-            btnMapButton = new FontAwesome.Sharp.IconButton();
-            btnAdministration = new FontAwesome.Sharp.IconButton();
-            ıconButton9 = new FontAwesome.Sharp.IconButton();
-            btnFerry = new FontAwesome.Sharp.IconButton();
-            btnPlane = new FontAwesome.Sharp.IconButton();
-            btnBus = new FontAwesome.Sharp.IconButton();
-            panelLogo = new Panel();
-            btnSideMenu = new FontAwesome.Sharp.IconButton();
-            pictureLogo = new PictureBox();
-            panel1 = new Panel();
-            ıconButton2 = new FontAwesome.Sharp.IconButton();
-            label2 = new Label();
-            ıconButton1 = new FontAwesome.Sharp.IconButton();
-            labelNameSurname = new Label();
-            circularPictureBox1 = new CustomControls.CircularPictureBox();
-            btnMinimize = new FontAwesome.Sharp.IconButton();
-            btnClose = new FontAwesome.Sharp.IconButton();
-            panelChildForm = new Panel();
-            rjDropdownMenu1 = new CustomControls.RJDropdownMenu(components);
-            vehiclePageToolStripMenuItem = new ToolStripMenuItem();
-            brandPageToolStripMenuItem = new ToolStripMenuItem();
-            modelPageToolStripMenuItem = new ToolStripMenuItem();
-            firmPageToolStripMenuItem = new ToolStripMenuItem();
-            tripPageToolStripMenuItem = new ToolStripMenuItem();
-            panelSideMenu.SuspendLayout();
-            panelLogo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureLogo).BeginInit();
-            panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)circularPictureBox1).BeginInit();
-            rjDropdownMenu1.SuspendLayout();
-            SuspendLayout();
+            this.panelSideMenu = new System.Windows.Forms.Panel();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.btnMapButton = new FontAwesome.Sharp.IconButton();
+            this.btnAdministration = new FontAwesome.Sharp.IconButton();
+            this.ıconButton9 = new FontAwesome.Sharp.IconButton();
+            this.btnFerry = new FontAwesome.Sharp.IconButton();
+            this.btnPlane = new FontAwesome.Sharp.IconButton();
+            this.btnBus = new FontAwesome.Sharp.IconButton();
+            this.panelLogo = new System.Windows.Forms.Panel();
+            this.btnSideMenu = new FontAwesome.Sharp.IconButton();
+            this.pictureLogo = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.ıconButton2 = new FontAwesome.Sharp.IconButton();
+            this.label2 = new System.Windows.Forms.Label();
+            this.ıconButton1 = new FontAwesome.Sharp.IconButton();
+            this.labelNameSurname = new System.Windows.Forms.Label();
+            this.circularPictureBox1 = new Ticket_Reservation_System.CustomControls.CircularPictureBox();
+            this.btnMinimize = new FontAwesome.Sharp.IconButton();
+            this.btnClose = new FontAwesome.Sharp.IconButton();
+            this.panelChildForm = new System.Windows.Forms.Panel();
+            this.rjDropdownMenu1 = new Ticket_Reservation_System.CustomControls.RJDropdownMenu(this.components);
+            this.vehiclePageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.brandPageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.modelPageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.firmPageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tripPageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.workerPageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.processPageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panelSideMenu.SuspendLayout();
+            this.panelLogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureLogo)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.circularPictureBox1)).BeginInit();
+            this.rjDropdownMenu1.SuspendLayout();
+            this.SuspendLayout();
             // 
             // panelSideMenu
             // 
-            panelSideMenu.AutoScroll = true;
-            panelSideMenu.BackColor = Color.FromArgb(98, 102, 244);
-            panelSideMenu.Controls.Add(btnMapButton);
-            panelSideMenu.Controls.Add(btnAdministration);
-            panelSideMenu.Controls.Add(ıconButton9);
-            panelSideMenu.Controls.Add(btnFerry);
-            panelSideMenu.Controls.Add(btnPlane);
-            panelSideMenu.Controls.Add(btnBus);
-            panelSideMenu.Controls.Add(panelLogo);
-            panelSideMenu.Dock = DockStyle.Left;
-            panelSideMenu.Location = new Point(0, 0);
-            panelSideMenu.Name = "panelSideMenu";
-            panelSideMenu.Size = new Size(230, 600);
-            panelSideMenu.TabIndex = 1;
+            this.panelSideMenu.AutoScroll = true;
+            this.panelSideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(102)))), ((int)(((byte)(244)))));
+            this.panelSideMenu.Controls.Add(this.iconButton1);
+            this.panelSideMenu.Controls.Add(this.btnMapButton);
+            this.panelSideMenu.Controls.Add(this.btnAdministration);
+            this.panelSideMenu.Controls.Add(this.ıconButton9);
+            this.panelSideMenu.Controls.Add(this.btnFerry);
+            this.panelSideMenu.Controls.Add(this.btnPlane);
+            this.panelSideMenu.Controls.Add(this.btnBus);
+            this.panelSideMenu.Controls.Add(this.panelLogo);
+            this.panelSideMenu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelSideMenu.Location = new System.Drawing.Point(0, 0);
+            this.panelSideMenu.Name = "panelSideMenu";
+            this.panelSideMenu.Size = new System.Drawing.Size(230, 600);
+            this.panelSideMenu.TabIndex = 1;
+            // 
+            // iconButton1
+            // 
+            this.iconButton1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton1.FlatAppearance.BorderSize = 0;
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.iconButton1.ForeColor = System.Drawing.Color.White;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Ticket;
+            this.iconButton1.IconColor = System.Drawing.Color.White;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.IconSize = 30;
+            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton1.Location = new System.Drawing.Point(0, 295);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.iconButton1.Size = new System.Drawing.Size(230, 45);
+            this.iconButton1.TabIndex = 13;
+            this.iconButton1.Tag = "Support";
+            this.iconButton1.Text = "Ticket History";
+            this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton1.UseVisualStyleBackColor = true;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
             // 
             // btnMapButton
             // 
-            btnMapButton.Dock = DockStyle.Top;
-            btnMapButton.FlatAppearance.BorderSize = 0;
-            btnMapButton.FlatStyle = FlatStyle.Flat;
-            btnMapButton.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnMapButton.ForeColor = Color.White;
-            btnMapButton.IconChar = FontAwesome.Sharp.IconChar.Map;
-            btnMapButton.IconColor = Color.White;
-            btnMapButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnMapButton.IconSize = 30;
-            btnMapButton.ImageAlign = ContentAlignment.MiddleLeft;
-            btnMapButton.Location = new Point(0, 250);
-            btnMapButton.Name = "btnMapButton";
-            btnMapButton.Padding = new Padding(10, 0, 0, 0);
-            btnMapButton.Size = new Size(230, 45);
-            btnMapButton.TabIndex = 12;
-            btnMapButton.Tag = "Support";
-            btnMapButton.Text = "  Map";
-            btnMapButton.TextAlign = ContentAlignment.MiddleLeft;
-            btnMapButton.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnMapButton.UseVisualStyleBackColor = true;
-            btnMapButton.Click += btnMapButton_Click;
+            this.btnMapButton.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnMapButton.FlatAppearance.BorderSize = 0;
+            this.btnMapButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMapButton.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnMapButton.ForeColor = System.Drawing.Color.White;
+            this.btnMapButton.IconChar = FontAwesome.Sharp.IconChar.Map;
+            this.btnMapButton.IconColor = System.Drawing.Color.White;
+            this.btnMapButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnMapButton.IconSize = 30;
+            this.btnMapButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMapButton.Location = new System.Drawing.Point(0, 250);
+            this.btnMapButton.Name = "btnMapButton";
+            this.btnMapButton.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnMapButton.Size = new System.Drawing.Size(230, 45);
+            this.btnMapButton.TabIndex = 12;
+            this.btnMapButton.Tag = "Support";
+            this.btnMapButton.Text = "  Map";
+            this.btnMapButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMapButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnMapButton.UseVisualStyleBackColor = true;
+            this.btnMapButton.Click += new System.EventHandler(this.btnMapButton_Click);
             // 
             // btnAdministration
             // 
-            btnAdministration.Dock = DockStyle.Top;
-            btnAdministration.FlatAppearance.BorderSize = 0;
-            btnAdministration.FlatStyle = FlatStyle.Flat;
-            btnAdministration.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnAdministration.ForeColor = Color.White;
-            btnAdministration.IconChar = FontAwesome.Sharp.IconChar.Screwdriver;
-            btnAdministration.IconColor = Color.White;
-            btnAdministration.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnAdministration.IconSize = 30;
-            btnAdministration.ImageAlign = ContentAlignment.MiddleLeft;
-            btnAdministration.Location = new Point(0, 205);
-            btnAdministration.Name = "btnAdministration";
-            btnAdministration.Padding = new Padding(10, 0, 0, 0);
-            btnAdministration.Size = new Size(230, 45);
-            btnAdministration.TabIndex = 10;
-            btnAdministration.Tag = "Administration";
-            btnAdministration.Text = "  Administration";
-            btnAdministration.TextAlign = ContentAlignment.MiddleLeft;
-            btnAdministration.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnAdministration.UseVisualStyleBackColor = true;
-            btnAdministration.Click += btnAdministration_Click;
+            this.btnAdministration.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAdministration.FlatAppearance.BorderSize = 0;
+            this.btnAdministration.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdministration.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnAdministration.ForeColor = System.Drawing.Color.White;
+            this.btnAdministration.IconChar = FontAwesome.Sharp.IconChar.Screwdriver;
+            this.btnAdministration.IconColor = System.Drawing.Color.White;
+            this.btnAdministration.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnAdministration.IconSize = 30;
+            this.btnAdministration.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAdministration.Location = new System.Drawing.Point(0, 205);
+            this.btnAdministration.Name = "btnAdministration";
+            this.btnAdministration.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnAdministration.Size = new System.Drawing.Size(230, 45);
+            this.btnAdministration.TabIndex = 10;
+            this.btnAdministration.Tag = "Administration";
+            this.btnAdministration.Text = "  Administration";
+            this.btnAdministration.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAdministration.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnAdministration.UseVisualStyleBackColor = true;
+            this.btnAdministration.Click += new System.EventHandler(this.btnAdministration_Click);
             // 
             // ıconButton9
             // 
-            ıconButton9.Dock = DockStyle.Bottom;
-            ıconButton9.FlatAppearance.BorderSize = 0;
-            ıconButton9.FlatStyle = FlatStyle.Flat;
-            ıconButton9.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            ıconButton9.ForeColor = Color.White;
-            ıconButton9.IconChar = FontAwesome.Sharp.IconChar.SignOutAlt;
-            ıconButton9.IconColor = Color.White;
-            ıconButton9.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            ıconButton9.IconSize = 30;
-            ıconButton9.ImageAlign = ContentAlignment.MiddleLeft;
-            ıconButton9.Location = new Point(0, 555);
-            ıconButton9.Name = "ıconButton9";
-            ıconButton9.Padding = new Padding(10, 0, 0, 0);
-            ıconButton9.Size = new Size(230, 45);
-            ıconButton9.TabIndex = 8;
-            ıconButton9.Tag = "Exit";
-            ıconButton9.Text = "  Exit";
-            ıconButton9.TextAlign = ContentAlignment.MiddleLeft;
-            ıconButton9.TextImageRelation = TextImageRelation.ImageBeforeText;
-            ıconButton9.UseVisualStyleBackColor = true;
-            ıconButton9.Click += ıconButton9_Click;
+            this.ıconButton9.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.ıconButton9.FlatAppearance.BorderSize = 0;
+            this.ıconButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ıconButton9.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ıconButton9.ForeColor = System.Drawing.Color.White;
+            this.ıconButton9.IconChar = FontAwesome.Sharp.IconChar.SignOutAlt;
+            this.ıconButton9.IconColor = System.Drawing.Color.White;
+            this.ıconButton9.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.ıconButton9.IconSize = 30;
+            this.ıconButton9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ıconButton9.Location = new System.Drawing.Point(0, 555);
+            this.ıconButton9.Name = "ıconButton9";
+            this.ıconButton9.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.ıconButton9.Size = new System.Drawing.Size(230, 45);
+            this.ıconButton9.TabIndex = 8;
+            this.ıconButton9.Tag = "Exit";
+            this.ıconButton9.Text = "  Exit";
+            this.ıconButton9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ıconButton9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.ıconButton9.UseVisualStyleBackColor = true;
+            this.ıconButton9.Click += new System.EventHandler(this.ıconButton9_Click);
             // 
             // btnFerry
             // 
-            btnFerry.Dock = DockStyle.Top;
-            btnFerry.FlatAppearance.BorderSize = 0;
-            btnFerry.FlatStyle = FlatStyle.Flat;
-            btnFerry.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnFerry.ForeColor = Color.White;
-            btnFerry.IconChar = FontAwesome.Sharp.IconChar.Ship;
-            btnFerry.IconColor = Color.White;
-            btnFerry.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnFerry.IconSize = 30;
-            btnFerry.ImageAlign = ContentAlignment.MiddleLeft;
-            btnFerry.Location = new Point(0, 160);
-            btnFerry.Name = "btnFerry";
-            btnFerry.Padding = new Padding(10, 0, 0, 0);
-            btnFerry.Size = new Size(230, 45);
-            btnFerry.TabIndex = 3;
-            btnFerry.Tag = "Ferry";
-            btnFerry.Text = "  Ferry";
-            btnFerry.TextAlign = ContentAlignment.MiddleLeft;
-            btnFerry.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnFerry.UseVisualStyleBackColor = true;
-            btnFerry.Click += btnFerry_Click;
+            this.btnFerry.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnFerry.FlatAppearance.BorderSize = 0;
+            this.btnFerry.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFerry.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnFerry.ForeColor = System.Drawing.Color.White;
+            this.btnFerry.IconChar = FontAwesome.Sharp.IconChar.Ship;
+            this.btnFerry.IconColor = System.Drawing.Color.White;
+            this.btnFerry.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnFerry.IconSize = 30;
+            this.btnFerry.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFerry.Location = new System.Drawing.Point(0, 160);
+            this.btnFerry.Name = "btnFerry";
+            this.btnFerry.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnFerry.Size = new System.Drawing.Size(230, 45);
+            this.btnFerry.TabIndex = 3;
+            this.btnFerry.Tag = "Ferry";
+            this.btnFerry.Text = "  Ferry";
+            this.btnFerry.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFerry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnFerry.UseVisualStyleBackColor = true;
+            this.btnFerry.Click += new System.EventHandler(this.btnFerry_Click);
             // 
             // btnPlane
             // 
-            btnPlane.Dock = DockStyle.Top;
-            btnPlane.FlatAppearance.BorderSize = 0;
-            btnPlane.FlatStyle = FlatStyle.Flat;
-            btnPlane.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnPlane.ForeColor = Color.White;
-            btnPlane.IconChar = FontAwesome.Sharp.IconChar.PlaneUp;
-            btnPlane.IconColor = Color.White;
-            btnPlane.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnPlane.IconSize = 30;
-            btnPlane.ImageAlign = ContentAlignment.MiddleLeft;
-            btnPlane.Location = new Point(0, 115);
-            btnPlane.Name = "btnPlane";
-            btnPlane.Padding = new Padding(10, 0, 0, 0);
-            btnPlane.Size = new Size(230, 45);
-            btnPlane.TabIndex = 2;
-            btnPlane.Tag = "Plane";
-            btnPlane.Text = "  Plane";
-            btnPlane.TextAlign = ContentAlignment.MiddleLeft;
-            btnPlane.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnPlane.UseVisualStyleBackColor = true;
-            btnPlane.Click += btnPlane_Click;
+            this.btnPlane.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPlane.FlatAppearance.BorderSize = 0;
+            this.btnPlane.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPlane.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnPlane.ForeColor = System.Drawing.Color.White;
+            this.btnPlane.IconChar = FontAwesome.Sharp.IconChar.PlaneUp;
+            this.btnPlane.IconColor = System.Drawing.Color.White;
+            this.btnPlane.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnPlane.IconSize = 30;
+            this.btnPlane.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPlane.Location = new System.Drawing.Point(0, 115);
+            this.btnPlane.Name = "btnPlane";
+            this.btnPlane.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnPlane.Size = new System.Drawing.Size(230, 45);
+            this.btnPlane.TabIndex = 2;
+            this.btnPlane.Tag = "Plane";
+            this.btnPlane.Text = "  Plane";
+            this.btnPlane.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPlane.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnPlane.UseVisualStyleBackColor = true;
+            this.btnPlane.Click += new System.EventHandler(this.btnPlane_Click);
             // 
             // btnBus
             // 
-            btnBus.Dock = DockStyle.Top;
-            btnBus.FlatAppearance.BorderSize = 0;
-            btnBus.FlatStyle = FlatStyle.Flat;
-            btnBus.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnBus.ForeColor = Color.White;
-            btnBus.IconChar = FontAwesome.Sharp.IconChar.BusAlt;
-            btnBus.IconColor = Color.White;
-            btnBus.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnBus.IconSize = 30;
-            btnBus.ImageAlign = ContentAlignment.MiddleLeft;
-            btnBus.Location = new Point(0, 70);
-            btnBus.Name = "btnBus";
-            btnBus.Padding = new Padding(10, 0, 0, 0);
-            btnBus.Size = new Size(230, 45);
-            btnBus.TabIndex = 1;
-            btnBus.Tag = "Bus";
-            btnBus.Text = "  Bus";
-            btnBus.TextAlign = ContentAlignment.MiddleLeft;
-            btnBus.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnBus.UseVisualStyleBackColor = true;
-            btnBus.Click += btnBus_Click;
+            this.btnBus.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnBus.FlatAppearance.BorderSize = 0;
+            this.btnBus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBus.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnBus.ForeColor = System.Drawing.Color.White;
+            this.btnBus.IconChar = FontAwesome.Sharp.IconChar.BusAlt;
+            this.btnBus.IconColor = System.Drawing.Color.White;
+            this.btnBus.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnBus.IconSize = 30;
+            this.btnBus.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBus.Location = new System.Drawing.Point(0, 70);
+            this.btnBus.Name = "btnBus";
+            this.btnBus.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnBus.Size = new System.Drawing.Size(230, 45);
+            this.btnBus.TabIndex = 1;
+            this.btnBus.Tag = "Bus";
+            this.btnBus.Text = "  Bus";
+            this.btnBus.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBus.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnBus.UseVisualStyleBackColor = true;
+            this.btnBus.Click += new System.EventHandler(this.btnBus_Click);
             // 
             // panelLogo
             // 
-            panelLogo.BackColor = Color.FromArgb(98, 102, 244);
-            panelLogo.Controls.Add(btnSideMenu);
-            panelLogo.Controls.Add(pictureLogo);
-            panelLogo.Dock = DockStyle.Top;
-            panelLogo.Location = new Point(0, 0);
-            panelLogo.Name = "panelLogo";
-            panelLogo.Size = new Size(230, 70);
-            panelLogo.TabIndex = 0;
+            this.panelLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(102)))), ((int)(((byte)(244)))));
+            this.panelLogo.Controls.Add(this.btnSideMenu);
+            this.panelLogo.Controls.Add(this.pictureLogo);
+            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelLogo.Location = new System.Drawing.Point(0, 0);
+            this.panelLogo.Name = "panelLogo";
+            this.panelLogo.Size = new System.Drawing.Size(230, 70);
+            this.panelLogo.TabIndex = 0;
             // 
             // btnSideMenu
             // 
-            btnSideMenu.CausesValidation = false;
-            btnSideMenu.Cursor = Cursors.Hand;
-            btnSideMenu.FlatAppearance.BorderSize = 0;
-            btnSideMenu.FlatStyle = FlatStyle.Flat;
-            btnSideMenu.ForeColor = Color.Transparent;
-            btnSideMenu.IconChar = FontAwesome.Sharp.IconChar.Sliders;
-            btnSideMenu.IconColor = Color.White;
-            btnSideMenu.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnSideMenu.IconSize = 35;
-            btnSideMenu.Location = new Point(187, 0);
-            btnSideMenu.Name = "btnSideMenu";
-            btnSideMenu.Size = new Size(43, 70);
-            btnSideMenu.TabIndex = 1;
-            btnSideMenu.UseVisualStyleBackColor = true;
+            this.btnSideMenu.CausesValidation = false;
+            this.btnSideMenu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSideMenu.FlatAppearance.BorderSize = 0;
+            this.btnSideMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSideMenu.ForeColor = System.Drawing.Color.Transparent;
+            this.btnSideMenu.IconChar = FontAwesome.Sharp.IconChar.Sliders;
+            this.btnSideMenu.IconColor = System.Drawing.Color.White;
+            this.btnSideMenu.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnSideMenu.IconSize = 35;
+            this.btnSideMenu.Location = new System.Drawing.Point(187, 0);
+            this.btnSideMenu.Name = "btnSideMenu";
+            this.btnSideMenu.Size = new System.Drawing.Size(43, 70);
+            this.btnSideMenu.TabIndex = 1;
+            this.btnSideMenu.UseVisualStyleBackColor = true;
             // 
             // pictureLogo
             // 
-            pictureLogo.Image = Properties.Resources.easy_ticket_logo;
-            pictureLogo.Location = new Point(14, 9);
-            pictureLogo.Name = "pictureLogo";
-            pictureLogo.Size = new Size(150, 50);
-            pictureLogo.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureLogo.TabIndex = 0;
-            pictureLogo.TabStop = false;
+            this.pictureLogo.Image = global::Ticket_Reservation_System.Properties.Resources.easy_ticket_logo;
+            this.pictureLogo.Location = new System.Drawing.Point(14, 9);
+            this.pictureLogo.Name = "pictureLogo";
+            this.pictureLogo.Size = new System.Drawing.Size(150, 50);
+            this.pictureLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureLogo.TabIndex = 0;
+            this.pictureLogo.TabStop = false;
             // 
             // panel1
             // 
-            panel1.BackColor = Color.WhiteSmoke;
-            panel1.Controls.Add(ıconButton2);
-            panel1.Controls.Add(label2);
-            panel1.Controls.Add(ıconButton1);
-            panel1.Controls.Add(labelNameSurname);
-            panel1.Controls.Add(circularPictureBox1);
-            panel1.Controls.Add(btnMinimize);
-            panel1.Controls.Add(btnClose);
-            panel1.Dock = DockStyle.Top;
-            panel1.Location = new Point(230, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(770, 70);
-            panel1.TabIndex = 26;
-            panel1.MouseDown += panel1_MouseDown;
+            this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel1.Controls.Add(this.ıconButton2);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.ıconButton1);
+            this.panel1.Controls.Add(this.labelNameSurname);
+            this.panel1.Controls.Add(this.circularPictureBox1);
+            this.panel1.Controls.Add(this.btnMinimize);
+            this.panel1.Controls.Add(this.btnClose);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(230, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(770, 70);
+            this.panel1.TabIndex = 26;
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
             // ıconButton2
             // 
-            ıconButton2.BackColor = Color.Transparent;
-            ıconButton2.FlatAppearance.BorderSize = 0;
-            ıconButton2.FlatStyle = FlatStyle.Flat;
-            ıconButton2.ForeColor = Color.Transparent;
-            ıconButton2.IconChar = FontAwesome.Sharp.IconChar.HomeUser;
-            ıconButton2.IconColor = Color.Black;
-            ıconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            ıconButton2.IconSize = 35;
-            ıconButton2.Location = new Point(4, 16);
-            ıconButton2.Name = "ıconButton2";
-            ıconButton2.Size = new Size(47, 34);
-            ıconButton2.TabIndex = 9;
-            ıconButton2.UseVisualStyleBackColor = false;
+            this.ıconButton2.BackColor = System.Drawing.Color.Transparent;
+            this.ıconButton2.FlatAppearance.BorderSize = 0;
+            this.ıconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ıconButton2.ForeColor = System.Drawing.Color.Transparent;
+            this.ıconButton2.IconChar = FontAwesome.Sharp.IconChar.HomeUser;
+            this.ıconButton2.IconColor = System.Drawing.Color.Black;
+            this.ıconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.ıconButton2.IconSize = 35;
+            this.ıconButton2.Location = new System.Drawing.Point(4, 16);
+            this.ıconButton2.Name = "ıconButton2";
+            this.ıconButton2.Size = new System.Drawing.Size(47, 34);
+            this.ıconButton2.TabIndex = 9;
+            this.ıconButton2.UseVisualStyleBackColor = false;
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Verdana", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.ForeColor = Color.Black;
-            label2.Location = new Point(46, 19);
-            label2.Name = "label2";
-            label2.Size = new Size(158, 29);
-            label2.TabIndex = 8;
-            label2.Text = "Dashboard";
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(46, 19);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(158, 29);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Dashboard";
             // 
             // ıconButton1
             // 
-            ıconButton1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            ıconButton1.BackColor = Color.Transparent;
-            ıconButton1.FlatAppearance.BorderSize = 0;
-            ıconButton1.FlatStyle = FlatStyle.Flat;
-            ıconButton1.ForeColor = Color.Transparent;
-            ıconButton1.IconChar = FontAwesome.Sharp.IconChar.ArrowDownShortWide;
-            ıconButton1.IconColor = Color.FromArgb(98, 102, 244);
-            ıconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            ıconButton1.IconSize = 35;
-            ıconButton1.Location = new Point(558, 30);
-            ıconButton1.Name = "ıconButton1";
-            ıconButton1.Size = new Size(47, 34);
-            ıconButton1.TabIndex = 7;
-            ıconButton1.UseVisualStyleBackColor = false;
+            this.ıconButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ıconButton1.BackColor = System.Drawing.Color.Transparent;
+            this.ıconButton1.FlatAppearance.BorderSize = 0;
+            this.ıconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ıconButton1.ForeColor = System.Drawing.Color.Transparent;
+            this.ıconButton1.IconChar = FontAwesome.Sharp.IconChar.ArrowDownShortWide;
+            this.ıconButton1.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(102)))), ((int)(((byte)(244)))));
+            this.ıconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.ıconButton1.IconSize = 35;
+            this.ıconButton1.Location = new System.Drawing.Point(558, 30);
+            this.ıconButton1.Name = "ıconButton1";
+            this.ıconButton1.Size = new System.Drawing.Size(47, 34);
+            this.ıconButton1.TabIndex = 7;
+            this.ıconButton1.UseVisualStyleBackColor = false;
             // 
             // labelNameSurname
             // 
-            labelNameSurname.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            labelNameSurname.AutoSize = true;
-            labelNameSurname.BackColor = Color.Transparent;
-            labelNameSurname.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            labelNameSurname.ForeColor = Color.Black;
-            labelNameSurname.Location = new Point(436, 9);
-            labelNameSurname.Name = "labelNameSurname";
-            labelNameSurname.Size = new Size(132, 18);
-            labelNameSurname.TabIndex = 4;
-            labelNameSurname.Text = "Name Surname";
-            labelNameSurname.TextAlign = ContentAlignment.MiddleRight;
+            this.labelNameSurname.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelNameSurname.AutoSize = true;
+            this.labelNameSurname.BackColor = System.Drawing.Color.Transparent;
+            this.labelNameSurname.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelNameSurname.ForeColor = System.Drawing.Color.Black;
+            this.labelNameSurname.Location = new System.Drawing.Point(436, 9);
+            this.labelNameSurname.Name = "labelNameSurname";
+            this.labelNameSurname.Size = new System.Drawing.Size(132, 18);
+            this.labelNameSurname.TabIndex = 4;
+            this.labelNameSurname.Text = "Name Surname";
+            this.labelNameSurname.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // circularPictureBox1
             // 
-            circularPictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            circularPictureBox1.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
-            circularPictureBox1.BorderColor = Color.FromArgb(98, 102, 244);
-            circularPictureBox1.BorderColor2 = Color.FromArgb(98, 102, 244);
-            circularPictureBox1.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
-            circularPictureBox1.BorderSize = 2;
-            circularPictureBox1.GradientAngle = 50F;
-            circularPictureBox1.Image = (Image)resources.GetObject("circularPictureBox1.Image");
-            circularPictureBox1.Location = new Point(607, 0);
-            circularPictureBox1.Name = "circularPictureBox1";
-            circularPictureBox1.Size = new Size(66, 66);
-            circularPictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            circularPictureBox1.TabIndex = 3;
-            circularPictureBox1.TabStop = false;
+            this.circularPictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.circularPictureBox1.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Flat;
+            this.circularPictureBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(102)))), ((int)(((byte)(244)))));
+            this.circularPictureBox1.BorderColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(102)))), ((int)(((byte)(244)))));
+            this.circularPictureBox1.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
+            this.circularPictureBox1.BorderSize = 2;
+            this.circularPictureBox1.GradientAngle = 50F;
+            this.circularPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("circularPictureBox1.Image")));
+            this.circularPictureBox1.Location = new System.Drawing.Point(607, 0);
+            this.circularPictureBox1.Name = "circularPictureBox1";
+            this.circularPictureBox1.Size = new System.Drawing.Size(66, 66);
+            this.circularPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.circularPictureBox1.TabIndex = 3;
+            this.circularPictureBox1.TabStop = false;
             // 
             // btnMinimize
             // 
-            btnMinimize.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btnMinimize.BackColor = Color.FromArgb(10, 184, 210);
-            btnMinimize.FlatAppearance.BorderSize = 0;
-            btnMinimize.FlatStyle = FlatStyle.Flat;
-            btnMinimize.IconChar = FontAwesome.Sharp.IconChar.WindowMinimize;
-            btnMinimize.IconColor = Color.White;
-            btnMinimize.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnMinimize.IconSize = 25;
-            btnMinimize.Location = new Point(713, 0);
-            btnMinimize.Name = "btnMinimize";
-            btnMinimize.Size = new Size(30, 20);
-            btnMinimize.TabIndex = 2;
-            btnMinimize.UseVisualStyleBackColor = false;
-            btnMinimize.Click += btnMinimize_Click;
+            this.btnMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMinimize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(184)))), ((int)(((byte)(210)))));
+            this.btnMinimize.FlatAppearance.BorderSize = 0;
+            this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimize.IconChar = FontAwesome.Sharp.IconChar.WindowMinimize;
+            this.btnMinimize.IconColor = System.Drawing.Color.White;
+            this.btnMinimize.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnMinimize.IconSize = 25;
+            this.btnMinimize.Location = new System.Drawing.Point(713, 0);
+            this.btnMinimize.Name = "btnMinimize";
+            this.btnMinimize.Size = new System.Drawing.Size(30, 20);
+            this.btnMinimize.TabIndex = 2;
+            this.btnMinimize.UseVisualStyleBackColor = false;
+            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
             // 
             // btnClose
             // 
-            btnClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btnClose.BackColor = Color.FromArgb(255, 94, 132);
-            btnClose.FlatAppearance.BorderSize = 0;
-            btnClose.FlatStyle = FlatStyle.Flat;
-            btnClose.IconChar = FontAwesome.Sharp.IconChar.Xmark;
-            btnClose.IconColor = Color.White;
-            btnClose.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnClose.IconSize = 20;
-            btnClose.Location = new Point(740, 0);
-            btnClose.Name = "btnClose";
-            btnClose.Size = new Size(30, 20);
-            btnClose.TabIndex = 0;
-            btnClose.UseVisualStyleBackColor = false;
-            btnClose.Click += btnClose_Click;
+            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(94)))), ((int)(((byte)(132)))));
+            this.btnClose.FlatAppearance.BorderSize = 0;
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.IconChar = FontAwesome.Sharp.IconChar.Xmark;
+            this.btnClose.IconColor = System.Drawing.Color.White;
+            this.btnClose.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnClose.IconSize = 20;
+            this.btnClose.Location = new System.Drawing.Point(740, 0);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(30, 20);
+            this.btnClose.TabIndex = 0;
+            this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // panelChildForm
             // 
-            panelChildForm.BackColor = Color.LightGray;
-            panelChildForm.Dock = DockStyle.Fill;
-            panelChildForm.Location = new Point(230, 70);
-            panelChildForm.Name = "panelChildForm";
-            panelChildForm.Size = new Size(770, 530);
-            panelChildForm.TabIndex = 27;
+            this.panelChildForm.BackColor = System.Drawing.Color.LightGray;
+            this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelChildForm.Location = new System.Drawing.Point(230, 70);
+            this.panelChildForm.Name = "panelChildForm";
+            this.panelChildForm.Size = new System.Drawing.Size(770, 530);
+            this.panelChildForm.TabIndex = 27;
             // 
             // rjDropdownMenu1
             // 
-            rjDropdownMenu1.BackColor = Color.FromArgb(98, 102, 244);
-            rjDropdownMenu1.Font = new Font("Verdana", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            rjDropdownMenu1.IsMainMenu = false;
-            rjDropdownMenu1.Items.AddRange(new ToolStripItem[] { vehiclePageToolStripMenuItem, brandPageToolStripMenuItem, modelPageToolStripMenuItem, firmPageToolStripMenuItem, tripPageToolStripMenuItem });
-            rjDropdownMenu1.MenuItemHeight = 25;
-            rjDropdownMenu1.MenuItemTextColor = Color.DimGray;
-            rjDropdownMenu1.Name = "rjDropdownMenu1";
-            rjDropdownMenu1.PrimaryColor = Color.MediumSlateBlue;
-            rjDropdownMenu1.Size = new Size(158, 114);
+            this.rjDropdownMenu1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(102)))), ((int)(((byte)(244)))));
+            this.rjDropdownMenu1.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.rjDropdownMenu1.IsMainMenu = false;
+            this.rjDropdownMenu1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.vehiclePageToolStripMenuItem,
+            this.brandPageToolStripMenuItem,
+            this.modelPageToolStripMenuItem,
+            this.firmPageToolStripMenuItem,
+            this.tripPageToolStripMenuItem,
+            this.workerPageToolStripMenuItem,
+            this.processPageToolStripMenuItem});
+            this.rjDropdownMenu1.MenuItemHeight = 25;
+            this.rjDropdownMenu1.MenuItemTextColor = System.Drawing.Color.DimGray;
+            this.rjDropdownMenu1.Name = "rjDropdownMenu1";
+            this.rjDropdownMenu1.PrimaryColor = System.Drawing.Color.MediumSlateBlue;
+            this.rjDropdownMenu1.Size = new System.Drawing.Size(163, 158);
             // 
             // vehiclePageToolStripMenuItem
             // 
-            vehiclePageToolStripMenuItem.ForeColor = SystemColors.ActiveCaptionText;
-            vehiclePageToolStripMenuItem.Name = "vehiclePageToolStripMenuItem";
-            vehiclePageToolStripMenuItem.Size = new Size(157, 22);
-            vehiclePageToolStripMenuItem.Text = "Vehicle Page";
-            vehiclePageToolStripMenuItem.Click += vehiclePageToolStripMenuItem_Click;
+            this.vehiclePageToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.vehiclePageToolStripMenuItem.Name = "vehiclePageToolStripMenuItem";
+            this.vehiclePageToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.vehiclePageToolStripMenuItem.Text = "Vehicle Page";
+            this.vehiclePageToolStripMenuItem.Click += new System.EventHandler(this.vehiclePageToolStripMenuItem_Click);
             // 
             // brandPageToolStripMenuItem
             // 
-            brandPageToolStripMenuItem.ForeColor = SystemColors.ActiveCaptionText;
-            brandPageToolStripMenuItem.Name = "brandPageToolStripMenuItem";
-            brandPageToolStripMenuItem.Size = new Size(157, 22);
-            brandPageToolStripMenuItem.Text = "Brand Page";
-            brandPageToolStripMenuItem.Click += brandPageToolStripMenuItem_Click;
+            this.brandPageToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.brandPageToolStripMenuItem.Name = "brandPageToolStripMenuItem";
+            this.brandPageToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.brandPageToolStripMenuItem.Text = "Brand Page";
+            this.brandPageToolStripMenuItem.Click += new System.EventHandler(this.brandPageToolStripMenuItem_Click);
             // 
             // modelPageToolStripMenuItem
             // 
-            modelPageToolStripMenuItem.ForeColor = SystemColors.ActiveCaptionText;
-            modelPageToolStripMenuItem.Name = "modelPageToolStripMenuItem";
-            modelPageToolStripMenuItem.Size = new Size(157, 22);
-            modelPageToolStripMenuItem.Text = "Model Page";
-            modelPageToolStripMenuItem.Click += modelPageToolStripMenuItem_Click_1;
+            this.modelPageToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.modelPageToolStripMenuItem.Name = "modelPageToolStripMenuItem";
+            this.modelPageToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.modelPageToolStripMenuItem.Text = "Model Page";
+            this.modelPageToolStripMenuItem.Click += new System.EventHandler(this.modelPageToolStripMenuItem_Click_1);
             // 
             // firmPageToolStripMenuItem
             // 
-            firmPageToolStripMenuItem.ForeColor = SystemColors.ActiveCaptionText;
-            firmPageToolStripMenuItem.Name = "firmPageToolStripMenuItem";
-            firmPageToolStripMenuItem.Size = new Size(157, 22);
-            firmPageToolStripMenuItem.Text = "Firm Page";
-            firmPageToolStripMenuItem.Click += firmPageToolStripMenuItem_Click;
+            this.firmPageToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.firmPageToolStripMenuItem.Name = "firmPageToolStripMenuItem";
+            this.firmPageToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.firmPageToolStripMenuItem.Text = "Firm Page";
+            this.firmPageToolStripMenuItem.Click += new System.EventHandler(this.firmPageToolStripMenuItem_Click);
             // 
             // tripPageToolStripMenuItem
             // 
-            tripPageToolStripMenuItem.ForeColor = SystemColors.ActiveCaptionText;
-            tripPageToolStripMenuItem.Name = "tripPageToolStripMenuItem";
-            tripPageToolStripMenuItem.Size = new Size(157, 22);
-            tripPageToolStripMenuItem.Text = "Trip Page";
-            tripPageToolStripMenuItem.Click += tripPageToolStripMenuItem_Click;
+            this.tripPageToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tripPageToolStripMenuItem.Name = "tripPageToolStripMenuItem";
+            this.tripPageToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.tripPageToolStripMenuItem.Text = "Trip Page";
+            this.tripPageToolStripMenuItem.Click += new System.EventHandler(this.tripPageToolStripMenuItem_Click);
+            // 
+            // workerPageToolStripMenuItem
+            // 
+            this.workerPageToolStripMenuItem.Name = "workerPageToolStripMenuItem";
+            this.workerPageToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.workerPageToolStripMenuItem.Text = "Worker Page";
+            this.workerPageToolStripMenuItem.Click += new System.EventHandler(this.workerPageToolStripMenuItem_Click);
+            // 
+            // processPageToolStripMenuItem
+            // 
+            this.processPageToolStripMenuItem.Name = "processPageToolStripMenuItem";
+            this.processPageToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.processPageToolStripMenuItem.Text = "Process Page";
+            this.processPageToolStripMenuItem.Click += new System.EventHandler(this.processPageToolStripMenuItem_Click);
             // 
             // frmMenu
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.WhiteSmoke;
-            ClientSize = new Size(1000, 600);
-            Controls.Add(panelChildForm);
-            Controls.Add(panel1);
-            Controls.Add(panelSideMenu);
-            FormBorderStyle = FormBorderStyle.None;
-            MinimumSize = new Size(1000, 600);
-            Name = "frmMenu";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "frmMenu";
-            panelSideMenu.ResumeLayout(false);
-            panelLogo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureLogo).EndInit();
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)circularPictureBox1).EndInit();
-            rjDropdownMenu1.ResumeLayout(false);
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ClientSize = new System.Drawing.Size(1000, 600);
+            this.Controls.Add(this.panelChildForm);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panelSideMenu);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MinimumSize = new System.Drawing.Size(1000, 600);
+            this.Name = "frmMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "frmMenu";
+            this.panelSideMenu.ResumeLayout(false);
+            this.panelLogo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureLogo)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.circularPictureBox1)).EndInit();
+            this.rjDropdownMenu1.ResumeLayout(false);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
@@ -500,5 +550,8 @@
         private ToolStripMenuItem modelPageToolStripMenuItem;
         private ToolStripMenuItem firmPageToolStripMenuItem;
         private ToolStripMenuItem tripPageToolStripMenuItem;
+        private ToolStripMenuItem workerPageToolStripMenuItem;
+        private FontAwesome.Sharp.IconButton iconButton1;
+        private ToolStripMenuItem processPageToolStripMenuItem;
     }
 }

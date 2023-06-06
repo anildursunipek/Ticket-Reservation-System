@@ -93,28 +93,6 @@ namespace Ticket_Reservation_System.Forms
             }
         }
 
-        private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            dateTimePicker1.Value = DateTime.Now;
-            button2.BackColor = Color.Gray;
-            button3.BackColor = Color.LightGray;
-
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-            dateTimePicker1.Value = DateTime.Now.AddDays(1);
-            button3.BackColor = Color.Gray;
-            button2.BackColor = Color.LightGray;
-        }
-
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             int selectedIndex = comboBoxStarPoint.SelectedIndex;

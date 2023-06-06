@@ -1587,6 +1587,7 @@
             this.buttonContinue.TabIndex = 303;
             this.buttonContinue.Text = "Onayla ve Devam Et";
             this.buttonContinue.UseVisualStyleBackColor = false;
+            this.buttonContinue.Click += new System.EventHandler(this.buttonContinue_Click);
             // 
             // label9
             // 
